@@ -179,40 +179,10 @@ recipes.addShaped(<metallurgy:electrum_leggings>,
 	[<ore:ingotElectrum>, null, <ore:ingotElectrum>]]);
 
 // Replace Osmium
-recipes.remove(<metallurgy:osmium_shovel>);
-recipes.remove(<metallurgy:osmium_hoe>);
-recipes.remove(<metallurgy:osmium_sword>);
-recipes.remove(<metallurgy:osmium_axe>);
-recipes.remove(<metallurgy:osmium_pickaxe>);
 recipes.remove(<metallurgy:osmium_helmet>);
 recipes.remove(<metallurgy:osmium_chestplate>);
 recipes.remove(<metallurgy:osmium_leggings>);
 recipes.remove(<metallurgy:osmium_boots>);
-
-recipes.addShaped(<metallurgy:osmium_shovel>,
-	[[null, <ore:ingotOsmium>, null],
-	[null, <ore:stickWood>, null], 
-	[null, <minecraft:wooden_shovel>, null]]);
-
-recipes.addShaped(<metallurgy:osmium_hoe>,
-	[[<ore:ingotOsmium>, <ore:ingotOsmium>, null],
-	[null, <ore:stickWood>, null], 
-	[null, <minecraft:wooden_hoe>, null]]);
-
-recipes.addShaped(<metallurgy:osmium_axe>,
-	[[<ore:ingotOsmium>, <ore:ingotOsmium>, null],
-	[<ore:ingotOsmium>, <ore:stickWood>, null], 
-	[null, <minecraft:wooden_axe>, null]]);
-
-recipes.addShaped(<metallurgy:osmium_pickaxe>,
-	[[<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>],
-	[null, <ore:stickWood>, null], 
-	[null, <minecraft:wooden_pickaxe>, null]]);
-
-recipes.addShaped(<metallurgy:osmium_sword>,
-	[[null, <ore:ingotOsmium>, null],
-	[null, <ore:ingotOsmium>, null], 
-	[null, <minecraft:wooden_sword>, null]]);
 
 recipes.addShaped(<metallurgy:osmium_helmet>,
 	[[<ore:ingotOsmium>, <naar:oak_helmet>, <ore:ingotOsmium>],
