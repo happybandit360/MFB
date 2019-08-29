@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "mobs": [
+    {
+      "mobName": "minecraft:ender_dragon",
+      "drops": [
+        {
+          "drop": {
+            "item": "minecraft:dragon_egg"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100 ]
+        },
+        {
+          "drop": {
+            "item": "minecraft:dragon_breath"
+          },
+          "sizes": [ 2, 4, 6, 8 ],
+          "chances": [ 100, 100, 100, 100 ]
+        },
+        {
+          "drop": {
+            "item": "quark:enderdragon_scale"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100 ]
+        }
+      ]
+    },
+    {
+      "mobName": "minecraft:wither",
+      "drops": [
+        {
+          "drop": {
+            "item": "contenttweaker:double_star",
+            "data": 0
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 2, 4, 8, 16 ]
+        }
+      ]
+    },
+    {
+      "mobName": "thaumcraft:wisp",
+      "drops": [
+        {
+          "drop": {
+            "item": "thaumcraft:crystal_essence"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100 ]
+        }
+      ]
+    }
+  ]
+}
