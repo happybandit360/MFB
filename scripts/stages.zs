@@ -17,7 +17,6 @@ var stageNames as string[] = [
     "metallurgy",
     "flexible_tools",
     "adventurers_toolbox",
-    "bop_tools",
 
     // Tech
     "applied_energistics",

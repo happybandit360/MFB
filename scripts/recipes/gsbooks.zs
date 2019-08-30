@@ -130,19 +130,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:adventurers_too
 	[<ore:book>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:ingotCrystaltine>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:book>]
 ]);
 
-// BOP Tools
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:bop_tools>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, null, null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null, null, null], 
-	[null, null, null, <ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>, null, null, null], 
-	[<ore:ingotCrystaltine>, null, null, <ore:gemPeridot>, <contenttweaker:double_star>, <ore:gemMalachite>, null, null, <ore:ingotCrystaltine>], 
-	[null, null, null, <ore:gemSapphire>, <ore:gemTanzanite>, <ore:gemEmerald>, null, null, null], 
-	[null, null, null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null, null, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
-
 // Applied Energistics
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:applied_energistics>, [
 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 

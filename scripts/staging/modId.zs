@@ -46,10 +46,6 @@ static stagedMods as string[][string] = {
         "toolboxaddons"
     ],
 
-    stages.bopTools.stage : [
-        "boptools"
-    ],
-
     stages.appliedEnergistics.stage : [
         "appliedenergistics2",
         "ae2stuff"

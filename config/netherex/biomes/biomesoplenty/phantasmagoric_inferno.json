@@ -7,94 +7,94 @@
 	"blocks": {},
 	"entities": [
 		{
-			"entity": "minecraft:ghast",
 			"spawnWeight": 50,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "minecraft:ghast"
 		}, 
 		{
-			"entity": "minecraft:zombie_pigman",
 			"spawnWeight": 100,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "minecraft:zombie_pigman"
 		}, 
 		{
-			"entity": "minecraft:magma_cube",
 			"spawnWeight": 2,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "minecraft:magma_cube"
 		}, 
 		{
-			"entity": "minecraft:enderman",
 			"spawnWeight": 1,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "minecraft:enderman"
 		}, 
 		{
-			"entity": "bewitchment:black_dog",
 			"spawnWeight": 6,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "bewitchment:black_dog"
 		}, 
 		{
-			"entity": "bewitchment:hellhound",
 			"spawnWeight": 6,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "bewitchment:hellhound"
 		}, 
 		{
-			"entity": "bewitchment:serpent",
 			"spawnWeight": 6,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "bewitchment:serpent"
 		}, 
 		{
-			"entity": "ebwizardry:lightning_wraith",
 			"spawnWeight": 1,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1
+			"maximumGroupCount": 1,
+			"entity": "ebwizardry:lightning_wraith"
 		}, 
 		{
-			"entity": "ebwizardry:evil_wizard",
 			"spawnWeight": 3,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 1
+			"maximumGroupCount": 1,
+			"entity": "ebwizardry:evil_wizard"
 		}, 
 		{
-			"entity": "minecraft:blaze",
 			"spawnWeight": 5,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 2
+			"maximumGroupCount": 2,
+			"entity": "minecraft:blaze"
 		}, 
 		{
-			"entity": "quark:foxhound",
 			"spawnWeight": 40,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
+			"maximumGroupCount": 3,
+			"entity": "quark:foxhound"
 		}, 
 		{
-			"entity": "quark:wraith",
 			"spawnWeight": 60,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 6
+			"maximumGroupCount": 6,
+			"entity": "quark:wraith"
 		}, 
 		{
-			"entity": "mysticalworld:entity_sprout",
 			"spawnWeight": 2,
 			"minimumGroupCount": 2,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "mysticalworld:entity_sprout"
 		}, 
 		{
-			"entity": "mysticalworld:entity_owl",
 			"spawnWeight": 9,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
+			"maximumGroupCount": 3,
+			"entity": "mysticalworld:entity_owl"
 		}, 
 		{
-			"entity": "bewitchment:raven",
 			"spawnWeight": 20,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "bewitchment:raven"
 		}
 	],
 	"traits": [],
