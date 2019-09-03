@@ -5,7 +5,6 @@ import mods.gamestagebooks.Book;
 // TOOLS
 Book.addBook("adventurers_toolbox", "Adventurer's Toolbox", "Adventurer's Toolbox Handbook", "toolbox:mace", 0x960018);
 Book.addBook("armor_plus", "Armor Plus", "Armor Plus Handbook", "armorplus:ender_dragon_chestplate", 0x7C0A02);
-Book.addBook("bop_tools", "Biomes O' Plenty Tools", "Biomes O' Plenty Tools Handbook", "boptools:chestplate_ruby", 0x7E191B);
 Book.addBook("calculator", "Calculator", "Calculator Handbook", "calculator:calculator", 0x800000);
 Book.addBook("flexible_tools", "Flexible Tools", "Flexible Tools Handbook", "flexibletools:swordi", 0xB80F0A);
 Book.addBook("metallurgy", "Metallury", "Metallurgy Handbook", "metallurgy:sanguinite_sword", 0xFF0800);
@@ -24,10 +23,9 @@ Book.addBook("integrated_dynamics", "Integrated Dynamics", "Integrated Dynamics 
 Book.addBook("industrial_foregoing", "Industrial Foregoing", "Industrial Foregoing Handbook", "industrialforegoing:plastic", 0xFF7414);
 Book.addBook("mekanism", "Mekanism", "Mekanism Handbook", "mekanism:machineblock@8", 0xFDA50F);
 Book.addBook("project_red", "Project Red", "Project Red Handbook", "projectred-core:resource_item@514", 0x883000);
-Book.addBook("rftools", "RF Tools", "RF Tools Handbook", "rftools:screen_controller", 0xEF7215);
+Book.addBook("rftools", "RFTools", "RFTools Handbook", "rftools:screen_controller", 0xEF7215);
 Book.addBook("steves_carts", "Steve's Carts", "Steve's Carts Handbook", "stevescarts:cartmodule@38", 0xB3672B);
 Book.addBook("thermal", "Thermal Expansions", "Thermal Handbook", "thermalexpansion:frame@148", 0xF9812A);
-Book.addBook("viescraft", "Viescraft", "Viescraft Handbook", "vc:item_airship_ignition", 0xBE5504);
 Book.addBook("xnet", "XNet", "Xnet Handbook", "xnet:controller", 0xCC7722);
 
 // Magic
@@ -58,6 +56,7 @@ Book.addBook("dimensional_world", "Mining Dimension", "Mining Dimension Handbook
 Book.addBook("mob_grinding_utils", "Mob Grinding Utilities", "Mob Grinding Utilities Handbook", "mob_grinding_utils:saw", 0x000080);
 Book.addBook("open_blocks", "Open Blocks", "Open Blocks Handbook", "openblocks:hang_glider", 0x008ECC);
 Book.addBook("random_things", "Random Things", "Random Things Handbook", "randomthings:timeinabottle", 0x89CFF0);
+Book.addBook("viescraft", "Viescraft", "Viescraft Handbook", "vc:item_airship_ignition", 0x3FE0D0);
 
 // Non-Starting
 Book.addBook("aether", "The Aether", "The Aether Handbook", "aether_legacy:valkyrie_cape", 0x00A86B);
