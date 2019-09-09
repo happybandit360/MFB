@@ -11,3 +11,7 @@ import mods.orestages.OreStages;
 mods.orestages.OreStages.addReplacement("extreme_reactors", <bigreactors:oreyellorite>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("extreme_reactors", <bigreactors:orebenitoite>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("extreme_reactors", <bigreactors:oreanglesite>, <minecraft:end_stone>);
+
+// Stage Misc Items
+mods.ItemStages.addItemStage("extreme_reactors", <forge:bucketfilled>.withTag({FluidName: "yellorium", Amount: 1000}));
+mods.ItemStages.addItemStage("extreme_reactors", <forge:bucketfilled>.withTag({FluidName: "cyanite", Amount: 1000}));

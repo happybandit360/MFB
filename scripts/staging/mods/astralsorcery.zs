@@ -13,3 +13,10 @@ mods.orestages.OreStages.addReplacement("astral_sorcery", <astralsorcery:blockcu
 
 // Flowers
 mods.orestages.OreStages.addReplacement("astral_sorcery", <astralsorcery:blockcustomflower>, <minecraft:yellow_flower>);
+
+// Stage Misc Items
+mods.ItemStages.addItemStage("astral_sorcery", <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})); 
+mods.ItemStages.addItemStage("astral_sorcery", <astralsorcery:itemwand>.withTag({astralsorcery: {}})); 
+mods.ItemStages.addItemStage("astral_sorcery", <astralsorcery:itemcape>.withTag({astralsorcery: {}, Quality: {Slots: ["chest"], Color: "blue", AttributeModifiers: [{UUIDMost: 7774270833075372053 as long, UUIDLeast: -4790259675975428114 as long, Amount: 0.5, AttributeName: "generic.knockbackResistance", Operation: 0, Name: "qualitytools"}], Name: "quality.solid.name"}}));
+mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 100}]}));
+mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 101}]}));

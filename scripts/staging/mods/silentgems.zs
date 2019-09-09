@@ -63,3 +63,22 @@ mods.orestages.OreStages.addReplacement("silent_gems", <silentgems:gemorelight:1
 mods.orestages.OreStages.addReplacement("silent_gems", <silentgems:multi_gem_ore_light>, <minecraft:end_stone>);
 mods.orestages.OreStages.addReplacement("silent_gems", <silentgems:essenceore:1>, <minecraft:end_stone>);
 
+//Stage Misc Items
+mods.ItemStages.addItemStage("silent_gems", <minecraft:spawn_egg>.withTag({EntityTag: {id: "silentgems:enderslime"}}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 63}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 63}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 64}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 64}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 64}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 64}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 64}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 65}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 65}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 65}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 66}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 66}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 67}]}));
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 67}]})); 
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 68}]})); 
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 68}]})); 
+mods.ItemStages.addItemStage("silent_gems", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 68}]})); 

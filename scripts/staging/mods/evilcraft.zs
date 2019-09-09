@@ -8,4 +8,4 @@ import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
 // Ores
-mods.orestages.OreStages.addReplacement("evilcraft", <evilcraft:dark_ore>, <minecraft:stone>);
+mods.orestages.OreStages.addReplacementById("evilcraft", "evilcraft:dark_ore:*", "minecraft:stone");
