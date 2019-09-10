@@ -112,9 +112,9 @@ mods.ItemStages.addItemStage("ender_io", <forge:bucketfilled>.withTag({FluidName
 mods.ItemStages.addItemStage("ender_io", <forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}));
 mods.ItemStages.addItemStage("ender_io", <forge:bucketfilled>.withTag({FluidName: "liquid_sunshine", Amount: 1000}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 31}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 31}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 31}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 31}]}));
+mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 37}]}));
+mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 37}]}));
+mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 37}]}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 37}]}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38}]}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 30}]}));

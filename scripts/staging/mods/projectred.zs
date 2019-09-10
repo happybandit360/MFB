@@ -12,6 +12,8 @@ mods.orestages.OreStages.addReplacement("project_red", <projectred-exploration:o
 mods.orestages.OreStages.addReplacement("project_red", <projectred-exploration:ore:1>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("project_red", <projectred-exploration:ore:2>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("project_red", <projectred-exploration:ore:6>, <minecraft:stone>);
+mods.orestages.OreStages.addReplacement("project_red", <projectred-exploration:stone>, <minecraft:stone>);
+mods.orestages.OreStages.addReplacement("project_red", <projectred-exploration:stone:3>, <quark:basalt>);
 
 // Stage Misc Items
 mods.ItemStages.addItemStage("project_red", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 26}]}));

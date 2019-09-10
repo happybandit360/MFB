@@ -12,6 +12,9 @@ mods.orestages.OreStages.addReplacement("thaumcraft", <thaumcraft:ore_cinnabar>,
 mods.orestages.OreStages.addReplacement("thaumcraft", <thaumcraft:ore_quartz>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("thaumcraft", <thaumcraft:ore_amber>, <minecraft:stone>);
 
+// Crystals
+// mods.orestages.OreStages.addReplacementById("thaumcraft", "thaumcraft:crystal_ordo:*", "quark:marble");
+
 // Plants
 mods.orestages.OreStages.addReplacement("thaumcraft", <thaumcraft:shimmerleaf>, <minecraft:yellow_flower>);
 mods.orestages.OreStages.addReplacement("thaumcraft", <thaumcraft:vishroom>, <minecraft:yellow_flower>);

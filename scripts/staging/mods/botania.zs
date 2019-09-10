@@ -58,19 +58,4 @@ mods.orestages.OreStages.addReplacement("botania", <botania:doubleflower1:14>, <
 mods.orestages.OreStages.addReplacement("botania", <botania:doubleflower1:15>, <minecraft:double_plant:4>);
 
 // Mushrooms
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:1>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:2>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:3>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:4>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:5>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:6>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:7>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:8>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:9>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:10>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:11>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:12>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:13>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:14>, <minecraft:stone>);
-// mods.orestages.OreStages.addReplacement("botania", <botania:mushroom:15>, <minecraft:stone>);
+mods.orestages.OreStages.addReplacementById("botania", "botania:mushroom:*", "minecraft:brown_mushroom");

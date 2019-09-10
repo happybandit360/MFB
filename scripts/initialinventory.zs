@@ -4,3 +4,4 @@ mods.initialinventory.InvHandler.addStartingItem(<lootbags:itemlootbag:51>);
 mods.initialinventory.InvHandler.addStartingItem(<lootbags:itemlootbag:52>);
 mods.initialinventory.InvHandler.addStartingItem(<lootbags:itemlootbag:53>);
 mods.initialinventory.InvHandler.addStartingItem(<enderbags:enderbag>);
+mods.initialinventory.InvHandler.addStartingItem(<minecraft:written_book>.withTag({pages: ["{\"text\":\"Welcome to MFB. This pack is designed to give you a unique experience each time you start a world. You have 4 bags in your inventory. Each bag contains a Gamestage Book to unlock a mod. These are your starting mods. As you play and progress, you can use\"}", "{\"text\":\"Woot and Extended Crafting to craft more Gamestage Books to unlock more mods. The Double Nether Star needed to craft a book is only available from a Tier 4 Woot Factory with a Wither. Hope you enjoy your time playing MFB.\"}"], author: "Happybandit", title: "Welcome to MFB"}));
