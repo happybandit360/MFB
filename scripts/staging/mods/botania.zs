@@ -7,6 +7,8 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
+mods.recipestages.Recipes.setRecipeStageByMod("botania", "botania");
+
 // Flowers
 mods.orestages.OreStages.addReplacement("botania", <botania:flower>, <minecraft:red_flower>);
 mods.orestages.OreStages.addReplacement("botania", <botania:flower:1>, <minecraft:red_flower>);
@@ -59,3 +61,8 @@ mods.orestages.OreStages.addReplacement("botania", <botania:doubleflower1:15>, <
 
 // Mushrooms
 mods.orestages.OreStages.addReplacementById("botania", "botania:mushroom:*", "minecraft:brown_mushroom");
+
+// Stage Misc Items
+mods.ItemStages.addItemStage("botania", <botania:brewvial>.withTag({brewKey: "warpWard"}));
+mods.ItemStages.addItemStage("botania", <botania:brewflask>.withTag({brewKey: "warpWard"}));
+mods.ItemStages.addItemStage("botania", <botania:incensestick>.withTag({brewKey: "warpWard"}));

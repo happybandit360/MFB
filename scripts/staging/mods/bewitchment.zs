@@ -7,6 +7,8 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
+mods.recipestages.Recipes.setRecipeStageByMod("bewitchment", "bewichment");
+
 // Ores
 mods.orestages.OreStages.addReplacement("bewitchment", <bewitchment:amethyst_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("bewitchment", <bewitchment:garnet_ore>, <minecraft:stone>);

@@ -7,6 +7,8 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
+mods.recipestages.Recipes.setRecipeStageByMod("dimentional_world", "aroma1997sdimension");
+
 // Ores
 mods.orestages.OreStages.addReplacement("dimensional_world", <aroma1997sdimension:miningore:1>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("dimensional_world", <aroma1997sdimension:miningore>, <minecraft:stone>);

@@ -6,6 +6,8 @@ import crafttweaker.item.IItemStack;
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
+mods.recipestages.Recipes.setRecipeStageByMod("blood_magic", "bloodmagic");
+
 // Stage Misc Items
 mods.ItemStages.addItemStage("blood_magic", <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000})); 
 mods.ItemStages.addItemStage("blood_magic", <bloodmagic:upgrade_tome>.withTag({level: 0, key: "bloodmagic.upgrade.stepAssist"})); 
