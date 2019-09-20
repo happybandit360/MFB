@@ -1,0 +1,34 @@
+//Set the icon item
+setIcon(<woot:controller>)
+
+//Set the title String
+setTitle("The Vital Piece")
+
+//Set the description String
+setDescription("Create an Ender Shard, programmed to the Wither. You hit the Wither with it, then kill the boss to program it. Once you have the shard programmed, use it to build a Woot Controller to complete your factory.")
+
+//Completed advancement color change
+//setCompletedIconColor(0, 255, 0)
+//setCompletedTitleColor(0, 255, 0)
+//setUncompletedTitleColor(185, 143, 44)
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("mfb:bookcrafting/wo_04_factoryheart")
+
+setRequiresParents()
+
+setFrameType("GOAL")
+
+//Set the position
+setPos(-172, 18)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria with the trigger type. This function returns the criteria as an object
+criteria = addCriteria("witherShard", "minecraft:inventory_changed")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.addItem(<woot:endershard>.withTag({wootMobNameKey: "minecraft:wither", wootMobDeaths: 1, wootMobDisplayName: "Wither", wootMobNameTag: ""}))
+
+//By not setting anything about requirements here, all criteria are automatically required

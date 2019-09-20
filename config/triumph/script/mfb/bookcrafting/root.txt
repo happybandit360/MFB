@@ -1,0 +1,27 @@
+
+//This is a root advancement. It is the base advancement for a page. As such, it has no parent and has to set a background.
+
+//Set icon item
+setIcon(<contenttweaker:double_star>)
+
+//Set title String
+setTitle("Crafting New Handbooks")
+
+//Set description String
+setDescription("In order to unlock new mods, you will have to craft the handbooks. Doing so will require you to create an Ultimate Crafting Table and receive a Double Nether Star from a Tier 4 Woot Factory with a Wither inside.")
+
+//Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(false)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(-108,-108)
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+criteria = addCriteria("iron", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_ingot")

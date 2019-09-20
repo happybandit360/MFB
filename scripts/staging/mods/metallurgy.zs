@@ -7,6 +7,8 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
+mods.recipestages.Recipes.setRecipeStageByMod("metallurgy", "metallurgy");
+
 // Ores
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:adamantine_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:alduorite_ore>, <minecraft:netherrack>);

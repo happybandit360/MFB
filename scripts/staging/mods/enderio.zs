@@ -2,10 +2,11 @@
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
+
+mods.recipestages.Recipes.setRecipeStageByMod("ender_io", "enderio");
 
 // Unstage Powders
 mods.ItemStages.removeItemStage(<enderio:item_material:30>);

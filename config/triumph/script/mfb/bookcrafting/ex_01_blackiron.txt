@@ -1,0 +1,32 @@
+//Set the icon item
+setIcon(<extendedcrafting:material>)
+
+//Set the title String
+setTitle("Inky Iron")
+
+//Set the description String
+setDescription("Craft a Black Iron Ingot. This is the base material you'll need for all the Extended Crafting Tables.")
+
+//Completed advancement color change
+//setCompletedIconColor(0, 255, 0)
+//setCompletedTitleColor(0, 255, 0)
+//setUncompletedTitleColor(185, 143, 44)
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("mfb:bookcrafting/root")
+
+//setRequiresParents()
+
+//Set the position
+setPos(-78,-78)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria with the trigger type. This function returns the criteria as an object
+criteria = addCriteria("blackIronIngot", "minecraft:inventory_changed")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.addItem(<extendedcrafting:material>)
+
+//By not setting anything about requirements here, all criteria are automatically required

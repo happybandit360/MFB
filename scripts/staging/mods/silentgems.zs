@@ -7,6 +7,10 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
+mods.recipestages.Recipes.setRecipeStageByMod("silent_gems", "silentgems");
+mods.recipestages.Recipes.setRecipeStageByMod("silent_gems", "silentgear");
+mods.recipestages.Recipes.setRecipeStageByMod("silent_gems", "sgextraparts");
+
 // Ores
 mods.orestages.OreStages.addReplacement("silent_gems", <silentgems:gemore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("silent_gems", <silentgems:gemore:1>, <minecraft:stone>);

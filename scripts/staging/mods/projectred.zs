@@ -2,10 +2,19 @@
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
+
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-core");
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-expansion");
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-exploration");
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-illumination");
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-integration");
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-relocation");
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-transmission");
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-transportation");
+mods.recipestages.Recipes.setRecipeStageByMod("project_red", "projectred-fabrication");
 
 // Ores
 mods.orestages.OreStages.addReplacement("project_red", <projectred-exploration:ore>, <minecraft:stone>);

@@ -1,0 +1,37 @@
+//Set the icon item
+setIcon(<extendedcrafting:table_ultimate>)
+
+//Set the title String
+setTitle("Ultimate End")
+
+//Set the description String
+setDescription("Craft an Ultimate Crafting Table. Once you have one, you'll have the means to create new mod handbooks.")
+
+//Completed advancement color change
+//setCompletedIconColor(0, 255, 0)
+//setCompletedTitleColor(0, 255, 0)
+//setUncompletedTitleColor(185, 143, 44)
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("mfb:bookcrafting/ex_01_blackiron")
+addParent("mfb:bookcrafting/ex_02_basictable")
+addParent("mfb:bookcrafting/ex_03_advancedtable")
+addParent("mfb:bookcrafting/ex_04_elitetable")
+
+setRequiresParents()
+
+setFrameType("GOAL")
+
+//Set the position
+setPos(-43,18)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria with the trigger type. This function returns the criteria as an object
+criteria = addCriteria("advancedCraftingTable", "minecraft:inventory_changed")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.addItem(<extendedcrafting:table_ultimate>)
+
+//By not setting anything about requirements here, all criteria are automatically required

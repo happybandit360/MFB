@@ -2,10 +2,11 @@
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
+
+mods.recipestages.Recipes.setRecipeStageByMod("extreme_reactors", "bigreactors");
 
 // Ores
 mods.orestages.OreStages.addReplacement("extreme_reactors", <bigreactors:oreyellorite>, <minecraft:stone>);

@@ -2,9 +2,10 @@
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
+
+mods.recipestages.Recipes.setRecipeStageByMod("industrial_foregoing", "industrialforegoing");
 
 // Stage Misc Items
 mods.ItemStages.addItemStage("industrial_foregoing", <minecraft:spawn_egg>.withTag({EntityTag: {id: "industrialforegoing:pink_slime"}}));

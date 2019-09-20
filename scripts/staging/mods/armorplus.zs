@@ -7,6 +7,8 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
+mods.recipestages.Recipes.setRecipeStageByMod("armor_plus", "armorplus");
+
 // Ores
 mods.orestages.OreStages.addReplacement("armor_plus", <armorplus:ore_lava_crystal>, <minecraft:stone>);
 

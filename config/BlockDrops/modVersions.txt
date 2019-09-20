@@ -52,7 +52,6 @@
   "FML": "8.0.99.99",
   "thermalexpansion": "5.5.4",
   "tombstone": "3.5.8",
-  "rtg": "6.1.0.0-snapshot.1",
   "enderutilities": "0.7.14",
   "projectred-integration": "4.9.4.120",
   "enderiointegrationtic": "5.1.51",
