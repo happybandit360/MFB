@@ -1,4 +1,4 @@
-#priority 3400
+#priority -1100
 
 //Unstage all mod manuals
 mods.ItemStages.removeItemStage(<forestry:book_forester>);
@@ -6,7 +6,7 @@ mods.ItemStages.removeItemStage(<industrialforegoing:book_manual>);
 mods.ItemStages.removeItemStage(<rftools:rftools_manual>);
 mods.ItemStages.removeItemStage(<rftools:rftools_shape_manual>);
 mods.ItemStages.removeItemStage(<rftoolscontrol:rftoolscontrol_manual>);
-mods.ItemStages.removeItemStage(<silentgems:guide_book>);
+// mods.ItemStages.removeItemStage(<silentgems:guide_book>);
 mods.ItemStages.removeItemStage(<xnet:xnet_manual>);
 mods.ItemStages.removeItemStage(<deepresonance:dr_manual>);
 mods.ItemStages.removeItemStage(<wizardry:book>);
@@ -22,3 +22,16 @@ mods.ItemStages.removeItemStage(<openblocks:info_book>);
 mods.ItemStages.removeItemStage(<astralsorcery:itemjournal>);
 mods.ItemStages.removeItemStage(<thaumcraft:thaumonomicon>);
 mods.ItemStages.removeItemStage(<aether_legacy:lore_book>);
+
+// Misc Items to Unstage
+
+// Unstage Pitcher Plant
+mods.ItemStages.removeItemStage(<randomthings:pitcherplant>);
+
+// Unstage Salt
+mods.ItemStages.removeItemStage(<mekanism:salt>);
+mods.ItemStages.removeItemStage(<mekanism:saltblock>);
+
+// Unstage Powders
+mods.ItemStages.removeItemStage(<enderio:item_material:30>);
+mods.ItemStages.removeItemStage(<enderio:item_material:31>);

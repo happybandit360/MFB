@@ -39,18 +39,18 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:armor_plus>, [
     [<ore:book>, null, null, null, <extendedcrafting:material:24>, null, null, null, <ore:book>]
 ]);
 
-// Silent Gems
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:silent_gems>, [
-    [<ore:book>, <ore:leather>, <ore:leather>, <ore:leather>, <extendedcrafting:material:24>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:book>], 
-    [<ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>], 
-    [<ore:leather>, <minecraft:dye:4>, <minecraft:paper>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:paper>, <minecraft:dye:4>, <ore:leather>], 
-    [<ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>], 
-    [<extendedcrafting:material:24>, <ore:leather>, <ore:leather>, <ore:leather>, <contenttweaker:double_star>, <ore:leather>, <ore:leather>, <ore:leather>, <extendedcrafting:material:24>], 
-    [<ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>], 
-    [<ore:leather>, <minecraft:dye:4>, <minecraft:paper>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:paper>, <minecraft:dye:4>, <ore:leather>], 
-    [<ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>], 
-    [<ore:book>, <ore:leather>, <ore:leather>, <ore:leather>, <extendedcrafting:material:24>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:book>]
-]);
+// // Silent Gems
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:silent_gems>, [
+//     [<ore:book>, <ore:leather>, <ore:leather>, <ore:leather>, <extendedcrafting:material:24>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:book>], 
+//     [<ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>], 
+//     [<ore:leather>, <minecraft:dye:4>, <minecraft:paper>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:paper>, <minecraft:dye:4>, <ore:leather>], 
+//     [<ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>], 
+//     [<extendedcrafting:material:24>, <ore:leather>, <ore:leather>, <ore:leather>, <contenttweaker:double_star>, <ore:leather>, <ore:leather>, <ore:leather>, <extendedcrafting:material:24>], 
+//     [<ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>], 
+//     [<ore:leather>, <minecraft:dye:4>, <minecraft:paper>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:paper>, <minecraft:dye:4>, <ore:leather>], 
+//     [<ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <ore:leather>], 
+//     [<ore:book>, <ore:leather>, <ore:leather>, <ore:leather>, <extendedcrafting:material:24>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:book>]
+// ]);
 
 // Quality Tools
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:quality_tools>, [

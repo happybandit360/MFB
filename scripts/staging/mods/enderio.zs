@@ -8,10 +8,6 @@ import mods.orestages.OreStages;
 
 mods.recipestages.Recipes.setRecipeStageByMod("ender_io", "enderio");
 
-// Unstage Powders
-mods.ItemStages.removeItemStage(<enderio:item_material:30>);
-mods.ItemStages.removeItemStage(<enderio:item_material:31>);
-
 // Stage Misc Items
 mods.ItemStages.addItemStage("ender_io", <minecraft:potion>.withTag({Potion: "enderio:floating"}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:potion>.withTag({Potion: "enderio:strong_floating"}));

@@ -10,13 +10,13 @@ var stageNames as string[] = [
     // Tools
     "tinkers",
     "armor_plus",
-    "silent_gems",
+    // "silent_gems",
     "quality_tools",
     "calculator",
-    "tetra",
+    "tetra", // CUT
     "metallurgy",
     "flexible_tools",
-    "adventurers_toolbox",
+    "adventurers_toolbox", 
 
     // Tech
     "applied_energistics",
@@ -28,12 +28,9 @@ var stageNames as string[] = [
     "xnet",
     "integrated_dynamics",
     "environmental_tech",
-    "flux_networks",
     "project_red",
     "steves_carts",
-    "deep_mob_learning",
     "extreme_reactors",
-    "viescraft",
     "deep_resonance",
 
     // Magic
@@ -58,13 +55,16 @@ var stageNames as string[] = [
     "inventory_pets",
     "open_blocks",
     "dark_utilities",
-    "dimensional_world",
+    "dimensional_world",  // CUT
     "ender_utilities",
     "random_things",
     "arcane_archives",
+    "deep_mob_learning",
+    "flux_networks",
+    "viescraft", // CUT
 
     // Non-Starting
-    "twilight_forest",
+    "twilight_forest", 
     "aether",
     "tropicraft",
     "betweenlands",

@@ -15,11 +15,11 @@ static stagedMods as string[][string] = {
         "armorplus"
     ],
 
-    stages.silentGems.stage : [
-        "silentgems",
-        "silentgear",
-        "sgextraparts"
-    ],
+    // stages.silentGems.stage : [
+    //     "silentgems",
+    //     "silentgear",
+    //     "sgextraparts"
+    // ],
 
     stages.qualityTools.stage : [
         "qualitytools"

@@ -9,7 +9,7 @@ Book.addBook("calculator", "Calculator", "Calculator Handbook", "calculator:calc
 Book.addBook("flexible_tools", "Flexible Tools", "Flexible Tools Handbook", "flexibletools:swordi", 0xB80F0A);
 Book.addBook("metallurgy", "Metallury", "Metallurgy Handbook", "metallurgy:sanguinite_sword", 0xFF0800);
 Book.addBook("quality_tools", "Quality Tools", "Quality Tools Handbook", "qualitytools:reforging_station", 0xC21807);
-Book.addBook("silent_gems", "Silent Gems", "Silent Gems Handbook", "silentgems:gem", 0xED2939);
+// Book.addBook("silent_gems", "Silent Gems", "Silent Gems Handbook", "silentgems:gem", 0xED2939);
 Book.addBook("tetra", "Tetra", "Tetra Handbook", "tetra:workbench", 0xB22222);
 Book.addBook("tinkers", "Tinkers Construct", "Tinker's Handbook", "tconstruct:smeltery_controller", 0xFF2400);
 

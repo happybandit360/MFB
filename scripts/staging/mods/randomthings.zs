@@ -9,9 +9,6 @@ import mods.orestages.OreStages;
 
 mods.recipestages.Recipes.setRecipeStageByMod("random_things", "randomthings");
 
-// Unstage Pitcher Plant
-mods.ItemStages.removeItemStage(<randomthings:pitcherplant>);
-
 // Stage Misc Items
 mods.ItemStages.addItemStage("random_things", <minecraft:potion>.withTag({Potion: "randomthings:collapse"}));
 mods.ItemStages.addItemStage("random_things", <minecraft:potion>.withTag({Potion: "randomthings:long_collapse"}));

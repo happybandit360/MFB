@@ -15,7 +15,7 @@ setDescription("Craft a YA Hammer to being your Woot journey")
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("mfb:bookcrafting/root")
 
-//setRequiresParents()
+setRequiresParents()
 
 //Set the position
 setPos(-138,-78)
@@ -27,6 +27,6 @@ hideLines()
 criteria = addCriteria("yaHammer", "minecraft:inventory_changed")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<woot:yahhammer>)
+criteria.addItem(<woot:yahhammer>)
 
 //By not setting anything about requirements here, all criteria are automatically required
