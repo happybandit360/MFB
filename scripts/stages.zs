@@ -11,9 +11,9 @@ var stageNames as string[] = [
     "tinkers",
     "armor_plus",
     // "silent_gems",
-    "quality_tools",
+    // "quality_tools",
     "calculator",
-    "tetra", // CUT
+    "tetra",
     "metallurgy",
     "flexible_tools",
     "adventurers_toolbox", 
@@ -55,7 +55,7 @@ var stageNames as string[] = [
     "inventory_pets",
     "open_blocks",
     "dark_utilities",
-    "dimensional_world",  // CUT
+    // "dimensional_world",  // CUT
     "ender_utilities",
     "random_things",
     "arcane_archives",
@@ -64,7 +64,7 @@ var stageNames as string[] = [
     "viescraft", // CUT
 
     // Non-Starting
-    "twilight_forest", 
+    // "twilight_forest", // CUT
     "aether",
     "tropicraft",
     "betweenlands",

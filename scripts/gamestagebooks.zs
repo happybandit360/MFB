@@ -52,7 +52,7 @@ Book.addBook("flux_networks", "Flux Networks", "Flux Networks Handbook", "fluxne
 Book.addBook("forestry", "Forestry", "Forestry Handbook", "forestry:carpenter", 0x003152);
 Book.addBook("inventory_pets", "Inventory Pets", "Inventory Pets Handbook", "inventorypets:meta_pet", 0x0080FF);
 Book.addBook("rats", "Rats", "Rats Handbook", "rats:cheese", 0x111E6C);
-Book.addBook("dimensional_world", "Mining Dimension", "Mining Dimension Handbook", "aroma1997sdimension:miningmultitool", 0x73C2FB);
+// Book.addBook("dimensional_world", "Mining Dimension", "Mining Dimension Handbook", "aroma1997sdimension:miningmultitool", 0x73C2FB);
 Book.addBook("mob_grinding_utils", "Mob Grinding Utilities", "Mob Grinding Utilities Handbook", "mob_grinding_utils:saw", 0x000080);
 Book.addBook("open_blocks", "Open Blocks", "Open Blocks Handbook", "openblocks:hang_glider", 0x008ECC);
 Book.addBook("random_things", "Random Things", "Random Things Handbook", "randomthings:timeinabottle", 0x89CFF0);
@@ -64,4 +64,4 @@ Book.addBook("betweenlands", "The Betweenlands", "The Betweenlands Handbook", "t
 Book.addBook("chickens", "Chickens", "Chickens Handbook", "hatchery:nest", 0x50C878);
 Book.addBook("sky_orchards", "Sky Orchards", "Sky Orchards Handbook", "sky_orchards:sapling_diamond", 0x4F7942);
 Book.addBook("tropicraft", "Tropicraft", "Tropicraft Handbook", "tropicraft:cocktail", 0x29AB87);
-Book.addBook("twilight_forest", "Twilight Forest", "Twilight Forest Handbook", "twilightforest:magic_map_focus", 0x0B6623);
+// Book.addBook("twilight_forest", "Twilight Forest", "Twilight Forest Handbook", "twilightforest:magic_map_focus", 0x0B6623);

@@ -21,9 +21,9 @@ static stagedMods as string[][string] = {
     //     "sgextraparts"
     // ],
 
-    stages.qualityTools.stage : [
-        "qualitytools"
-    ],
+    // stages.qualityTools.stage : [
+    //     "qualitytools"
+    // ],
 
     stages.calculator.stage : [
         "calculator"
@@ -217,17 +217,17 @@ static stagedMods as string[][string] = {
         "enderutilities"
     ],
 
-    stages.dimensionalWorld.stage : [
-        "aroma1997sdimension"
-    ],
+    // stages.dimensionalWorld.stage : [
+    //     "aroma1997sdimension"
+    // ],
 
     stages.arcaneArchives.stage : [
         "arcanearchives"
     ],
 
-    stages.twilightForest.stage : [
-        "twilightforest"
-    ],
+    // stages.twilightForest.stage : [
+    //     "twilightforest"
+    // ],
 
     stages.aether.stage : [
         "aether_legacy"

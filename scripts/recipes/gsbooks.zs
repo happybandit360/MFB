@@ -53,17 +53,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:armor_plus>, [
 // ]);
 
 // Quality Tools
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:quality_tools>, [
-    [<ore:book>, null, null, null, <extendedcrafting:material:24>, null, null, null, <ore:book>], 
-    [null, <minecraft:anvil>, null, null, <minecraft:gold_ingot>, null, null, <minecraft:anvil>, null], 
-    [null, <minecraft:stone_slab>, null, <minecraft:gold_ingot>, <minecraft:emerald>, <minecraft:gold_ingot>, null, <minecraft:stone_slab>, null], 
-    [null, <minecraft:stone_slab>, null, null, <minecraft:gold_ingot>, null, null, <minecraft:stone_slab>, null], 
-    [<extendedcrafting:material:24>, <minecraft:crafting_table>, <minecraft:stone_slab>, <minecraft:stone_slab>, <contenttweaker:double_star>, <minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:crafting_table>, <extendedcrafting:material:24>], 
-    [null, <minecraft:stone_slab>, null, null, <minecraft:gold_ingot>, null, null, <minecraft:stone_slab>, null], 
-    [null, <minecraft:stone_slab>, null, <minecraft:gold_ingot>, <minecraft:emerald>, <minecraft:gold_ingot>, null, <minecraft:stone_slab>, null], 
-    [null, <minecraft:anvil>, null, null, <minecraft:gold_ingot>, null, null, <minecraft:anvil>, null], 
-    [<ore:book>, null, null, null, <extendedcrafting:material:24>, null, null, null, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:quality_tools>, [
+//     [<ore:book>, null, null, null, <extendedcrafting:material:24>, null, null, null, <ore:book>], 
+//     [null, <minecraft:anvil>, null, null, <minecraft:gold_ingot>, null, null, <minecraft:anvil>, null], 
+//     [null, <minecraft:stone_slab>, null, <minecraft:gold_ingot>, <minecraft:emerald>, <minecraft:gold_ingot>, null, <minecraft:stone_slab>, null], 
+//     [null, <minecraft:stone_slab>, null, null, <minecraft:gold_ingot>, null, null, <minecraft:stone_slab>, null], 
+//     [<extendedcrafting:material:24>, <minecraft:crafting_table>, <minecraft:stone_slab>, <minecraft:stone_slab>, <contenttweaker:double_star>, <minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:crafting_table>, <extendedcrafting:material:24>], 
+//     [null, <minecraft:stone_slab>, null, null, <minecraft:gold_ingot>, null, null, <minecraft:stone_slab>, null], 
+//     [null, <minecraft:stone_slab>, null, <minecraft:gold_ingot>, <minecraft:emerald>, <minecraft:gold_ingot>, null, <minecraft:stone_slab>, null], 
+//     [null, <minecraft:anvil>, null, null, <minecraft:gold_ingot>, null, null, <minecraft:anvil>, null], 
+//     [<ore:book>, null, null, null, <extendedcrafting:material:24>, null, null, null, <ore:book>]
+// ]);
 
 // Calculator
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:calculator>, [
@@ -586,17 +586,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:dark_utilities>
 ]);
 
 // Dimensional World
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:dimensional_world>, [
-	[<ore:book>, <ore:stonebrick>, <ore:stonebrick>, null, <ore:ingotCrystaltine>, null, <ore:stonebrick>, <ore:stonebrick>, <ore:book>], 
-	[<ore:stonebrick>, <ore:stonebrick>, <ore:stonebrick>, null, <minecraft:diamond_pickaxe>, null, <ore:stonebrick>, <ore:stonebrick>, <ore:stonebrick>], 
-	[<ore:stonebrick>, <ore:stonebrick>, <ore:stonebrick>, null, null, null, <ore:stonebrick>, <ore:stonebrick>, <ore:stonebrick>], 
-	[null, null, null, <minecraft:flint_and_steel>, <minecraft:flint_and_steel>, <minecraft:flint_and_steel>, null, null, null], 
-	[<ore:ingotCrystaltine>, null, null, <minecraft:flint_and_steel>, <contenttweaker:double_star>, <minecraft:flint_and_steel>, null, null, <ore:ingotCrystaltine>], 
-	[null, null, null, <minecraft:flint_and_steel>, <minecraft:flint_and_steel>, <minecraft:flint_and_steel>, null, null, null], 
-	[null, null, null, <ore:logWood>, <ore:logWood>, <ore:logWood>, null, null, null], 
-	[null, null, null, <ore:logWood>, <ore:logWood>, <ore:logWood>, null, null, null], 
-	[<ore:book>, null, null, <ore:logWood>, <ore:ingotCrystaltine>, <ore:logWood>, null, null, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:dimensional_world>, [
+// 	[<ore:book>, <ore:stonebrick>, <ore:stonebrick>, null, <ore:ingotCrystaltine>, null, <ore:stonebrick>, <ore:stonebrick>, <ore:book>], 
+// 	[<ore:stonebrick>, <ore:stonebrick>, <ore:stonebrick>, null, <minecraft:diamond_pickaxe>, null, <ore:stonebrick>, <ore:stonebrick>, <ore:stonebrick>], 
+// 	[<ore:stonebrick>, <ore:stonebrick>, <ore:stonebrick>, null, null, null, <ore:stonebrick>, <ore:stonebrick>, <ore:stonebrick>], 
+// 	[null, null, null, <minecraft:flint_and_steel>, <minecraft:flint_and_steel>, <minecraft:flint_and_steel>, null, null, null], 
+// 	[<ore:ingotCrystaltine>, null, null, <minecraft:flint_and_steel>, <contenttweaker:double_star>, <minecraft:flint_and_steel>, null, null, <ore:ingotCrystaltine>], 
+// 	[null, null, null, <minecraft:flint_and_steel>, <minecraft:flint_and_steel>, <minecraft:flint_and_steel>, null, null, null], 
+// 	[null, null, null, <ore:logWood>, <ore:logWood>, <ore:logWood>, null, null, null], 
+// 	[null, null, null, <ore:logWood>, <ore:logWood>, <ore:logWood>, null, null, null], 
+// 	[<ore:book>, null, null, <ore:logWood>, <ore:ingotCrystaltine>, <ore:logWood>, null, null, <ore:book>]
+// ]);
 
 // Ender Utilities
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:ender_utilities>, [
@@ -638,17 +638,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:arcane_archives
 ]);
 
 // Twilight Forest
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:twilight_forest>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, null], 
-	[null, <ore:treeSapling>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:treeSapling>, null], 
-	[null, <ore:treeSapling>, <ore:flower>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:flower>, <ore:treeSapling>, null], 
-	[<ore:ingotCrystaltine>, <ore:treeSapling>, <ore:flower>, <ore:gemDiamond>, <contenttweaker:double_star>, <ore:gemDiamond>, <ore:flower>, <ore:treeSapling>, <ore:ingotCrystaltine>], 
-	[null, <ore:treeSapling>, <ore:flower>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:flower>, <ore:treeSapling>, null], 
-	[null, <ore:treeSapling>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:treeSapling>, null], 
-	[null, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:twilight_forest>, [
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
+// 	[null, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, null], 
+// 	[null, <ore:treeSapling>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:treeSapling>, null], 
+// 	[null, <ore:treeSapling>, <ore:flower>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:flower>, <ore:treeSapling>, null], 
+// 	[<ore:ingotCrystaltine>, <ore:treeSapling>, <ore:flower>, <ore:gemDiamond>, <contenttweaker:double_star>, <ore:gemDiamond>, <ore:flower>, <ore:treeSapling>, <ore:ingotCrystaltine>], 
+// 	[null, <ore:treeSapling>, <ore:flower>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:flower>, <ore:treeSapling>, null], 
+// 	[null, <ore:treeSapling>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:flower>, <ore:treeSapling>, null], 
+// 	[null, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, null], 
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
+// ]);
 
 // Aether
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:aether>, [
