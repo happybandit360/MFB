@@ -148,9 +148,9 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 15
 			},
-			"cluster-count": 20,
+			"cluster-count": 30,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,
@@ -169,9 +169,9 @@
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 15
 			},
-			"cluster-count": 2,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 32,
 			"retrogen": false,
@@ -213,7 +213,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 1,
+			"cluster-count": 2,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
