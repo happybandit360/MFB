@@ -46,6 +46,10 @@ static stagedMods as string[][string] = {
         "toolboxaddons"
     ],
 
+    stages.gobber.stage : [
+        "gobber"
+    ],
+
     stages.appliedEnergistics.stage : [
         "appliedenergistics2",
         "ae2stuff"
