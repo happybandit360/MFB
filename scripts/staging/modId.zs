@@ -47,7 +47,7 @@ static stagedMods as string[][string] = {
     ],
 
     stages.gobber.stage : [
-        "gobber"
+        "gb"
     ],
 
     stages.appliedEnergistics.stage : [

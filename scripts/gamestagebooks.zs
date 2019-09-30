@@ -7,7 +7,7 @@ Book.addBook("adventurers_toolbox", "Adventurer's Toolbox", "Adventurer's Toolbo
 Book.addBook("armor_plus", "Armor Plus", "Armor Plus Handbook", "armorplus:ender_dragon_chestplate", 0x7C0A02);
 Book.addBook("calculator", "Calculator", "Calculator Handbook", "calculator:calculator", 0x800000);
 Book.addBook("flexible_tools", "Flexible Tools", "Flexible Tools Handbook", "flexibletools:swordi", 0xB80F0A);
-Book.addBook("gobber", "Gobber", "Gobber Handbook", "silentgems:gem", 0xED2939);
+Book.addBook("gobber", "Gobber", "Gobber Handbook", "gb:glucky_block", 0xED2939);
 Book.addBook("metallurgy", "Metallury", "Metallurgy Handbook", "metallurgy:sanguinite_sword", 0xFF0800);
 // Book.addBook("quality_tools", "Quality Tools", "Quality Tools Handbook", "qualitytools:reforging_station", 0xC21807);
 // Book.addBook("silent_gems", "Silent Gems", "Silent Gems Handbook", "silentgems:gem", 0xED2939);

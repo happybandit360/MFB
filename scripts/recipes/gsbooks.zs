@@ -130,6 +130,19 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:adventurers_too
 	[<ore:book>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:ingotCrystaltine>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:book>]
 ]);
 
+// Gobber
+mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:gobber>, [
+	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
+	[null, null, null, null, null, null, <ore:gemLapis>, <ore:gemLapis>, null], 
+	[null, null, null, null, null, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, null], 
+	[null, null, null, null, <minecraft:log2:1>, <ore:gemLapis>, <ore:gemLapis>, null, null], 
+	[<ore:ingotCrystaltine>, null, null, null, <contenttweaker:double_star>, <minecraft:log2:1>, null, null, <ore:ingotCrystaltine>], 
+	[null, null, null, <ore:blockGold>, null, null, null, null, null], 
+	[null, null, <ore:blockGold>, null, null, null, null, null, null], 
+	[null, <ore:blockGold>, null, null, null, null, null, null, null], 
+	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
+]);
+
 // Applied Energistics
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:applied_energistics>, [
 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 

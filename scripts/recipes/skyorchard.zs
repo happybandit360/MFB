@@ -428,8 +428,26 @@ mods.enderio.SagMill.addRecipe([<thermalfoundation:material:96> * 2], [100], <sk
 mods.enderio.SagMill.addRecipe([<thermalfoundation:material:98> * 2], [100], <sky_orchards:amber_invar>);
 
 
-
-// Amber - Metallurgy Crusher?
+// Amber - Metallurgy Crusher
+// 
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material> * 2], [100], <sky_orchards:amber_iron>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:1> * 2], [100], <sky_orchards:amber_gold>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:64> * 2], [100], <sky_orchards:amber_copper>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:67> * 2], [100], <sky_orchards:amber_lead>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:65> * 2], [100], <sky_orchards:amber_tin>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:66> * 2], [100], <sky_orchards:amber_silver>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:69> * 2], [100], <sky_orchards:amber_nickel>);
+// mods.enderio.SagMill.addRecipe([<enderio:item_material:31> * 2], [100], <sky_orchards:amber_cobalt>);
+// mods.enderio.SagMill.addRecipe([<enderio:item_material:30> * 2], [100], <sky_orchards:amber_ardite>);
+// mods.enderio.SagMill.addRecipe([<mekanism:dust:2> * 2], [100], <sky_orchards:amber_osmium>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:68> * 2], [100], <sky_orchards:amber_aluminum>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:70> * 2], [100], <sky_orchards:amber_platinum>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:71> * 2], [100], <sky_orchards:amber_iridium>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:99> * 2], [100], <sky_orchards:amber_bronze>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:100> * 2], [100], <sky_orchards:amber_constantan>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:97> * 2], [100], <sky_orchards:amber_electrum>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:96> * 2], [100], <sky_orchards:amber_steel>);
+// mods.enderio.SagMill.addRecipe([<thermalfoundation:material:98> * 2], [100], <sky_orchards:amber_invar>);
 
 
 // Amber - Tinker's Smeltery

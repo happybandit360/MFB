@@ -7,7 +7,7 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
-mods.recipestages.Recipes.setRecipeStageByMod("gobber", "gobber");
+mods.recipestages.Recipes.setRecipeStageByMod("gobber", "gb");
 
 // Ores
 mods.orestages.OreStages.addReplacement("gobber", <gb:gobber_ore>, <minecraft:stone>);
