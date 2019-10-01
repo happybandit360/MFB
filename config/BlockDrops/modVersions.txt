@@ -82,7 +82,7 @@
   "crafttweaker": "4.1.19",
   "mysticalworld": "1.12.2-1.4.4",
   "rftoolspower": "1.2.0",
-  "forge": "14.23.5.2838",
+  "forge": "14.23.5.2847",
   "phosphor-lighting": "1.12.2-0.2.6",
   "eplus": "5.0.179",
   "integratedcrafting": "1.0.8",
