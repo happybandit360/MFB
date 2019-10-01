@@ -4,7 +4,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
 import mods.thermalexpansion.Pulverizer;
-import mods.extrautils2.Crusher;
+#import mods.extrautils2.Crusher;
 import mods.enderio.SagMill;
 import mods.tconstruct.Melting;
 import mods.metallurgyreforged.Crusher;
@@ -462,7 +462,7 @@ mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288 , <sky_orchards:amber_si
 mods.tconstruct.Melting.addRecipe(<liquid:nickel> * 288 , <sky_orchards:amber_nickel>);
 mods.tconstruct.Melting.addRecipe(<liquid:cobalt> * 288 , <sky_orchards:amber_cobalt>);
 mods.tconstruct.Melting.addRecipe(<liquid:ardite> * 288 , <sky_orchards:amber_ardite>);
-mods.tconstruct.Melting.addRecipe(<liquid:molten_osmium> * 288 , <sky_orchards:amber_osmium>);
+mods.tconstruct.Melting.addRecipe(<liquid:osmium> * 288 , <sky_orchards:amber_osmium>);
 mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 288 , <sky_orchards:amber_aluminum>);
 mods.tconstruct.Melting.addRecipe(<liquid:platinum> * 288 , <sky_orchards:amber_platinum>);
 mods.tconstruct.Melting.addRecipe(<liquid:iridium> * 288 , <sky_orchards:amber_iridium>);
