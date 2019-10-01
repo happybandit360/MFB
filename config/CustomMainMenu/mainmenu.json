@@ -24,6 +24,20 @@
     
     "buttons":
     {
+        "Discord":
+        {
+            "text" : "Report An Issue",
+            "posX" : -100,
+            "posY" : 168,
+            "width" : 200,
+            "height" : 20,
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/happybandit360/MFB/issues"
+            }
+        },
+
         "singleplayer":
         {
             "text" : "menu.singleplayer",
@@ -127,7 +141,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "ï¿½nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,

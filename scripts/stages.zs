@@ -47,7 +47,7 @@ var stageNames as string[] = [
     "electrobob",
 
     // Misc
-    //"rats",
+    // "rats",
     "extra_anvils",
     "forestry",
     "mob_grinding_utils",
