@@ -52,7 +52,7 @@ Book.addBook("extra_anvils", "Extra Anvils", "Extra Anvils Handbook", "extraanvi
 Book.addBook("flux_networks", "Flux Networks", "Flux Networks Handbook", "fluxnetworks:fluxcontroller", 0x5888AE);
 Book.addBook("forestry", "Forestry", "Forestry Handbook", "forestry:carpenter", 0x003152);
 Book.addBook("inventory_pets", "Inventory Pets", "Inventory Pets Handbook", "inventorypets:meta_pet", 0x0080FF);
-Book.addBook("rats", "Rats", "Rats Handbook", "rats:cheese", 0x111E6C);
+//Book.addBook("rats", "Rats", "Rats Handbook", "rats:cheese", 0x111E6C);
 // Book.addBook("dimensional_world", "Mining Dimension", "Mining Dimension Handbook", "aroma1997sdimension:miningmultitool", 0x73C2FB);
 Book.addBook("mob_grinding_utils", "Mob Grinding Utilities", "Mob Grinding Utilities Handbook", "mob_grinding_utils:saw", 0x000080);
 Book.addBook("open_blocks", "Open Blocks", "Open Blocks Handbook", "openblocks:hang_glider", 0x008ECC);
