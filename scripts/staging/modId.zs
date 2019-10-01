@@ -181,9 +181,9 @@ static stagedMods as string[][string] = {
         "ebwizardry"
     ],
 
-    stages.rats.stage : [
-        "rats"
-    ],
+    //stages.rats.stage : [
+    //    "rats"
+    //],
 
     stages.extraAnvils.stage : [
         "extraanvils"
