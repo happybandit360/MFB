@@ -482,17 +482,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:electrobob>, [
 ]);
 
 // Rats
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:rats>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, null, null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null, null, null], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <minecraft:iron_trapdoor>, <minecraft:iron_trapdoor>, <minecraft:iron_trapdoor>, null, null, null], 
-	[<ore:ingotCrystaltine>, <ore:ingotIron>, <ore:ingotIron>, <minecraft:iron_trapdoor>, <contenttweaker:double_star>, <minecraft:iron_trapdoor>, null, null, <ore:ingotCrystaltine>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <minecraft:iron_trapdoor>, <minecraft:iron_trapdoor>, <minecraft:iron_trapdoor>, null, null, null], 
-	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>], 
-	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>], 
-	[<ore:book>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:ingotCrystaltine>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:book>]
-]);
+//mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:rats>, [
+//	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
+//	[null, null, null, null, null, null, null, null, null], 
+//	[null, null, null, null, null, null, null, null, null], 
+//	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <minecraft:iron_trapdoor>, <minecraft:iron_trapdoor>, <minecraft:iron_trapdoor>, null, null, null], 
+//	[<ore:ingotCrystaltine>, <ore:ingotIron>, <ore:ingotIron>, <minecraft:iron_trapdoor>, <contenttweaker:double_star>, <minecraft:iron_trapdoor>, null, null, <ore:ingotCrystaltine>], 
+//	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <minecraft:iron_trapdoor>, <minecraft:iron_trapdoor>, <minecraft:iron_trapdoor>, null, null, null], 
+//	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>], 
+//	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>], 
+//	[<ore:book>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:ingotCrystaltine>, <ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <ore:book>]
+//]);
 
 // Extra Anvils
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:extra_anvils>, [
