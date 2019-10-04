@@ -10,4 +10,4 @@ import crafttweaker.item.IIngredient;
 
 // recipes.addShapeless(<>, [<>]);
 
-recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
+recipes.addShapeless(<minecraft:flint>, [<minecraft:gravel>, <minecraft:gravel>]);

@@ -11,7 +11,7 @@ Thank you for submitting an issue report. Please provide as much information as 
 *NOTE: As you are reporting a bug, please upload the log to an online service (PasteBin/Gist/Pastee/Etc) and share the link in the appropriate location below.*
 
 ## **Game Information**
-* What mode were you playing in when the issue arose? (Survival/Creative, Single Player/LAN)
+* What mode were you playing in when the issue arose? (Survival/Creative, Single Player/LAN/Server)
 * What mods had you unlocked in your game?
 * Is there any other game information that might be related?
 
