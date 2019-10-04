@@ -3,121 +3,279 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-// recipes.addShaped(null,
-// 	[[null, null, null],
-// 	[null, null, null], 
-// 	[null, null, null]]);
+/*
+	Recipe Removals by Item
+*/
+static itemRecipeRemoval as IItemStack[] = [
+//	<modid:itemname:meta>
+<mekanismtools:bronzeshovel>,
+<mekanismtools:bronzehoe>,
+<mekanismtools:bronzesword>,
+<mekanismtools:bronzeaxe>,
+<mekanismtools:bronzepickaxe>,
+<mekanismtools:bronzehelmet>,
+<mekanismtools:bronzechestplate>,
+<mekanismtools:bronzeleggings>,
+<mekanismtools:bronzeboots>,
+<mekanismtools:steelshovel>,
+<mekanismtools:steelhoe>,
+<mekanismtools:steelsword>,
+<mekanismtools:steelaxe>,
+<mekanismtools:steelpickaxe>,
+<mekanismtools:steelhelmet>,
+<mekanismtools:steelchestplate>,
+<mekanismtools:steelleggings>,
+<mekanismtools:steelboots>
+];
 
-// recipes.addShapeless(<>, [<>]);
+/*
+    Shaped Recipes
+*/
 
-// Replace Bronze
-recipes.remove(<mekanismtools:bronzeshovel>);
-recipes.remove(<mekanismtools:bronzehoe>);
-recipes.remove(<mekanismtools:bronzesword>);
-recipes.remove(<mekanismtools:bronzeaxe>);
-recipes.remove(<mekanismtools:bronzepickaxe>);
-recipes.remove(<mekanismtools:bronzehelmet>);
-recipes.remove(<mekanismtools:bronzechestplate>);
-recipes.remove(<mekanismtools:bronzeleggings>);
-recipes.remove(<mekanismtools:bronzeboots>);
+static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
+/*	<mod:itemname:meta> : {
+		"string_for_recipe_name" : [
+			[
+	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>],
+	   			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>],
+	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
+			]
+		]
+	}	*/
+<mekanismtools:bronzehelmet> : {
+	"mekanismtools_bronzehelmet" : [
+		[
+			[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+			[<ore:ingotBronze>, <naar:oak_helmet>, <ore:ingotBronze>]
+		]
+	]
+},
+<mekanismtools:bronzeboots> : {
+	"mekanismtools_bronzeboots" : [
+		[
+			[<ore:ingotBronze>, null, <ore:ingotBronze>],
+			[<ore:ingotBronze>, <naar:oak_boots>, <ore:ingotBronze>]
+		]
+	]
+},
+<mekanismtools:bronzechestplate> : {
+	"mekanismtools_bronzechestplate" : [
+		[
+			[<ore:ingotBronze>, null, <ore:ingotBronze>],
+			[<ore:ingotBronze>, <naar:oak_chestplate>, <ore:ingotBronze>], 
+			[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]
+		]
+	]
+},
+<mekanismtools:bronzeleggings> : {
+	"mekanismtools_bronzeleggings" : [
+		[
+			[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+			[<ore:ingotBronze>, <naar:oak_leggings>, <ore:ingotBronze>], 
+			[<ore:ingotBronze>, null, <ore:ingotBronze>]
+		]
+	]
+},
+<mekanismtools:steelhelmet> : {
+	"mekanismtools_steelhelmet" : [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <naar:oak_helmet>, <ore:ingotSteel>]
+		]
+	]
+},
+<mekanismtools:steelboots> : {
+	"mekanismtools_steelboots" : [
+		[
+			[<ore:ingotSteel>, null, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <naar:oak_boots>, <ore:ingotSteel>]
+		]
+	]
+},
+<mekanismtools:steelchestplate> : {
+	"mekanismtools_steelchestplate" : [
+		[
+			[<ore:ingotSteel>, null, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <naar:oak_chestplate>, <ore:ingotSteel>], 
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+		]
+	]
+},
+<mekanismtools:steelleggings> : {
+	"mekanismtools_steelleggings" : [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <naar:oak_leggings>, <ore:ingotSteel>], 
+			[<ore:ingotSteel>, null, <ore:ingotSteel>]
+		]
+	]
+},
+};
 
-recipes.addShaped(<mekanismtools:bronzeshovel>,
-	[[null, <ore:ingotBronze>, null],
-	[null, <minecraft:wooden_shovel>, null], 
-	[null, <ore:stickWood>, null]]);
+static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
+/*	<mod:itemname:meta> : {
+		"string_for_recipe_name" : [
+			[
+	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>],
+	   			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>],
+	  			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
+			]
+		]
+	}	*/
+<mekanismtools:bronzeshovel> : {
+	"mekanismtools_bronzeshovel" : [
+		[
+			[<ore:ingotBronze>],
+			[<minecraft:wooden_shovel>],
+			[<ore:stickWood>]
+		]
+	]
+},
+<mekanismtools:bronzehoe> : {
+	"mekanismtools_bronzehoe" : [
+		[
+			[<ore:ingotBronze>, <ore:ingotBronze>],
+			[null, <minecraft:wooden_hoe>], 
+			[null, <ore:stickWood>]
+		]
+	]
+},
+<mekanismtools:bronzeaxe> : {
+	"mekanismtools_bronzeaxe" : [
+		[
+			[<ore:ingotBronze>, <ore:ingotBronze>],
+			[<ore:ingotBronze>, <minecraft:wooden_axe>], 
+			[null, <ore:stickWood>]
+		]
+	]
+},
+<mekanismtools:bronzepickaxe> : {
+	"mekanismtools_bronzepickaxe" : [
+		[
+			[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+			[null, <minecraft:wooden_pickaxe>, null], 
+			[null, <ore:stickWood>, null]
+		]
+	]
+},
+<mekanismtools:bronzesword> : {
+	"mekanismtools_bronzesword" : [
+		[
+			[<ore:ingotBronze>],
+			[<ore:ingotBronze>], 
+			[<minecraft:wooden_sword>]
+		]
+	]
+},
+<mekanismtools:steelshovel> : {
+	"mekanismtools_steelshovel" : [
+		[
+			[<ore:ingotSteel>],
+			[<minecraft:wooden_shovel>], 
+			[<ore:stickWood>]
+		]
+	]
+},
+<mekanismtools:steelhoe> : {
+	"mekanismtools_steelhoe" : [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>],
+			[null, <minecraft:wooden_hoe>], 
+			[null, <ore:stickWood>]
+		]
+	]
+},
+<mekanismtools:steelaxe> : {
+	"mekanismtools_steelaxe" : [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>],
+			[<ore:ingotSteel>, <minecraft:wooden_axe>], 
+			[null, <ore:stickWood>]
+		]
+	]
+},
+<mekanismtools:steelpickaxe> : {
+	"mekanismtools_steelpickaxe" : [
+		[
+			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+			[null, <minecraft:wooden_pickaxe>, null], 
+			[null, <ore:stickWood>, null]
+		]
+	]
+},
+<mekanismtools:steelsword> : {
+	"mekanismtools_steelsword" : [
+		[
+			[<ore:ingotSteel>],
+			[<ore:ingotSteel>], 
+			[<minecraft:wooden_sword>]
+		]
+	]
+},
+};
 
-recipes.addShaped(<mekanismtools:bronzehoe>,
-	[[<ore:ingotBronze>, <ore:ingotBronze>, null],
-	[null, <minecraft:wooden_hoe>, null], 
-	[null, <ore:stickWood>, null]]);
+static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
+/*	<mod:itemname:meta> : {
+		"string_for_recipe_name" : [
+			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
+		]
+	}	*/
+};
 
-recipes.addShaped(<mekanismtools:bronzeaxe>,
-	[[<ore:ingotBronze>, <ore:ingotBronze>, null],
-	[<ore:ingotBronze>, <minecraft:wooden_axe>, null], 
-	[null, <ore:stickWood>, null]]);
 
-recipes.addShaped(<mekanismtools:bronzepickaxe>,
-	[[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-	[null, <minecraft:wooden_pickaxe>, null], 
-	[null, <ore:stickWood>, null]]);
 
-recipes.addShaped(<mekanismtools:bronzesword>,
-	[[null, <ore:ingotBronze>, null],
-	[null, <ore:ingotBronze>, null], 
-	[null, <ore:stickWood>, <minecraft:wooden_sword>]]);
+// Do NOT edit below this line //
 
-recipes.addShaped(<mekanismtools:bronzehelmet>,
-	[[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-	[<ore:ingotBronze>, <naar:oak_helmet>, <ore:ingotBronze>], 
-	[null, null, null]]);
+/*
+	Loops to Add Recipes - Do Not 
+*/
 
-recipes.addShaped(<mekanismtools:bronzeboots>,
-	[[<ore:ingotBronze>, null, <ore:ingotBronze>],
-	[<ore:ingotBronze>, <naar:oak_boots>, <ore:ingotBronze>], 
-	[null, null, null]]);
+// Add Named Shaped Recipes
+for item, itemRecipes in namedShapedRecipes {
+	for recipeName, recipesInner in itemRecipes {
+		for recipe in recipesInner {
+				var nameyName = recipeName;			  		
+				if (recipeName == "nameless") {
+					recipes.addShaped(item, recipe);
+				} else {
+					recipes.addShaped(nameyName, item, recipe);
+				}
+		}				
+	}		
+}
 
-recipes.addShaped(<mekanismtools:bronzechestplate>,
-	[[<ore:ingotBronze>, null, <ore:ingotBronze>],
-	[<ore:ingotBronze>, <naar:oak_chestplate>, <ore:ingotBronze>], 
-	[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
+// Add Named Mirrored Recipes
+for item, itemRecipes in namedMirroredRecipes {
+	for recipeName, recipesInner in itemRecipes {
+		for recipe in recipesInner {
+				var nameyName = recipeName;			  		
+				if (recipeName == "nameless") {
+					recipes.addShapedMirrored(item, recipe);
+				} else {
+					recipes.addShapedMirrored(nameyName, item, recipe);
+				}
+		}				
+	}		
+}
 
-recipes.addShaped(<mekanismtools:bronzeleggings>,
-	[[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
-	[<ore:ingotBronze>, <naar:oak_leggings>, <ore:ingotBronze>], 
-	[<ore:ingotBronze>, null, <ore:ingotBronze>]]);
+// Add Named Shapeless Recipes
+for item, itemRecipes in namedShapelessRecipes {
+	for recipeName, recipesInner in itemRecipes {
+		for recipe in recipesInner {
+				var nameyName = recipeName;			  		
+				if (recipeName == "nameless") {
+					recipes.addShapeless(item, recipe);
+				} else {
+					recipes.addShapeless(nameyName, item, recipe);
+				}
+		}				
+	}		
+}
 
-// Replace Steel
-recipes.remove(<mekanismtools:steelshovel>);
-recipes.remove(<mekanismtools:steelhoe>);
-recipes.remove(<mekanismtools:steelsword>);
-recipes.remove(<mekanismtools:steelaxe>);
-recipes.remove(<mekanismtools:steelpickaxe>);
-recipes.remove(<mekanismtools:steelhelmet>);
-recipes.remove(<mekanismtools:steelchestplate>);
-recipes.remove(<mekanismtools:steelleggings>);
-recipes.remove(<mekanismtools:steelboots>);
-
-recipes.addShaped(<mekanismtools:steelshovel>,
-	[[null, <ore:ingotSteel>, null],
-	[null, <minecraft:wooden_shovel>, null], 
-	[null, <ore:stickWood>, null]]);
-
-recipes.addShaped(<mekanismtools:steelhoe>,
-	[[<ore:ingotSteel>, <ore:ingotSteel>, null],
-	[null, <minecraft:wooden_hoe>, null], 
-	[null, <ore:stickWood>, null]]);
-
-recipes.addShaped(<mekanismtools:steelaxe>,
-	[[<ore:ingotSteel>, <ore:ingotSteel>, null],
-	[<ore:ingotSteel>, <minecraft:wooden_axe>, null], 
-	[null, <ore:stickWood>, null]]);
-
-recipes.addShaped(<mekanismtools:steelpickaxe>,
-	[[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-	[null, <minecraft:wooden_pickaxe>, null], 
-	[null, <ore:stickWood>, null]]);
-
-recipes.addShaped(<mekanismtools:steelsword>,
-	[[null, <ore:ingotSteel>, null],
-	[null, <ore:ingotSteel>, null], 
-	[null, <ore:stickWood>, <minecraft:wooden_sword>]]);
-
-recipes.addShaped(<mekanismtools:steelhelmet>,
-	[[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-	[<ore:ingotSteel>, <naar:oak_helmet>, <ore:ingotSteel>], 
-	[null, null, null]]);
-
-recipes.addShaped(<mekanismtools:steelboots>,
-	[[<ore:ingotSteel>, null, <ore:ingotSteel>],
-	[<ore:ingotSteel>, <naar:oak_boots>, <ore:ingotSteel>], 
-	[null, null, null]]);
-
-recipes.addShaped(<mekanismtools:steelchestplate>,
-	[[<ore:ingotSteel>, null, <ore:ingotSteel>],
-	[<ore:ingotSteel>, <naar:oak_chestplate>, <ore:ingotSteel>], 
-	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-
-recipes.addShaped(<mekanismtools:steelleggings>,
-	[[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-	[<ore:ingotSteel>, <naar:oak_leggings>, <ore:ingotSteel>], 
-	[<ore:ingotSteel>, null, <ore:ingotSteel>]]);
+/*
+	Loops to Remove Recipes
+*/
+// Remove Item Recipe for replacement
+for item in itemRecipeRemoval {
+	recipes.remove(item);
+}
