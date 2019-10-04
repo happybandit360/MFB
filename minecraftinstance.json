@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-10-01T17:24:10.476012Z",
+  "lastPlayed": "2019-10-03T22:58:11.6963861Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -55,9 +55,24 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:38.7378822Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:57.3627215Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6877285Z",
       "fileCount": 1,
       "fileSize": 270133
+    },
+    {
+      "folderName": "DankNull-1.12.2-1.6.80.jar",
+      "fingerprint": 2277896355,
+      "fileDateHash": 3983363887,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2277896355
+      ],
+      "status": 1,
+      "timestamp": "2019-10-03T19:12:10.4640498Z",
+      "lastWriteTimeUtc": "2019-10-01T17:02:33.4939282Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6877285Z",
+      "fileCount": 1,
+      "fileSize": 342106
     },
     {
       "folderName": "MTLib-3.0.6.jar",
@@ -70,7 +85,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.7237094Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:55.124552Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6887258Z",
       "fileCount": 1,
       "fileSize": 30002
     },
@@ -85,7 +100,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.3306112Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:08.1456558Z",
-      "queryTimestamp": "2019-10-01T16:52:55.583476Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6887258Z",
       "fileCount": 1,
       "fileSize": 336247
     },
@@ -100,7 +115,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:27.9926312Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:06.5254063Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6887258Z",
       "fileCount": 1,
       "fileSize": 4062630
     },
@@ -115,7 +130,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4157589Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:22.3366783Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6887258Z",
       "fileCount": 1,
       "fileSize": 1729339
     },
@@ -130,7 +145,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:29.7397007Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:27.4783029Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6897524Z",
       "fileCount": 1,
       "fileSize": 484209
     },
@@ -145,7 +160,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:27.9906088Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:04.054997Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6897524Z",
       "fileCount": 1,
       "fileSize": 44663
     },
@@ -160,7 +175,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2677785Z",
       "lastWriteTimeUtc": "2019-10-01T16:49:00.2862992Z",
-      "queryTimestamp": "2019-10-01T16:52:55.5854706Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6897524Z",
       "fileCount": 1,
       "fileSize": 266516
     },
@@ -175,7 +190,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3115659Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:08.5911301Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6897524Z",
       "fileCount": 1,
       "fileSize": 730062
     },
@@ -190,7 +205,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:29.2604276Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:41.1153475Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6897524Z",
       "fileCount": 1,
       "fileSize": 3034605
     },
@@ -205,7 +220,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3135607Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:58.5415342Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.690748Z",
       "fileCount": 1,
       "fileSize": 221716
     },
@@ -220,7 +235,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.3425798Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:26.7349734Z",
-      "queryTimestamp": "2019-10-01T16:52:55.586468Z",
+      "queryTimestamp": "2019-10-03T19:12:11.690748Z",
       "fileCount": 1,
       "fileSize": 35361
     },
@@ -235,7 +250,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.9082162Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:17.2637029Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.690748Z",
       "fileCount": 1,
       "fileSize": 1536124
     },
@@ -250,7 +265,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.4768615Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:00.5823119Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.690748Z",
       "fileCount": 1,
       "fileSize": 10710
     },
@@ -265,7 +280,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3195446Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:49.0018026Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6917453Z",
       "fileCount": 1,
       "fileSize": 27162
     },
@@ -280,7 +295,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:37.8230163Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:41.6286465Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6917453Z",
       "fileCount": 1,
       "fileSize": 990947
     },
@@ -295,7 +310,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.0897714Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:40.7391313Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6917453Z",
       "fileCount": 1,
       "fileSize": 25343542
     },
@@ -310,7 +325,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.3355979Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:14.7419233Z",
-      "queryTimestamp": "2019-10-01T16:52:55.5884639Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6917453Z",
       "fileCount": 1,
       "fileSize": 1437757
     },
@@ -325,7 +340,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:30.3905452Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:08.1115847Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6927153Z",
       "fileCount": 1,
       "fileSize": 117480
     },
@@ -340,7 +355,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2717679Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:14.0890131Z",
-      "queryTimestamp": "2019-10-01T16:52:55.5884639Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6927153Z",
       "fileCount": 1,
       "fileSize": 146787
     },
@@ -355,7 +370,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3275225Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:44.0541405Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6927153Z",
       "fileCount": 1,
       "fileSize": 194281
     },
@@ -370,7 +385,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3838443Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:53.2441976Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6927153Z",
       "fileCount": 1,
       "fileSize": 31544
     },
@@ -385,7 +400,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.2728065Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:50.301453Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6927153Z",
       "fileCount": 1,
       "fileSize": 335854
     },
@@ -400,7 +415,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2976033Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:09.1609659Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6937355Z",
       "fileCount": 1,
       "fileSize": 1987
     },
@@ -415,7 +430,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:30.5037492Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:56.3283045Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6937355Z",
       "fileCount": 1,
       "fileSize": 1071021
     },
@@ -430,7 +445,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:37.1879327Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:33.0225492Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6937355Z",
       "fileCount": 1,
       "fileSize": 120010
     },
@@ -445,7 +460,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.7947709Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:53.816309Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6937355Z",
       "fileCount": 1,
       "fileSize": 24024
     },
@@ -460,7 +475,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5269939Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:26.5369115Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6937355Z",
       "fileCount": 1,
       "fileSize": 169528
     },
@@ -475,9 +490,24 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.369641Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:10.9625642Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.694734Z",
       "fileCount": 1,
       "fileSize": 422401
+    },
+    {
+      "folderName": "p455w0rdslib-1.12.2-2.2.156.jar",
+      "fingerprint": 941093474,
+      "fileDateHash": 3482304592,
+      "sectionID": 8,
+      "individualFingerprints": [
+        941093474
+      ],
+      "status": 1,
+      "timestamp": "2019-10-03T19:12:10.6932698Z",
+      "lastWriteTimeUtc": "2019-10-01T17:02:33.0841571Z",
+      "queryTimestamp": "2019-10-03T19:12:11.694734Z",
+      "fileCount": 1,
+      "fileSize": 373855
     },
     {
       "folderName": "xnet-1.12-1.8.2.jar",
@@ -490,7 +520,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.4465817Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:45.1294426Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6952687Z",
       "fileCount": 1,
       "fileSize": 496307
     },
@@ -505,7 +535,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.3425798Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:32.7879956Z",
-      "queryTimestamp": "2019-10-01T16:52:55.5914226Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6952687Z",
       "fileCount": 1,
       "fileSize": 1937059
     },
@@ -520,7 +550,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:34.4092471Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:13.1316513Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6952687Z",
       "fileCount": 1,
       "fileSize": 32205
     },
@@ -535,7 +565,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5240003Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:36.3895436Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6952687Z",
       "fileCount": 1,
       "fileSize": 644598
     },
@@ -550,7 +580,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.329518Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:55.8104711Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6963299Z",
       "fileCount": 1,
       "fileSize": 177791
     },
@@ -565,7 +595,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2697732Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:09.8746622Z",
-      "queryTimestamp": "2019-10-01T16:52:55.5924083Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6963299Z",
       "fileCount": 1,
       "fileSize": 426514
     },
@@ -580,7 +610,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:27.9926312Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:57.8664265Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6963299Z",
       "fileCount": 1,
       "fileSize": 88308
     },
@@ -595,7 +625,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4516908Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:30.4540965Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6963299Z",
       "fileCount": 1,
       "fileSize": 1110113
     },
@@ -610,7 +640,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:34.8957529Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:58.364469Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6972789Z",
       "fileCount": 1,
       "fileSize": 346779
     },
@@ -625,7 +655,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3838443Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:44.8321393Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6972789Z",
       "fileCount": 1,
       "fileSize": 642591
     },
@@ -640,7 +670,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4566504Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:09.3134644Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6972789Z",
       "fileCount": 1,
       "fileSize": 17601
     },
@@ -655,7 +685,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3145579Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:39.2659806Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6972789Z",
       "fileCount": 1,
       "fileSize": 891955
     },
@@ -670,7 +700,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:33.2807691Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:24.2954492Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6982786Z",
       "fileCount": 1,
       "fileSize": 344055
     },
@@ -685,7 +715,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:27.9297711Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:48.3610563Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6982786Z",
       "fileCount": 1,
       "fileSize": 513374
     },
@@ -700,7 +730,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1324503Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:46.3908363Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6982786Z",
       "fileCount": 1,
       "fileSize": 108306
     },
@@ -715,7 +745,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:29.9825965Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:22.7747905Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6982786Z",
       "fileCount": 1,
       "fileSize": 172247
     },
@@ -730,7 +760,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:31.1575228Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:20.3685752Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6982786Z",
       "fileCount": 1,
       "fileSize": 884837
     },
@@ -745,7 +775,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1374658Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:00.9154475Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6992657Z",
       "fileCount": 1,
       "fileSize": 108450
     },
@@ -760,7 +790,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4566504Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:31.4584944Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6992657Z",
       "fileCount": 1,
       "fileSize": 135043
     },
@@ -775,7 +805,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2796232Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:35.8392765Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6992657Z",
       "fileCount": 1,
       "fileSize": 317390
     },
@@ -790,7 +820,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.7631344Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:32.2739013Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6992657Z",
       "fileCount": 1,
       "fileSize": 600728
     },
@@ -805,7 +835,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:33.9292049Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:49.1946652Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.6992657Z",
       "fileCount": 1,
       "fileSize": 183484
     },
@@ -820,7 +850,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1868949Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:55.7932397Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7002716Z",
       "fileCount": 1,
       "fileSize": 7208385
     },
@@ -835,7 +865,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5177627Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:41.2606162Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7002716Z",
       "fileCount": 1,
       "fileSize": 1856305
     },
@@ -850,7 +880,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2157887Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:13.733137Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7002716Z",
       "fileCount": 1,
       "fileSize": 568155
     },
@@ -865,7 +895,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3195446Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:54.1771655Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7002716Z",
       "fileCount": 1,
       "fileSize": 591592
     },
@@ -880,7 +910,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5377642Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:56.9494664Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7012439Z",
       "fileCount": 1,
       "fileSize": 7863
     },
@@ -895,7 +925,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4556523Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:29.7999488Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7012439Z",
       "fileCount": 1,
       "fileSize": 246686
     },
@@ -910,7 +940,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:34.4945906Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:47.4304367Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7012439Z",
       "fileCount": 1,
       "fileSize": 76902
     },
@@ -925,7 +955,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1849035Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:47.4419627Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7022419Z",
       "fileCount": 1,
       "fileSize": 31143
     },
@@ -940,7 +970,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1334477Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:53.547299Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7022419Z",
       "fileCount": 1,
       "fileSize": 424652
     },
@@ -955,7 +985,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4147625Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:29.0237812Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7022419Z",
       "fileCount": 1,
       "fileSize": 98842
     },
@@ -970,7 +1000,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3404886Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:49.6880447Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7022419Z",
       "fileCount": 1,
       "fileSize": 18251
     },
@@ -985,7 +1015,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2776527Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:58.9899597Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7022419Z",
       "fileCount": 1,
       "fileSize": 676344
     },
@@ -1000,7 +1030,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.7471781Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:42.4978193Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7032393Z",
       "fileCount": 1,
       "fileSize": 2895812
     },
@@ -1015,7 +1045,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.4109621Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:27.0281948Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7032393Z",
       "fileCount": 1,
       "fileSize": 2596509
     },
@@ -1030,7 +1060,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.218781Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:20.2151594Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7032393Z",
       "fileCount": 1,
       "fileSize": 13811689
     },
@@ -1045,7 +1075,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.341582Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:17.8137758Z",
-      "queryTimestamp": "2019-10-01T16:52:55.5993906Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7032393Z",
       "fileCount": 1,
       "fileSize": 24847
     },
@@ -1060,7 +1090,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4257326Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:15.246984Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7042619Z",
       "fileCount": 1,
       "fileSize": 2956827
     },
@@ -1075,7 +1105,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4386977Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:48.8176929Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7042619Z",
       "fileCount": 1,
       "fileSize": 3226408
     },
@@ -1090,7 +1120,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:30.0740917Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:07.8626442Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7042619Z",
       "fileCount": 1,
       "fileSize": 7296520
     },
@@ -1105,7 +1135,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.026568Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:33.3047511Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7042619Z",
       "fileCount": 1,
       "fileSize": 1623520
     },
@@ -1120,7 +1150,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3868362Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:20.0099511Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7042619Z",
       "fileCount": 1,
       "fileSize": 7990974
     },
@@ -1135,7 +1165,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.166917Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:48.0668489Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.705234Z",
       "fileCount": 1,
       "fileSize": 5122856
     },
@@ -1150,7 +1180,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2696504Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:56.6090252Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.705234Z",
       "fileCount": 1,
       "fileSize": 705115
     },
@@ -1165,7 +1195,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.1081163Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:12.0136706Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.705234Z",
       "fileCount": 1,
       "fileSize": 2036136
     },
@@ -1180,7 +1210,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.5531523Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:53.2674243Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.705234Z",
       "fileCount": 1,
       "fileSize": 3875942
     },
@@ -1195,7 +1225,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5269939Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:24.4881937Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.705234Z",
       "fileCount": 1,
       "fileSize": 674868
     },
@@ -1210,7 +1240,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.7788175Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:44.3196938Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7062502Z",
       "fileCount": 1,
       "fileSize": 2475657
     },
@@ -1225,7 +1255,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.2926773Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:25.7630798Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7062502Z",
       "fileCount": 1,
       "fileSize": 3923751
     },
@@ -1240,7 +1270,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4367032Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:59.3133622Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7062502Z",
       "fileCount": 1,
       "fileSize": 446452
     },
@@ -1255,7 +1285,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.5431919Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:59.3447505Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7072526Z",
       "fileCount": 1,
       "fileSize": 51284
     },
@@ -1270,7 +1300,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3045845Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:45.7261847Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7072526Z",
       "fileCount": 1,
       "fileSize": 847938
     },
@@ -1285,7 +1315,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4157589Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:31.7954888Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7072526Z",
       "fileCount": 1,
       "fileSize": 31242
     },
@@ -1300,7 +1330,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2687759Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:02.511403Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6033791Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7072526Z",
       "fileCount": 1,
       "fileSize": 253835
     },
@@ -1315,7 +1345,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.0076244Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:11.4737039Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.708226Z",
       "fileCount": 1,
       "fileSize": 5000477
     },
@@ -1330,7 +1360,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.3495606Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:37.9819671Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6043765Z",
+      "queryTimestamp": "2019-10-03T19:12:11.708226Z",
       "fileCount": 1,
       "fileSize": 2521274
     },
@@ -1345,7 +1375,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4586724Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:03.6533359Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.708226Z",
       "fileCount": 1,
       "fileSize": 211210
     },
@@ -1360,7 +1390,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.7147336Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:20.6010783Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.708226Z",
       "fileCount": 1,
       "fileSize": 803400
     },
@@ -1375,7 +1405,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.4026679Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:03.2664613Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.708226Z",
       "fileCount": 1,
       "fileSize": 400208
     },
@@ -1390,7 +1420,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:38.4410933Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:24.6911661Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7092484Z",
       "fileCount": 1,
       "fileSize": 585047
     },
@@ -1405,7 +1435,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:33.7915674Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:23.1156106Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7092484Z",
       "fileCount": 1,
       "fileSize": 40598
     },
@@ -1420,7 +1450,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.252883Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:44.4631005Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7092484Z",
       "fileCount": 1,
       "fileSize": 1117860
     },
@@ -1435,7 +1465,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.7003026Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:20.6811654Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7092484Z",
       "fileCount": 1,
       "fileSize": 36278
     },
@@ -1450,7 +1480,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.660455Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:41.5447187Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6063712Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7102207Z",
       "fileCount": 1,
       "fileSize": 185166
     },
@@ -1465,7 +1495,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:30.5147207Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:21.3143338Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7102207Z",
       "fileCount": 1,
       "fileSize": 222270
     },
@@ -1480,7 +1510,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:30.9141441Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:26.746484Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7102207Z",
       "fileCount": 1,
       "fileSize": 290161
     },
@@ -1495,7 +1525,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3145579Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:52.6967926Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7102207Z",
       "fileCount": 1,
       "fileSize": 18648
     },
@@ -1510,7 +1540,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3075775Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:57.594473Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7102207Z",
       "fileCount": 1,
       "fileSize": 532040
     },
@@ -1525,7 +1555,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.3006912Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:05.0744449Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6073685Z",
+      "queryTimestamp": "2019-10-03T19:12:11.711218Z",
       "fileCount": 1,
       "fileSize": 7861466
     },
@@ -1540,7 +1570,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.808711Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:47.8881254Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.711218Z",
       "fileCount": 1,
       "fileSize": 1140374
     },
@@ -1555,7 +1585,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.4269166Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:28.2819567Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.711218Z",
       "fileCount": 1,
       "fileSize": 501169
     },
@@ -1570,7 +1600,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.4060505Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:18.2874181Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.711218Z",
       "fileCount": 1,
       "fileSize": 447874
     },
@@ -1585,7 +1615,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5117712Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:08.6163136Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7122154Z",
       "fileCount": 1,
       "fileSize": 1304958
     },
@@ -1600,7 +1630,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1849035Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:54.4185054Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7122154Z",
       "fileCount": 1,
       "fileSize": 105052
     },
@@ -1615,7 +1645,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:27.9317944Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:43.6453092Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7122154Z",
       "fileCount": 1,
       "fileSize": 14129163
     },
@@ -1630,7 +1660,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:31.1724531Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:00.1480176Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7122154Z",
       "fileCount": 1,
       "fileSize": 279242
     },
@@ -1645,7 +1675,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1344731Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:45.4560624Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7122154Z",
       "fileCount": 1,
       "fileSize": 685028
     },
@@ -1660,7 +1690,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2816189Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:51.2564916Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7132377Z",
       "fileCount": 1,
       "fileSize": 4310011
     },
@@ -1675,7 +1705,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5934311Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:57.2713815Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7132377Z",
       "fileCount": 1,
       "fileSize": 839311
     },
@@ -1690,7 +1720,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.5726405Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:40.3405329Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7132377Z",
       "fileCount": 1,
       "fileSize": 3292860
     },
@@ -1705,7 +1735,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:31.5087034Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:34.9996528Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7132377Z",
       "fileCount": 1,
       "fileSize": 843486
     },
@@ -1720,7 +1750,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3414858Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:44.5153874Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7142102Z",
       "fileCount": 1,
       "fileSize": 543926
     },
@@ -1735,7 +1765,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.65352Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:28.6867595Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7142102Z",
       "fileCount": 1,
       "fileSize": 81239
     },
@@ -1750,9 +1780,149 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.5950529Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:42.4688959Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7142102Z",
       "fileCount": 1,
       "fileSize": 21508
+    },
+    {
+      "folderName": "New World",
+      "fingerprint": 2774012487,
+      "fileDateHash": 3195006592,
+      "sectionID": 10,
+      "individualFingerprints": [
+        11680138,
+        224251200,
+        242817635,
+        242817635,
+        242817635,
+        242817635,
+        242817635,
+        242817635,
+        242817635,
+        242817635,
+        247787870,
+        446699727,
+        476248722,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        489458212,
+        550283650,
+        564764702,
+        564764702,
+        564764702,
+        564764702,
+        592286467,
+        621220317,
+        637146018,
+        637146018,
+        637146018,
+        637146018,
+        637146018,
+        637146018,
+        637146018,
+        642387192,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        670264443,
+        682895157,
+        690458099,
+        752558208,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        758054953,
+        778832726,
+        804198925,
+        892959303,
+        915338494,
+        1083067988,
+        1379146534,
+        1385414041,
+        1398336297,
+        1436581226,
+        1497883624,
+        1556611003,
+        1590538131,
+        1647513594,
+        1679192257,
+        1710926864,
+        1803953797,
+        1899889405,
+        1908501108,
+        2027412512,
+        2155785570,
+        2155785570,
+        2246538949,
+        2336574816,
+        2354327340,
+        2430003878,
+        2502158576,
+        2615458457,
+        2711318219,
+        2717460656,
+        2763463119,
+        2775587887,
+        2959829084,
+        3052982433,
+        3089677345,
+        3134755400,
+        3184781582,
+        3329066752,
+        3383409723,
+        3384824593,
+        3384824593,
+        3384824593,
+        3384824593,
+        3532765126,
+        3660218623,
+        3786867848,
+        4016256487,
+        4036422720,
+        4109999834,
+        4109999834,
+        4109999834,
+        4109999834,
+        4142042193,
+        4213863462,
+        4243204618,
+        4265591593,
+        4272588933,
+        4272588933,
+        4272588933
+      ],
+      "status": 1,
+      "timestamp": "2019-10-03T19:12:10.9549669Z",
+      "lastWriteTimeUtc": "2019-10-01T22:38:08.8503856Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7142102Z",
+      "fileCount": 29,
+      "fileSize": 0
     },
     {
       "folderName": "wizardry-0.10.8.jar",
@@ -1765,7 +1935,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.3386648Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:22.7166465Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7142102Z",
       "fileCount": 1,
       "fileSize": 12238616
     },
@@ -1780,7 +1950,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:27.9926312Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:06.2173369Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7152517Z",
       "fileCount": 1,
       "fileSize": 32317
     },
@@ -1795,7 +1965,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.341582Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:22.0489704Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6113861Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7152517Z",
       "fileCount": 1,
       "fileSize": 224724
     },
@@ -1810,7 +1980,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.2767239Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:17.7677368Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7152517Z",
       "fileCount": 1,
       "fileSize": 1894139
     },
@@ -1825,7 +1995,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:33.7726189Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:29.0900214Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7152517Z",
       "fileCount": 1,
       "fileSize": 2736864
     },
@@ -1840,7 +2010,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4566504Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:14.5420384Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7152517Z",
       "fileCount": 1,
       "fileSize": 5200
     },
@@ -1855,7 +2025,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3305152Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:12.353511Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7162511Z",
       "fileCount": 1,
       "fileSize": 1056580
     },
@@ -1870,7 +2040,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.2129935Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:18.5358035Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7162511Z",
       "fileCount": 1,
       "fileSize": 148083
     },
@@ -1885,7 +2055,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.1293758Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:48.7276165Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7162511Z",
       "fileCount": 1,
       "fileSize": 951922
     },
@@ -1900,7 +2070,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3355017Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:28.1185793Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7162511Z",
       "fileCount": 1,
       "fileSize": 537592
     },
@@ -1915,7 +2085,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.0355425Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:18.6108791Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7172284Z",
       "fileCount": 1,
       "fileSize": 24973981
     },
@@ -1930,7 +2100,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.3256996Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:37.4025289Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7172284Z",
       "fileCount": 1,
       "fileSize": 129188
     },
@@ -1945,7 +2115,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:33.9192315Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:25.4139434Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7172284Z",
       "fileCount": 1,
       "fileSize": 2639587
     },
@@ -1960,7 +2130,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.769842Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:05.1222887Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7172284Z",
       "fileCount": 1,
       "fileSize": 1160618
     },
@@ -1975,7 +2145,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:31.4908189Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:42.2378282Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7182254Z",
       "fileCount": 1,
       "fileSize": 1035863
     },
@@ -1990,7 +2160,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2967019Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:40.0490556Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6143793Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7182254Z",
       "fileCount": 1,
       "fileSize": 285813
     },
@@ -2005,7 +2175,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.332606Z",
       "lastWriteTimeUtc": "2019-10-01T16:51:11.9439459Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6143793Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7182254Z",
       "fileCount": 1,
       "fileSize": 159785
     },
@@ -2020,7 +2190,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1454153Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:15.7780885Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7182254Z",
       "fileCount": 1,
       "fileSize": 155196
     },
@@ -2035,7 +2205,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1454153Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:59.0649799Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7192496Z",
       "fileCount": 1,
       "fileSize": 62668
     },
@@ -2050,7 +2220,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.329518Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:47.1628142Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7192496Z",
       "fileCount": 1,
       "fileSize": 100913
     },
@@ -2065,7 +2235,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:37.4308985Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:36.548092Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7192496Z",
       "fileCount": 1,
       "fileSize": 2312713
     },
@@ -2080,7 +2250,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:30.705919Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:52.0844922Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7192496Z",
       "fileCount": 1,
       "fileSize": 468368
     },
@@ -2095,7 +2265,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:29.2833947Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:44.9678445Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7202458Z",
       "fileCount": 1,
       "fileSize": 572457
     },
@@ -2110,7 +2280,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:38.8618157Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:23.1389039Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7202458Z",
       "fileCount": 1,
       "fileSize": 351704
     },
@@ -2125,7 +2295,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.24441Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:13.275931Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7202458Z",
       "fileCount": 1,
       "fileSize": 733580
     },
@@ -2140,7 +2310,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4836511Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:22.8035628Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7202458Z",
       "fileCount": 1,
       "fileSize": 6278399
     },
@@ -2155,7 +2325,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3175499Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:53.6890561Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7202458Z",
       "fileCount": 1,
       "fileSize": 274895
     },
@@ -2170,7 +2340,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.7791523Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:04.5435516Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7212412Z",
       "fileCount": 1,
       "fileSize": 43430
     },
@@ -2185,7 +2355,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:37.4159374Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:46.4752521Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7212412Z",
       "fileCount": 1,
       "fileSize": 2426151
     },
@@ -2200,7 +2370,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3275225Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:45.0965699Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7212412Z",
       "fileCount": 1,
       "fileSize": 171805
     },
@@ -2215,7 +2385,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3225366Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:46.9298123Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7212412Z",
       "fileCount": 1,
       "fileSize": 1368377
     },
@@ -2230,7 +2400,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4377002Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:34.4176244Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.722215Z",
       "fileCount": 1,
       "fileSize": 313184
     },
@@ -2245,7 +2415,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.3997027Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:29.4952359Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.722215Z",
       "fileCount": 1,
       "fileSize": 879720
     },
@@ -2260,7 +2430,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.421743Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:09.9887368Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.722215Z",
       "fileCount": 1,
       "fileSize": 1001848
     },
@@ -2275,7 +2445,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1858975Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:43.6859799Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.722215Z",
       "fileCount": 1,
       "fileSize": 392301
     },
@@ -2290,7 +2460,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3215392Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:27.2404867Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.722215Z",
       "fileCount": 1,
       "fileSize": 70745
     },
@@ -2305,7 +2475,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:33.7327255Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:09.6369506Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7232123Z",
       "fileCount": 1,
       "fileSize": 180209
     },
@@ -2320,7 +2490,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.3987053Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:12.9298939Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7232123Z",
       "fileCount": 1,
       "fileSize": 51661
     },
@@ -2335,7 +2505,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.2618426Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:52.1404155Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7232123Z",
       "fileCount": 1,
       "fileSize": 17112536
     },
@@ -2350,7 +2520,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2157887Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:37.7298859Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7232123Z",
       "fileCount": 1,
       "fileSize": 132644
     },
@@ -2365,7 +2535,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:39.8978124Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:56.1030806Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7242355Z",
       "fileCount": 1,
       "fileSize": 228623
     },
@@ -2380,7 +2550,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5299841Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:43.5138715Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7242355Z",
       "fileCount": 1,
       "fileSize": 453778
     },
@@ -2395,7 +2565,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5167479Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:05.5165899Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7242355Z",
       "fileCount": 1,
       "fileSize": 24078
     },
@@ -2410,7 +2580,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:38.0022332Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:09.4087029Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7242355Z",
       "fileCount": 1,
       "fileSize": 11641
     },
@@ -2425,7 +2595,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:33.5307512Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:01.9220369Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7242355Z",
       "fileCount": 1,
       "fileSize": 1988643
     },
@@ -2440,7 +2610,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2976994Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:52.380749Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6213585Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7252305Z",
       "fileCount": 1,
       "fileSize": 43411
     },
@@ -2455,7 +2625,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.358545Z",
       "lastWriteTimeUtc": "2019-10-01T16:48:50.1386334Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6213585Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7252305Z",
       "fileCount": 1,
       "fileSize": 80739644
     },
@@ -2470,7 +2640,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2967019Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:36.1150328Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6213585Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7252305Z",
       "fileCount": 1,
       "fileSize": 56287
     },
@@ -2485,7 +2655,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.3006912Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:58.3534073Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6213585Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7252305Z",
       "fileCount": 1,
       "fileSize": 25037
     },
@@ -2500,7 +2670,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:34.2694985Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:47.0182625Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7262283Z",
       "fileCount": 1,
       "fileSize": 1082311
     },
@@ -2515,7 +2685,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3215392Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:53.516592Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7262283Z",
       "fileCount": 1,
       "fileSize": 97854
     },
@@ -2530,7 +2700,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:29.1067839Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:56.7851245Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7262283Z",
       "fileCount": 1,
       "fileSize": 314495
     },
@@ -2545,7 +2715,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.3096319Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:26.2687265Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7262283Z",
       "fileCount": 1,
       "fileSize": 724477
     },
@@ -2560,7 +2730,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:34.0488858Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:51.5574738Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7272468Z",
       "fileCount": 1,
       "fileSize": 466243
     },
@@ -2575,7 +2745,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.2587445Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:29.3281361Z",
-      "queryTimestamp": "2019-09-30T23:46:40.710305Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7272468Z",
       "fileCount": 1,
       "fileSize": 67384
     },
@@ -2590,7 +2760,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.6638693Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:15.4908718Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7272468Z",
       "fileCount": 1,
       "fileSize": 75170
     },
@@ -2605,7 +2775,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:37.1879327Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:49.5984659Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7272468Z",
       "fileCount": 1,
       "fileSize": 762980
     },
@@ -2620,7 +2790,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.7947709Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:02.9621056Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7281986Z",
       "fileCount": 1,
       "fileSize": 4004838
     },
@@ -2635,7 +2805,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2147916Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:47.8100732Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7281986Z",
       "fileCount": 1,
       "fileSize": 130110
     },
@@ -2650,7 +2820,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:38.037649Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:59.7864691Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7281986Z",
       "fileCount": 1,
       "fileSize": 21668
     },
@@ -2665,7 +2835,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:38.037649Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:50.0777939Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7281986Z",
       "fileCount": 1,
       "fileSize": 810360
     },
@@ -2680,7 +2850,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:34.5614111Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:29.7406524Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7292205Z",
       "fileCount": 1,
       "fileSize": 546349
     },
@@ -2695,7 +2865,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.8236937Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:53.0076755Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7292205Z",
       "fileCount": 1,
       "fileSize": 11360786
     },
@@ -2710,7 +2880,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:27.9906088Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:35.7925014Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7292205Z",
       "fileCount": 1,
       "fileSize": 430054
     },
@@ -2725,7 +2895,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3025899Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:12.8600268Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7292205Z",
       "fileCount": 1,
       "fileSize": 704330
     },
@@ -2740,7 +2910,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3095712Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:45.745934Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7302171Z",
       "fileCount": 1,
       "fileSize": 361406
     },
@@ -2755,7 +2925,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.357644Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:14.0156119Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7302171Z",
       "fileCount": 1,
       "fileSize": 1399458
     },
@@ -2770,7 +2940,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.5319789Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:46.56165Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7302171Z",
       "fileCount": 1,
       "fileSize": 1603134
     },
@@ -2785,7 +2955,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3374963Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:55.4855477Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7302171Z",
       "fileCount": 1,
       "fileSize": 915587
     },
@@ -2800,7 +2970,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3414858Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:24.8071112Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7302171Z",
       "fileCount": 1,
       "fileSize": 4711
     },
@@ -2815,7 +2985,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.6980061Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:37.0889098Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7312213Z",
       "fileCount": 1,
       "fileSize": 203154
     },
@@ -2830,7 +3000,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.4566504Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:23.7508467Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7033237Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7312213Z",
       "fileCount": 1,
       "fileSize": 405603
     },
@@ -2845,7 +3015,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.7003026Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:06.6896994Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7003325Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7312213Z",
       "fileCount": 1,
       "fileSize": 16612
     },
@@ -2860,7 +3030,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.009128Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:25.3036196Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7043489Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7312213Z",
       "fileCount": 1,
       "fileSize": 141940
     },
@@ -2875,7 +3045,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1464136Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:38.9072929Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7083381Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7321883Z",
       "fileCount": 1,
       "fileSize": 5602808
     },
@@ -2890,7 +3060,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:36.6226124Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:57.7236553Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7321883Z",
       "fileCount": 1,
       "fileSize": 11116
     },
@@ -2905,7 +3075,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:35.6045571Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:48.6236969Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7321883Z",
       "fileCount": 1,
       "fileSize": 43662
     },
@@ -2920,7 +3090,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2986969Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:54.5700238Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6283426Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7321883Z",
       "fileCount": 1,
       "fileSize": 650541
     },
@@ -2935,7 +3105,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3434806Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:21.6931251Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7321883Z",
       "fileCount": 1,
       "fileSize": 7324318
     },
@@ -2950,7 +3120,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:30.6849721Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:20.4361002Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7073441Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7331928Z",
       "fileCount": 1,
       "fileSize": 4069653
     },
@@ -2965,7 +3135,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2716446Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:34.4699842Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7331928Z",
       "fileCount": 1,
       "fileSize": 1425577
     },
@@ -2980,7 +3150,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.1374658Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:43.3691477Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7331928Z",
       "fileCount": 1,
       "fileSize": 1962731
     },
@@ -2995,7 +3165,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3285212Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:17.8727515Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7331928Z",
       "fileCount": 1,
       "fileSize": 126699
     },
@@ -3010,7 +3180,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:30.4907844Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:43.2119012Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7053176Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7342071Z",
       "fileCount": 1,
       "fileSize": 1920463
     },
@@ -3025,7 +3195,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:32.8244675Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:18.9002597Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7063433Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7342071Z",
       "fileCount": 1,
       "fileSize": 134055
     },
@@ -3040,7 +3210,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:38.7179066Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:54.1645294Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7342071Z",
       "fileCount": 1,
       "fileSize": 344182
     },
@@ -3055,7 +3225,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:37.7242904Z",
       "lastWriteTimeUtc": "2019-09-30T19:04:49.3630519Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7342071Z",
       "fileCount": 1,
       "fileSize": 197601
     },
@@ -3070,7 +3240,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:33.8923042Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:26.2809834Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7351804Z",
       "fileCount": 1,
       "fileSize": 3217616
     },
@@ -3085,7 +3255,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.2976033Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:24.0818483Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7351804Z",
       "fileCount": 1,
       "fileSize": 13792
     },
@@ -3100,7 +3270,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:28.3693554Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:35.5610721Z",
-      "queryTimestamp": "2019-09-30T23:46:40.709336Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7351804Z",
       "fileCount": 1,
       "fileSize": 3975495
     },
@@ -3115,7 +3285,7 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:34.278444Z",
       "lastWriteTimeUtc": "2019-09-30T19:06:12.5717446Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7023545Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7351804Z",
       "fileCount": 1,
       "fileSize": 252072
     },
@@ -3130,7 +3300,7 @@
       "status": 1,
       "timestamp": "2019-10-01T16:52:54.2717679Z",
       "lastWriteTimeUtc": "2019-10-01T16:50:33.1025905Z",
-      "queryTimestamp": "2019-10-01T16:52:55.6333617Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7351804Z",
       "fileCount": 1,
       "fileSize": 5232961
     },
@@ -3145,13 +3315,13 @@
       "status": 1,
       "timestamp": "2019-09-30T23:46:31.5182445Z",
       "lastWriteTimeUtc": "2019-09-30T19:05:55.5527243Z",
-      "queryTimestamp": "2019-09-30T23:46:40.7013529Z",
+      "queryTimestamp": "2019-10-03T19:12:11.7362016Z",
       "fileCount": 1,
       "fileSize": 544856
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2019-10-01T16:52:56.1742986Z",
+  "lastPreviousMatchUpdate": "2019-10-03T19:12:12.4472589Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -3288,7 +3458,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 230111,
@@ -3380,7 +3550,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229002,
@@ -3471,7 +3641,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278155,
@@ -3580,7 +3750,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226779,
@@ -3654,7 +3824,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248020,
@@ -3764,7 +3934,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277064,
@@ -3855,7 +4025,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 231275,
@@ -3948,7 +4118,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229045,
@@ -4034,7 +4204,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229046,
@@ -4120,7 +4290,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229048,
@@ -4206,7 +4376,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 251389,
@@ -4310,7 +4480,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229049,
@@ -4396,7 +4566,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229050,
@@ -4488,7 +4658,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248039,
@@ -4579,7 +4749,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 260327,
@@ -4677,7 +4847,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250277,
@@ -4784,7 +4954,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248055,
@@ -4873,7 +5043,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 320663,
@@ -5033,7 +5203,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74924,
@@ -5124,7 +5294,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 313970,
@@ -5239,7 +5409,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 301700,
@@ -5337,7 +5507,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254794,
@@ -5426,7 +5596,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 70492,
@@ -5567,7 +5737,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 272671,
@@ -5694,7 +5864,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224641,
@@ -5803,7 +5973,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 70496,
@@ -5896,7 +6066,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 264856,
@@ -5980,7 +6150,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 292785,
@@ -6118,7 +6288,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 255926,
@@ -6207,7 +6377,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246996,
@@ -6291,7 +6461,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 247007,
@@ -6394,7 +6564,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250363,
@@ -6473,7 +6643,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 239197,
@@ -6562,7 +6732,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228027,
@@ -6661,7 +6831,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280554,
@@ -6765,7 +6935,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250398,
@@ -6844,7 +7014,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291737,
@@ -6930,7 +7100,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 269398,
@@ -7027,7 +7197,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243707,
@@ -7113,7 +7283,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 59413,
@@ -7178,7 +7348,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6546892Z",
       "dateUpdated": "2019-10-01T16:50:14.1448642Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:14.1448642Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7187,7 +7357,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278359,
@@ -7252,7 +7422,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6656507Z",
       "dateUpdated": "2019-10-01T16:51:17.8877855Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:17.8877855Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7261,7 +7431,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223628,
@@ -7377,7 +7547,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 283976,
@@ -7463,7 +7633,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237065,
@@ -7555,7 +7725,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 231484,
@@ -7659,7 +7829,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224791,
@@ -7757,7 +7927,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296289,
@@ -7887,7 +8057,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 287357,
@@ -7997,7 +8167,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 284007,
@@ -8130,7 +8300,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238222,
@@ -8193,7 +8363,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6307204Z",
       "dateUpdated": "2019-10-01T16:50:54.5799984Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:54.5799984Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8202,7 +8372,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223703,
@@ -8291,7 +8461,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 281791,
@@ -8375,7 +8545,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268387,
@@ -8467,7 +8637,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271740,
@@ -8558,7 +8728,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225946,
@@ -8647,7 +8817,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253887,
@@ -8740,7 +8910,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227083,
@@ -8834,7 +9004,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 282940,
@@ -8943,7 +9113,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74072,
@@ -9039,7 +9209,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 247217,
@@ -9130,7 +9300,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278494,
@@ -9219,7 +9389,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250577,
@@ -9305,7 +9475,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296384,
@@ -9460,7 +9630,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 239418,
@@ -9558,7 +9728,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296392,
@@ -9649,7 +9819,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223794,
@@ -9733,7 +9903,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229380,
@@ -9829,7 +9999,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248370,
@@ -9935,7 +10105,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 258426,
@@ -10031,7 +10201,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291936,
@@ -10131,7 +10301,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 252848,
@@ -10224,7 +10394,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 289712,
@@ -10288,7 +10458,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6247359Z",
       "dateUpdated": "2019-10-01T16:51:37.9939357Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:37.9939357Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10297,7 +10467,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268495,
@@ -10383,7 +10553,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 300890,
@@ -10490,7 +10660,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6781868Z",
       "dateUpdated": "2019-10-01T16:51:15.0353207Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:15.0353207Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10499,7 +10669,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 232758,
@@ -10590,7 +10760,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 242818,
@@ -10669,7 +10839,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 279688,
@@ -10743,7 +10913,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246183,
@@ -10854,7 +11024,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 241721,
@@ -10959,7 +11129,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 256247,
@@ -11051,7 +11221,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 251786,
@@ -11122,7 +11292,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6831714Z",
       "dateUpdated": "2019-10-01T16:51:22.1159152Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:22.1159152Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11131,7 +11301,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 252910,
@@ -11227,7 +11397,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 270789,
@@ -11306,7 +11476,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 240630,
@@ -11397,7 +11567,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248453,
@@ -11526,7 +11696,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268560,
@@ -11668,7 +11838,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6267304Z",
       "dateUpdated": "2019-10-01T16:51:05.0874358Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:05.0874358Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11677,7 +11847,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 269680,
@@ -11766,7 +11936,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 242872,
@@ -11850,7 +12020,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268566,
@@ -11915,7 +12085,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6576466Z",
       "dateUpdated": "2019-10-01T16:51:08.3831505Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:08.3831505Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11924,7 +12094,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268567,
@@ -11989,7 +12159,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6386982Z",
       "dateUpdated": "2019-10-01T16:51:11.9879025Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:11.9879025Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11998,7 +12168,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250711,
@@ -12091,7 +12261,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237307,
@@ -12182,7 +12352,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 284229,
@@ -12273,7 +12443,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 308807,
@@ -12352,7 +12522,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 304346,
@@ -12449,7 +12619,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244049,
@@ -12535,7 +12705,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 261924,
@@ -12614,7 +12784,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 59751,
@@ -12687,7 +12857,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6771588Z",
       "dateUpdated": "2019-10-01T16:50:33.1155564Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:33.1155564Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12696,7 +12866,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 263046,
@@ -12796,7 +12966,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 312195,
@@ -12883,7 +13053,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250763,
@@ -12992,7 +13162,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 255232,
@@ -13068,7 +13238,7 @@
       "dateInstalled": "2019-10-01T17:02:33.3297756Z",
       "dateUpdated": "2019-10-01T17:02:33.3317706Z",
       "dateLastUpdateAttempted": "2019-10-01T17:02:33.3317706Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13077,7 +13247,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237366,
@@ -13215,7 +13385,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268655,
@@ -13290,7 +13460,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6741667Z",
       "dateUpdated": "2019-10-01T16:50:36.1529317Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:36.1529317Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13299,7 +13469,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225104,
@@ -13409,7 +13579,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296594,
@@ -13498,7 +13668,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 274259,
@@ -13590,7 +13760,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 222880,
@@ -13682,7 +13852,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277616,
@@ -13773,82 +13943,70 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253043,
       "gameInstanceID": "4e4c1fc5-441a-46ad-b6b2-13991f118584",
       "installedFile": {
-        "id": 2651482,
-        "displayName": "WanionLib-1.12.2-2.2.jar",
-        "fileName": "WanionLib-1.12.2-2.2.jar",
-        "fileDate": "2018-12-23T01:11:42.713Z",
-        "fileLength": 129188,
+        "id": 2800927,
+        "displayName": "WanionLib-1.12.2-2.3.jar",
+        "fileName": "WanionLib-1.12.2-2.3.jar",
+        "fileDate": "2019-10-03T13:08:17.727Z",
+        "fileLength": 134357,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2651/482/WanionLib-1.12.2-2.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2800/927/WanionLib-1.12.2-2.3.jar",
         "isAlternate": false,
-        "alternateFileId": 2651483,
+        "alternateFileId": 2800928,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 239303462,
-            "type": 3
+            "fingerprint": 3148305696,
+            "type": 0
           },
           {
             "foldername": "wanion",
-            "fingerprint": 1092511823,
-            "type": 3
+            "fingerprint": 1406862589,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 1326210544,
-            "type": 3
+            "fingerprint": 3369615218,
+            "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 452491903,
-            "type": 3
+            "fingerprint": 1364189458,
+            "type": 0
           },
           {
             "foldername": "wanionlib.png",
             "fingerprint": 3974495883,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 3602088970,
+        "packageFingerprint": 1490576837,
         "gameVersion": [
           "1.12.2"
         ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1488041,
-        "projectId": 253043,
-        "packageFingerprintId": 281924552,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1719227,
-        "gameVersionId": 4458,
-        "gameId": 432,
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "WanionLib-1.12.2-2.2.jar"
+        "FileNameOnDisk": "WanionLib-1.12.2-2.3.jar"
       },
       "dateInstalled": "2019-09-30T23:46:41.6406937Z",
-      "dateUpdated": "2018-09-30T23:46:41.6406937Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2019-10-03T22:52:52.3069027Z",
+      "dateLastUpdateAttempted": "2019-10-03T22:52:52.3069027Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13857,7 +14015,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229587,
@@ -13955,7 +14113,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 285439,
@@ -14070,7 +14228,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 287683,
@@ -14206,7 +14364,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 59816,
@@ -14300,7 +14458,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 236307,
@@ -14414,7 +14572,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 255308,
@@ -14498,7 +14656,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 267602,
@@ -14579,7 +14737,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227391,
@@ -14658,7 +14816,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 231868,
@@ -14742,7 +14900,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 260912,
@@ -14857,7 +15015,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228525,
@@ -14920,7 +15078,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6666481Z",
       "dateUpdated": "2019-10-01T16:49:00.9468941Z",
       "dateLastUpdateAttempted": "2019-10-01T16:49:00.9468941Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14929,7 +15087,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 266515,
@@ -15015,7 +15173,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 241941,
@@ -15098,7 +15256,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6207464Z",
       "dateUpdated": "2019-10-01T16:50:02.6238804Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:02.6238804Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15107,7 +15265,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 296676,
@@ -15213,7 +15371,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244181,
@@ -15308,7 +15466,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 274341,
@@ -15401,7 +15559,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225194,
@@ -15519,7 +15677,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254241,
@@ -15598,7 +15756,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250898,
@@ -15689,7 +15847,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227443,
@@ -15781,7 +15939,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277711,
@@ -15878,7 +16036,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 235279,
@@ -15976,7 +16134,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 306770,
@@ -16055,7 +16213,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 298965,
@@ -16139,7 +16297,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243121,
@@ -16230,7 +16388,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 233071,
@@ -16309,7 +16467,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 264353,
@@ -16402,7 +16560,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 302336,
@@ -16493,7 +16651,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278882,
@@ -16584,7 +16742,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244258,
@@ -16666,7 +16824,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6546892Z",
       "dateUpdated": "2019-10-01T16:51:41.6918494Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:41.6918494Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16675,7 +16833,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253211,
@@ -16756,7 +16914,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 233105,
@@ -16848,7 +17006,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226406,
@@ -16932,7 +17090,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253230,
@@ -17033,7 +17191,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 267769,
@@ -17127,7 +17285,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 319153,
@@ -17233,7 +17391,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223094,
@@ -17311,7 +17469,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6791812Z",
       "dateUpdated": "2019-10-01T16:50:40.2086282Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:40.2086282Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17320,7 +17478,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248787,
@@ -17423,7 +17581,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 226447,
@@ -17511,7 +17669,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224218,
@@ -17609,7 +17767,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 252145,
@@ -17683,7 +17841,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 282313,
@@ -17776,7 +17934,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245453,
@@ -17878,7 +18036,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 311357,
@@ -18072,7 +18230,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228702,
@@ -18175,7 +18333,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238761,
@@ -18261,7 +18419,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 276752,
@@ -18359,7 +18517,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245480,
@@ -18443,7 +18601,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278993,
@@ -18541,7 +18699,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 230976,
@@ -18627,7 +18785,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 60089,
@@ -18711,7 +18869,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74610,
@@ -18809,7 +18967,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229876,
@@ -18888,7 +19046,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 290201,
@@ -18959,7 +19117,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6546892Z",
       "dateUpdated": "2019-10-01T16:51:26.8228798Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:26.8228798Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18968,7 +19126,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246640,
@@ -19054,7 +19212,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 272335,
@@ -19138,7 +19296,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 220954,
@@ -19224,7 +19382,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 290209,
@@ -19317,7 +19475,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 64578,
@@ -19534,7 +19692,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243298,
@@ -19618,7 +19776,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 265642,
@@ -19722,7 +19880,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224320,
@@ -19806,7 +19964,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 277938,
@@ -20068,7 +20226,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 235492,
@@ -20195,7 +20353,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 242195,
@@ -20265,7 +20423,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6821731Z",
       "dateUpdated": "2019-10-01T16:50:10.042214Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:10.042214Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20274,7 +20432,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 256717,
@@ -20348,7 +20506,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 251138,
@@ -20469,7 +20627,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228815,
@@ -20558,7 +20716,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228816,
@@ -20649,7 +20807,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228832,
@@ -20742,7 +20900,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243363,
@@ -20806,7 +20964,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6646565Z",
       "dateUpdated": "2019-10-01T16:48:50.1820647Z",
       "dateLastUpdateAttempted": "2019-10-01T16:48:50.1820647Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20815,7 +20973,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 65764,
@@ -20901,7 +21059,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 69118,
@@ -20975,7 +21133,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 32274,
@@ -21092,7 +21250,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253449,
@@ -21176,7 +21334,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253462,
@@ -21281,7 +21439,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 295910,
@@ -21395,7 +21553,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 69162,
@@ -21487,7 +21645,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 69163,
@@ -21579,7 +21737,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 318255,
@@ -21673,7 +21831,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254602,
@@ -21765,7 +21923,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 283644,
@@ -21839,7 +21997,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225561,
@@ -21937,7 +22095,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246795,
@@ -22016,7 +22174,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 314933,
@@ -22097,7 +22255,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 319404,
@@ -22181,7 +22339,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 233398,
@@ -22302,7 +22460,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 247921,
@@ -22391,7 +22549,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 298187,
@@ -22542,7 +22700,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280316,
@@ -22618,7 +22776,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6566492Z",
       "dateUpdated": "2019-10-01T16:50:52.5101571Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:52.5101571Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22627,7 +22785,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271384,
@@ -22706,7 +22864,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224472,
@@ -22785,7 +22943,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291493,
@@ -22871,7 +23029,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 261339,
@@ -22931,7 +23089,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6556521Z",
       "dateUpdated": "2019-10-01T16:50:58.4701127Z",
       "dateLastUpdateAttempted": "2019-10-01T16:50:58.4701127Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -22940,7 +23098,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 272514,
@@ -23070,7 +23228,7 @@
       "dateInstalled": "2019-10-01T17:02:33.6869387Z",
       "dateUpdated": "2019-10-01T17:02:33.6879362Z",
       "dateLastUpdateAttempted": "2019-10-01T17:02:33.6879362Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23079,7 +23237,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 272515,
@@ -23163,7 +23321,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243478,
@@ -23249,7 +23407,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237903,
@@ -23339,7 +23497,7 @@
       "dateInstalled": "2019-09-30T23:46:41.6891544Z",
       "dateUpdated": "2019-10-01T16:51:32.7980042Z",
       "dateLastUpdateAttempted": "2019-10-01T16:51:32.7980042Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -23348,7 +23506,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     }
   ],
   "isMigrated": false,
