@@ -16,6 +16,9 @@ mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "conarm");
 mods.orestages.OreStages.addReplacement("tinkers", <tconstruct:ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("tinkers", <tconstruct:ore:1>, <minecraft:netherrack>);
 
+// Stage Mobs
+mods.MobStages.addStage("tinkers", "tconstruct:blueslime");
+
 // Stage Misc Items
 mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "electrical_steel", Amount: 1000}));
 mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "energetic_alloy", Amount: 1000}));

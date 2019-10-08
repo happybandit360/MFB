@@ -13,7 +13,7 @@ setDescription("After a while, your Wither factory will drop a Double Nether Sta
 //setUncompletedTitleColor(185, 143, 44)
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("mfb:bookcrafting/wo_05_withershard")
+addParent("mfb:bookcrafting/root")
 
 setRequiresParents()
 

@@ -15,7 +15,7 @@ setDescription("Craft a Black Iron Ingot. This is the base material you'll need 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("mfb:bookcrafting/root")
 
-//setRequiresParents()
+setRequiresParents()
 
 //Set the position
 setPos(-78,-78)

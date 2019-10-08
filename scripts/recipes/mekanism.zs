@@ -25,7 +25,11 @@ static itemRecipeRemoval as IItemStack[] = [
 <mekanismtools:steelhelmet>,
 <mekanismtools:steelchestplate>,
 <mekanismtools:steelleggings>,
-<mekanismtools:steelboots>
+<mekanismtools:steelboots>,
+<mekanism:basicblock:3>,
+<mekanism:nugget:2>,
+<mekanism:nugget:6>,
+<mekanism:nugget:5>
 ];
 
 /*

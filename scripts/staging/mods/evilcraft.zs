@@ -32,3 +32,15 @@ mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({St
 mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 60}]}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 60}]}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 60}]}));
+
+static metadataStaging as IItemStack[] = [
+// <modid:itemname:meta>
+<evilcraft:vein_sword:*>.withTag({ench: [{lvl: 2 as short, id: 21}]}),
+<evilcraft:spikey_claws:*>,
+<evilcraft:vengeance_pickaxe:*>.withTag({ench: [{lvl: 3 as short, id: 59}, {lvl: 5 as short, id: 35}]})
+];
+
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("evilcraft", item);
+}

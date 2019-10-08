@@ -9,8 +9,7 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<calculator:calculatorscreen>,
-<calculator:largeamethyst>
+<evilcraft:exalted_crafter>
 ];
 
 
@@ -29,26 +28,16 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<calculator:calculatorscreen> : {
-    "calculator_calculatorscreen" : [
-        [
-            [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-            [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>],
-            [<ore:cobblestone>, null, <ore:cobblestone>]
-        ]
-    ]
-},
-<calculator:largeamethyst> : {
-    "calculator_largeamethyst" : [
-        [
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>]
-        ]
-    ]
-}
+<evilcraft:exalted_crafter> : {
+		"evilcraft_exalted_crafter" : [
+			[
+	  			[<ore:ingotGold>, <ore:workbench>, <ore:ingotGold>],
+	   			[<evilcraft:dark_gem_crushed>, <ore:chestEnder>, <evilcraft:dark_gem_crushed>],
+	  			[<ore:ingotGold>, <ore:enderpearl>, <ore:ingotGold>]
+			]
+		]
+    }
 };
-
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 /*	<mod:itemname:meta> : {

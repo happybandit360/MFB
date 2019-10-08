@@ -9,8 +9,9 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<calculator:calculatorscreen>,
-<calculator:largeamethyst>
+<thaumcraft:nugget:3>,
+<thaumcraft:nugget:2>,
+<thaumcraft:nugget:1>
 ];
 
 
@@ -29,24 +30,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<calculator:calculatorscreen> : {
-    "calculator_calculatorscreen" : [
-        [
-            [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-            [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>],
-            [<ore:cobblestone>, null, <ore:cobblestone>]
-        ]
-    ]
-},
-<calculator:largeamethyst> : {
-    "calculator_largeamethyst" : [
-        [
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>]
-        ]
-    ]
-}
 };
 
 

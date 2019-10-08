@@ -19,7 +19,25 @@ static itemRecipeRemoval as IItemStack[] = [
 <bewitchment:silver_helmet>,
 <bewitchment:silver_chestplate>,
 <bewitchment:silver_leggings>,
-<bewitchment:silver_boots>
+<bewitchment:silver_boots>,
+<bewitchment:white_candle>,
+<bewitchment:orange_candle>,
+<bewitchment:magenta_candle>,
+<bewitchment:light_blue_candle>,
+<bewitchment:yellow_candle>,
+<bewitchment:lime_candle>,
+<bewitchment:pink_candle>,
+<bewitchment:gray_candle>,
+<bewitchment:light_gray_candle>,
+<bewitchment:cyan_candle>,
+<bewitchment:purple_candle>,
+<bewitchment:blue_candle>,
+<bewitchment:brown_candle>,
+<bewitchment:green_candle>,
+<bewitchment:red_candle>,
+<bewitchment:black_candle>,
+<bewitchment:block_of_amethyst>,
+<bewitchment:silver_nugget>
 ];
 
 /*
@@ -46,7 +64,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:silver_boots> : {
 	"bewitchment_silver_boots" : [
 		[
@@ -56,7 +73,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:silver_chestplate> : {
 	"bewitchment_silver_chestplate" : [
 		[
@@ -66,7 +82,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:silver_leggings> : {
 	"bewitchment_silver_leggings" : [
 		[
@@ -76,8 +91,16 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
+<bewitchment:block_of_amethyst> : {
+	"bewitchment_block_of_amethyst>" : [
+		[
+			[<bewitchment:amethyst>, <bewitchment:amethyst>, <bewitchment:amethyst>],
+			[<bewitchment:amethyst>, <bewitchment:amethyst>, <bewitchment:amethyst>], 
+			[<bewitchment:amethyst>, <bewitchment:amethyst>, <bewitchment:amethyst>]
+		]
+	]
+},
 };
-
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 /*	<mod:itemname:meta> : {
@@ -98,7 +121,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:athame> : {
 	"bewitchment_athame" : [
 		[
@@ -108,7 +130,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:silver_shovel> : {
 	"bewitchment_silver_shovel" : [
 		[
@@ -118,7 +139,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:silver_hoe> : {
 	"bewitchment_silver_hoe" : [
 		[
@@ -128,7 +148,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:silver_axe> : {
 	"bewitchment_silver_axe" : [
 		[
@@ -138,7 +157,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:silver_pickaxe> : {
 	"bewitchment_silver_pickaxe" : [
 		[
@@ -148,7 +166,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
-
 <bewitchment:silver_sword> : {
 	"bewitchment_silver_sword" : [
 		[
@@ -167,6 +184,86 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+<bewitchment:white_candle> : {
+		"bewitchment_white_candle" : [
+			[<quark:candle:0>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:orange_candle> : {
+		"bewitchment_orange_candle" : [
+			[<quark:candle:1>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:magenta_candle> : {
+		"bewitchment_magenta_candle" : [
+			[<quark:candle:2>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:light_blue_candle> : {
+		"bewitchment_light_blue_candle" : [
+			[<quark:candle:3>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:yellow_candle> : {
+		"bewitchment_yellow_candle" : [
+			[<quark:candle:4>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:lime_candle> : {
+		"bewitchment_lime_candle" : [
+			[<quark:candle:5>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:pink_candle> : {
+		"bewitchment_pink_candle" : [
+			[<quark:candle:6>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:gray_candle> : {
+		"bewitchment_gray_candle" : [
+			[<quark:candle:7>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:light_gray_candle> : {
+		"bewitchment_light_gray_candle" : [
+			[<quark:candle:8>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:cyan_candle> : {
+		"bewitchment_cyan_candle" : [
+			[<quark:candle:9>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:purple_candle> : {
+		"bewitchment_purple_candle" : [
+			[<quark:candle:10>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:blue_candle> : {
+		"bewitchment_blue_candle" : [
+			[<quark:candle:11>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:brown_candle> : {
+		"bewitchment_brown_candle" : [
+			[<quark:candle:12>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:green_candle> : {
+		"bewitchment_green_candle" : [
+			[<quark:candle:13>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:red_candle> : {
+		"bewitchment_red_candle" : [
+			[<quark:candle:14>, <bewitchment:oak_apple_gall>]
+		]
+	},
+	<bewitchment:black_candle> : {
+		"bewitchment_black_candle" : [
+			[<quark:candle:15>, <bewitchment:oak_apple_gall>]
+		]
+	}
 };
 
 

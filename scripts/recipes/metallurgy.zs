@@ -10,6 +10,12 @@ import crafttweaker.item.IIngredient;
 
 // recipes.addShapeless(<>, [<>]);
 
+recipes.remove(<metallurgy:charcoal_block>);
+recipes.remove(<metallurgy:silver_nugget>);
+recipes.remove(<metallurgy:bronze_nugget>);
+recipes.remove(<metallurgy:tin_nugget>);
+recipes.remove(<metallurgy:copper_nugget>);
+
 // Replace Bronze
 recipes.remove(<metallurgy:bronze_shovel>);
 recipes.remove(<metallurgy:bronze_hoe>);

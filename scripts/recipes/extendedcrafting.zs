@@ -8,9 +8,11 @@ import crafttweaker.item.IIngredient;
 	Recipe Removals by Item
 */
 static itemRecipeRemoval as IItemStack[] = [
-//	<modid:itemname:meta>
-<calculator:calculatorscreen>,
-<calculator:largeamethyst>
+<extendedcrafting:material:7>,
+<extendedcrafting:table_basic>,
+<extendedcrafting:table_advanced>,
+<extendedcrafting:table_elite>,
+<extendedcrafting:table_ultimate>
 ];
 
 
@@ -29,24 +31,59 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<calculator:calculatorscreen> : {
-    "calculator_calculatorscreen" : [
-        [
-            [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-            [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>],
-            [<ore:cobblestone>, null, <ore:cobblestone>]
-        ]
-    ]
-},
-<calculator:largeamethyst> : {
-    "calculator_largeamethyst" : [
-        [
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>]
-        ]
-    ]
-}
+<extendedcrafting:material:7> * 8 : {
+		"extendedcrafting_luminessence" : [
+			[
+	  			[<minecraft:glowstone_dust>, <minecraft:glowstone_dust>],
+	   			[<minecraft:redstone>, <minecraft:gunpowder>]
+			]
+		]
+	},
+<contenttweaker:double_star> : {
+		"double_nether_star" : [
+			[
+	  			[null, <minecraft:dragon_breath>, null],
+	   			[<extendedcrafting:material:40>, <extrautils2:unstableingots>, <extendedcrafting:material:40>],
+	  			[null, <extrautils2:ingredients:5>, null]
+			]
+		]
+	},
+<extendedcrafting:table_basic> : {
+		"extendedcrafting_table_basic" : [
+			[
+				[<extendedcrafting:material:14>, <extendedcrafting:material:14>, <extendedcrafting:material:14>], 
+				[<ore:workbench>, <ore:blockIron>, <ore:workbench>], 
+				[<extendedcrafting:material:14>, <extendedcrafting:material:2>, <extendedcrafting:material:14>]
+			]
+		]
+	},
+<extendedcrafting:table_advanced> : {
+		"extendedcrafting_table_advanced" : [
+			[
+				[<extendedcrafting:material:15>, <ore:blockGold>, <extendedcrafting:material:15>], 
+				[<extendedcrafting:material:15>, <extendedcrafting:table_basic>, <extendedcrafting:material:15>], 
+				[<extendedcrafting:material:15>, <extendedcrafting:material:9>, <extendedcrafting:material:15>]
+			]
+		]
+	},
+<extendedcrafting:table_elite> : {
+		"extendedcrafting_table_elite" : [
+			[
+				[<extendedcrafting:material:16>, <ore:blockDiamond>, <extendedcrafting:material:16>], 
+				[<extendedcrafting:material:16>, <extendedcrafting:table_advanced>, <extendedcrafting:material:16>], 
+				[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>]
+			]
+		]
+	},
+<extendedcrafting:table_ultimate> : {
+		"extendedcrafting_table_ultimate" : [
+			[
+				[<extendedcrafting:material:17>, <ore:blockEmerald>, <extendedcrafting:material:17>], 
+				[<extendedcrafting:material:17>, <extendedcrafting:table_elite>, <extendedcrafting:material:17>], 
+				[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:17>]
+			]
+		]
+	},
 };
 
 

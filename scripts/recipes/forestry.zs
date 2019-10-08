@@ -9,8 +9,13 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<calculator:calculatorscreen>,
-<calculator:largeamethyst>
+<forestry:gear_bronze>,
+<forestry:gear_copper>,
+<forestry:gear_tin>,
+<forestry:charcoal>,
+<magicbees:orepart:5>,
+<magicbees:orepart:4>,
+<magicbees:orepart:3>
 ];
 
 
@@ -29,24 +34,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<calculator:calculatorscreen> : {
-    "calculator_calculatorscreen" : [
-        [
-            [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
-            [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>],
-            [<ore:cobblestone>, null, <ore:cobblestone>]
-        ]
-    ]
-},
-<calculator:largeamethyst> : {
-    "calculator_largeamethyst" : [
-        [
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
-            [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>]
-        ]
-    ]
-}
 };
 
 

@@ -14,3 +14,58 @@ mods.orestages.OreStages.addReplacement("gobber", <gb:gobber_ore>, <minecraft:st
 mods.orestages.OreStages.addReplacement("gobber", <gb:glucky_block>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("gobber", <gb:gobber_ore2>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("gobber", <gb:gobber_ore3>, <minecraft:end_stone>);
+
+// Metadata staging fix
+// mods.ItemStages.addItemStage("gobber", <gb:gigger:*>);
+static metadataStaging as IItemStack[] = [
+// <modid:itemname:meta>
+<gb:globot_helmet:*>,
+<gb:globot_chestplate:*>,
+<gb:globot_leggings:*>,
+<gb:globot_boots:*>,
+<gb:glopper:*>,
+<gb:gow:*>,
+<gb:gigger:*>,
+<gb:gaxe:*>,
+<gb:govel:*>,
+<gb:gaxel:*>,
+<gb:gammer:*>,
+<gb:goe:*>,
+<gb:ghears:*>,
+<gb:globot2_helmet:*>,
+<gb:globot2_chestplate:*>,
+<gb:globot2_leggings:*>,
+<gb:globot2_boots:*>,
+<gb:glopper2:*>,
+<gb:gow2:*>,
+<gb:gigger2:*>,
+<gb:gaxe2:*>,
+<gb:govel2:*>,
+<gb:gaxel2:*>,
+<gb:gammer2:*>,
+<gb:goe2:*>,
+<gb:ghears2:*>,
+<gb:globot3_helmet:*>,
+<gb:globot3_chestplate:*>,
+<gb:globot3_leggings:*>,
+<gb:globot3_boots:*>,
+<gb:glopper3:*>,
+<gb:gow3:*>,
+<gb:gigger3:*>,
+<gb:gaxe3:*>,
+<gb:govel3:*>,
+<gb:gaxel3:*>,
+<gb:gammer3:*>,
+<gb:goe3:*>,
+<gb:ghears3:*>
+];
+
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("gobber", item);
+}
+
+
+
+// Durability testing
+// <gb:gigger>.maxDamage = 1000;
