@@ -1,0 +1,48 @@
+MFB Running Development Change Log
+
+-------------------------------------------------------------------------------
+Alpha Build
+0.0.4 --> 0.0.5
+-------------------------------------------------------------------------------
+
+-- Added Mods --
+----------------	
+
+
+-- Updated Mods --
+-------------------
+Arcane Archives
+Armor Plus
+Bookshelf
+Corail Tombstone
+Ding
+Electrobob's Wizardry
+Flux Networks
+FoamFix
+Forestry
+JEI
+LibraryEx
+Mystical World
+MysticalLib
+Roots
+WantonLib
+
+-- Removed Mods --
+--------------------
+
+
+-- Config Changes --
+--------------------
+mysticlworld.cfg
+    B:GiveBook=false
+    I:HutDistance=800
+
+
+-- Script Changes --
+--------------------
+
+
+
+
+-- Asset Changes --
+-------------------
