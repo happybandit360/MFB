@@ -19,7 +19,11 @@ static itemRecipeRemoval as IItemStack[] = [
 <mysticalworld:silver_axe>,
 <mysticalworld:silver_pickaxe>,
 <mysticalworld:silver_nugget>,
-<mysticalworld:copper_nugget>
+<mysticalworld:copper_nugget>,
+<mysticalworld:silver_block>,
+<mysticalworld:silver_ingot>,
+<mysticalworld:copper_ingot>,
+<mysticalworld:copper_block>
 ];
 
 /*

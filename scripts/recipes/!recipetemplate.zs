@@ -14,6 +14,13 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 ];
 
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
+];
+
 
 
 /*
@@ -112,4 +119,10 @@ for item, itemRecipes in namedShapelessRecipes {
 // Remove Item Recipe for replacement
 for item in itemRecipeRemoval {
 	recipes.remove(item);
+}
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
 }

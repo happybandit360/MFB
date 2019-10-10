@@ -9,7 +9,19 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<tcomplement:storage>
+<tcomplement:steel_helmet>,
+<tcomplement:steel_chestplate>,
+<tcomplement:steel_leggings>,
+<tcomplement:steel_boots>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
+<tcomplement:storage>,
+<plustic:invarnugget>
 ];
 
 
@@ -28,6 +40,40 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<tcomplement:steel_helmet> : {
+		"tcomplement_steel_helmet" : [
+			[
+	  			[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>],
+	   			[<ore:ingotSteel>, <mod:itemname:meta>, <ore:ingotSteel>]
+			]
+		]
+	},
+<tcomplement:steel_boots> : {
+		"tcomplement_steel_boots" : [
+			[
+	  			[<ore:ingotSteel>, null, <ore:ingotSteel>],
+	   			[<ore:ingotIron>, null, <ore:ingotIron>]
+			]
+		]
+	},
+<tcomplement:steel_chestplate> : {
+		"tcomplement_steel_chestplate" : [
+			[
+	  			[<ore:ingotSteel>, null, <ore:ingotSteel>],
+	   			[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>],
+	  			[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+			]
+		]
+	},
+<tcomplement:steel_leggings> : {
+		"tcomplement_steel_leggings" : [
+			[
+	  			[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>],
+	   			[<ore:ingotSteel>, null, <ore:ingotSteel>],
+	  			[<ore:ingotSteel>, null, <ore:ingotSteel>]
+			]
+		]
+	}
 };
 
 
@@ -110,4 +156,10 @@ for item, itemRecipes in namedShapelessRecipes {
 // Remove Item Recipe for replacement
 for item in itemRecipeRemoval {
 	recipes.remove(item);
+}
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
 }

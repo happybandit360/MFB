@@ -12,7 +12,9 @@ static itemRecipeRemoval as IItemStack[] = [
 <extendedcrafting:table_basic>,
 <extendedcrafting:table_advanced>,
 <extendedcrafting:table_elite>,
-<extendedcrafting:table_ultimate>
+<extendedcrafting:table_ultimate>,
+<extendedcrafting:material:128>,
+<extendedcrafting:material:129>
 ];
 
 

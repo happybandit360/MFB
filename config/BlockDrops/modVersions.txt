@@ -60,7 +60,6 @@
   "netherex": "2.0.15",
   "ctgui": "1.0.0",
   "mobstages": "2.0.13",
-  "moreloottables": "0.1.0",
   "jei": "4.15.0.291",
   "bnbgaminglib": "2.17.6",
   "careerbees": "1.0",

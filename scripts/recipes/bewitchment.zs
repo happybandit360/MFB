@@ -36,8 +36,17 @@ static itemRecipeRemoval as IItemStack[] = [
 <bewitchment:green_candle>,
 <bewitchment:red_candle>,
 <bewitchment:black_candle>,
-<bewitchment:block_of_amethyst>,
-<bewitchment:silver_nugget>
+<bewitchment:block_of_amethyst>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
+<bewitchment:silver_nugget>,
+<bewitchment:block_of_silver>,
+<bewitchment:silver_ingot>
 ];
 
 /*
@@ -324,4 +333,10 @@ for item, itemRecipes in namedShapelessRecipes {
 // Remove Item Recipe for replacement
 for item in itemRecipeRemoval {
 	recipes.remove(item);
+}
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
 }

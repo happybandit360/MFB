@@ -25,11 +25,27 @@ static itemRecipeRemoval as IItemStack[] = [
 <mekanismtools:steelhelmet>,
 <mekanismtools:steelchestplate>,
 <mekanismtools:steelleggings>,
-<mekanismtools:steelboots>,
+<mekanismtools:steelboots>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
 <mekanism:basicblock:3>,
 <mekanism:nugget:2>,
 <mekanism:nugget:6>,
-<mekanism:nugget:5>
+<mekanism:nugget:5>,
+<mekanism:nugget:4>,
+<mekanism:ingot:5>,
+<mekanism:basicblock:12>,
+<mekanism:ingot:6>,
+<mekanism:ingot:4>,
+<mekanism:ingot:2>,
+<mekanism:basicblock:1>,
+<mekanism:basicblock:5>,
+<mekanism:basicblock:13>
 ];
 
 /*
@@ -282,4 +298,10 @@ for item, itemRecipes in namedShapelessRecipes {
 // Remove Item Recipe for replacement
 for item in itemRecipeRemoval {
 	recipes.remove(item);
+}
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
 }

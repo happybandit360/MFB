@@ -5,7 +5,7 @@ setIcon(<contenttweaker:double_star>)
 setTitle("What Does It Mean")
 
 //Set the description String
-setDescription("After a while, your Wither factory will drop a Double Nether Star, the key component in crafting new mod handbooks.")
+setDescription("Crafting a Double Nether Star is a potentially deadly process, but it is the key component in crafting new mod handbooks.")
 
 //Completed advancement color change
 //setCompletedIconColor(0, 255, 0)

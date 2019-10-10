@@ -15,7 +15,13 @@ static itemRecipeRemoval as IItemStack[] = [
 <forestry:charcoal>,
 <magicbees:orepart:5>,
 <magicbees:orepart:4>,
-<magicbees:orepart:3>
+<magicbees:orepart:3>,
+<forestry:ingot_copper>,
+<forestry:resource_storage:1>,
+<forestry:ingot_bronze>,
+<forestry:ingot_tin>,
+<forestry:resource_storage:2>,
+<forestry:resource_storage:3>
 ];
 
 

@@ -29,19 +29,25 @@ WantonLib
 
 -- Removed Mods --
 --------------------
+More Loot Tables
 
 
 -- Config Changes --
 --------------------
+AppliedEnergistics/AppliedEnergistics2.cfg
+    I:minMeteoriteDistance=1707
 mysticlworld.cfg
     B:GiveBook=false
     I:HutDistance=800
+Triumph
+    Changed Double Nether Star advancement to reflect Woot removal.
 
 
 -- Script Changes --
 --------------------
-
-
+Recipe updates for metal unification and conflict removal
+    Move JEI remove and hide to mod recipe scripts
+Updated written book in Intial Inventory to reflect Woot removal.
 
 
 -- Asset Changes --

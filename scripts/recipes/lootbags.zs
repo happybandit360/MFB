@@ -3,15 +3,21 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-
 /*
 	Recipe Removals by Item
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<inventorypets:nugget_coal>,
-<inventorypets:nugget_diamond>,
-<inventorypets:nugget_emerald>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
+<lootbags:loot_opener>,
+<lootbags:loot_recycler>,
+<lootbags:loot_storage>
 ];
 
 
@@ -52,21 +58,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
-<inventorypets:nugget_coal> * 18 : {
-    "inventorypets_nugget_coal" : [
-        [<minecraft:coal>, <minecraft:coal>]
-    ]
-},
-<inventorypets:nugget_diamond> * 9 : {
-    "inventorypets_nugget_diamond" : [
-        [<ore:gemDiamond>, <ore:dirt>]
-    ]
-},
-<inventorypets:nugget_emerald> * 9 : {
-    "inventorypets_nugget_emerald" : [
-        [<ore:gemEmerald>, <ore:dirt>]
-    ]
-}
 };
 
 
@@ -128,3 +119,10 @@ for item, itemRecipes in namedShapelessRecipes {
 for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
+}
+
