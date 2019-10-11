@@ -26,3 +26,4 @@ textures_0.png
 /dumps
 /screenshots
 .gitignore
+hs_err*.log

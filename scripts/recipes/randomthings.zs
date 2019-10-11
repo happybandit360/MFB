@@ -9,15 +9,22 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<appliedenergistics2:material:40>
+	<randomthings:soundbox>,
+	<randomthings:blockofsticks>,
+	<randomthings:diviningrod:7>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
 ];
 
 
-
 /*
-    Shaped Recipes
-*/
-
+	Named Shaped Recipes
+*/	
 static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 /*	<mod:itemname:meta> : {
 		"string_for_recipe_name" : [
@@ -28,9 +35,40 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+	<randomthings:soundbox> : {
+		"randomthings_soundbox" : [
+			[
+	  			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+	   			[<ore:plankWood>, <randomthings:soundpattern>, <ore:plankWood>],
+	  			[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+			]
+		]
+	},
+	<randomthings:blockofsticks> : {
+		"randomthings_blockofsticks" : [
+			[
+	  			[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+	   			[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+	  			[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+			]
+		]
+	},
+	<randomthings:diviningrod:7> : {
+		"randomthings_diviningrod_universal" : [
+			[
+	  			[<randomthings:diviningrod>, <minecraft:stick>, <randomthings:diviningrod:6>],
+				[<randomthings:diviningrod:1>, <ore:slimeball>, <randomthings:diviningrod:5>],
+				[<randomthings:diviningrod:2>, <randomthings:diviningrod:3>, <randomthings:diviningrod:4>]
+
+			]
+		]
+	}
 };
 
 
+/*
+	Named Mirrored Recipes
+*/
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 /*	<mod:itemname:meta> : {
 		"string_for_recipe_name" : [
@@ -44,6 +82,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 };
 
 
+/*
+	Named Shapeless Recipes
+*/
 static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 /*	<mod:itemname:meta> : {
 		"string_for_recipe_name" : [
@@ -59,8 +100,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 
 
 /*
-	Loops to Add Recipes - Do Not 
+	Loops to Add Recipes - Do Not Edit
 */
+
 
 // Add Named Shaped Recipes
 for item, itemRecipes in namedShapedRecipes {
@@ -111,15 +153,8 @@ for item, itemRecipes in namedShapelessRecipes {
 for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
-
-// Hide facades in JEI
-static jeiHide as IItemStack[] = [
-//	<modid:itemname:meta>
-// <appliedenergistics2:facade>.withTag({damage: 0, item: "*"}) 
-];
-
-
-
-for item in jeiHide {
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
 	mods.jei.JEI.hide(item);
 }

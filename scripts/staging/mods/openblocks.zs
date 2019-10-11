@@ -63,7 +63,6 @@ mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {Fl
 mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "seed_oil", Amount: 16000}}));
 mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "biocrude", Amount: 16000}}));
 mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "refined_biofuel", Amount: 16000}}));
-mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "experience", Amount: 16000}}));
 mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "potion", Amount: 16000}}));
 mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "potion_splash", Amount: 16000}}));
 mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "potion_lingering", Amount: 16000}}));

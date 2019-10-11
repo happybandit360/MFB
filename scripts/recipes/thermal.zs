@@ -9,7 +9,15 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<appliedenergistics2:material:40>
+<thermalfoundation:material:136>,
+<thermalfoundation:storage:8>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
 ];
 
 
@@ -28,6 +36,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<thermalfoundation:storage:8> : {
+		"<thermalfoundation_storage_8>" : [
+			[
+	  			[<ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>],
+	   			[<ore:ingotMithril>, <thermalfoundation:material:136>, <ore:ingotMithril>],
+	  			[<ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>]
+			]
+		]
+	}
 };
 
 
@@ -50,6 +67,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+<thermalfoundation:material:136> * 9 : {
+		"<thermalfoundation_material_136>" : [
+			[<thermalfoundation:storage:8>]
+		]
+	}
 };
 
 
@@ -112,14 +134,8 @@ for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
 
-// Hide facades in JEI
-static jeiHide as IItemStack[] = [
-//	<modid:itemname:meta>
-// <appliedenergistics2:facade>.withTag({damage: 0, item: "*"}) 
-];
-
-
-
-for item in jeiHide {
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
 	mods.jei.JEI.hide(item);
 }

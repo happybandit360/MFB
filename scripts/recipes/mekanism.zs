@@ -45,7 +45,12 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 <mekanism:ingot:2>,
 <mekanism:basicblock:1>,
 <mekanism:basicblock:5>,
-<mekanism:basicblock:13>
+<mekanism:basicblock:13>,
+<mekanismtools:woodpaxel>,
+<mekanismtools:stonepaxel>,
+<mekanismtools:ironpaxel>,
+<mekanismtools:diamondpaxel>,
+<mekanismtools:goldpaxel>
 ];
 
 /*
@@ -181,9 +186,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 <mekanismtools:bronzesword> : {
 	"mekanismtools_bronzesword" : [
 		[
-			[<ore:ingotBronze>],
-			[<ore:ingotBronze>], 
-			[<minecraft:wooden_sword>]
+			[<ore:ingotBronze>, null],
+			[<ore:ingotBronze>, null], 
+			[<ore:stickWood>, <minecraft:wooden_sword>]
 		]
 	]
 },
@@ -226,9 +231,9 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 <mekanismtools:steelsword> : {
 	"mekanismtools_steelsword" : [
 		[
-			[<ore:ingotSteel>],
-			[<ore:ingotSteel>], 
-			[<minecraft:wooden_sword>]
+			[<ore:ingotSteel>, null],
+			[<ore:ingotSteel>, null], 
+			[<ore:stickWood>, <minecraft:wooden_sword>]
 		]
 	]
 },

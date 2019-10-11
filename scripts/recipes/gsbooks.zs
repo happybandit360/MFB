@@ -357,7 +357,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:evilcraft>, [
 	[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>], 
 	[<minecraft:nether_brick>, <minecraft:nether_brick>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <minecraft:nether_brick>, <minecraft:nether_brick>], 
 	[<minecraft:nether_brick>, <minecraft:nether_brick>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <minecraft:nether_brick>, <minecraft:nether_brick>], 
-	[<ore:ingotCrystaltine>, <forge:bucketfilled>, <ore:materialFlesh>, <ore:materialFlesh>, <contenttweaker:double_star>, <ore:materialFlesh>, <ore:materialFlesh>, <forge:bucketfilled>, <ore:ingotCrystaltine>], 
+	[<ore:ingotCrystaltine>, <minecraft:bucket>, <ore:materialFlesh>, <ore:materialFlesh>, <contenttweaker:double_star>, <ore:materialFlesh>, <ore:materialFlesh>, <minecraft:bucket>, <ore:ingotCrystaltine>], 
 	[<minecraft:nether_brick>, <minecraft:nether_brick>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <minecraft:nether_brick>, <minecraft:nether_brick>], 
 	[<minecraft:nether_brick>, <minecraft:nether_brick>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <minecraft:nether_brick>, <minecraft:nether_brick>], 
 	[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>], 
@@ -468,8 +468,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:roots>, [
 	[<ore:book>, <ore:treeSapling>, <ore:treeSapling>, <ore:logWood>, <ore:ingotCrystaltine>, <ore:logWood>, <ore:treeSapling>, <ore:treeSapling>, <ore:book>]
 ]);
 
-// Electrobob
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:electrobob>, [
+// Electroblob
+mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:electroblob>, [
 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, <ore:gemQuartz>, <ore:book>], 
 	[null, null, <ore:blockLapis>, null, null, null, null, <ore:gemQuartz>, <ore:gemQuartz>], 
 	[null, <ore:blockLapis>, null, <ore:blockLapis>, null, null, <ore:logWood>, null, null], 

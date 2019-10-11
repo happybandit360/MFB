@@ -168,16 +168,16 @@ static stagedMods as string[][string] = {
         "wizardry"
     ],
 
-    stages.bewitchment.stage : [
-        "bewitchment"
-    ],
+    // stages.bewitchment.stage : [
+    //     "bewitchment"
+    // ],
 
     stages.roots.stage : [
         "roots",
         "mysticalworld"
     ],
 
-    stages.electrobob.stage :[
+    stages.electroblob.stage :[
         "ebwizardry"
     ],
 

@@ -42,9 +42,9 @@ var stageNames as string[] = [
     "thaumcraft",
     "blood_magic",
     "wizardry",
-    "bewitchment",
+    // "bewitchment",
     "roots",
-    "electrobob",
+    "electroblob",
 
     // Misc
     // "rats",

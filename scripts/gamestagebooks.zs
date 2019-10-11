@@ -31,10 +31,10 @@ Book.addBook("xnet", "XNet", "Xnet Handbook", "xnet:controller", 0xCC7722);
 
 // Magic
 Book.addBook("astral_sorcery", "Astral Sorcery", "Astral Sorcery Handbook", "astralsorcery:itemwand", 0xF64A8A);
-Book.addBook("bewitchment", "Bewitchment", "Bewitchment Handbook", "bewitchment:mandrake_root", 0xDF5286);
+// Book.addBook("bewitchment", "Bewitchment", "Bewitchment Handbook", "bewitchment:mandrake_root", 0xDF5286);
 Book.addBook("blood_magic", "Blood Magic", "Blood Magic Handbook", "bloodmagic:altar", 0xFF0090);
 Book.addBook("botania", "Botania", "Botania Handbook", "botania:runealtar", 0xFC0FC0);
-Book.addBook("electrobob", "Electrobob's Wizardry", "Electrobob's Wizardry Handbook", "ebwizardry:arcane_workbench", 0xFE7F9C);
+Book.addBook("electroblob", "Electroblob's Wizardry", "Electroblob's Wizardry Handbook", "ebwizardry:arcane_workbench", 0xFE7F9C);
 Book.addBook("evilcraft", "Evilcraft", "Evilcraft Handbook", "evilcraft:blood_infuser", 0xE0115F);
 Book.addBook("mystical_ag", "Mystical Agriculture", "Mystical Agriculture Handbook", "mysticalagriculture:crafting", 0xF81894);
 Book.addBook("roots", "Roots", "Roots Handbook", "roots:ritual_spreading_forest", 0xFF69B4);

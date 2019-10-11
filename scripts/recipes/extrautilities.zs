@@ -9,7 +9,14 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<appliedenergistics2:material:40>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
+<extrautils2:minichest>
 ];
 
 
@@ -112,14 +119,8 @@ for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
 
-// Hide facades in JEI
-static jeiHide as IItemStack[] = [
-//	<modid:itemname:meta>
-// <appliedenergistics2:facade>.withTag({damage: 0, item: "*"}) 
-];
-
-
-
-for item in jeiHide {
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
 	mods.jei.JEI.hide(item);
 }

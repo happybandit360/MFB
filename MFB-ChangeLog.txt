@@ -29,6 +29,7 @@ WantonLib
 
 -- Removed Mods --
 --------------------
+Bewitchment
 More Loot Tables
 
 
@@ -36,18 +37,32 @@ More Loot Tables
 --------------------
 AppliedEnergistics/AppliedEnergistics2.cfg
     I:minMeteoriteDistance=1707
+hatchery.cfg
+    B:"Breeding gives Eggs"=false
 mysticlworld.cfg
     B:GiveBook=false
     I:HutDistance=800
+quark.cfg
+    B:"Enable Conversion to Vanilla Chests"=true
+    B:"Rename vanilla chests to Oak (Trapped) Chest"=false
+    B:"Red Nether Brick"=false
+    biotite {
+        I:"Cluster count for natural generation"=4
+        I:"Cluster size"=2
+        I:"Clusters generated per dragon death tick"=4
 Triumph
     Changed Double Nether Star advancement to reflect Woot removal.
 
 
 -- Script Changes --
 --------------------
+All necessary changes to remove Bewitchment
+Fixed "Electrobob"
 Recipe updates for metal unification and conflict removal
     Move JEI remove and hide to mod recipe scripts
 Updated written book in Intial Inventory to reflect Woot removal.
+Added script for OreDict changes, removed flint from Quark stone tool materials.
+Unstaged Open Blocks XP bucket.
 
 
 -- Asset Changes --

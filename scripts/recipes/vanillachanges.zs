@@ -114,3 +114,5 @@ for item, itemRecipes in namedShapelessRecipes {
 for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
+
+// recipes.remove(<minecraft:trapped_chest>, [<minecraft:trapped_chest>]);

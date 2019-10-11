@@ -12,7 +12,9 @@ static itemRecipeRemoval as IItemStack[] = [
 <tcomplement:steel_helmet>,
 <tcomplement:steel_chestplate>,
 <tcomplement:steel_leggings>,
-<tcomplement:steel_boots>
+<tcomplement:steel_boots>,
+<tconstruct:slimesling>,
+<tconstruct:slime_boots>
 ];
 
 /*
@@ -44,7 +46,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		"tcomplement_steel_helmet" : [
 			[
 	  			[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>],
-	   			[<ore:ingotSteel>, <mod:itemname:meta>, <ore:ingotSteel>]
+	   			[<ore:ingotSteel>, null, <ore:ingotSteel>]
 			]
 		]
 	},
@@ -71,6 +73,23 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>],
 	   			[<ore:ingotSteel>, null, <ore:ingotSteel>],
 	  			[<ore:ingotSteel>, null, <ore:ingotSteel>]
+			]
+		]
+	},
+<tconstruct:slimesling> : {
+		"tconstruct_slimesling" : [
+			[
+	  			[<ore:string>, <minecraft:slime>, <ore:string>],
+	   			[<minecraft:slime_ball>, null, <minecraft:slime_ball>],
+	  			[null, <minecraft:slime_ball>, null]
+			]
+		]
+	},
+<tconstruct:slime_boots> : {
+		"tconstruct_slime_boots" : [
+			[
+	  			[<minecraft:slime_ball>, null, <minecraft:slime_ball>],
+	  			[<minecraft:slime>, null, <minecraft:slime>]
 			]
 		]
 	}

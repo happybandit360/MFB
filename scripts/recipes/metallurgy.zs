@@ -66,7 +66,9 @@ static itemRecipeRemoval as IItemStack[] = [
 <metallurgy:steel_helmet>,
 <metallurgy:steel_chestplate>,
 <metallurgy:steel_leggings>,
-<metallurgy:steel_boots>
+<metallurgy:steel_boots>,
+<metallurgy:mithril_block>,
+<metallurgy:mithril_ingot>
 ];
 
 /*
@@ -85,7 +87,8 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 <metallurgy:silver_ingot>,
 <metallurgy:silver_block>,
 <metallurgy:copper_ingot>,
-<metallurgy:copper_block>
+<metallurgy:copper_block>,
+<metallurgy:mithril_nugget>
 ];
 
 
@@ -340,6 +343,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
+<metallurgy:mithril_block> : {
+		"metallurgy_mithril_block" : [
+			[
+	  			[<metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>],
+	   			[<metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>],
+	  			[<metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>]
+			]
+		]
+	}
 };
 
 
@@ -631,6 +643,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+<metallurgy:mithril_ingot> * 9 : {
+		"<metallurgy_mithril_ingot>" : [
+			[<metallurgy:mithril_block>]
+		]
+	}
 };
 
 

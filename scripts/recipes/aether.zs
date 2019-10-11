@@ -9,7 +9,15 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<appliedenergistics2:material:40>
+<aether_legacy:iron_ring>,
+<aether_legacy:golden_ring>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
 ];
 
 
@@ -28,6 +36,24 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<aether_legacy:iron_ring> : {
+		"aether_legacy_iron_ring" : [
+			[
+	  			[null, <ore:ingotIron>, null],
+	   			[<ore:ingotIron>, <aether_legacy:ambrosium_shard>, <ore:ingotIron>],
+	  			[null, <ore:ingotIron>, null]
+			]
+		]
+	},
+<aether_legacy:golden_ring> : {
+		"aether_legacy_golden_ring" : [
+			[
+	  			[null, <ore:ingotGold>, null],
+	   			[<ore:ingotGold>, <aether_legacy:ambrosium_shard>, <ore:ingotGold>],
+	  			[null, <ore:ingotGold>, null]
+			]
+		]
+	}
 };
 
 
@@ -112,14 +138,8 @@ for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
 
-// Hide facades in JEI
-static jeiHide as IItemStack[] = [
-//	<modid:itemname:meta>
-// <appliedenergistics2:facade>.withTag({damage: 0, item: "*"}) 
-];
-
-
-
-for item in jeiHide {
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
 	mods.jei.JEI.hide(item);
 }
