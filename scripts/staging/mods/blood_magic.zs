@@ -42,3 +42,25 @@ mods.ItemStages.addItemStage("blood_magic", <bloodmagic:upgrade_tome>.withTag({l
 mods.ItemStages.addItemStage("blood_magic", <bloodmagic:upgrade_tome>.withTag({level: 9, key: "bloodmagic.upgrade.graveDigger"}));
 mods.ItemStages.addItemStage("blood_magic", <bloodmagic:upgrade_tome>.withTag({level: 9, key: "bloodmagic.upgrade.meleeDecrease"}));
 mods.ItemStages.addItemStage("blood_magic", <bloodmagic:upgrade_tome>.withTag({level: 9, key: "bloodmagic.upgrade.disoriented"}));
+
+static metadataStaging as IItemStack[] = [
+// <modid:itemname:meta>
+<bloodmagic:sentient_sword:*>.withTag({}),
+<bloodmagic:sentient_bow:*>.withTag({}),
+<bloodmagic:sentient_axe:*>.withTag({}),
+<bloodmagic:sentient_pickaxe:*>.withTag({}),
+<bloodmagic:sentient_shovel:*>.withTag({})
+];
+
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("blood_magic", item);
+}
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("blood_magic", item.withTag({ench:[]}));
+}
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("blood_magic", item.withTag({display: {}}));
+}

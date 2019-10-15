@@ -20,6 +20,8 @@ mods.orestages.OreStages.addReplacement("tinkers", <tconstruct:ore:1>, <minecraf
 mods.MobStages.addStage("tinkers", "tconstruct:blueslime");
 
 // Stage Misc Items
+mods.ItemStages.addItemStage("tinkers", <minecraft:spawn_egg>.withTag({EntityTag: {id: "plustic:supremeleader"}}));
+mods.ItemStages.addItemStage("tinkers", <minecraft:spawn_egg>.withTag({EntityTag: {id: "plustic:blindbandit"}}));
 mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "electrical_steel", Amount: 1000}));
 mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "energetic_alloy", Amount: 1000}));
 mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "vibrant_alloy", Amount: 1000}));
@@ -86,3 +88,69 @@ mods.ItemStages.addItemStage("tinkers", <tconstruct:tooltables:2>.withTag({textu
 mods.ItemStages.addItemStage("tinkers", <tconstruct:tooltables:2>.withTag({textureBlock: {id: "climaticbiomesjbg:pine_log", Count: 1 as byte, Damage: 0 as short}}));
 mods.ItemStages.addItemStage("tinkers", <tconstruct:bolt>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, Accuracy: 1.0 as float, MiningSpeed: 7.07 as float, FreeModifiers: 3, Durability: 111, HarvestLevel: 4, Attack: 4.2 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, Accuracy: 1.0 as float, MiningSpeed: 7.07 as float, FreeModifiers: 3, Durability: 111, HarvestLevel: 4, Attack: 4.2 as float}, Special: {Categories: ["tool", "no_melee", "projectile"]}, TinkerData: {Materials: ["wood", "obsidian", "feather"], Modifiers: []}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "duritos", color: -10478396, level: 1}], Traits: ["ecological", "duritos"]}));
 mods.ItemStages.addItemStage("tinkers", <tconstruct:bolt>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, Accuracy: 1.0 as float, MiningSpeed: 7.5 as float, FreeModifiers: 3, Durability: 2240, HarvestLevel: 2, Attack: 5.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, Accuracy: 1.0 as float, MiningSpeed: 7.5 as float, FreeModifiers: 3, Durability: 2240, HarvestLevel: 2, Attack: 5.5 as float}, Special: {Categories: ["tool", "no_melee", "projectile"]}, TinkerData: {Materials: ["wood", "integrationforegoing.reinforced_pink_slime", "feather"], Modifiers: []}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "slimey_pink", color: -4032074, level: 1}, {identifier: "dense", color: -4032074, level: 1}], Traits: ["ecological", "slimey_pink", "dense"]}));
+
+static metadataStaging as IItemStack[] = [
+// <modid:itemname:meta>
+<plustic:katana:*>,
+<plustic:laser_gun:*>,
+<conarm:helmet:*>,
+<conarm:chestplate:*>,
+<conarm:leggings:*>,
+<conarm:boots:*>,
+<tconstruct:pickaxe:*>,
+<tconstruct:shovel:*>,
+<tconstruct:hatchet:*>,
+<tconstruct:mattock:*>,
+<tconstruct:kama:*>,
+<tconstruct:hammer:*>,
+<tconstruct:excavator:*>,
+<tconstruct:lumberaxe:*>,
+<tconstruct:scythe:*>,
+<tconstruct:broadsword:*>,
+<tconstruct:longsword:*>,
+<tconstruct:rapier:*>,
+<tconstruct:frypan:*>,
+<tconstruct:battlesign:*>,
+<tconstruct:cleaver:*>,
+<tconstruct:shortbow:*>,
+<tconstruct:longbow:*>,
+<tconstruct:arrow:*>,
+<tconstruct:crossbow:*>,
+<tconstruct:bolt:*>,
+<tconstruct:shuriken:*>,
+<tcomplement:chisel:*>
+];
+
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("tinkers", item.withTag({StatsOriginal: {}}));
+}
+
+static tconStaging as IItemStack[] = [
+// <modid:itemname:meta>
+<tcomplement:manyullyn_helmet:*>,
+<tcomplement:manyullyn_chestplate:*>,
+<tcomplement:manyullyn_leggings:*>,
+<tcomplement:manyullyn_boots:*>,
+<tcomplement:knightslime_helmet:*>,
+<tcomplement:knightslime_chestplate:*>,
+<tcomplement:knightslime_leggings:*>,
+<tcomplement:knightslime_boots:*>,
+<tcomplement:steel_helmet:*>,
+<tcomplement:steel_chestplate:*>,
+<tcomplement:steel_leggings:*>,
+<tcomplement:steel_boots:*>
+];
+
+
+for item in tconStaging {
+    mods.ItemStages.addItemStage("tinkers", item);
+}
+
+for item in tconStaging {
+    mods.ItemStages.addItemStage("tinkers", item.withTag({ench:[]}));
+}
+
+for item in tconStaging {
+    mods.ItemStages.addItemStage("tinkers", item.withTag({display: {}}));
+}

@@ -8,3 +8,5 @@ import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
 mods.recipestages.Recipes.setRecipeStageByMod("dark_utilities", "darkutils");
+
+// mods.ItemStages.addItemStage("dark_utilities", <darkutils:lore_tag:*>.withTag({display: {}}));

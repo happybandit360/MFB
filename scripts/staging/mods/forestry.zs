@@ -14,3 +14,19 @@ mods.recipestages.Recipes.setRecipeStageByMod("forestry", "magicbees");
 
 // Ores
 mods.orestages.OreStages.addReplacement("forestry", <forestry:resources>, <minecraft:stone>);
+
+for itm in loadedMods["forestry"].items {
+    mods.ItemStages.addItemStage("forestry", itm.withTag({Chromosomes: []}));
+}
+
+for itm in loadedMods["gendustry"].items {
+    mods.ItemStages.addItemStage("forestry", itm.withTag({Chromosomes: []}));
+}
+
+for itm in loadedMods["careerbees"].items {
+    mods.ItemStages.addItemStage("forestry", itm.withTag({Chromosomes: []}));
+}
+
+for itm in loadedMods["magicbees"].items {
+    mods.ItemStages.addItemStage("forestry", itm.withTag({Chromosomes: []}));
+}

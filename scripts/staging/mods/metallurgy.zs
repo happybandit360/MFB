@@ -454,3 +454,11 @@ static metadataStaging as IItemStack[] = [
 for item in metadataStaging {
     mods.ItemStages.addItemStage("metallurgy", item);
 }
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("metallurgy", item.withTag({ench:[]}));
+}
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("metallurgy", item.withTag({display: {}}));
+}

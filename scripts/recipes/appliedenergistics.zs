@@ -111,15 +111,3 @@ for item, itemRecipes in namedShapelessRecipes {
 for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
-
-// Hide facades in JEI
-static jeiHide as IItemStack[] = [
-//	<modid:itemname:meta>
-// <appliedenergistics2:facade>.withTag({damage: 0, item: "*"}) 
-];
-
-
-
-for item in jeiHide {
-	mods.jei.JEI.hide(item);
-}

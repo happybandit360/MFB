@@ -2,6 +2,7 @@
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
 
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
@@ -65,7 +66,13 @@ for item in metadataStaging {
     mods.ItemStages.addItemStage("gobber", item);
 }
 
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("gobber", item.withTag({ench:[]}));
+}
 
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("gobber", item.withTag({display: {}}));
+}
 
 // Durability testing
 // <gb:gigger>.maxDamage = 1000;

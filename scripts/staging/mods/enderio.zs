@@ -116,3 +116,58 @@ mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({Sto
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38}]}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 30}]}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 36}]}));
+mods.ItemStages.addItemStage("ender_io", <enderio:item_basic_capacitor:3>.withTag({display: {}}));
+mods.ItemStages.addItemStage("ender_io", <enderio:item_basic_capacitor:4>.withTag({display: {}}));
+
+static metadataStaging as IItemStack[] = [
+// <modid:itemname:meta>
+<enderio:item_dark_steel_helmet:0>,
+<enderio:item_dark_steel_chestplate:0>,
+<enderio:item_dark_steel_leggings:0>,
+<enderio:item_dark_steel_boots:0>,
+<enderio:item_dark_steel_shield:0>,
+<enderio:item_dark_steel_pickaxe:0>,
+<enderio:item_dark_steel_axe:0>,
+<enderio:item_dark_steel_bow:0>,
+<enderio:item_dark_steel_shears:0>,
+<enderio:item_dark_steel_treetap:0>,
+<enderio:item_dark_steel_crook:0>,
+<enderio:item_dark_steel_hand:0>,
+<enderio:item_end_steel_sword:0>,
+<enderio:item_end_steel_pickaxe:0>,
+<enderio:item_end_steel_axe:0>,
+<enderio:item_end_steel_bow:0>,
+<enderio:item_end_steel_helmet:0>,
+<enderio:item_end_steel_chestplate:0>,
+<enderio:item_end_steel_leggings:0>,
+<enderio:item_end_steel_boots:0>,
+<enderio:item_end_steel_shield:0>,
+<enderio:item_stellar_alloy_sword:0>,
+<enderio:item_stellar_alloy_pickaxe:0>,
+<enderio:item_stellar_alloy_axe:0>,
+<enderio:item_stellar_alloy_helmet:0>,
+<enderio:item_stellar_alloy_boots:0>,
+<enderio:item_stellar_alloy_chestplate:0>,
+<enderio:item_stellar_alloy_leggings:0>,
+];
+
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("ender_io", item);
+}
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("ender_io", item.withTag({ench:[]}));
+}
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("ender_io", item.withTag({display: {}}));
+}
+
+
+// for itm in loadedMods["ender_io"].items {
+//     mods.ItemStages.addItemStage("enderio", itm.withTag({"enderio:maxenergy": }));
+    
+// }
+
+// <enderio:block_vat>.withTag({"enderio:energy": 820, "enderio:maxenergy": 100000, "enderio:data": {"faceModes-": 1 as byte, "lastCompletedRecipe-": 1 as byte, "currentTask-": 1 as byte, outputQueue: {size: 0}, outputTank: {Empty: "", Capacity: 8000}, inputTank: {Empty: "", Capacity: 8000}, inventory: {"2": {id: "enderio:item_basic_capacitor", Count: 1 as byte, Damage: 0 as short}, size: 3, "1+": 1 as byte, "0+": 1 as byte}, redstoneControlMode: 0}})

@@ -150,3 +150,15 @@ static metadataStaging as IItemStack[] = [
 for item in metadataStaging {
     mods.ItemStages.addItemStage("armor_plus", item);
 }
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("armor_plus", item.withTag({ench:[]}));
+}
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("armor_plus", item.withTag({display: {}}));
+}
+
+// for itm in loadedMods["armorplus"].items {
+//     mods.ItemStages.addItemStage("armor_plus", itm.withTag({ench:[]}));
+// }

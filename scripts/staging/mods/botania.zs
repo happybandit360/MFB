@@ -66,3 +66,11 @@ mods.orestages.OreStages.addReplacementById("botania", "botania:mushroom:*", "mi
 mods.ItemStages.addItemStage("botania", <botania:brewvial>.withTag({brewKey: "warpWard"}));
 mods.ItemStages.addItemStage("botania", <botania:brewflask>.withTag({brewKey: "warpWard"}));
 mods.ItemStages.addItemStage("botania", <botania:incensestick>.withTag({brewKey: "warpWard"}));
+
+// for itm in loadedMods["botania"].items {
+//     mods.ItemStages.addItemStage("botania", itm.withTag({mana: i}));
+// }
+
+
+// <botania:manaring>.withTag({mana: 500000})
+// <botania:cosmetic:12>.withTag({playerHashcode: 207})

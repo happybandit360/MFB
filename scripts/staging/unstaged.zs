@@ -35,3 +35,6 @@ mods.ItemStages.removeItemStage(<mekanism:saltblock>);
 // Unstage Powders
 mods.ItemStages.removeItemStage(<enderio:item_material:30>);
 mods.ItemStages.removeItemStage(<enderio:item_material:31>);
+
+// Unstage XP Bucket for crafting reasons
+mods.ItemStages.removeItemStage(<openblocks:xp_bucket>);

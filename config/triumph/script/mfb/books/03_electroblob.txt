@@ -1,22 +1,22 @@
 //Set the icon item
-setIcon(<gamestagebooks:dimensional_world>)
+setIcon(<gamestagebooks:electroblob>)
 
 //Set the title String
-setTitle("Diggy Diggy Hole")
+setTitle("You're A Hairy Wizard")
 
 //Set the description String
-setDescription("Read the Mining Dimension Handbook")
+setDescription("Read the Electroblob's Wizardry Handbook")
 
 //Completed advancement color change
-setCompletedIconColor(0, 0, 255)
-setCompletedTitleColor(0, 0, 255)
+setCompletedIconColor(255, 51, 153)
+setCompletedTitleColor(255, 51, 153)
 setUncompletedTitleColor(185, 143, 44)
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("mfb:books/root")
 
 //Set the position
-setPos(-198,12)
+setPos(-138,-18)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
@@ -25,6 +25,6 @@ hideLines()
 criteria = addCriteria("readBook", "triumph:right_click_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:dimensional_world>)
+criteria.setItem(<gamestagebooks:electroblob>)
 
 //By not setting anything about requirements here, all criteria are automatically required

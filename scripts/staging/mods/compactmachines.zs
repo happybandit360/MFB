@@ -6,4 +6,4 @@ import crafttweaker.item.IItemStack;
 import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
-mods.recipestages.Recipes.setRecipeStageByMod("compactmachines", "compactmachines3");
+mods.recipestages.Recipes.setRecipeStageByMod("compact_machines", "compactmachines3");

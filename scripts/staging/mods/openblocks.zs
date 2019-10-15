@@ -235,7 +235,7 @@ mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {Fl
 mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "tropicraft.portal", Amount: 16000}}));
 mods.ItemStages.addItemStage("open_blocks", <openblocks:tank>.withTag({tank: {FluidName: "astralsorcery.liquidstarlight", Amount: 16000}}));
 mods.ItemStages.addItemStage("open_blocks", <openblocks:trophy>);
-mods.ItemStages.addItemStage("open_blocks", <forge:bucketfilled>.withTag({FluidName: "xpjuice", Amount: 1000}));
+// mods.ItemStages.addItemStage("open_blocks", <forge:bucketfilled>.withTag({FluidName: "xpjuice", Amount: 1000}));
 mods.ItemStages.addItemStage("open_blocks", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 23}]}));
 mods.ItemStages.addItemStage("open_blocks", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 23}]}));
 mods.ItemStages.addItemStage("open_blocks", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 23}]}));

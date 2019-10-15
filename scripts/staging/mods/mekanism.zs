@@ -93,3 +93,11 @@ static metadataStaging as IItemStack[] = [
 for item in metadataStaging {
     mods.ItemStages.addItemStage("mekanism", item);
 }
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("mekanism", item.withTag({ench:[]}));
+}
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("mekanism", item.withTag({display: {}}));
+}

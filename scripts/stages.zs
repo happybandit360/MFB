@@ -10,8 +10,8 @@ var stageNames as string[] = [
     // Tools
     "tinkers",
     "armor_plus",
-    // "silent_gems",
-    // "quality_tools",
+    // "silent_gems", // CUT
+    // "quality_tools", // CUT
     "calculator",
     "tetra",
     "metallurgy",
@@ -31,9 +31,7 @@ var stageNames as string[] = [
     "environmental_tech",
     "project_red",
     "steves_carts",
-    "extreme_reactors",
-    "deep_resonance",
-
+    
     // Magic
     "evilcraft",
     "botania",
@@ -42,12 +40,12 @@ var stageNames as string[] = [
     "thaumcraft",
     "blood_magic",
     "wizardry",
-    // "bewitchment",
+    // "bewitchment", // CUT
     "roots",
     "electroblob",
 
     // Misc
-    // "rats",
+    // "rats", // CUT
     "extra_anvils",
     "forestry",
     "mob_grinding_utils",
@@ -62,7 +60,8 @@ var stageNames as string[] = [
     "arcane_archives",
     "deep_mob_learning",
     "flux_networks",
-    "viescraft", // CUT
+    "viescraft",
+    
 
     // Non-Starting
     // "twilight_forest", // CUT
@@ -70,7 +69,9 @@ var stageNames as string[] = [
     "tropicraft",
     "betweenlands",
     "sky_orchards",
-    "chickens"
+    "chickens",
+    "extreme_reactors",
+    "deep_resonance",
 
 ];
 

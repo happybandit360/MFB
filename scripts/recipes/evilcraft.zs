@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import mods.extrautils2.Crusher;
 
 
 /*
@@ -119,3 +120,9 @@ for item, itemRecipes in namedShapelessRecipes {
 for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
+
+// Machine Recipes
+
+//mods.extrautils2.Crusher.add(IItemStack output, IItemStack input, @Optional IItemStack secondaryOutput, @Optional float secondaryChance);
+
+mods.extrautils2.Crusher.add(<evilcraft:dark_gem_crushed>, <evilcraft:dark_gem> * 2);

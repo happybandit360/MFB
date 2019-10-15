@@ -13,6 +13,7 @@ mods.recipestages.Recipes.setRecipeStageByMod("evilcraft", "evilcraft");
 mods.orestages.OreStages.addReplacementById("evilcraft", "evilcraft:dark_ore:*", "minecraft:stone");
 
 // Stage Misc Items
+mods.ItemStages.addItemStage("evilcraft", <evilcraft:box_of_eternal_closure>.withTag({spiritTag: {}}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:spawn_egg>.withTag({EntityTag: {id: "evilcraft:werewolf"}}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:spawn_egg>.withTag({EntityTag: {id: "evilcraft:netherfish"}}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:spawn_egg>.withTag({EntityTag: {id: "evilcraft:poisonous_libelle"}}));
@@ -40,7 +41,14 @@ static metadataStaging as IItemStack[] = [
 <evilcraft:vengeance_pickaxe:*>.withTag({ench: [{lvl: 3 as short, id: 59}, {lvl: 5 as short, id: 35}]})
 ];
 
-
 for item in metadataStaging {
     mods.ItemStages.addItemStage("evilcraft", item);
+}
+
+for item in metadataStaging {
+    mods.ItemStages.addItemStage("evilcraft", item.withTag({display: {}}));
+}
+
+for itm in loadedMods["evilcraft"].items {
+    mods.ItemStages.addItemStage("evilcraft", itm.withTag({Fluid: {}}));
 }

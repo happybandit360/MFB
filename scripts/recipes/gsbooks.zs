@@ -442,18 +442,18 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:wizardry>, [
 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
 ]);
 
-// Bewitchment
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:bewitchment>, [
-	[<ore:book>, null, null, <minecraft:cauldron>, <ore:ingotCrystaltine>, <minecraft:cauldron>, null, null, <ore:book>], 
-	[null, null, null, <minecraft:cauldron>, <minecraft:cauldron>, <minecraft:cauldron>, null, null, null], 
-	[null, null, null, <minecraft:cauldron>, <minecraft:cauldron>, <minecraft:cauldron>, null, null, null], 
-	[<ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>], 
-	[<ore:ingotCrystaltine>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <contenttweaker:double_star>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:ingotCrystaltine>], 
-	[<ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>], 
-	[<ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <minecraft:cauldron>, <minecraft:cauldron>, <minecraft:cauldron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>], 
-	[<ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <minecraft:cauldron>, <minecraft:cauldron>, <minecraft:cauldron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>], 
-	[<ore:book>, <ore:barsIron>, <ore:barsIron>, <minecraft:cauldron>, <ore:ingotCrystaltine>, <minecraft:cauldron>, <ore:barsIron>, <ore:barsIron>, <ore:book>]
-]);
+// // Bewitchment
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:bewitchment>, [
+// 	[<ore:book>, null, null, <minecraft:cauldron>, <ore:ingotCrystaltine>, <minecraft:cauldron>, null, null, <ore:book>], 
+// 	[null, null, null, <minecraft:cauldron>, <minecraft:cauldron>, <minecraft:cauldron>, null, null, null], 
+// 	[null, null, null, <minecraft:cauldron>, <minecraft:cauldron>, <minecraft:cauldron>, null, null, null], 
+// 	[<ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>], 
+// 	[<ore:ingotCrystaltine>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <contenttweaker:double_star>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:ingotCrystaltine>], 
+// 	[<ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>], 
+// 	[<ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <minecraft:cauldron>, <minecraft:cauldron>, <minecraft:cauldron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>], 
+// 	[<ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <minecraft:cauldron>, <minecraft:cauldron>, <minecraft:cauldron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>], 
+// 	[<ore:book>, <ore:barsIron>, <ore:barsIron>, <minecraft:cauldron>, <ore:ingotCrystaltine>, <minecraft:cauldron>, <ore:barsIron>, <ore:barsIron>, <ore:book>]
+// ]);
 
 // Roots
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:roots>, [
