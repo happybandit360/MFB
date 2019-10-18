@@ -1,5 +1,12 @@
 #priority -1100
 
+/*
+	Unstaging Script
+    This script removes indiviual items from all stages.
+	Note: These scripts are created and for the usage in MFB by Happybandit. 
+    You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
+*/
+
 //Unstage all mod manuals
 mods.ItemStages.removeItemStage(<forestry:book_forester>);
 mods.ItemStages.removeItemStage(<industrialforegoing:book_manual>);

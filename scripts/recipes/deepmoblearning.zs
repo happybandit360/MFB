@@ -1,5 +1,5 @@
 /*
-	Extra Utilities recipes script.
+	Deep Mob Learning recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -16,6 +16,7 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
+<deepmoblearning:data_model_dragon>
 ];
 
 /*
@@ -23,7 +24,6 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<extrautils2:minichest>
 ];
 
 
@@ -64,6 +64,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+<deepmoblearning:data_model_dragon> : {
+		"deepmoblearning_data_model_dragon" : [
+			[<deepmoblearning:data_model_blank>, <minecraft:skull:5>]
+		]
+	}
 };
 
 

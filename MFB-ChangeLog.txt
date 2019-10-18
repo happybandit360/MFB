@@ -96,6 +96,36 @@ Alpha Build
 
 -- Config Changes --
 --------------------
+deepmoblearning.cfg
+    Added Guardian Scales, Wither Bones, and Dragon Scales to respective pristine matter
+
+
+-- Script Changes --
+--------------------
+Added header to all scripts
+Changed Recipe for Ender Dragon Data Module
+
+-- Asset Changes --
+-------------------
+
+
+
+-------------------------------------------------------------------------------
+Alpha Build
+0.0.6 --> 0.0.7
+-------------------------------------------------------------------------------
+
+-- Added Mods --
+----------------	
+
+-- Updated Mods --
+-------------------
+
+-- Removed Mods --
+--------------------
+
+-- Config Changes --
+--------------------
 
 -- Script Changes --
 --------------------
