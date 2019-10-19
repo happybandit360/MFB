@@ -13,3 +13,17 @@ import crafttweaker.item.IIngredient;
 <ore:materialStoneTool>.remove(<minecraft:flint>);
 <ore:chest>.remove(<minecraft:trapped_chest>);
 <ore:chestWood>.remove(<minecraft:trapped_chest>);
+
+static caseAdd as IItemStack[] = [
+//	<modid:itemname:meta>
+<teslacorelib:machine_case>,
+<enderio:item_material>,
+<rftools:machine_frame>,
+<extrautils2:machine>,
+<mekanism:basicblock:8>,
+<thermalexpansion:frame>
+];
+
+for item in caseAdd {
+	<ore:machineCase>.add(item);
+}
