@@ -10,13 +10,6 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-import mods.thermalexpansion.Pulverizer;
-#import mods.extrautils2.Crusher;
-import mods.enderio.SagMill;
-import mods.tconstruct.Melting;
-import mods.metallurgyreforged.Crusher;
- 
-
 // recipes.addShaped(null,
 // 	[[null, null, null],
 // 	[null, null, null], 
@@ -438,24 +431,24 @@ mods.enderio.SagMill.addRecipe([<thermalfoundation:material:98> * 2], [100], <sk
 
 // Amber - Metallurgy Crusher
 // Crusher.addRecipe(IIngrendient input, IItemStack output);
-Crusher.addRecipe(<sky_orchards:amber_iron>, <thermalfoundation:material> * 2);
-Crusher.addRecipe(<sky_orchards:amber_gold>, <thermalfoundation:material:1> * 2);
-Crusher.addRecipe(<sky_orchards:amber_copper>, <thermalfoundation:material:64> * 2);
-Crusher.addRecipe(<sky_orchards:amber_lead>, <thermalfoundation:material:67> * 2);
-Crusher.addRecipe(<sky_orchards:amber_tin>, <thermalfoundation:material:65> * 2);
-Crusher.addRecipe(<sky_orchards:amber_silver>, <thermalfoundation:material:66> * 2);
-Crusher.addRecipe(<sky_orchards:amber_nickel>, <thermalfoundation:material:69> * 2);
-Crusher.addRecipe(<sky_orchards:amber_cobalt>, <enderio:item_material:31> * 2);
-Crusher.addRecipe(<sky_orchards:amber_ardite>, <enderio:item_material:30> * 2);
-Crusher.addRecipe(<sky_orchards:amber_osmium>, <mekanism:dust:2> * 2);
-Crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundation:material:68> * 2);
-Crusher.addRecipe(<sky_orchards:amber_platinum>, <thermalfoundation:material:70> * 2);
-Crusher.addRecipe(<sky_orchards:amber_iridium>, <thermalfoundation:material:71> * 2);
-Crusher.addRecipe(<sky_orchards:amber_bronze>, <thermalfoundation:material:99> * 2);
-Crusher.addRecipe(<sky_orchards:amber_constantan>, <thermalfoundation:material:100> * 2);
-Crusher.addRecipe(<sky_orchards:amber_electrum>, <thermalfoundation:material:97> * 2);
-Crusher.addRecipe(<sky_orchards:amber_steel>, <thermalfoundation:material:96> * 2);
-Crusher.addRecipe(<sky_orchards:amber_invar>, <thermalfoundation:material:98> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_iron>, <thermalfoundation:material> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_gold>, <thermalfoundation:material:1> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_copper>, <thermalfoundation:material:64> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_lead>, <thermalfoundation:material:67> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_tin>, <thermalfoundation:material:65> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_silver>, <thermalfoundation:material:66> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_nickel>, <thermalfoundation:material:69> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_cobalt>, <enderio:item_material:31> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_ardite>, <enderio:item_material:30> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_osmium>, <mekanism:dust:2> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundation:material:68> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_platinum>, <thermalfoundation:material:70> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_iridium>, <thermalfoundation:material:71> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_bronze>, <thermalfoundation:material:99> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_constantan>, <thermalfoundation:material:100> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_electrum>, <thermalfoundation:material:97> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_steel>, <thermalfoundation:material:96> * 2);
+mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_invar>, <thermalfoundation:material:98> * 2);
 
 
 // Amber - Tinker's Smeltery

@@ -75,8 +75,18 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		]
 	}	*/
 <thermalfoundation:material:136> * 9 : {
-		"<thermalfoundation_material_136>" : [
+		"thermalfoundation_material_136" : [
 			[<thermalfoundation:storage:8>]
+		]
+	},
+<thermalfoundation:material:96> : {
+		"thermalfoundation_material_96_2" : [
+			[<thermalfoundation:material>, <thermalfoundation:material:769>, <thermalfoundation:material:769>, <thermalfoundation:material:769>, <thermalfoundation:material:769>]
+		]
+	},
+<thermalfoundation:material:96> : {
+		"thermalfoundation_material_96" : [
+			[<thermalfoundation:material>, <thermalfoundation:material:768>, <thermalfoundation:material:768>, <thermalfoundation:material:768>, <thermalfoundation:material:768>]
 		]
 	}
 };

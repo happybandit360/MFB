@@ -32,7 +32,9 @@ static itemRecipeRemoval as IItemStack[] = [
 <mekanismtools:steelhelmet>,
 <mekanismtools:steelchestplate>,
 <mekanismtools:steelleggings>,
-<mekanismtools:steelboots>
+<mekanismtools:steelboots>,
+<mekanism:nugget:1>,
+<mekanism:ingot:1>
 ];
 
 /*
@@ -142,6 +144,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	]
 },
+<mekanism:ingot:1> : {
+	"mekanism_ingot_1" : [
+		[
+			[<mekanism:nugget:1>, <mekanism:nugget:1>, <mekanism:nugget:1>],
+			[<mekanism:nugget:1>, <mekanism:nugget:1>, <mekanism:nugget:1>], 
+			[<mekanism:nugget:1>, <mekanism:nugget:1>, <mekanism:nugget:1>]
+		]
+	]
+}
 };
 
 static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
@@ -252,9 +263,58 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+
+<mekanism:nugget:1> * 9 : {
+		"mekanism_nugget_1" : [
+			[<mekanism:ingot:1>]
+		]
+	},
+<mekanism:nugget:1> : {
+		"<mekanism_osmium_nugget_swap>" : [
+			[<metallurgy:osmium_nugget>]
+		]
+	},
+<mekanism:dust:2> : {
+		"mekanism_dust_2" : [
+			[<metallurgy:osmium_dust>]
+		]
+	}
 };
 
+// Furnace Recipes
 
+// Removal
+//furnace.remove(IIngredient output)
+furnace.remove(<mekanism:ingot:1>);
+
+// Addition
+//furnace.addRecipe(IItemStack output, IIngredient input, double xp);
+furnace.addRecipe(<mekanism:ingot:1>, <mekanism:oreblock>, 0.30);
+furnace.addRecipe(<mekanism:ingot:1>, <mekanism:dust:2>, 0.30);
+
+// Machine Recipes
+// mods.mekanism.crusher.removeRecipe(IIngredient outputStack, @Optional IIngredient inputStack);
+// mods.mekanism.crusher.addRecipe(IIngredient inputStack, IItemStack outputStack);
+mods.mekanism.crusher.removeRecipe(<mekanism:dust:2>);
+mods.mekanism.crusher.addRecipe(<mekanism:oreblock>, <mekanism:dust:2> * 2);
+mods.mekanism.crusher.addRecipe(<mekanism:ingot:1>, <mekanism:dust:2>);
+
+// mods.enderio.SagMill.removeRecipe(IItemStack input);
+// mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input);
+// mods.enderio.SagMill.removeRecipe(<mekanism:dust:2>);
+mods.enderio.SagMill.addRecipe([<mekanism:dust:2> * 2], [100], <mekanism:oreblock>);
+mods.enderio.SagMill.addRecipe([<mekanism:dust:2>], [100], <mekanism:ingot:1>);
+
+// mods.thermalexpansion.Pulverizer.removeRecipe(IItemStack input);
+// mods.thermalexpansion.Pulverizer.addRecipe(IItemStack output, IItemStack input, int energy);
+// mods.thermalexpansion.Pulverizer.removeRecipe(<mekanism:dust:2>);
+mods.thermalexpansion.Pulverizer.addRecipe(<mekanism:dust:2> * 2, <mekanism:oreblock>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<mekanism:dust:2>, <mekanism:ingot:1>, 1500);
+
+// mods.metallurgyreforged.Crusher.removeRecipe(IItemStack output);
+// mods.metallurgyreforged.Crusher.addRecipe(IIngrendient input, IItemStack output, float experience);
+mods.metallurgyreforged.Crusher.addRecipe(<mekanism:oreblock>, <mekanism:dust:2> * 2, 0.30);
+mods.metallurgyreforged.Crusher.addRecipe(<mekanism:ingot:1>, <mekanism:dust:2>, 0.30);
 
 // Do NOT edit below this line //
 

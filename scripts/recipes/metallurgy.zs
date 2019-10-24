@@ -95,7 +95,10 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 <metallurgy:silver_block>,
 <metallurgy:copper_ingot>,
 <metallurgy:copper_block>,
-<metallurgy:mithril_nugget>
+<metallurgy:mithril_nugget>,
+<metallurgy:bronze_dust>,
+<metallurgy:osmium_nugget>,
+<metallurgy:osmium_ingot>
 ];
 
 
@@ -356,6 +359,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[<metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>],
 	   			[<metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>],
 	  			[<metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>, <metallurgy:mithril_ingot>]
+			]
+		]
+	},
+<metallurgy:osmium_ingot> : {
+		"metallurgy_osmium_ingot" : [
+			[
+	  			[<metallurgy:osmium_nugget>, <metallurgy:osmium_nugget>, <metallurgy:osmium_nugget>],
+	   			[<metallurgy:osmium_nugget>, <metallurgy:osmium_nugget>, <metallurgy:osmium_nugget>],
+	  			[<metallurgy:osmium_nugget>, <metallurgy:osmium_nugget>, <metallurgy:osmium_nugget>]
 			]
 		]
 	}
@@ -651,13 +663,60 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		]
 	}	*/
 <metallurgy:mithril_ingot> * 9 : {
-		"<metallurgy_mithril_ingot>" : [
+		"metallurgy_mithril_ingot" : [
 			[<metallurgy:mithril_block>]
+		]
+	},
+<metallurgy:osmium_nugget> * 9 : {
+		"metallurgy_osmium_nugget" : [
+			[<metallurgy:osmium_ingot>]
+		]
+	},
+<metallurgy:osmium_nugget> : {
+		"metallurgy_osmium_nugget_swap" : [
+			[<mekanism:nugget:1>]
+		]
+	},
+<metallurgy:osmium_dust> : {
+		"metallurgy_osmium_dust" : [
+			[<mekanism:dust:2>]
 		]
 	}
 };
 
+// Furnace Recipes
 
+// Removal
+//furnace.remove(IIngredient output)
+furnace.remove(<metallurgy:osmium_ingot>);
+
+// Addition
+//furnace.addRecipe(IItemStack output, IIngredient input, double xp);
+furnace.addRecipe(<metallurgy:osmium_ingot>, <metallurgy:osmium_ore>, 0.30);
+furnace.addRecipe(<metallurgy:osmium_ingot>, <metallurgy:osmium_dust>, 0.30);
+
+
+// Machine Recipes
+// mods.mekanism.crusher.removeRecipe(IIngredient outputStack, @Optional IIngredient inputStack);
+// mods.mekanism.crusher.addRecipe(IIngredient inputStack, IItemStack outputStack);
+mods.mekanism.crusher.addRecipe(<metallurgy:osmium_ore>, <metallurgy:osmium_dust> * 2);
+mods.mekanism.crusher.addRecipe(<metallurgy:osmium_ingot>, <metallurgy:osmium_dust>);
+
+// mods.enderio.SagMill.removeRecipe(IItemStack input);
+// mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input);
+mods.enderio.SagMill.addRecipe([<metallurgy:osmium_dust> * 2], [100], <metallurgy:osmium_ore>);
+mods.enderio.SagMill.addRecipe([<metallurgy:osmium_dust>], [100], <metallurgy:osmium_ingot>);
+
+// mods.thermalexpansion.Pulverizer.removeRecipe(IItemStack input);
+// mods.thermalexpansion.Pulverizer.addRecipe(IItemStack output, IItemStack input, int energy);
+mods.thermalexpansion.Pulverizer.addRecipe(<metallurgy:osmium_dust> * 2, <metallurgy:osmium_ore>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<metallurgy:osmium_dust>, <metallurgy:osmium_ingot>, 1500);
+
+// mods.metallurgyreforged.Crusher.removeRecipe(IItemStack output);
+// mods.metallurgyreforged.Crusher.addRecipe(IIngrendient input, IItemStack output, float experience);
+mods.metallurgyreforged.Crusher.removeRecipe(<metallurgy:osmium_dust>);
+mods.metallurgyreforged.Crusher.addRecipe(<metallurgy:osmium_ore>, <metallurgy:osmium_dust> * 2, 0.30);
+mods.metallurgyreforged.Crusher.addRecipe(<metallurgy:osmium_ingot>, <metallurgy:osmium_dust>, 0.30);
 
 
 // Do NOT edit below this line //

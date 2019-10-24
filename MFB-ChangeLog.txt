@@ -2,7 +2,7 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.4 --> 0.0.5
+0.0.4 --> 0.0.5/6
 -------------------------------------------------------------------------------
 
 -- Added Mods --
@@ -38,6 +38,7 @@ WantonLib
 -- Removed Mods --
 --------------------
 Bewitchment
+Excel Modlist Exporter
 More Loot Tables
 
 
@@ -45,6 +46,8 @@ More Loot Tables
 --------------------
 AppliedEnergistics/AppliedEnergistics2.cfg
     I:minMeteoriteDistance=1707
+deepmoblearning.cfg
+    Added Guardian Scales, Wither Bones, and Dragon Scales to respective pristine matter
 hatchery.cfg
     B:"Breeding gives Eggs"=false
 mysticlworld.cfg
@@ -64,6 +67,8 @@ Triumph
 
 -- Script Changes --
 --------------------
+Added header to all scripts
+Changed Recipe for Ender Dragon Data Module
 All necessary changes to remove Bewitchment
 Fixed "Electrobob"
 Recipe updates for metal unification and conflict removal
@@ -82,7 +87,7 @@ Added to scripts to help prevent staging exploits...but can only do so much
 
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.5 --> 0.0.6
+0.0.6 --> 0.0.7
 -------------------------------------------------------------------------------
 
 -- Added Mods --
@@ -92,18 +97,22 @@ Alpha Build
 -------------------
 
 -- Removed Mods --
---------------------
+------------------
 
 -- Config Changes --
 --------------------
-deepmoblearning.cfg
-    Added Guardian Scales, Wither Bones, and Dragon Scales to respective pristine matter
+quark.cfg
+    B:"Auto jump hotkey"=false
+    B:"Chest buttons"=false
+tropicraft.cfg
+    B:enableSwimAnimation=false
 
 
 -- Script Changes --
 --------------------
-Added header to all scripts
-Changed Recipe for Ender Dragon Data Module
+Machine and Crafting Recipes to help separate Mekanism and Metallurgy Osmium
+Fixed recipes for bronze and steel blend.
+Fixed issues noticed in Sky Orchards recipe script
 
 -- Asset Changes --
 -------------------
