@@ -280,31 +280,31 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:flux_networks>,
 	[<ore:book>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:obsidian>, <ore:ingotCrystaltine>, <ore:obsidian>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:book>]
 ]);
 
-// Project Red
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:project_red>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, null, <ore:sand>, <ore:sand>, <ore:sand>, null], 
-	[null, <ore:alloyBasic>, <ore:ingotIron>, <ore:alloyBasic>, null, <ore:sand>, <ore:blockCoal>, <ore:sand>, null], 
-	[null, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, null, <ore:sand>, <ore:sand>, <ore:sand>, null], 
-	[<ore:ingotCrystaltine>, null, null, null, <contenttweaker:double_star>, null, null, null, <ore:ingotCrystaltine>], 
-	[null, <ore:ingotGold>, <ore:paper>, <ore:paper>, null, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, null], 
-	[null, <ore:ingotGold>, <ore:alloyBasic>, <ore:alloyBasic>, null, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, null], 
-	[null, <ore:ingotGold>, null, null, null, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
+// // Project Red
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:project_red>, [
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
+// 	[null, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, null, <ore:sand>, <ore:sand>, <ore:sand>, null], 
+// 	[null, <ore:alloyBasic>, <ore:ingotIron>, <ore:alloyBasic>, null, <ore:sand>, <ore:blockCoal>, <ore:sand>, null], 
+// 	[null, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, null, <ore:sand>, <ore:sand>, <ore:sand>, null], 
+// 	[<ore:ingotCrystaltine>, null, null, null, <contenttweaker:double_star>, null, null, null, <ore:ingotCrystaltine>], 
+// 	[null, <ore:ingotGold>, <ore:paper>, <ore:paper>, null, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, null], 
+// 	[null, <ore:ingotGold>, <ore:alloyBasic>, <ore:alloyBasic>, null, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, null], 
+// 	[null, <ore:ingotGold>, null, null, null, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>, null], 
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
+// ]);
 
-//Steve's Carts
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:steves_carts>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, null, null, null, null, null, null, null, null], 
-	[null, <ore:ingotIron>, <ore:ingotIron>, null, null, null, <ore:ingotIron>, <ore:ingotIron>, null], 
-	[null, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, null], 
-	[<ore:ingotCrystaltine>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <contenttweaker:double_star>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotCrystaltine>], 
-	[null, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, null], 
-	[null, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, null], 
-	[null, null, <ore:gearIron>, null, null, null, <ore:gearIron>, null, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
+// //Steve's Carts
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:steves_carts>, [
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
+// 	[null, null, null, null, null, null, null, null, null], 
+// 	[null, <ore:ingotIron>, <ore:ingotIron>, null, null, null, <ore:ingotIron>, <ore:ingotIron>, null], 
+// 	[null, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, null], 
+// 	[<ore:ingotCrystaltine>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <contenttweaker:double_star>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotCrystaltine>], 
+// 	[null, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, null], 
+// 	[null, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, null], 
+// 	[null, null, <ore:gearIron>, null, null, null, <ore:gearIron>, null, null], 
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
+// ]);
 
 // Deep Mob Learning
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:deep_mob_learning>, [
@@ -320,17 +320,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:deep_mob_learni
 ]);
 
 // Extreme Reactor
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:extreme_reactors>, [
-	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:ingotCrystaltine>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], 
-	[<ore:ingotCrystaltine>, <ore:ingotGold>, <ore:ingotGold>, <ore:alloyBasic>, <contenttweaker:double_star>, <ore:alloyBasic>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotCrystaltine>], 
-	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:ingotCrystaltine>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:extreme_reactors>, [
+// 	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:ingotCrystaltine>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>], 
+// 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+// 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+// 	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], 
+// 	[<ore:ingotCrystaltine>, <ore:ingotGold>, <ore:ingotGold>, <ore:alloyBasic>, <contenttweaker:double_star>, <ore:alloyBasic>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotCrystaltine>], 
+// 	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], 
+// 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+// 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+// 	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:itemCoal>, <ore:ingotCrystaltine>, <ore:itemCoal>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>]
+// ]);
 
 // Viescraft
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:viescraft>, [
@@ -437,17 +437,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:blood_magic>, [
 ]);
 
 // Wizardry
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:wizardry>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, <ore:ingotGold>, <ore:book>], 
-	[null, null, <ore:paneGlassColorless>, null, null, null, null, <ore:ingotGold>, <ore:ingotGold>], 
-	[null, <ore:paneGlassColorless>, null, <ore:paneGlassColorless>, null, null, <ore:logWood>, null, null], 
-	[null, null, <ore:paneGlassColorless>, null, null, <ore:logWood>, null, null, null], 
-	[<ore:ingotCrystaltine>, null, null, null, <contenttweaker:double_star>, null, null, null, <ore:ingotCrystaltine>], 
-	[null, null, null, <ore:logWood>, null, null, <ore:paneGlassColorless>, null, null], 
-	[null, null, <ore:logWood>, null, null, <ore:paneGlassColorless>, null, <ore:paneGlassColorless>, null], 
-	[null, <ore:ingotGold>, null, null, null, null, <ore:paneGlassColorless>, null, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:wizardry>, [
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, <ore:ingotGold>, <ore:book>], 
+// 	[null, null, <ore:paneGlassColorless>, null, null, null, null, <ore:ingotGold>, <ore:ingotGold>], 
+// 	[null, <ore:paneGlassColorless>, null, <ore:paneGlassColorless>, null, null, <ore:logWood>, null, null], 
+// 	[null, null, <ore:paneGlassColorless>, null, null, <ore:logWood>, null, null, null], 
+// 	[<ore:ingotCrystaltine>, null, null, null, <contenttweaker:double_star>, null, null, null, <ore:ingotCrystaltine>], 
+// 	[null, null, null, <ore:logWood>, null, null, <ore:paneGlassColorless>, null, null], 
+// 	[null, null, <ore:logWood>, null, null, <ore:paneGlassColorless>, null, <ore:paneGlassColorless>, null], 
+// 	[null, <ore:ingotGold>, null, null, null, null, <ore:paneGlassColorless>, null, null], 
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
+// ]);
 
 // // Bewitchment
 // mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:bewitchment>, [
@@ -502,30 +502,30 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:electroblob>, [
 //]);
 
 // Extra Anvils
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:extra_anvils>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null], 
-	[null, <ore:gemDiamond>, <minecraft:anvil>, <ore:gemDiamond>, null, <ore:ingotGold>, <minecraft:anvil>, <ore:ingotGold>, null], 
-	[null, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null], 
-	[<ore:ingotCrystaltine>, null, null, null, <contenttweaker:double_star>, null, null, null, <ore:ingotCrystaltine>], 
-	[null, null, null, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, null, null, null], 
-	[null, null, null, <ore:materialStoneTool>, <minecraft:anvil>, <ore:materialStoneTool>, null, null, null], 
-	[null, null, null, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, null, null, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:extra_anvils>, [
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
+// 	[null, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null], 
+// 	[null, <ore:gemDiamond>, <minecraft:anvil>, <ore:gemDiamond>, null, <ore:ingotGold>, <minecraft:anvil>, <ore:ingotGold>, null], 
+// 	[null, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null], 
+// 	[<ore:ingotCrystaltine>, null, null, null, <contenttweaker:double_star>, null, null, null, <ore:ingotCrystaltine>], 
+// 	[null, null, null, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, null, null, null], 
+// 	[null, null, null, <ore:materialStoneTool>, <minecraft:anvil>, <ore:materialStoneTool>, null, null, null], 
+// 	[null, null, null, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, null, null, null], 
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
+// ]);
 
 // Forestry
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:forestry>, [
-	[<ore:book>, <ore:treeSapling>, <ore:treeSapling>, <ore:ingotCopper>, <ore:ingotCrystaltine>, <ore:ingotCopper>, <ore:treeSapling>, <ore:treeSapling>, <ore:book>], 
-	[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>], 
-	[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>], 
-	[<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>], 
-	[<ore:ingotCrystaltine>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotCopper>, <contenttweaker:double_star>, <ore:ingotCopper>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotCrystaltine>], 
-	[<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>], 
-	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], 
-	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], 
-	[<ore:book>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCrystaltine>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:forestry>, [
+// 	[<ore:book>, <ore:treeSapling>, <ore:treeSapling>, <ore:ingotCopper>, <ore:ingotCrystaltine>, <ore:ingotCopper>, <ore:treeSapling>, <ore:treeSapling>, <ore:book>], 
+// 	[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>], 
+// 	[<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>], 
+// 	[<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>], 
+// 	[<ore:ingotCrystaltine>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotCopper>, <contenttweaker:double_star>, <ore:ingotCopper>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotCrystaltine>], 
+// 	[<ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>], 
+// 	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], 
+// 	[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], 
+// 	[<ore:book>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCrystaltine>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:book>]
+// ]);
 
 // Mob Grinding Utils
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:mob_grinding_utils>, [
@@ -554,17 +554,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:compact_machine
 ]);
  
 // Building Gadgets
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:building_gadgets>, [
-	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:alloyBasic>, <ore:ingotCrystaltine>, <ore:alloyBasic>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], 
-	[<ore:ingotCrystaltine>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:alloyBasic>, <contenttweaker:double_star>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:ingotCrystaltine>], 
-	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:gemLapis>, <ore:ingotCrystaltine>, <ore:gemLapis>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>]
-]); 
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:building_gadgets>, [
+// 	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:alloyBasic>, <ore:ingotCrystaltine>, <ore:alloyBasic>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>], 
+// 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+// 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+// 	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], 
+// 	[<ore:ingotCrystaltine>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:alloyBasic>, <contenttweaker:double_star>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:ingotCrystaltine>], 
+// 	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], 
+// 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+// 	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
+// 	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:gemLapis>, <ore:ingotCrystaltine>, <ore:gemLapis>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>]
+// ]); 
 
 // Inventory Pets
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:inventory_pets>, [
@@ -580,30 +580,30 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:inventory_pets>
 ]);
 
 // Open Blocks
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:open_blocks>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, null, null, <ore:stickWood>, <ore:leather>, <ore:stickWood>, null, null, null], 
-	[null, null, <ore:stickWood>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:stickWood>, null, null], 
-	[null, <ore:stickWood>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:stickWood>, null], 
-	[<ore:ingotCrystaltine>, <ore:leather>, <ore:leather>, <ore:leather>, <contenttweaker:double_star>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:ingotCrystaltine>], 
-	[null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], 
-	[null, null, null, <ore:ingotGold>, <ore:egg>, <ore:ingotGold>, null, null, null], 
-	[null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:open_blocks>, [
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
+// 	[null, null, null, <ore:stickWood>, <ore:leather>, <ore:stickWood>, null, null, null], 
+// 	[null, null, <ore:stickWood>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:stickWood>, null, null], 
+// 	[null, <ore:stickWood>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:stickWood>, null], 
+// 	[<ore:ingotCrystaltine>, <ore:leather>, <ore:leather>, <ore:leather>, <contenttweaker:double_star>, <ore:leather>, <ore:leather>, <ore:leather>, <ore:ingotCrystaltine>], 
+// 	[null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], 
+// 	[null, null, null, <ore:ingotGold>, <ore:egg>, <ore:ingotGold>, null, null, null], 
+// 	[null, null, null, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, null, null, null], 
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
+// ]);
 
 //Dark Utilities
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:dark_utilities>, [
-	[<ore:book>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:ingotCrystaltine>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:book>], 
-	[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], 
-	[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], 
-	[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>], 
-	[<ore:ingotCrystaltine>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <contenttweaker:double_star>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:ingotCrystaltine>], 
-	[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>], 
-	[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], 
-	[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], 
-	[<ore:book>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:ingotCrystaltine>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:dark_utilities>, [
+// 	[<ore:book>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:ingotCrystaltine>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:book>], 
+// 	[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], 
+// 	[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], 
+// 	[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>], 
+// 	[<ore:ingotCrystaltine>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <contenttweaker:double_star>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:ingotCrystaltine>], 
+// 	[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>], 
+// 	[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], 
+// 	[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>], 
+// 	[<ore:book>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:slimeball>, <ore:ingotCrystaltine>, <ore:slimeball>, <ore:materialStoneTool>, <ore:materialStoneTool>, <ore:book>]
+// ]);
 
 // Dimensional World
 // mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:dimensional_world>, [

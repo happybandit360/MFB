@@ -11,6 +11,16 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+/*
+	Furnace Recipes
+*/
+static furnaceRemoval as IItemStack[] = [
+//	<modid:itemname:meta>	
+];
+
+static furnaceAddition as IIngredient[][IItemStack] = {
+//	<modid:itemname:meta> : [<mod:itemname:meta>]
+};
 
 /*
 	Recipe Removals by Item
@@ -130,4 +140,16 @@ for item in itemRecipeRemoval {
 for item in itemRecipeRemovalJEI {
 	recipes.remove(item);
 	mods.jei.JEI.hide(item);
+}
+
+// Remove Furnace Recipes
+for item in furnaceRemoval {
+	furnace.remove(item);
+}
+
+// Add Furnace Recipes
+for output, inputs in furnaceAddition {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

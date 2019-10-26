@@ -27,3 +27,19 @@ static caseAdd as IItemStack[] = [
 for item in caseAdd {
 	<ore:machineCase>.add(item);
 }
+
+
+static hammerAdd as IItemStack[] = [
+//	<modid:itemname:meta>
+<thermalfoundation:tool.hammer_diamond:*>,
+<thermalfoundation:tool.hammer_platinum:*>,
+<thermalfoundation:tool.hammer_nickel:*>,
+<thermalfoundation:tool.hammer_steel:*>,
+<thermalfoundation:tool.hammer_invar:*>,
+<thermalfoundation:tool.hammer_bronze:*>,
+<thermalfoundation:tool.hammer_constantan:*>
+];
+
+for item in hammerAdd {
+	<ore:craftHammer>.add(item);
+}

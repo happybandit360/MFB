@@ -66,6 +66,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	}	*/
 };
 
+// Crusher Recipes
+//mods.extrautils2.Crusher.add(IItemStack output, IItemStack input, @Optional IItemStack secondaryOutput, @Optional float secondaryChance);
+mods.extrautils2.Crusher.add(<thermalfoundation:material:770> * 4, <minecraft:obsidian>);
 
 
 

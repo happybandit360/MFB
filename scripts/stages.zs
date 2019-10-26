@@ -16,68 +16,60 @@ var stageNames as string[] = [
     // Tools
     "tinkers",
     "armor_plus",
-    // "silent_gems", // CUT
-    // "quality_tools", // CUT
-    "calculator",
+    "redstone_arsenal",
     "tetra",
     "metallurgy",
     "flexible_tools",
     "adventurers_toolbox",
-    "gobber", 
+    "gobber",
+    "modular_powersuits",
 
     // Tech
     "applied_energistics",
     "thermal",
     "industrial_foregoing",
+    "calculator",
     "ender_io",
     "rftools",
     "mekanism",
     "xnet",
     "integrated_dynamics",
-    "environmental_tech",
-    "project_red",
-    "steves_carts",
+    "actually_additions",
+    "matter_overdrive",
     
     // Magic
     "evilcraft",
     "botania",
-    "mystical_ag",
     "astral_sorcery",
     "thaumcraft",
     "blood_magic",
-    "wizardry",
-    // "bewitchment", // CUT
     "roots",
     "electroblob",
+    "natures_aura",
 
     // Misc
-    // "rats", // CUT
-    "extra_anvils",
-    "forestry",
     "mob_grinding_utils",
     "compact_machines",
-    "building_gadgets",
     "inventory_pets",
-    "open_blocks",
-    "dark_utilities",
-    // "dimensional_world",  // CUT
     "ender_utilities",
     "random_things",
     "arcane_archives",
-    "deep_mob_learning",
     "flux_networks",
     "viescraft",
+    "rustic",
     
 
     // Non-Starting
-    // "twilight_forest", // CUT
     "aether",
+    "deep_mob_learning",
     "tropicraft",
     "betweenlands",
     "sky_orchards",
+    "mystical_ag",
     "chickens",
-    "extreme_reactors",
     "deep_resonance",
+    "environmental_tech",
+    "advanced_generators"
 
 ];
 

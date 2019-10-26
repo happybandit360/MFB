@@ -19,10 +19,6 @@ mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "tcomplement");
 mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "plustic");
 mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "conarm");
 
-// Ores
-mods.orestages.OreStages.addReplacement("tinkers", <tconstruct:ore>, <minecraft:netherrack>);
-mods.orestages.OreStages.addReplacement("tinkers", <tconstruct:ore:1>, <minecraft:netherrack>);
-
 // Stage Mobs
 mods.MobStages.addStage("tinkers", "tconstruct:blueslime");
 

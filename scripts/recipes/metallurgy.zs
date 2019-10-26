@@ -98,7 +98,8 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 <metallurgy:mithril_nugget>,
 <metallurgy:bronze_dust>,
 <metallurgy:osmium_nugget>,
-<metallurgy:osmium_ingot>
+<metallurgy:osmium_ingot>,
+<metallurgy:electrum_dust>
 ];
 
 

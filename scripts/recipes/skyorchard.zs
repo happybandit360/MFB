@@ -471,3 +471,24 @@ mods.tconstruct.Melting.addRecipe(<liquid:constantan> * 288 , <sky_orchards:ambe
 mods.tconstruct.Melting.addRecipe(<liquid:electrum> * 288 , <sky_orchards:amber_electrum>);
 mods.tconstruct.Melting.addRecipe(<liquid:steel> * 288 , <sky_orchards:amber_steel>);
 mods.tconstruct.Melting.addRecipe(<liquid:invar> * 288, <sky_orchards:amber_invar>);
+
+// Amber - Actually Additions Crusher
+//mods.actuallyadditions.Crusher.addRecipe(IItemStack output, IItemStack input, @Optional IItemStack outputSecondary, @Optional int outputSecondaryChance);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material> * 2, <sky_orchards:amber_iron>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:1> * 2, <sky_orchards:amber_gold>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:64> * 2, <sky_orchards:amber_copper>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:67> * 2, <sky_orchards:amber_lead>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:65> * 2, <sky_orchards:amber_tin>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:66> * 2, <sky_orchards:amber_silver>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:69> * 2, <sky_orchards:amber_nickel>);
+mods.actuallyadditions.Crusher.addRecipe(<enderio:item_material:31> * 2, <sky_orchards:amber_cobalt>);
+mods.actuallyadditions.Crusher.addRecipe(<enderio:item_material:30> * 2, <sky_orchards:amber_ardite>);
+mods.actuallyadditions.Crusher.addRecipe(<mekanism:dust:2> * 2, <sky_orchards:amber_osmium>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:68> * 2, <sky_orchards:amber_aluminum>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:70> * 2, <sky_orchards:amber_platinum>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:71> * 2, <sky_orchards:amber_iridium>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:99> * 2, <sky_orchards:amber_bronze>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:100> * 2, <sky_orchards:amber_constantan>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:97> * 2, <sky_orchards:amber_electrum>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:96> * 2, <sky_orchards:amber_steel>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:98> * 2, <sky_orchards:amber_invar>);

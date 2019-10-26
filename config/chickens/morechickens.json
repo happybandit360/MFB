@@ -1764,5 +1764,117 @@
     "spawn_type": "Chicken spawn type, can be: NORMAL,SNOW,NONE,HELL",
     "parent_1": "First parent, empty if it cant be breed. modid:chickenid #example: chickens:waterchicken",
     "parent_2": "Second parent, empty if it cant be breed. "
+  },
+  "morechickens:restoniacrystalchicken": {
+    "name": "restoniacrystalchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 0
+    },
+    "drop_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 0
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:redstonechicken",
+    "parent_2": "morechickens:blackquartzchicken"
+  },
+  "morechickens:paliscrystalchicken": {
+    "name": "paliscrystalchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 1
+    },
+    "drop_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 1
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:bluechicken",
+    "parent_2": "morechickens:blackquartzchicken"
+  },
+  "morechickens:diamantinecrystalchicken": {
+    "name": "diamantinecrystalchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 2
+    },
+    "drop_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 2
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:emeradiccrystalchicken",
+    "parent_2": "morechickens:enoricrystalchicken"
+  },
+  "morechickens:voidcrystalchicken": {
+    "name": "voidcrystalchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 3
+    },
+    "drop_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 3
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:coalchicken",
+    "parent_2": "morechickens:paliscrystalchicken"
+  },
+  "morechickens:emeradiccrystalchicken": {
+    "name": "emeradiccrystalchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 4
+    },
+    "drop_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 4
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:paliscrystalchicken",
+    "parent_2": "chickens:emeraldchicken"
+  },
+  "morechickens:enoricrystalchicken": {
+    "name": "enoricrystalchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 5
+    },
+    "drop_item": {
+      "itemID": "actuallyadditions:item_crystal",
+      "metaID": 5
+    },
+    "spawn_type": "NONE",
+    "parent_1": "morechickens:voidcrystalchicken",
+    "parent_2": "chickens:ironchicken"
+  },
+  "morechickens:blackquartzchicken": {
+    "name": "blackquartzchicken",
+    "is_enabled": true,
+    "lay_coefficient": 1.0,
+    "lay_item": {
+      "itemID": "actuallyadditions:item_misc",
+      "metaID": 5
+    },
+    "drop_item": {
+      "itemID": "actuallyadditions:item_misc",
+      "metaID": 5
+    },
+    "spawn_type": "NONE",
+    "parent_1": "chickens:quartzchicken",
+    "parent_2": "chickens:blackchicken"
   }
 }

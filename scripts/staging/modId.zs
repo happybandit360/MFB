@@ -22,16 +22,6 @@ static stagedMods as string[][string] = {
         "armorplus"
     ],
 
-    // stages.silentGems.stage : [
-    //     "silentgems",
-    //     "silentgear",
-    //     "sgextraparts"
-    // ],
-
-    // stages.qualityTools.stage : [
-    //     "qualitytools"
-    // ],
-
     stages.calculator.stage : [
         "calculator"
     ],
@@ -107,35 +97,8 @@ static stagedMods as string[][string] = {
         "fluxnetworks"
     ],
     
-    stages.projectRed.stage : [
-        "projectred-core",
-        "projectred-expansion",
-        "projectred-exploration",
-        "projectred-illumination",
-        "projectred-integration",
-        "projectred-relocation",
-        "projectred-transmission",
-        "projectred-transportation",
-        "projectred-fabrication"
-    ],
-    
-    stages.stevesCarts.stage : [
-        "stevescarts"
-    ],
-
-    stages.forestry.stage : [
-        "forestry",
-        "gendustry",
-        "careerbees",
-        "magicbees"
-    ],
-    
     stages.deepMobLearning.stage : [
         "deepmoblearning"
-    ],
-
-    stages.extremeReactors.stage : [
-        "bigreactors"
     ],
 
     stages.viescraft.stage : [
@@ -171,14 +134,6 @@ static stagedMods as string[][string] = {
         "bloodmagic"
     ],
 
-    stages.wizardry.stage : [
-        "wizardry"
-    ],
-
-    // stages.bewitchment.stage : [
-    //     "bewitchment"
-    // ],
-
     stages.roots.stage : [
         "roots",
         "mysticalworld"
@@ -186,14 +141,6 @@ static stagedMods as string[][string] = {
 
     stages.electroblob.stage :[
         "ebwizardry"
-    ],
-
-    //stages.rats.stage : [
-    //    "rats"
-    //],
-
-    stages.extraAnvils.stage : [
-        "extraanvils"
     ],
 
     stages.mobGrindingUtils.stage : [
@@ -204,20 +151,8 @@ static stagedMods as string[][string] = {
         "compactmachines3"
     ],
 
-    stages.buildingGadgets.stage : [
-        "buildinggadgets"
-    ],
-
     stages.inventoryPets.stage : [
         "inventorypets"
-    ],
-
-    stages.openBlocks.stage : [
-        "openblocks"
-    ],
-
-    stages.darkUtilities.stage : [
-        "darkutils"
     ],
 
     stages.randomThings.stage : [
@@ -228,17 +163,9 @@ static stagedMods as string[][string] = {
         "enderutilities"
     ],
 
-    // stages.dimensionalWorld.stage : [
-    //     "aroma1997sdimension"
-    // ],
-
     stages.arcaneArchives.stage : [
         "arcanearchives"
     ],
-
-    // stages.twilightForest.stage : [
-    //     "twilightforest"
-    // ],
 
     stages.aether.stage : [
         "aether_legacy"
@@ -261,9 +188,36 @@ static stagedMods as string[][string] = {
         "morechickens",
         "roost",
         "hatchery"
-    ]
+    ],
 
-   
+    stages.modularPowersuits.stage : [
+        "powersuits"
+    ],
+
+    stages.advancedGenerators.stage : [
+        "advgenerators"
+    ], 
+
+    stages.naturesAura.stage : [
+        "naturesaura",
+        "auraddons"
+    ],
+
+    stages.matterOverdrive.stage : [
+        "matteroverdrive"
+    ],
+
+    stages.actuallyAdditions.stage : [
+        "actuallyadditions"
+    ],
+
+    stages.rustic.stage : [
+        "rustic"
+    ],
+
+    stages.redstoneArsenal.stage : [
+        "redstonearsenal"
+    ]
 }; 
 
 function init() {

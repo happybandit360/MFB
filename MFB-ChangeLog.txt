@@ -125,19 +125,89 @@ Alpha Build
 -------------------------------------------------------------------------------
 
 -- Added Mods --
-----------------	
+----------------
+Actually Additions
+Actually Baubles
+Advanced Generators
+Auraddons
+Chargers
+Charm
+KleeSlabs
+MachineMuse's Modular Powersuits
+Matter Overdrive: Legacy Edition
+Nature's Aura
+NetherPortalFix
+Numina
+Redstone Arsenal
+Rustic
+Simple Inventory Sorting (Inventory Sorter)
+StepUp
+The Disenchanter Mod
+TorchMaster
 
 -- Updated Mods --
 -------------------
 
 -- Removed Mods --
---------------------
+------------------
+Career Bees
+Extra Anvils
+Extreme Reactors
+Forestry
+GenDustry
+Inventory Tweaks
+JEI Bees
+Magic Bees
+ProjectRed Expansion
+ProjectRed Exploration
+ProjectRed Fabrication
+Steve's Carts 2
+Wizardry
 
 -- Config Changes --
 --------------------
+actuallyadditions.cfg
+    B:"Tiny Coal"=false
+disenchanter.cfg
+    B:EnableAutomaticRecipe=false
+    B:EnableBulkDisenchantingRecipe=false
+    B:EnableClearRecipe=false
+    B:EnableVoidingRecipe=false
+fluxnetworks.cfg
+    B:"Enable Flux Recipe"=false
+gobber.cfg
+    B:seedGlob=true
+    B:seedGlob2=true
+    B:seedGlob3=true
+inspirations.cfg
+    Cauldron
+        B:bigger=true
+        S:fires
+            minecraft:magma
+    B:moreSeeds=false
+    B:grassDrops=false
+    B:nerfCarrotPotatoDrops=false
+    B:milkSquids=true
+        I:cooldown=1
+morpheus.cfg
+    I:SleeperPerc=15
+netherex/biomes/netherex
+    ruthless_sands.json
+        "generationWeight": 4,
+    torrid_wasteland.json
+        "generationWeight": 4,
+rustic.cfg
+    B:"Enable Olive Oiling"=false
+    I:"Seed Drop Rate"=6
+quark.cfg
+    B:"Enable Curse"=false
 
 -- Script Changes --
 --------------------
+Staging and Recipe scripts for all new Mods
+Removed all scripts for mods that have been removed
+
 
 -- Asset Changes --
 -------------------
+Added Fluxed Electrum Compound via ContentTweaker

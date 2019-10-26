@@ -30,7 +30,8 @@ static itemRecipeRemoval as IItemStack[] = [
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
 <tcomplement:storage>,
-<plustic:invarnugget>
+<plustic:invarnugget>,
+<tconstruct:stone_stick>
 ];
 
 

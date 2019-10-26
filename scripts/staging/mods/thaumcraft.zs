@@ -14,8 +14,6 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
-mods.recipestages.Recipes.setRecipeStageByMod("thaumcraft", "thaumcraft");
-
 // Ores
 mods.orestages.OreStages.addReplacement("thaumcraft", <thaumcraft:ore_cinnabar>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("thaumcraft", <thaumcraft:ore_quartz>, <minecraft:stone>);

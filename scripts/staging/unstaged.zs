@@ -8,27 +8,28 @@
 */
 
 //Unstage all mod manuals
-mods.ItemStages.removeItemStage(<forestry:book_forester>);
 mods.ItemStages.removeItemStage(<industrialforegoing:book_manual>);
 mods.ItemStages.removeItemStage(<rftools:rftools_manual>);
 mods.ItemStages.removeItemStage(<rftools:rftools_shape_manual>);
 mods.ItemStages.removeItemStage(<rftoolscontrol:rftoolscontrol_manual>);
-// mods.ItemStages.removeItemStage(<silentgems:guide_book>);
 mods.ItemStages.removeItemStage(<xnet:xnet_manual>);
 mods.ItemStages.removeItemStage(<deepresonance:dr_manual>);
-mods.ItemStages.removeItemStage(<wizardry:book>);
 mods.ItemStages.removeItemStage(<tconstruct:book>);
 mods.ItemStages.removeItemStage(<conarm:book>);
 mods.ItemStages.removeItemStage(<armorplus:book>);
 mods.ItemStages.removeItemStage(<toolbox:guide_book>);
 mods.ItemStages.removeItemStage(<integrateddynamics:on_the_dynamics_of_integration>);
 mods.ItemStages.removeItemStage(<vc:item_guidebook_main>);
-mods.ItemStages.removeItemStage(<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}));
+mods.ItemStages.removeItemStage(<botania:lexicon>.withTag({}));
 mods.ItemStages.removeItemStage(<evilcraft:origins_of_darkness>);
 mods.ItemStages.removeItemStage(<openblocks:info_book>);
 mods.ItemStages.removeItemStage(<astralsorcery:itemjournal>);
-mods.ItemStages.removeItemStage(<thaumcraft:thaumonomicon>);
 mods.ItemStages.removeItemStage(<aether_legacy:lore_book>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_booklet>);
+mods.ItemStages.removeItemStage(<matteroverdrive:data_pad>);
+mods.ItemStages.removeItemStage(<ebwizardry:wizard_handbook>);
+mods.ItemStages.removeItemStage(<rustic:book>);
+mods.ItemStages.removeItemStage(<arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}));
 
 // Misc Items to Unstage
 
@@ -43,5 +44,6 @@ mods.ItemStages.removeItemStage(<mekanism:saltblock>);
 mods.ItemStages.removeItemStage(<enderio:item_material:30>);
 mods.ItemStages.removeItemStage(<enderio:item_material:31>);
 
-// Unstage XP Bucket for crafting reasons
-mods.ItemStages.removeItemStage(<openblocks:xp_bucket>);
+// Unstage Ardite and Cobalt
+mods.ItemStages.removeItemStage(<tconstruct:ore>);
+mods.ItemStages.removeItemStage(<tconstruct:ore:1>);
