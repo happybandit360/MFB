@@ -2,7 +2,7 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.4 --> 0.0.5/6
+0.0.4 --> 0.0.5/6 - RELEASED 10/19/19
 -------------------------------------------------------------------------------
 
 -- Added Mods --
@@ -91,40 +91,6 @@ Alpha Build
 -------------------------------------------------------------------------------
 
 -- Added Mods --
-----------------	
-
--- Updated Mods --
--------------------
-
--- Removed Mods --
-------------------
-
--- Config Changes --
---------------------
-quark.cfg
-    B:"Auto jump hotkey"=false
-    B:"Chest buttons"=false
-tropicraft.cfg
-    B:enableSwimAnimation=false
-
-
--- Script Changes --
---------------------
-Machine and Crafting Recipes to help separate Mekanism and Metallurgy Osmium
-Fixed recipes for bronze and steel blend.
-Fixed issues noticed in Sky Orchards recipe script
-
--- Asset Changes --
--------------------
-
-
-
--------------------------------------------------------------------------------
-Alpha Build
-0.0.6 --> 0.0.7
--------------------------------------------------------------------------------
-
--- Added Mods --
 ----------------
 Actually Additions
 Actually Baubles
@@ -201,9 +167,16 @@ rustic.cfg
     I:"Seed Drop Rate"=6
 quark.cfg
     B:"Enable Curse"=false
+    B:"Auto jump hotkey"=false
+    B:"Chest buttons"=false
+tropicraft.cfg
+    B:enableSwimAnimation=false
 
 -- Script Changes --
 --------------------
+Machine and Crafting Recipes to help separate Mekanism and Metallurgy Osmium
+Fixed recipes for bronze and steel blend.
+Fixed issues noticed in Sky Orchards recipe script
 Staging and Recipe scripts for all new Mods
 Removed all scripts for mods that have been removed
 
@@ -211,3 +184,26 @@ Removed all scripts for mods that have been removed
 -- Asset Changes --
 -------------------
 Added Fluxed Electrum Compound via ContentTweaker
+
+-------------------------------------------------------------------------------
+Alpha Build
+0.0.7 --> 0.0.8 TBD
+-------------------------------------------------------------------------------
+
+-- Added Mods --
+----------------	
+
+-- Updated Mods --
+-------------------
+
+-- Removed Mods --
+------------------
+
+-- Config Changes --
+--------------------
+
+-- Script Changes --
+--------------------
+
+-- Asset Changes --
+-------------------
