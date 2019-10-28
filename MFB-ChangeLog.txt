@@ -106,6 +106,7 @@ tropicraft.cfg
 
 -- Script Changes --
 --------------------
+Lots and lots and lots of recipe updates to remove conflicts
 Machine and Crafting Recipes to help separate Mekanism and Metallurgy Osmium
 Fixed recipes for bronze and steel blend.
 Fixed issues noticed in Sky Orchards recipe script
