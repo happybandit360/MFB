@@ -26,6 +26,7 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
 ];
 
+recipes.removeByRecipeName("traverse:fir_boat");
 
 
 /*

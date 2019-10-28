@@ -20,6 +20,7 @@ static itemRecipeRemoval as IItemStack[] = [
 <enderio:item_material:10>
 ];
 
+recipes.removeByRecipeName("enderio:compatibility_glass_pane");
 
 
 /*

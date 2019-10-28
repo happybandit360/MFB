@@ -23,8 +23,7 @@ static metadataStaging as IItemStack[] = [
 // <modid:itemname:meta>
 <redstonearsenal:util.quiver_flux:*>.withTag({Energy: 0}),
 <redstonearsenal:armor.helmet_flux:*>.withTag({Energy: 0}),
-// <redstonearsenal:armor.plate_flux:*>.withTag({Energy: 0}),
-<redstonearsenal:armor.plate_flux:*>.withTag({}),
+<redstonearsenal:armor.plate_flux:*>.withTag({Energy: 0}),
 <redstonearsenal:armor.legs_flux:*>.withTag({Energy: 0}),
 <redstonearsenal:armor.boots_flux:*>.withTag({Energy: 0}),
 <redstonearsenal:tool.wrench_flux:*>.withTag({Energy: 0}),

@@ -30,7 +30,8 @@ static itemRecipeRemoval as IItemStack[] = [
 <mysticalworld:silver_block>,
 <mysticalworld:silver_ingot>,
 <mysticalworld:copper_ingot>,
-<mysticalworld:copper_block>
+<mysticalworld:copper_block>,
+<roots:wildwood_pressure_plate>
 ];
 
 /*
@@ -47,6 +48,13 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<roots:wildwood_pressure_plate> : {
+		"roots_wildwood_pressure_plate" : [
+			[
+	  			[<roots:wildwood_planks>, <roots:wildwood_planks>]
+			]
+		]
+	}
 };
 
 

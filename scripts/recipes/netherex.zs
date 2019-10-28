@@ -1,5 +1,5 @@
 /*
-	Thermal Foundation/Thermal Expansion/Thermal Dynamics/Thermal Innovation recipes script.
+	NetherEx recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -10,15 +10,25 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+/*
+	Furnace Recipes
+*/
+static furnaceRemoval as IItemStack[] = [
+//	<modid:itemname:meta>	
+];
+
+static furnaceAddition as IIngredient[][IItemStack] = {
+//	<modid:itemname:meta> : [<mod:itemname:meta>]
+};
 
 /*
 	Recipe Removals by Item
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<thermalfoundation:material:136>,
-<thermalfoundation:storage:8>,
-<thermalfoundation:material:22>
+<netherex:basalt_brick>,
+<netherex:basalt_pillar>,
+<netherex:smooth_basalt>
 ];
 
 /*
@@ -26,16 +36,10 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<chisel:block_charcoal2:1> // Leaves Thermal Block of Charcoal as default
+<netherex:quartz_wall>
 ];
 
-// Recipe Name Removals
-recipes.removeByRecipeName("thermalfoundation:otherdust");
-recipes.removeByRecipeName("thermalfoundation:item_dust_1");
-recipes.removeByRecipeName("thermalfoundation:material_97");
-recipes.removeByRecipeName("thermalfoundation:item_dust_2");
-
-
+recipes.removeShapeless(<netherex:basalt> * 4, [<netherex:smooth_basalt>]);
 
 /*
     Shaped Recipes
@@ -51,21 +55,21 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<thermalfoundation:storage:8> : {
-		"thermalfoundation_storage_8" : [
+<netherex:basalt_brick> * 6 : {
+		"netherex_basalt_brick" : [
 			[
-	  			[<ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>],
-	   			[<ore:ingotMithril>, <thermalfoundation:material:136>, <ore:ingotMithril>],
-	  			[<ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>]
+	  			[<netherex:smooth_basalt>, <netherex:smooth_basalt>],
+	   			[<netherex:smooth_basalt>, <netherex:smooth_basalt>],
+	  			[<netherex:smooth_basalt>, <netherex:smooth_basalt>]
 			]
 		]
 	},
-<thermalfoundation:material:22> : {
-		"thermalfoundation_material_22" : [
+<netherex:basalt_pillar> * 6 : {
+		"netherex_basalt_pillar" : [
 			[
-	  			[null, <ore:stickWood>, null],
-	   			[<ore:stickWood>, null, <ore:stickWood>],
-	  			[null, <ore:stickWood>, null]
+	  			[<netherex:basalt_brick>, <netherex:basalt_brick>],
+	   			[<netherex:basalt_brick>, <netherex:basalt_brick>],
+	  			[<netherex:basalt_brick>, <netherex:basalt_brick>]
 			]
 		]
 	}
@@ -91,19 +95,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
-<thermalfoundation:material:136> * 9 : {
-		"thermalfoundation_material_136" : [
-			[<thermalfoundation:storage:8>]
-		]
-	},
-<thermalfoundation:material:96> : {
-		"thermalfoundation_material_96_2" : [
-			[<thermalfoundation:material>, <thermalfoundation:material:769>, <thermalfoundation:material:769>, <thermalfoundation:material:769>, <thermalfoundation:material:769>]
-		]
-	},
-<thermalfoundation:material:96> : {
-		"thermalfoundation_material_96" : [
-			[<thermalfoundation:material>, <thermalfoundation:material:768>, <thermalfoundation:material:768>, <thermalfoundation:material:768>, <thermalfoundation:material:768>]
+<netherex:smooth_basalt> : {
+		"netherex_smooth_basalt" : [
+			[<quark:basalt:1>]
 		]
 	}
 };
@@ -172,4 +166,16 @@ for item in itemRecipeRemoval {
 for item in itemRecipeRemovalJEI {
 	recipes.remove(item);
 	mods.jei.JEI.hide(item);
+}
+
+// Remove Furnace Recipes
+for item in furnaceRemoval {
+	furnace.remove(item);
+}
+
+// Add Furnace Recipes
+for output, inputs in furnaceAddition {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

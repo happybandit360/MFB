@@ -411,17 +411,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:astral_sorcery>
 ]);
 
 // Thaumcraft
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:thaumcraft>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:dyeBlack>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
-	[null, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, <ore:feather>, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, null], 
-	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
-	[<ore:ingotCrystaltine>, <ore:dyeBlack>, <ore:feather>, <ore:bookshelfOak>, <contenttweaker:double_star>, <ore:bookshelfOak>, <ore:feather>, <ore:dyeBlack>, <ore:ingotCrystaltine>], 
-	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
-	[null, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, <ore:feather>, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, null], 
-	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:dyeBlack>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:thaumcraft>, [
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
+// 	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:dyeBlack>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
+// 	[null, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, <ore:feather>, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, null], 
+// 	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
+// 	[<ore:ingotCrystaltine>, <ore:dyeBlack>, <ore:feather>, <ore:bookshelfOak>, <contenttweaker:double_star>, <ore:bookshelfOak>, <ore:feather>, <ore:dyeBlack>, <ore:ingotCrystaltine>], 
+// 	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
+// 	[null, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, <ore:feather>, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, null], 
+// 	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:dyeBlack>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
+// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
+// ]);
 
 // Blood Magic
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:blood_magic>, [

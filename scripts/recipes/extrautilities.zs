@@ -27,6 +27,8 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 ];
 
 
+recipes.removeShapeless(<extrautils2:ingredients> * 2, [<ore:oreRedstone>, <ore:dustPetrotheum>]);
+recipes.removeByRecipeName("extrautils2:shortcut_chest");
 
 /*
     Shaped Recipes

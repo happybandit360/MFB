@@ -15,6 +15,7 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
+<minecraft:coal:1>
 ];
 
 
@@ -59,7 +60,17 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
         "minecraft_flint" : [
             [<minecraft:gravel>, <minecraft:gravel>]
         ]
-    }
+    },
+<minecraft:coal:1> : {
+		"minecraft_coal_1_whole" : [
+			[<ore:blockCharcoal>]
+		]
+	},
+<minecraft:coal:1> : {
+		"minecraft_coal_1_whole" : [
+			[<pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>]
+		]
+	}
 };
 
 

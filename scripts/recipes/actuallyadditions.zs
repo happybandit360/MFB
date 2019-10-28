@@ -26,6 +26,7 @@ static furnaceAddition as IIngredient[][IItemStack] = {
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
+<actuallyadditions:item_misc:3>
 ];
 
 /*
@@ -33,6 +34,13 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
+<actuallyadditions:item_dust>,
+<actuallyadditions:item_dust:1>,
+<actuallyadditions:item_dust:2>,
+<actuallyadditions:item_dust:4>,
+<actuallyadditions:item_dust:5>,
+<actuallyadditions:item_dust:6>,
+<actuallyadditions:block_misc:5>
 ];
 
 
@@ -51,6 +59,13 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<actuallyadditions:item_misc:3> : {
+		"actuallyadditions_item_misc_3" : [
+			[
+	  			[<ore:stickWood>, <ore:leather>, <ore:stickWood>]
+			]
+		]
+	}
 };
 
 
@@ -79,6 +94,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 //mods.actuallyadditions.Crusher.addRecipe(IItemStack output, IItemStack input, @Optional IItemStack outputSecondary, @Optional int outputSecondaryChance);
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:770> * 4, <minecraft:obsidian>);
 
+//mods.actuallyadditions.Crusher.removeRecipe(IItemStack output);
+mods.actuallyadditions.Crusher.removeRecipe(<actuallyadditions:item_dust:6>);
 
 
 // Do NOT edit below this line //

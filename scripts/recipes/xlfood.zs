@@ -1,5 +1,5 @@
 /*
-	Thermal Foundation/Thermal Expansion/Thermal Dynamics/Thermal Innovation recipes script.
+	XL Food Mod recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -10,15 +10,23 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+/*
+	Furnace Recipes
+*/
+static furnaceRemoval as IItemStack[] = [
+//	<modid:itemname:meta>	
+];
+
+static furnaceAddition as IIngredient[][IItemStack] = {
+//	<modid:itemname:meta> : [<mod:itemname:meta>]
+};
 
 /*
 	Recipe Removals by Item
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<thermalfoundation:material:136>,
-<thermalfoundation:storage:8>,
-<thermalfoundation:material:22>
+<xlfoodmod:paper_cup>
 ];
 
 /*
@@ -26,14 +34,7 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<chisel:block_charcoal2:1> // Leaves Thermal Block of Charcoal as default
 ];
-
-// Recipe Name Removals
-recipes.removeByRecipeName("thermalfoundation:otherdust");
-recipes.removeByRecipeName("thermalfoundation:item_dust_1");
-recipes.removeByRecipeName("thermalfoundation:material_97");
-recipes.removeByRecipeName("thermalfoundation:item_dust_2");
 
 
 
@@ -51,21 +52,11 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<thermalfoundation:storage:8> : {
-		"thermalfoundation_storage_8" : [
+<xlfoodmod:paper_cup> : {
+		"xlfoodmod_paper_cup" : [
 			[
-	  			[<ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>],
-	   			[<ore:ingotMithril>, <thermalfoundation:material:136>, <ore:ingotMithril>],
-	  			[<ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>]
-			]
-		]
-	},
-<thermalfoundation:material:22> : {
-		"thermalfoundation_material_22" : [
-			[
-	  			[null, <ore:stickWood>, null],
-	   			[<ore:stickWood>, null, <ore:stickWood>],
-	  			[null, <ore:stickWood>, null]
+	  			[<minecraft:paper>, null, <minecraft:paper>],
+	  			[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]
 			]
 		]
 	}
@@ -91,21 +82,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
-<thermalfoundation:material:136> * 9 : {
-		"thermalfoundation_material_136" : [
-			[<thermalfoundation:storage:8>]
-		]
-	},
-<thermalfoundation:material:96> : {
-		"thermalfoundation_material_96_2" : [
-			[<thermalfoundation:material>, <thermalfoundation:material:769>, <thermalfoundation:material:769>, <thermalfoundation:material:769>, <thermalfoundation:material:769>]
-		]
-	},
-<thermalfoundation:material:96> : {
-		"thermalfoundation_material_96" : [
-			[<thermalfoundation:material>, <thermalfoundation:material:768>, <thermalfoundation:material:768>, <thermalfoundation:material:768>, <thermalfoundation:material:768>]
-		]
-	}
 };
 
 
@@ -172,4 +148,16 @@ for item in itemRecipeRemoval {
 for item in itemRecipeRemovalJEI {
 	recipes.remove(item);
 	mods.jei.JEI.hide(item);
+}
+
+// Remove Furnace Recipes
+for item in furnaceRemoval {
+	furnace.remove(item);
+}
+
+// Add Furnace Recipes
+for output, inputs in furnaceAddition {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

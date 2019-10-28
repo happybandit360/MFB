@@ -2,92 +2,24 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.4 --> 0.0.5/6 - RELEASED 10/19/19
+0.0.7 --> 0.0.8 TBD
 -------------------------------------------------------------------------------
-
 -- Added Mods --
 ----------------	
-
-
 -- Updated Mods --
 -------------------
-//Forge - 2847
-Arcane Archives
-Armor Plus
-//Blocklings
-Bookshelf
-//Chisel
-//CTM
-Corail Tombstone
-Ding
-Electrobob's Wizardry
-//Ender IO
-//Ender IO Endergy
-//Ender Core
-Flux Networks
-FoamFix
-Forestry
-JEI
-LibraryEx
-Mystical World
-MysticalLib
-Roots
-//Tetra
-WantonLib
-
 -- Removed Mods --
---------------------
-Bewitchment
-Excel Modlist Exporter
-More Loot Tables
-
-
+------------------
 -- Config Changes --
 --------------------
-AppliedEnergistics/AppliedEnergistics2.cfg
-    I:minMeteoriteDistance=1707
-deepmoblearning.cfg
-    Added Guardian Scales, Wither Bones, and Dragon Scales to respective pristine matter
-hatchery.cfg
-    B:"Breeding gives Eggs"=false
-mysticlworld.cfg
-    B:GiveBook=false
-    I:HutDistance=800
-quark.cfg
-    B:"Enable Conversion to Vanilla Chests"=true
-    B:"Rename vanilla chests to Oak (Trapped) Chest"=false
-    B:"Red Nether Brick"=false
-    biotite {
-        I:"Cluster count for natural generation"=4
-        I:"Cluster size"=2
-        I:"Clusters generated per dragon death tick"=4
-Triumph
-    Changed Double Nether Star advancement to reflect Woot removal.
-
-
 -- Script Changes --
 --------------------
-Added header to all scripts
-Changed Recipe for Ender Dragon Data Module
-All necessary changes to remove Bewitchment
-Fixed "Electrobob"
-Recipe updates for metal unification and conflict removal
-    Move JEI remove and hide to mod recipe scripts
-Updated written book in Intial Inventory to reflect Woot removal.
-Added script for OreDict changes, removed flint from Quark stone tool materials.
-Unstaged Open Blocks XP bucket.
-Added to scripts to help prevent staging exploits...but can only do so much
-
-
-
 -- Asset Changes --
 -------------------
 
-
-
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.6 --> 0.0.7
+0.0.6 --> 0.0.7 - IN PROGRESS
 -------------------------------------------------------------------------------
 
 -- Added Mods --
@@ -185,25 +117,86 @@ Removed all scripts for mods that have been removed
 -------------------
 Added Fluxed Electrum Compound via ContentTweaker
 
+
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.7 --> 0.0.8 TBD
+0.0.4 --> 0.0.5/6 - RELEASED 10/19/19
 -------------------------------------------------------------------------------
 
 -- Added Mods --
 ----------------	
 
+
 -- Updated Mods --
 -------------------
+//Forge - 2847
+Arcane Archives
+Armor Plus
+//Blocklings
+Bookshelf
+//Chisel
+//CTM
+Corail Tombstone
+Ding
+Electrobob's Wizardry
+//Ender IO
+//Ender IO Endergy
+//Ender Core
+Flux Networks
+FoamFix
+Forestry
+JEI
+LibraryEx
+Mystical World
+MysticalLib
+Roots
+//Tetra
+WantonLib
 
 -- Removed Mods --
-------------------
+--------------------
+Bewitchment
+Excel Modlist Exporter
+More Loot Tables
+
 
 -- Config Changes --
 --------------------
+AppliedEnergistics/AppliedEnergistics2.cfg
+    I:minMeteoriteDistance=1707
+deepmoblearning.cfg
+    Added Guardian Scales, Wither Bones, and Dragon Scales to respective pristine matter
+hatchery.cfg
+    B:"Breeding gives Eggs"=false
+mysticlworld.cfg
+    B:GiveBook=false
+    I:HutDistance=800
+quark.cfg
+    B:"Enable Conversion to Vanilla Chests"=true
+    B:"Rename vanilla chests to Oak (Trapped) Chest"=false
+    B:"Red Nether Brick"=false
+    biotite {
+        I:"Cluster count for natural generation"=4
+        I:"Cluster size"=2
+        I:"Clusters generated per dragon death tick"=4
+Triumph
+    Changed Double Nether Star advancement to reflect Woot removal.
+
 
 -- Script Changes --
 --------------------
+Added header to all scripts
+Changed Recipe for Ender Dragon Data Module
+All necessary changes to remove Bewitchment
+Fixed "Electrobob"
+Recipe updates for metal unification and conflict removal
+    Move JEI remove and hide to mod recipe scripts
+Updated written book in Intial Inventory to reflect Woot removal.
+Added script for OreDict changes, removed flint from Quark stone tool materials.
+Unstaged Open Blocks XP bucket.
+Added to scripts to help prevent staging exploits...but can only do so much
+
+
 
 -- Asset Changes --
 -------------------

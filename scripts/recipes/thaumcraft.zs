@@ -18,7 +18,8 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 <thaumcraft:nugget:3>,
 <thaumcraft:nugget:2>,
-<thaumcraft:nugget:1>
+<thaumcraft:nugget:1>,
+<thaumcraft:flesh_block>
 ];
 
 
