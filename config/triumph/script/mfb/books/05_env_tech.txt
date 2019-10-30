@@ -1,11 +1,11 @@
 //Set the icon item
-setIcon(<gamestagebooks:mekanism>)
+setIcon(<gamestagebooks:environmental_tech>)
 
 //Set the title String
-setTitle("Mechanical Revolution")
+setTitle("Something For Nothing")
 
 //Set the description String
-setDescription("Read the Mekanism Handbook")
+setDescription("Read the Environmental Tech Handbook")
 
 //Completed advancement color change
 setCompletedIconColor(255, 102, 0)
@@ -16,7 +16,7 @@ setUncompletedTitleColor(185, 143, 44)
 addParent("mfb:books/root")
 
 //Set the position
-setPos(-48,-48)
+setPos(-48,42)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
@@ -25,6 +25,6 @@ hideLines()
 criteria = addCriteria("readBook", "triumph:right_click_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:mekanism>)
+criteria.setItem(<gamestagebooks:environmental_tech>)
 
 //By not setting anything about requirements here, all criteria are automatically required

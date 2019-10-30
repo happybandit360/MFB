@@ -1,22 +1,22 @@
 //Set the icon item
-setIcon(<gamestagebooks:environmental_tech>)
+setIcon(<gamestagebooks:mystical_ag>)
 
 //Set the title String
-setTitle("Something For Nothing")
+setTitle("Grow All The Things")
 
 //Set the description String
-setDescription("Read the Environmental Tech Handbook")
+setDescription("Read the Mystical Agriculture Handbook")
 
 //Completed advancement color change
-setCompletedIconColor(255, 102, 0)
-setCompletedTitleColor(255, 102, 0)
+setCompletedIconColor(255, 51, 153)
+setCompletedTitleColor(255, 51, 153)
 setUncompletedTitleColor(185, 143, 44)
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("mfb:books/root")
 
 //Set the position
-setPos(-138,12)
+setPos(-18,42)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
@@ -25,6 +25,6 @@ hideLines()
 criteria = addCriteria("readBook", "triumph:right_click_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:environmental_tech>)
+criteria.setItem(<gamestagebooks:mystical_ag>)
 
 //By not setting anything about requirements here, all criteria are automatically required

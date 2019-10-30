@@ -45,6 +45,18 @@ TorchMaster
 
 -- Updated Mods --
 -------------------
+*Downgraded ItemStages to version 2.0.49
+Betweenlands -> 3.4.13
+Chisel -> 1.0.1.44
+CTM -> 1.0.0.29
+Construct Armory -> 1.2.5.1
+Corail Tombstone -> 3.6.1
+Dark Utilities -> 1.8.230
+Flux Networks -> 4.0.13
+MysticalLib -> 1.4.0
+Mystical World -> 1.5.0
+Roots -> 3.0.19
+Tetra -> 0.39.1
 
 -- Removed Mods --
 ------------------
@@ -59,6 +71,7 @@ Magic Bees
 ProjectRed Expansion
 ProjectRed Exploration
 ProjectRed Fabrication
+Reborn Core
 Steve's Carts 2
 Wizardry
 
@@ -71,6 +84,8 @@ disenchanter.cfg
     B:EnableBulkDisenchantingRecipe=false
     B:EnableClearRecipe=false
     B:EnableVoidingRecipe=false
+Ebwizardry/ebwizardry.cfg
+    B:replaceVanillaFallDamage=false
 fluxnetworks.cfg
     B:"Enable Flux Recipe"=false
 gobber.cfg
@@ -87,6 +102,8 @@ inspirations.cfg
     B:nerfCarrotPotatoDrops=false
     B:milkSquids=true
         I:cooldown=1
+MatterOverdrive/matteroverdrive.cfg
+    B:version_check=false
 morpheus.cfg
     I:SleeperPerc=15
 netherex/biomes/netherex
@@ -101,6 +118,11 @@ quark.cfg
     B:"Enable Curse"=false
     B:"Auto jump hotkey"=false
     B:"Chest buttons"=false
+toastcontrol.cfg
+    S:"Blacklisted Classes"
+        matteroverdrive.handler.thread.RegistryToast
+Triumph/mfb/books
+    Updated advancements for new mods and cleaned up page
 tropicraft.cfg
     B:enableSwimAnimation=false
 
@@ -108,10 +130,13 @@ tropicraft.cfg
 --------------------
 Lots and lots and lots of recipe updates to remove conflicts
 Machine and Crafting Recipes to help separate Mekanism and Metallurgy Osmium
+Unstaged Blue Slime so it can be used for crafting like normal slime
+Changed Botania flower staging - may redo other mods eventually
 Fixed recipes for bronze and steel blend.
 Fixed issues noticed in Sky Orchards recipe script
 Staging and Recipe scripts for all new Mods
 Removed all scripts for mods that have been removed
+Added new chickens to Chickens staging
 
 
 -- Asset Changes --

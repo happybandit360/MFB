@@ -185,3 +185,17 @@ mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chi
 mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:demonmetalchicken", Gain: 1, Strength: 1}));
 mods.ItemStages.addItemStage("chickens", <minecraft:spawn_egg>.withTag({EntityTag: {id: "hatchery:roosterentity"}}));
 mods.ItemStages.addItemStage("chickens", <forge:bucketfilled>.withTag({FluidName: "liquid_fertilizer", Amount: 1000}));
+mods.ItemStages.addItemStage("chickens", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:enoricrystalchicken"}}));
+mods.ItemStages.addItemStage("chickens", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:blackquartzchicken"}}));
+mods.ItemStages.addItemStage("chickens", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:emeradiccrystalchicken"}}));
+mods.ItemStages.addItemStage("chickens", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:restoniacrystalchicken"}}));
+mods.ItemStages.addItemStage("chickens", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:paliscrystalchicken"}}));
+mods.ItemStages.addItemStage("chickens", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:voidcrystalchicken"}}));
+mods.ItemStages.addItemStage("chickens", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:diamantinecrystalchicken"}}));
+mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:blackquartzchicken", Gain: 1, Strength: 1}));
+mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:paliscrystalchicken", Gain: 1, Strength: 1}));
+mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:restoniacrystalchicken", Gain: 1, Strength: 1}));
+mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:voidcrystalchicken", Gain: 1, Strength: 1}));
+mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:enoricrystalchicken", Gain: 1, Strength: 1}));
+mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:emeradiccrystalchicken", Gain: 1, Strength: 1}));
+mods.ItemStages.addItemStage("chickens", <roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:diamantinecrystalchicken", Gain: 1, Strength: 1}));

@@ -731,7 +731,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:chickens>, [
 	[null, <ore:feather>, <minecraft:chicken>, <ore:egg>, <ore:egg>, <ore:egg>, <minecraft:chicken>, <ore:feather>, null], 
 	[<ore:ingotCrystaltine>, <ore:feather>, <minecraft:chicken>, <ore:egg>, <contenttweaker:double_star>, <ore:egg>, <minecraft:chicken>, <ore:feather>, <ore:ingotCrystaltine>], 
 	[null, <ore:feather>, <minecraft:chicken>, <ore:egg>, <ore:egg>, <ore:egg>, <minecraft:chicken>, <ore:feather>, null], 
-	[null, <ore:feather>, <ore:ingotCyanite>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:chicken>, <ore:ingotEnderium>, <ore:feather>, null], 
+	[null, <ore:feather>, <redstonearsenal:material:32>, <minecraft:chicken>, <minecraft:chicken>, <minecraft:chicken>, <ore:ingotEnderium>, <ore:feather>, null], 
 	[null, <ore:feather>, <ore:feather>, <ore:feather>, <ore:feather>, <ore:feather>, <ore:feather>, <ore:feather>, null], 
 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
 ]);

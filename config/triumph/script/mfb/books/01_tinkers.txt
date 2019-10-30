@@ -16,7 +16,7 @@ setUncompletedTitleColor(185, 143, 44)
 addParent("mfb:books/root")
 
 //Set the position
-setPos(-18,-78)
+setPos(12,-78)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()

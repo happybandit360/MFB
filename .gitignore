@@ -27,3 +27,4 @@ textures_0.png
 /screenshots
 .gitignore
 hs_err*.log
+/scripts/testing.zs
