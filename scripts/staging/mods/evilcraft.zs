@@ -28,6 +28,8 @@ mods.ItemStages.addItemStage("evilcraft", <minecraft:spawn_egg>.withTag({EntityT
 mods.ItemStages.addItemStage("evilcraft", <forge:bucketfilled>.withTag({FluidName: "evilcraftblood", Amount: 1000}));
 mods.ItemStages.addItemStage("evilcraft", <forge:bucketfilled>.withTag({FluidName: "evilcraftpoison", Amount: 1000}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 56}]}));
+mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 56}]}));
+mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 56}]}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 57}]}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 57}]}));
 mods.ItemStages.addItemStage("evilcraft", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 57}]}));

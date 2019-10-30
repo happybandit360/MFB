@@ -26,3 +26,4 @@ mods.ItemStages.addItemStage("industrial_foregoing", <forge:bucketfilled>.withTa
 mods.ItemStages.addItemStage("industrial_foregoing", <forge:bucketfilled>.withTag({FluidName: "if.protein", Amount: 1000}));
 mods.ItemStages.addItemStage("industrial_foregoing", <forge:bucketfilled>.withTag({FluidName: "if.ore_fluid_raw", Amount: 1000}));
 mods.ItemStages.addItemStage("industrial_foregoing", <forge:bucketfilled>.withTag({FluidName: "if.ore_fluid_fermented", Amount: 1000}));
+mods.ItemStages.addItemStage("industrial_foregoing", <forge:bucketfilled>.withTag({FluidName: "molten_reinforced_pink_slime", Amount: 1000}));

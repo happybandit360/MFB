@@ -27,6 +27,12 @@ mods.ItemStages.addItemStage("armor_plus", <minecraft:enchanted_book>.withTag({S
 mods.ItemStages.addItemStage("armor_plus", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 40}]}));
 mods.ItemStages.addItemStage("armor_plus", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 40}]}));
 mods.ItemStages.addItemStage("armor_plus", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 41}]}));
+mods.ItemStages.addItemStage("armor_plus", <minecraft:spawn_egg>.withTag({EntityTag: {id: "armorplus:ender_dragon_zombie"}}));
+mods.ItemStages.addItemStage("armor_plus", <minecraft:spawn_egg>.withTag({EntityTag: {id: "armorplus:ice_golem"}}));
+mods.ItemStages.addItemStage("armor_plus", <minecraft:spawn_egg>.withTag({EntityTag: {id: "armorplus:overlord_of_the_guardians"}}));
+mods.ItemStages.addItemStage("armor_plus", <minecraft:spawn_egg>.withTag({EntityTag: {id: "armorplus:skeletal_king"}}));
+mods.ItemStages.addItemStage("armor_plus", <minecraft:spawn_egg>.withTag({EntityTag: {id: "armorplus:witherling"}}));
+mods.ItemStages.addItemStage("armor_plus", <minecraft:spawn_egg>.withTag({EntityTag: {id: "armorplus:demonic_dragon"}}));
 
 
 static metadataStaging as IItemStack[] = [

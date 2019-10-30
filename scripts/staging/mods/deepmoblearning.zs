@@ -38,3 +38,4 @@ for item in metadataStaging {
 
 mods.ItemStages.addItemStage("deep_mob_learning", <deepmoblearning:deep_learner>.withTag({inventory: []}));
 mods.ItemStages.addItemStage("deep_mob_learning", <deepmoblearning:trial_key>.withTag({affixes: []}));
+mods.ItemStages.addItemStage("deep_mob_learning", <minecraft:spawn_egg>.withTag({EntityTag: {id: "deepmoblearning:glitch"}}));

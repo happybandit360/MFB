@@ -49,5 +49,6 @@ mods.ItemStages.addItemStage("random_things", <randomthings:diviningrod:15>);
 mods.ItemStages.addItemStage("random_things", <randomthings:diviningrod:16>);
 mods.ItemStages.addItemStage("random_things", <randomthings:diviningrod:18>);
 mods.ItemStages.addItemStage("random_things", <randomthings:diviningrod:19>);
+mods.ItemStages.addItemStage("random_things", <randomthings:diviningrod:20>);
 mods.ItemStages.addItemStage("random_things", <randomthings:diviningrod:21>);
 mods.ItemStages.addItemStage("random_things", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 27}]}));

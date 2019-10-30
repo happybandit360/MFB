@@ -43,14 +43,11 @@ Book.addBook("roots", "Roots", "Roots Handbook", "roots:ritual_spreading_forest"
 
 // Misc
 Book.addBook("arcane_archives", "Arcane Archives", "Arcane Archives Handbook", "arcanearchives:raw_quartz", 0x7EF9FF);
-Book.addBook("building_gadgets", "Building Gadgets", "Building Gadgets Handbook", "buildinggadgets:buildingtool", 0x1034A6);
 Book.addBook("compact_machines", "Compact Machines", "Compact Machines Handbook", "compactmachines3:psd", 0x0E4D92);
-Book.addBook("dark_utilities", "Dark Utilities", "Dark Utilities Handbook", "darkutils:trap_move", 0x6593F5);
 Book.addBook("ender_utilities", "Ender Utilities", "Ender Utilities Handbook", "enderutilities:enderpart@40", 0x4682B4);
 Book.addBook("flux_networks", "Flux Networks", "Flux Networks Handbook", "fluxnetworks:fluxcontroller", 0x5888AE);
 Book.addBook("inventory_pets", "Inventory Pets", "Inventory Pets Handbook", "inventorypets:meta_pet", 0x0080FF);
 Book.addBook("mob_grinding_utils", "Mob Grinding Utilities", "Mob Grinding Utilities Handbook", "mob_grinding_utils:saw", 0x000080);
-Book.addBook("open_blocks", "Open Blocks", "Open Blocks Handbook", "openblocks:hang_glider", 0x008ECC);
 Book.addBook("random_things", "Random Things", "Random Things Handbook", "randomthings:timeinabottle", 0x89CFF0);
 Book.addBook("rustic", "Rustic", "Rustic Handbook", "rustic:grapes", 0x7EF9FF);
 Book.addBook("viescraft", "Viescraft", "Viescraft Handbook", "vc:item_airship_ignition", 0x3FE0D0);

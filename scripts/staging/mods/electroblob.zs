@@ -80,6 +80,14 @@ mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({
 mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 55}]}));
 mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 55}]}));
 mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 55}]}));
+mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 43}]}));
+mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 43}]}));
+mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 43}]}));
+mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 43}]}));
+mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 44}]}));
+mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 44}]}));
+mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 44}]}));
+mods.ItemStages.addItemStage("electroblob", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 44}]}));
 
 
 static metadataStaging as IItemStack[] = [

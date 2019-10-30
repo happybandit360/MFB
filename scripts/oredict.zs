@@ -43,3 +43,23 @@ static hammerAdd as IItemStack[] = [
 for item in hammerAdd {
 	<ore:craftHammer>.add(item);
 }
+
+
+// static clearWoodConflict as IItemStack[] = [
+// //	<modid:itemname:meta>
+// <thebetweenlands:weedwood:*>,
+// <thebetweenlands:log_weedwood:*>
+// ];
+
+// for item in clearWoodConflict {
+// 	<ore:logWood>.remove(item);
+// }
+
+// static clearPlanksConflict as IItemStack[] = [
+// //	<modid:itemname:meta>
+// <thebetweenlands:weedwood_planks>
+// ];
+
+// for item in clearPlanksConflict {
+// 	<ore:logWood>.remove(item);
+// }

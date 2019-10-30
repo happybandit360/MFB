@@ -123,6 +123,9 @@ mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({Sto
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38}]}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 30}]}));
 mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 36}]}));
+mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 36}]}));
+mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 36}]}));
+mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 36}]}));
 mods.ItemStages.addItemStage("ender_io", <enderio:item_basic_capacitor:3>.withTag({display: {}}));
 mods.ItemStages.addItemStage("ender_io", <enderio:item_basic_capacitor:4>.withTag({display: {}}));
 

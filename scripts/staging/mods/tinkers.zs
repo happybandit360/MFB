@@ -91,6 +91,17 @@ mods.ItemStages.addItemStage("tinkers", <tconstruct:tooltables:2>.withTag({textu
 mods.ItemStages.addItemStage("tinkers", <tconstruct:tooltables:2>.withTag({textureBlock: {id: "climaticbiomesjbg:pine_log", Count: 1 as byte, Damage: 0 as short}}));
 mods.ItemStages.addItemStage("tinkers", <tconstruct:bolt>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, Accuracy: 1.0 as float, MiningSpeed: 7.07 as float, FreeModifiers: 3, Durability: 111, HarvestLevel: 4, Attack: 4.2 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, Accuracy: 1.0 as float, MiningSpeed: 7.07 as float, FreeModifiers: 3, Durability: 111, HarvestLevel: 4, Attack: 4.2 as float}, Special: {Categories: ["tool", "no_melee", "projectile"]}, TinkerData: {Materials: ["wood", "obsidian", "feather"], Modifiers: []}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "duritos", color: -10478396, level: 1}], Traits: ["ecological", "duritos"]}));
 mods.ItemStages.addItemStage("tinkers", <tconstruct:bolt>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0 as float, Accuracy: 1.0 as float, MiningSpeed: 7.5 as float, FreeModifiers: 3, Durability: 2240, HarvestLevel: 2, Attack: 5.5 as float}, Stats: {AttackSpeedMultiplier: 1.0 as float, Accuracy: 1.0 as float, MiningSpeed: 7.5 as float, FreeModifiers: 3, Durability: 2240, HarvestLevel: 2, Attack: 5.5 as float}, Special: {Categories: ["tool", "no_melee", "projectile"]}, TinkerData: {Materials: ["wood", "integrationforegoing.reinforced_pink_slime", "feather"], Modifiers: []}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "slimey_pink", color: -4032074, level: 1}, {identifier: "dense", color: -4032074, level: 1}], Traits: ["ecological", "slimey_pink", "dense"]}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "alumite", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "refinedobsidian", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "refinedglowstone", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "osgloglas", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "osmiridium", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "terrasteel", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "elementium", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "manasteel", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "mirion", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "thaumium", Amount: 1000}));
+mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "starmetal", Amount: 1000}));
 
 static metadataStaging as IItemStack[] = [
 // <modid:itemname:meta>

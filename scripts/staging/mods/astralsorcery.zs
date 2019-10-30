@@ -29,6 +29,8 @@ mods.ItemStages.addItemStage("astral_sorcery", <astralsorcery:itemwand>.withTag(
 mods.ItemStages.addItemStage("astral_sorcery", <astralsorcery:itemcape>.withTag({astralsorcery: {}, Quality: {}}));
 mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 100}]}));
 mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 101}]}));
+mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 92}]}));
+mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 93}]}));
 
 for itm in loadedMods["astralsorcery"].items {
     mods.ItemStages.addItemStage("astral_sorcery", itm.withTag({astralsorcery: {}}));

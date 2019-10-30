@@ -18,6 +18,7 @@ mods.inspirations.Cauldron.addFluidRecipe(<redstonearsenal:material>, <thermalfo
 // Cauldron Fluid Transformation Recipes
 //mods.inspirations.Cauldron.addFluidTransform(ILiquidStack output, IIngredient input, ILiquidStack fluid, @Optional int maxLevels, @Optional boolean boiling);
 mods.inspirations.Cauldron.addFluidTransform(<liquid:redstone>, <minecraft:redstone_block>, <liquid:water>, 4, true);
+mods.inspirations.Cauldron.addFluidTransform(<liquid:coal>, <minecraft:coal>, <liquid:water>, 4, true);
 
 
 /*
