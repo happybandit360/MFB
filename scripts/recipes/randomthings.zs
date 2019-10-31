@@ -18,7 +18,8 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 	<randomthings:soundbox>,
 	<randomthings:blockofsticks>,
-	<randomthings:diviningrod:7>
+	<randomthings:diviningrod:7>,
+	<randomthings:quartzlamp>
 ];
 
 /*
@@ -66,6 +67,16 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[<randomthings:diviningrod>, <minecraft:stick>, <randomthings:diviningrod:6>],
 				[<randomthings:diviningrod:1>, <ore:slimeball>, <randomthings:diviningrod:5>],
 				[<randomthings:diviningrod:2>, <randomthings:diviningrod:3>, <randomthings:diviningrod:4>]
+
+			]
+		]
+	},
+	<randomthings:quartzlamp> : {
+		"randomthings:quartzlamp" : [
+			[
+	  			[<minecraft:quartz>, null, <minecraft:quartz>],
+	  			[null, <minecraft:redstone_lamp>, null],
+	  			[<minecraft:quartz>, null, <minecraft:quartz>]
 
 			]
 		]
