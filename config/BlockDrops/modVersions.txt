@@ -158,6 +158,7 @@
   "toolbox": "0.2.14",
   "mob_grinding_utils": "0.3.13",
   "actuallybaubles": "1.1",
+  "tinkertoolleveling": "1.12.2-1.1.0.DEV.b23e769",
   "commoncapabilities": "2.4.4",
   "crafttweakerjei": "2.0.3",
   "enderiomachines": "5.1.52",

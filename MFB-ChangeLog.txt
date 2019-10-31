@@ -41,16 +41,18 @@ Rustic
 Simple Inventory Sorting (Inventory Sorter)
 StepUp
 The Disenchanter Mod
+Tinker's Tools Leveling
 TorchMaster
 
 -- Updated Mods --
 -------------------
 *Downgraded ItemStages to version 2.0.49
 Betweenlands -> 3.4.13
+Carry On -> 1.12.3
 Chisel -> 1.0.1.44
 CTM -> 1.0.0.29
 Construct Armory -> 1.2.5.1
-Corail Tombstone -> 3.6.1
+Corail Tombstone -> 3.6.2
 Dark Utilities -> 1.8.230
 Flux Networks -> 4.0.13
 MysticalLib -> 1.4.0
@@ -118,6 +120,8 @@ quark.cfg
     B:"Enable Curse"=false
     B:"Auto jump hotkey"=false
     B:"Chest buttons"=false
+splash.properties
+    Changed background color to temp color so it wasn't blindingly white anymore
 toastcontrol.cfg
     S:"Blacklisted Classes"
         matteroverdrive.handler.thread.RegistryToast

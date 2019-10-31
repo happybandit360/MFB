@@ -72,7 +72,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	},
 	<randomthings:quartzlamp> : {
-		"randomthings:quartzlamp" : [
+		"randomthings_quartzlamp" : [
 			[
 	  			[<minecraft:quartz>, null, <minecraft:quartz>],
 	  			[null, <minecraft:redstone_lamp>, null],
