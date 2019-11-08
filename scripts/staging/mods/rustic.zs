@@ -15,6 +15,14 @@ import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("rustic", "rustic");
 
+// Ores
+mods.orestages.OreStages.addReplacementById("rustic", "rustic:chamomile:*", "minecraft:red_flower:3");
+mods.orestages.OreStages.addReplacementById("rustic", "rustic:ginseng:*", "minecraft:red_flower");
+mods.orestages.OreStages.addReplacementById("rustic", "rustic:wind_thistle:*", "minecraft:red_flower:2");
+mods.orestages.OreStages.addReplacementById("rustic", "rustic:horsetail:*", "minecraft:red_flower:1");
+mods.orestages.OreStages.addReplacementById("rustic", "rustic:mooncap_mushroom:*", "minecraft:brown_mushroom");
+mods.orestages.OreStages.addReplacementById("rustic", "rustic:deathstalk_mushroom:*", "minecraft:red_mushroom");
+
 // Stage Misc Items
 mods.ItemStages.addItemStage("rustic", <forge:bucketfilled>.withTag({FluidName: "oliveoil", Amount: 1000}));
 mods.ItemStages.addItemStage("rustic", <forge:bucketfilled>.withTag({FluidName: "ironberryjuice", Amount: 1000}));

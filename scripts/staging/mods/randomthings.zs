@@ -16,6 +16,8 @@ import mods.orestages.OreStages;
 
 mods.recipestages.Recipes.setRecipeStageByMod("random_things", "randomthings");
 
+mods.orestages.OreStages.addReplacement("random_things", <randomthings:glowingmushroom>, <minecraft:brown_mushroom>);
+
 // Stage Misc Items
 mods.ItemStages.addItemStage("random_things", <minecraft:potion>.withTag({Potion: "randomthings:collapse"}));
 mods.ItemStages.addItemStage("random_things", <minecraft:potion>.withTag({Potion: "randomthings:long_collapse"}));

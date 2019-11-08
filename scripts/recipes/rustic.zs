@@ -232,7 +232,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		"string_for_recipe_name" : [
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
-	}	*/        
+	}	*/
+<rustic:tallow> : {
+		"rustic_tallow_conv" : [
+			[<quark:tallow>]
+		]
+	}
+  
 };
 
 

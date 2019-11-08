@@ -48,6 +48,9 @@ mods.ItemStages.removeItemStage(<enderio:item_material:31>);
 // Unstage Ardite and Cobalt - used in multiple mods
 mods.ItemStages.removeItemStage(<tconstruct:ore>);
 mods.ItemStages.removeItemStage(<tconstruct:ore:1>);
+mods.ItemStages.removeItemStage(<tconstruct:ingots>);
+mods.ItemStages.removeItemStage(<tconstruct:ingots:1>);
+
 
 // Slime variations
 mods.ItemStages.removeItemStage(<tconstruct:edible:1>);

@@ -22,7 +22,7 @@ mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:alduorite_ore>
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:astral_silver_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:atlarus_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:carmot_ore>, <minecraft:stone>);
-mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:ceruclase_ore>, <minecraft:stone>);
+mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:ceruclase_ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:deep_iron_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:eximite_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:ignatius_ore>, <minecraft:netherrack>);

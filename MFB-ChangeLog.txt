@@ -2,7 +2,7 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.7 --> 0.0.8 TBD
+0.0.8 --> 0.0.9 TBD
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------	
@@ -19,7 +19,46 @@ Alpha Build
 
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.6 --> 0.0.7 - IN PROGRESS
+0.0.7 --> 0.0.8 IN PROGRESS
+-------------------------------------------------------------------------------
+-- Added Mods --
+----------------
+MPUtils
+MPUtils Basic Tools
+
+-- Updated Mods --
+-------------------
+
+-- Removed Mods --
+------------------
+
+-- Config Changes --
+--------------------
+rustic.cfg
+    B:"Flesh Smelting"=false
+    I:"Max Herb Generation Attempts"=3
+    I:"Max Wildberry Generation Attempts"=2
+    B:"Enable Forestry Compat"=false
+tropicraft.cfg
+    B:genOverworldPalmsInBeachOnly=true
+    B:genTropicraftEIHInOverworld=false
+
+-- Script Changes --
+--------------------
+Metallurgy & Random Things staging fixes
+World gen staging for Actually Additions and Rustic
+Added Actually Additions tools/armor to staging
+Removed Cobalt/Ardite ingots from staging
+Added Cobalt/Ardite ore to Pulverizer and Mekanism Crusher
+Added Shift Tooltips for all Metallurgy Picks
+Added Charcoal-based recipes for Dank Null
+
+-- Asset Changes --
+-------------------
+
+-------------------------------------------------------------------------------
+Alpha Build
+0.0.6 --> 0.0.7 - RELEASED 10/30/19
 -------------------------------------------------------------------------------
 
 -- Added Mods --

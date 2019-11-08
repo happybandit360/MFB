@@ -11,6 +11,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
 
+
 /*
 	Recipe Removals by Item
 */
@@ -126,6 +127,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 
+// Machine Recipe additions
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:31> * 2, <tconstruct:ore>, 1500);
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:30> * 2, <tconstruct:ore:1>, 1500);
+mods.mekanism.crusher.addRecipe(<tconstruct:ore>, <enderio:item_material:31> * 2);
+mods.mekanism.crusher.addRecipe(<tconstruct:ore:1>, <enderio:item_material:30> * 2);
 
 
 // Do NOT edit below this line //

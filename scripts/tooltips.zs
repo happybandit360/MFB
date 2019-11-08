@@ -39,7 +39,11 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 };
 
 // Shift Tooltips
-// <modid:item:meta>.addShiftTooltip(format.color("String"));
+static itemShiftTooltipsAdd as IFormattedText[][IItemStack] = {
+/*	<mod:id:meta>: [
+		format.color("String")
+	] */	
+};
 
 static tinkersTips as IItemStack[] = [
 <tcomplement:chisel_head>.withTag({Material: "stone"}),
@@ -79,5 +83,11 @@ for item in tinkersTips {
 for item, tooltips in itemTooltipsAdd {
 	for tooltip in tooltips {
 		item.addTooltip(tooltip);
+	}
+}
+
+for item, shifttooltips in itemShiftTooltipsAdd {
+	for shifttooltip in shifttooltips {
+		item.addShiftTooltip(shifttooltip);
 	}
 }
