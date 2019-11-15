@@ -18,7 +18,6 @@ mods.recipestages.Recipes.setRecipeStageByMod("actually_additions", "actuallyadd
 // Ores
 mods.orestages.OreStages.addReplacement("actually_additions", <actuallyadditions:block_misc:3>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("actually_additions", <actuallyadditions:block_black_lotus>, <minecraft:red_flower:5>);
-mods.orestages.OreStages.addReplacementById("actually_additions", "actuallyadditions:block_flax:*", "minecraft:wheat:*");
 
 // Stage Misc Items
 mods.ItemStages.addItemStage("actually_additions", <forge:bucketfilled>.withTag({FluidName: "canolaoil", Amount: 1000}));

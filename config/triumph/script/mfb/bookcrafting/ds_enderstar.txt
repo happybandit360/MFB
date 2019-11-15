@@ -1,11 +1,11 @@
 //Set the icon item
-setIcon(<extendedcrafting:material>)
+setIcon(<extendedcrafting:material:40>)
 
 //Set the title String
-setTitle("Inky Iron")
+setTitle("Starry Eyed")
 
 //Set the description String
-setDescription("Craft a Black Iron Ingot. This is the base material you'll need for all the Extended Crafting Tables.")
+setDescription("Craft an Ender Star in the Ender Crafter. Two of these are needed for the Double Nether Star.")
 
 //Completed advancement color change
 //setCompletedIconColor(0, 255, 0)
@@ -14,19 +14,20 @@ setDescription("Craft a Black Iron Ingot. This is the base material you'll need 
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("mfb:bookcrafting/root")
+addParent("mfb:bookcrafting/ds_endercrafter")
 
 setRequiresParents()
 
 //Set the position
-setPos(-78,-78)
+setPos(-140,-14)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
 
 //Adds criteria with the trigger type. This function returns the criteria as an object
-criteria = addCriteria("blackIronIngot", "minecraft:inventory_changed")
+criteria = addCriteria("enderStar", "minecraft:inventory_changed")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.addItem(<extendedcrafting:material>)
+criteria.addItem(<extendedcrafting:material:40>)
 
 //By not setting anything about requirements here, all criteria are automatically required

@@ -15,6 +15,7 @@ import crafttweaker.item.IIngredient;
 <ore:chestWood>.remove(<minecraft:trapped_chest>);
 
 <ore:wax>.add(<quark:tallow>);
+<ore:workbench>.add(<craftingstation:crafting_station>);
 
 static caseAdd as IItemStack[] = [
 //	<modid:itemname:meta>

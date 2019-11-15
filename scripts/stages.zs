@@ -41,7 +41,6 @@ var stageNames as string[] = [
     "evilcraft",
     "botania",
     "astral_sorcery",
-    "thaumcraft",
     "blood_magic",
     "roots",
     "electroblob",
@@ -62,7 +61,6 @@ var stageNames as string[] = [
     // Non-Starting
     "aether",
     "deep_mob_learning",
-    "tropicraft",
     "betweenlands",
     "sky_orchards",
     "mystical_ag",

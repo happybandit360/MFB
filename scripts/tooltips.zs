@@ -35,6 +35,9 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 <tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}) : [
 	format.gold("Also made with a variety of metal blocks.")
 ],
+<inventorypets:meta_pet:*> : [
+	format.gold("Crafted by combining any 4 Inventory Pets")
+]
 
 };
 

@@ -13,17 +13,16 @@ setDescription("Craft an Ultimate Crafting Table. Once you have one, you'll have
 //setUncompletedTitleColor(185, 143, 44)
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("mfb:bookcrafting/ex_01_blackiron")
 addParent("mfb:bookcrafting/ex_02_basictable")
 addParent("mfb:bookcrafting/ex_03_advancedtable")
 addParent("mfb:bookcrafting/ex_04_elitetable")
 
 setRequiresParents()
 
-setFrameType("GOAL")
+setFrameType("CHALLENGE")
 
 //Set the position
-setPos(-43,18)
+setPos(-76,18)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()

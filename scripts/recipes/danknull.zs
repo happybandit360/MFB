@@ -1,5 +1,5 @@
 /*
-	Extended Crafting & Related Custom recipes script.
+	Dank Null recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -10,36 +10,31 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+/*
+	Furnace Recipes
+*/
+static furnaceRemoval as IItemStack[] = [
+//	<modid:itemname:meta>	
+];
+
+static furnaceAddition as IIngredient[][IItemStack] = {
+//	<modid:itemname:meta> : [<mod:itemname:meta>]
+};
 
 /*
 	Recipe Removals by Item
 */
 static itemRecipeRemoval as IItemStack[] = [
-<extendedcrafting:material:7>,
-<extendedcrafting:table_basic>,
-<extendedcrafting:table_advanced>,
-<extendedcrafting:table_elite>,
-<extendedcrafting:table_ultimate>,
-<extendedcrafting:material:128>,
-<extendedcrafting:material:129>
+//	<modid:itemname:meta>
 ];
-
 
 /*
 	Recipe and JEI Removals by Item
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<extendedcrafting:storage:7>,
-<extendedcrafting:trimmed:5>,
-<extendedcrafting:material:13>,
-<extendedcrafting:material:19>,
-<extendedcrafting:material:32>,
-<extendedcrafting:material:33>,
-<extendedcrafting:material:48>,
-<extendedcrafting:material:49>,
-<extendedcrafting:crafting_table>
 ];
+
 
 
 /*
@@ -56,56 +51,57 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<extendedcrafting:material:7> * 8 : {
-		"extendedcrafting_luminessence" : [
+<danknull:dank_null_panel_0> : {
+		"danknull_dank_null_panel_0_2" : [
 			[
-	  			[<minecraft:glowstone_dust>, <minecraft:glowstone_dust>],
-	   			[<minecraft:redstone>, <minecraft:gunpowder>]
+	  			[<minecraft:redstone>, <ore:blockCharcoal>, <minecraft:redstone>],
+	   			[<ore:blockCharcoal>, <minecraft:stained_glass_pane:14>, <ore:blockCharcoal>],
+	  			[<minecraft:redstone>, <ore:blockCharcoal>, <minecraft:redstone>]
 			]
 		]
 	},
-<contenttweaker:double_star> : {
-		"double_nether_star" : [
+<danknull:dank_null_panel_1> : {
+		"danknull_dank_null_panel_1_2" : [
 			[
-	  			[null, <minecraft:dragon_breath>, null],
-	   			[<extendedcrafting:material:40>, <extrautils2:unstableingots>, <extendedcrafting:material:40>],
-	  			[null, <extrautils2:ingredients:5>, null]
+	  			[<minecraft:dye:4>, <ore:blockCharcoal>, <minecraft:dye:4>],
+	   			[<ore:blockCharcoal>, <minecraft:stained_glass_pane:11>, <ore:blockCharcoal>],
+	  			[<minecraft:dye:4>, <ore:blockCharcoal>, <minecraft:dye:4>]
 			]
 		]
 	},
-<extendedcrafting:table_basic> : {
-		"extendedcrafting_table_basic" : [
+<danknull:dank_null_panel_2> : {
+		"danknull_dank_null_panel_2_2" : [
 			[
-				[<extendedcrafting:material:14>, <extendedcrafting:material:14>, <extendedcrafting:material:14>], 
-				[<ore:workbench>, <ore:blockIron>, <ore:workbench>], 
-				[<extendedcrafting:material:14>, <extendedcrafting:material:2>, <extendedcrafting:material:14>]
+	  			[<ore:ingotIron>, <ore:blockCharcoal>, <ore:ingotIron>],
+	   			[<ore:blockCharcoal>, <minecraft:stained_glass_pane>, <ore:blockCharcoal>],
+	  			[<ore:ingotIron>, <ore:blockCharcoal>, <ore:ingotIron>]
 			]
 		]
 	},
-<extendedcrafting:table_advanced> : {
-		"extendedcrafting_table_advanced" : [
+<danknull:dank_null_panel_3> : {
+		"danknull_dank_null_panel_3_2" : [
 			[
-				[<extendedcrafting:material:15>, <ore:blockGold>, <extendedcrafting:material:15>], 
-				[<extendedcrafting:material:15>, <extendedcrafting:table_basic>, <extendedcrafting:material:15>], 
-				[<extendedcrafting:material:15>, <extendedcrafting:material:9>, <extendedcrafting:material:15>]
+	  			[<ore:ingotGold>, <ore:blockCharcoal>, <ore:ingotGold>],
+	   			[<ore:blockCharcoal>, <minecraft:stained_glass_pane:4>, <ore:blockCharcoal>],
+	  			[<ore:ingotGold>, <ore:blockCharcoal>, <ore:ingotGold>]
 			]
 		]
 	},
-<extendedcrafting:table_elite> : {
-		"extendedcrafting_table_elite" : [
+<danknull:dank_null_panel_4> : {
+		"danknull_dank_null_panel_4_2" : [
 			[
-				[<extendedcrafting:material:16>, <ore:blockDiamond>, <extendedcrafting:material:16>], 
-				[<extendedcrafting:material:16>, <extendedcrafting:table_advanced>, <extendedcrafting:material:16>], 
-				[<extendedcrafting:material:16>, <extendedcrafting:material:10>, <extendedcrafting:material:16>]
+	  			[<minecraft:diamond>, <ore:blockCharcoal>, <minecraft:diamond>],
+	   			[<ore:blockCharcoal>, <minecraft:stained_glass_pane:9>, <ore:blockCharcoal>],
+	  			[<minecraft:diamond>, <ore:blockCharcoal>, <minecraft:diamond>]
 			]
 		]
 	},
-<extendedcrafting:table_ultimate> : {
-		"extendedcrafting_table_ultimate" : [
+<danknull:dank_null_panel_5> : {
+		"danknull_dank_null_panel_5_2" : [
 			[
-				[<extendedcrafting:material:17>, <ore:blockEmerald>, <extendedcrafting:material:17>], 
-				[<extendedcrafting:material:17>, <extendedcrafting:table_elite>, <extendedcrafting:material:17>], 
-				[<extendedcrafting:material:17>, <extendedcrafting:material:11>, <extendedcrafting:material:17>]
+	  			[<minecraft:emerald>, <ore:blockCharcoal>, <minecraft:emerald>],
+	   			[<ore:blockCharcoal>, <minecraft:stained_glass_pane:5>, <ore:blockCharcoal>],
+	  			[<minecraft:emerald>, <ore:blockCharcoal>, <minecraft:emerald>]
 			]
 		]
 	},
@@ -197,4 +193,16 @@ for item in itemRecipeRemoval {
 for item in itemRecipeRemovalJEI {
 	recipes.remove(item);
 	mods.jei.JEI.hide(item);
+}
+
+// Remove Furnace Recipes
+for item in furnaceRemoval {
+	furnace.remove(item);
+}
+
+// Add Furnace Recipes
+for output, inputs in furnaceAddition {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

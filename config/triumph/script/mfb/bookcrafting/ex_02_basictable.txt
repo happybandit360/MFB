@@ -13,12 +13,12 @@ setDescription("Craft a Basic Crafting Table. While it may sound basic, it's act
 //setUncompletedTitleColor(185, 143, 44)
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("mfb:bookcrafting/ex_01_blackiron")
+addParent("mfb:bookcrafting/root")
 
 setRequiresParents()
 
 //Set the position
-setPos(-43,-78)
+setPos(-76,-76)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()

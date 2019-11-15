@@ -14,13 +14,16 @@ setDescription("Crafting a Double Nether Star is a potentially deadly process, b
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("mfb:bookcrafting/root")
+addParent("mfb:bookcrafting/ds_dragonsbreath")
+addParent("mfb:bookcrafting/ds_endercrafter")
+addParent("mfb:bookcrafting/ds_enderstar")
 
 setRequiresParents()
 
 setFrameType("CHALLENGE")
 
 //Set the position
-setPos(-108, 18)
+setPos(-140,18)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()

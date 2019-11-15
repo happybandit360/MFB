@@ -10,7 +10,9 @@ import crafttweaker.item.IItemStack;
 // Harvest Level 0 Tooltips
 static levelZero as IItemStack[] = [
 //	<mod:id:meta>
-<minecraft:wooden_pickaxe:*>
+<minecraft:wooden_pickaxe:*>,
+<thermalfoundation:tool.pickaxe_electrum:*>,
+<thermalfoundation:tool.hammer_electrum:*>
 ];
 
 for item in levelZero {
@@ -49,8 +51,6 @@ static levelTwo as IItemStack[] = [
 <metallurgy:prometheum_pickaxe:*>,
 <thermalfoundation:tool.pickaxe_steel:*>,
 <thermalfoundation:tool.hammer_steel:*>,
-<thermalfoundation:tool.pickaxe_electrum:*>,
-<thermalfoundation:tool.hammer_electrum:*>
 ];
 
 for item in levelTwo {

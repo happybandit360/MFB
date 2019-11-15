@@ -37,6 +37,86 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<inventorypets:holiday_cookie> : {
+		"inventorypets_holiday_cookie" : [
+			[
+	  			[<minecraft:cookie>, <minecraft:blaze_powder>, <minecraft:cookie>],
+	   			[<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:blaze_powder>],
+	  			[<minecraft:cookie>, <minecraft:blaze_powder>, <minecraft:cookie>]
+			]
+		]
+	},
+<inventorypets:mug_egg_nog> : {
+		"inventorypets_mug_egg_nog" : [
+			[
+	  			[<minecraft:milk_bucket>, <xlfoodmod:fried_egg>, <minecraft:milk_bucket>],
+	   			[<xlfoodmod:fried_egg>, <minecraft:potion>.withTag({Potion: "minecraft:strong_healing"}), <xlfoodmod:fried_egg>],
+	  			[<minecraft:milk_bucket>, <xlfoodmod:glass_mug>, <minecraft:milk_bucket>]
+			]
+		]
+	},
+<inventorypets:candy_cane> : {
+		"inventorypets_candy_cane" : [
+			[
+	  			[<ore:blockQuartz>, <ore:blockRedstone>, <ore:blockQuartz>],
+	   			[<ore:blockRedstone>, <quark:sugar_block>, <ore:blockRedstone>],
+	  			[<ore:blockQuartz>, <ore:blockRedstone>, <ore:blockQuartz>]
+			]
+		]
+	},
+<inventorypets:rock_candy> : {
+		"inventorypets_rock_candy" : [
+			[
+	  			[<minecraft:sugar>, <minecraft:sugar>, <minecraft:sugar>],
+	   			[<minecraft:sugar>, <ore:nuggetDiamond>, <minecraft:sugar>],
+	  			[<minecraft:sugar>, <minecraft:sugar>, <minecraft:sugar>]
+			]
+		]
+	},
+<inventorypets:solstice_helmet>.withTag({ench: [{lvl: 4 as short, id: 34}, {lvl: 3 as short, id: 5}, {lvl: 1 as short, id: 6}]}) : {
+		"inventorypets_solstice_helmet" : [
+			[
+	  			[<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>],
+	   			[<minecraft:nether_star>, null, <minecraft:nether_star>]
+			]
+		]
+	},
+<inventorypets:solstice_chestplate>.withTag({ench: [{lvl: 4 as short, id: 1}, {lvl: 4 as short, id: 4}, {lvl: 3 as short, id: 7}]}) : {
+		"inventorypets_solstice_chestplate" : [
+			[
+	  			[<minecraft:nether_star>, null, <minecraft:nether_star>],
+	   			[<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>],
+	  			[<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>]
+			]
+		]
+	},
+<inventorypets:solstice_leggings>.withTag({ench: [{lvl: 4 as short, id: 34}, {lvl: 4 as short, id: 3}, {lvl: 4 as short, id: 0}]}) : {
+		"inventorypets_solstice_leggings" : [
+			[
+	  			[<minecraft:nether_star>, <minecraft:nether_star>, <minecraft:nether_star>],
+	   			[<minecraft:nether_star>, null, <minecraft:nether_star>],
+	  			[<minecraft:nether_star>, null, <minecraft:nether_star>]
+			]
+		]
+	},
+<inventorypets:solstice_boots>.withTag({ench: [{lvl: 4 as short, id: 34}, {lvl: 4 as short, id: 1}, {lvl: 4 as short, id: 2}]}) : {
+		"inventorypets_solstice_boots" : [
+			[
+	  			[<minecraft:nether_star>, null, <minecraft:nether_star>],
+	   			[<minecraft:nether_star>, null, <minecraft:nether_star>]
+			]
+		]
+	},
+<inventorypets:solstice_sword>.withTag({ench: [{lvl: 3 as short, id: 34}, {lvl: 2 as short, id: 16}, {lvl: 3 as short, id: 17}]}) : {
+		"inventorypets_solstice_sword" : [
+			[
+	  			[<minecraft:nether_star>],
+	   			[<minecraft:nether_star>],
+	  			[<minecraft:end_rod>]
+			]
+		]
+	},
+
 };
 
 

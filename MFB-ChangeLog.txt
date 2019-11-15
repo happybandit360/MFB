@@ -23,21 +23,58 @@ Alpha Build
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
+Crafting Station
 MPUtils
 MPUtils Basic Tools
 
 -- Updated Mods --
 -------------------
+The Betweenlands -> 3.5.1
+Actually Additions -> r151
+Apotheosis -> 1.11.6
+Blocklings -> 6.0.1_b
+Blood Magic -> 2.4.3-105
+Building Gadgets -> 2.7.4
+Construct Armory -> 1.2.5.3
+Ender Core -> 0.5.73
+Nature's Aura -> r18
+Nature's Compass -> 1.6.0
+Roots -> 3.0.21
+Triumph -> 3.19.2
 
 -- Removed Mods --
 ------------------
 
 -- Config Changes --
 --------------------
+actuallyadditions.cfg
+     B:"Do Update Check"=false
+     B:"Treasure Chest Gen"=false
+charm.cfg
+    D:"Crops outside"=0.4
+Ebwizardry/ebwizardry.cfg
+    S:mobLootTableBlacklist
+        entities/creeper
+        entities/husk
+        entities/skeleton
+        entities/silverfish
+        entities/zombie
+        entities/zombie_villager
+        entities/cave_spider
+        entities/spider
+extendedcrafting.cfg
+    Quantum Compression - B:enabled=false
+    Singularity - B:enabled=false
+Inventorypets/inventorypets.cfg
+    B:"Disable Black Hole Recipe"=false
+    B:"Disable Cloud Recipe"=false
+    B:"Disable Pufferfish Recipe"=false
+    B:"Disable Slime Recipe"=false
 rustic.cfg
     B:"Flesh Smelting"=false
     I:"Max Herb Generation Attempts"=3
     I:"Max Wildberry Generation Attempts"=2
+    I:"Max Ironwood Generation Attempts"=2
     B:"Enable Forestry Compat"=false
 tropicraft.cfg
     B:genOverworldPalmsInBeachOnly=true
@@ -51,7 +88,10 @@ Added Actually Additions tools/armor to staging
 Removed Cobalt/Ardite ingots from staging
 Added Cobalt/Ardite ore to Pulverizer and Mekanism Crusher
 Added Shift Tooltips for all Metallurgy Picks
+Added Tooltip for Meta Pet
 Added Charcoal-based recipes for Dank Null
+Changed Crafting Station recipe to not conflict with TiC Crafting Station
+Removed unnecessary items from Extended Crafting
 
 -- Asset Changes --
 -------------------

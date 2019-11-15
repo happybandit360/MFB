@@ -1,5 +1,5 @@
 /*
-	Thaumcraft recipes script.
+	Crafting Station recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -10,16 +10,30 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+/*
+	Furnace Recipes
+*/
+static furnaceRemoval as IItemStack[] = [
+//	<modid:itemname:meta>
+<craftingstation:crafting_station>	
+];
+
+static furnaceAddition as IIngredient[][IItemStack] = {
+//	<modid:itemname:meta> : [<mod:itemname:meta>]
+};
 
 /*
 	Recipe Removals by Item
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<thaumcraft:nugget:3>,
-<thaumcraft:nugget:2>,
-<thaumcraft:nugget:1>,
-<thaumcraft:flesh_block>
+];
+
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
 ];
 
 
@@ -38,6 +52,14 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<craftingstation:crafting_station> : {
+		"craftingstation_crafting_station" : [
+			[
+	  			[<ore:workbench>],
+	   			[<ore:workbench>]
+			]
+		]
+	}
 };
 
 
@@ -120,4 +142,22 @@ for item, itemRecipes in namedShapelessRecipes {
 // Remove Item Recipe for replacement
 for item in itemRecipeRemoval {
 	recipes.remove(item);
+}
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
+}
+
+// Remove Furnace Recipes
+for item in furnaceRemoval {
+	furnace.remove(item);
+}
+
+// Add Furnace Recipes
+for output, inputs in furnaceAddition {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

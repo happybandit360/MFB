@@ -126,10 +126,6 @@ static stagedMods as string[][string] = {
         "astralsorcery"
     ],
 
-    stages.thaumcraft.stage : [
-        "thaumcraft"
-    ],
-
     stages.bloodMagic.stage : [
         "bloodmagic"
     ],
@@ -169,10 +165,6 @@ static stagedMods as string[][string] = {
 
     stages.aether.stage : [
         "aether_legacy"
-    ],
-
-    stages.tropicraft.stage : [
-        "tropicraft"
     ],
 
     stages.betweenlands.stage : [
