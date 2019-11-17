@@ -44,7 +44,7 @@ Triumph -> 3.19.2
 
 -- Removed Mods --
 ------------------
-Tropicraft
+Thaumcraft
 
 -- Config Changes --
 --------------------
@@ -79,6 +79,13 @@ rustic.cfg
     I:"Max Wildberry Generation Attempts"=2
     I:"Max Ironwood Generation Attempts"=2
     B:"Enable Forestry Compat"=false
+solcarrot.cfg
+    I:"Milestone amounts"
+        30
+        35
+        40
+        45
+        50
 tropicraft.cfg
     B:genOverworldPalmsInBeachOnly=true
     B:genTropicraftEIHInOverworld=false
