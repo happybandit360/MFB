@@ -345,19 +345,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:astral_sorcery>
 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, <ore:paper>, <ore:paper>, <ore:paper>, <ore:book>]
 ]);
 
-// Thaumcraft
-// mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:thaumcraft>, [
-// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-// 	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:dyeBlack>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
-// 	[null, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, <ore:feather>, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, null], 
-// 	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
-// 	[<ore:ingotCrystaltine>, <ore:dyeBlack>, <ore:feather>, <ore:bookshelfOak>, <contenttweaker:double_star>, <ore:bookshelfOak>, <ore:feather>, <ore:dyeBlack>, <ore:ingotCrystaltine>], 
-// 	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:bookshelfOak>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
-// 	[null, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, <ore:feather>, <ore:paneGlassColorless>, <ore:ingotGold>, <ore:paneGlassColorless>, null], 
-// 	[null, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:dyeBlack>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>, null], 
-// 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-// ]);
-
 // Blood Magic
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:blood_magic>, [
 	[<ore:book>, <ore:stonebrick>, <ore:stonebrick>, null, <ore:ingotCrystaltine>, null, <ore:stonebrick>, <ore:stonebrick>, <ore:book>], 
@@ -485,20 +472,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:aether>, [
 	[null, <ore:glowstone>, <ore:ingotGold>, <ore:glowstone>, <ore:glowstone>, <ore:glowstone>, <ore:ingotGold>, <ore:glowstone>, null], 
 	[null, <ore:glowstone>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:glowstone>, null], 
 	[null, <ore:glowstone>, <ore:glowstone>, <ore:glowstone>, <ore:glowstone>, <ore:glowstone>, <ore:glowstone>, <ore:glowstone>, null], 
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
-]);
-
-
-// Tropicraft
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:tropicraft>, [
-	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>], 
-	[null, <ore:allFlowers>, null, null, null, null, null, <ore:allFlowers>, null], 
-	[null, null, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, null, null], 
-	[null, null, <ore:treeSapling>, null, <extrautils2:suncrystal>, null, <ore:treeSapling>, null, null], 
-	[<ore:ingotCrystaltine>, null, <ore:treeSapling>, <extrautils2:suncrystal>, <contenttweaker:double_star>, <extrautils2:suncrystal>, <ore:treeSapling>, null, <ore:ingotCrystaltine>], 
-	[null, null, <ore:treeSapling>, null, <extrautils2:suncrystal>, null, <ore:treeSapling>, null, null], 
-	[null, null, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>, null, null], 
-	[null, <ore:allFlowers>, null, null, null, null, null, <ore:allFlowers>, null], 
 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
 ]);
 

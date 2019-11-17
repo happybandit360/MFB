@@ -70,6 +70,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		"minecraft_coal_1_whole" : [
 			[<pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>]
 		]
+	},
+<minecraft:book>.withTag({infopanel: "mfb-1", display: {Name: "Welcome to MFB"}}) : {
+		"mfb_book" : [
+			[<minecraft:dirt>]
+		]
 	}
 };
 

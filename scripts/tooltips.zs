@@ -45,7 +45,10 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 static itemShiftTooltipsAdd as IFormattedText[][IItemStack] = {
 /*	<mod:id:meta>: [
 		format.color("String")
-	] */	
+	] */
+<minecraft:book>.withTag({infopanel: "mfb-1", display: {Name: "Welcome to MFB"}}) : [
+	format.gold("Can be remade with a piece of dirt.")
+]
 };
 
 static tinkersTips as IItemStack[] = [

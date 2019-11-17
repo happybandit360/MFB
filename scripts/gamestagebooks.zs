@@ -39,7 +39,6 @@ Book.addBook("electroblob", "Electroblob's Wizardry", "Electroblob's Wizardry Ha
 Book.addBook("evilcraft", "Evilcraft", "Evilcraft Handbook", "evilcraft:blood_infuser", 0xE0115F);
 Book.addBook("natures_aura", "Nature's Aura", "Nature's Aura Handbook", "naturesaura:gold_leaf", 0xFE5BAC);
 Book.addBook("roots", "Roots", "Roots Handbook", "roots:ritual_spreading_forest", 0xFF69B4);
-// Book.addBook("thaumcraft", "Thaumcraft", "Thaumcraft Handbook", "thaumcraft:thaumometer", 0xEC5578);
 
 // Misc
 Book.addBook("arcane_archives", "Arcane Archives", "Arcane Archives Handbook", "arcanearchives:raw_quartz", 0x7EF9FF);
@@ -62,4 +61,3 @@ Book.addBook("deep_resonance", "Deep Resonance", "Deep Resonance Handbook", "dee
 Book.addBook("environmental_tech", "Environmental Tech", "Environmental Tech Handbook", "environmentaltech:void_res_miner_cont_5", 0x4CBB17);
 Book.addBook("mystical_ag", "Mystical Agriculture", "Mystical Agriculture Handbook", "mysticalagriculture:crafting", 0x0B6623);
 Book.addBook("sky_orchards", "Sky Orchards", "Sky Orchards Handbook", "sky_orchards:sapling_diamond", 0x4F7942);
-Book.addBook("tropicraft", "Tropicraft", "Tropicraft Handbook", "tropicraft:cocktail", 0x29AB87);

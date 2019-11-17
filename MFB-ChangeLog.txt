@@ -44,6 +44,7 @@ Triumph -> 3.19.2
 
 -- Removed Mods --
 ------------------
+Tropicraft
 
 -- Config Changes --
 --------------------
@@ -70,6 +71,8 @@ Inventorypets/inventorypets.cfg
     B:"Disable Cloud Recipe"=false
     B:"Disable Pufferfish Recipe"=false
     B:"Disable Slime Recipe"=false
+MatterOverdrive/MatterOverdrive.cfg
+    S:"gravitational anomaly spawn chance"=0.025
 rustic.cfg
     B:"Flesh Smelting"=false
     I:"Max Herb Generation Attempts"=3
@@ -82,6 +85,8 @@ tropicraft.cfg
 
 -- Script Changes --
 --------------------
+Made all necessary changes to remove Thaumcraft
+Made all necessary changes to unstage Tropicraft
 Metallurgy & Random Things staging fixes
 World gen staging for Actually Additions and Rustic
 Added Actually Additions tools/armor to staging
