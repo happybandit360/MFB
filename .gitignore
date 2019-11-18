@@ -28,3 +28,6 @@ textures_0.png
 .gitignore
 hs_err*.log
 /scripts/testing.zs
+/XaeroWaypoints
+/XaeroWorldMap
+/betweenlands_gallery

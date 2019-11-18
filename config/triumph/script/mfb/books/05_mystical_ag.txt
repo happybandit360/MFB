@@ -8,8 +8,8 @@ setTitle("Grow All The Things")
 setDescription("Read the Mystical Agriculture Handbook")
 
 //Completed advancement color change
-setCompletedIconColor(255, 51, 153)
-setCompletedTitleColor(255, 51, 153)
+setCompletedIconColor(0, 255, 0)
+setCompletedTitleColor(0, 255, 0)
 setUncompletedTitleColor(185, 143, 44)
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"

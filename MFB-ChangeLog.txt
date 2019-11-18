@@ -26,12 +26,14 @@ Alpha Build
 Crafting Station
 MPUtils
 MPUtils Basic Tools
+Xaero's Minimap
+Xaero's World Map
 
 -- Updated Mods --
 -------------------
-The Betweenlands -> 3.5.1
+The Betweenlands -> 3.5.2
 Actually Additions -> r151
-Apotheosis -> 1.11.6
+Apotheosis -> 1.11.8
 Blocklings -> 6.0.1_b
 Blood Magic -> 2.4.3-105
 Building Gadgets -> 2.7.4
@@ -44,6 +46,9 @@ Triumph -> 3.19.2
 
 -- Removed Mods --
 ------------------
+Farming For Blockheads
+JourneyMap
+Portality
 Thaumcraft
 
 -- Config Changes --
@@ -73,6 +78,8 @@ Inventorypets/inventorypets.cfg
     B:"Disable Slime Recipe"=false
 MatterOverdrive/MatterOverdrive.cfg
     S:"gravitational anomaly spawn chance"=0.025
+Metallurgy/gadgets.cfg
+    I:"Gauntlet Hunger Modifier"=0
 rustic.cfg
     B:"Flesh Smelting"=false
     I:"Max Herb Generation Attempts"=3
@@ -104,6 +111,8 @@ Added Tooltip for Meta Pet
 Added Charcoal-based recipes for Dank Null
 Changed Crafting Station recipe to not conflict with TiC Crafting Station
 Removed unnecessary items from Extended Crafting
+Removed Dark Steel Bow from loot Tables
+Minor recipe changes here and there
 
 -- Asset Changes --
 -------------------

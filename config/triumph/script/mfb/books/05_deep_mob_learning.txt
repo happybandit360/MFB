@@ -8,8 +8,8 @@ setTitle("Face the Trials")
 setDescription("Read the Deep Mob Learning Handbook")
 
 //Completed advancement color change
-setCompletedIconColor(0, 0, 255)
-setCompletedTitleColor(0, 0, 255)
+setCompletedIconColor(0, 255, 0)
+setCompletedTitleColor(0, 255, 0)
 setUncompletedTitleColor(185, 143, 44)
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"

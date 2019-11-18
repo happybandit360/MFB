@@ -16,7 +16,7 @@ static levelZero as IItemStack[] = [
 ];
 
 for item in levelZero {
-    item.addShiftTooltip(format.gold("Harvest Level: 1 [Stone]"));
+    item.addShiftTooltip(format.gold("Harvest Level: Stone"));
 }
 
 // Harvest Level 1 Tooltips
@@ -34,7 +34,7 @@ static levelOne as IItemStack[] = [
 ];
 
 for item in levelOne {
-    item.addShiftTooltip(format.gold("Harvest Level: 2 [Iron]"));
+    item.addShiftTooltip(format.gold("Harvest Level: Iron"));
 }
 
 // Harvest Level 2 Tooltips
@@ -54,7 +54,7 @@ static levelTwo as IItemStack[] = [
 ];
 
 for item in levelTwo {
-    item.addShiftTooltip(format.gold("Harvest Level: 3 [Diamond]"));
+    item.addShiftTooltip(format.gold("Harvest Level: Diamond"));
 }
 
 // Harvest Level 3 Tooltips
@@ -73,7 +73,7 @@ static levelThree as IItemStack[] = [
 ];
 
 for item in levelThree {
-    item.addShiftTooltip(format.gold("Harvest Level: 4 [Obsidian]"));
+    item.addShiftTooltip(format.gold("Harvest Level: Obsidian"));
 }
 
 // Harvest Level 4 Tooltips
@@ -89,7 +89,7 @@ static levelFour as IItemStack[] = [
 ];
 
 for item in levelFour {
-    item.addShiftTooltip(format.gold("Harvest Level: 5 [Cobalt]"));
+    item.addShiftTooltip(format.gold("Harvest Level: 4"));
 }
 
 // Harvest Level 5 Tooltips
@@ -106,7 +106,7 @@ static levelFive as IItemStack[] = [
 ];
 
 for item in levelFive {
-    item.addShiftTooltip(format.gold("Harvest Level: 6"));
+    item.addShiftTooltip(format.gold("Harvest Level: 5"));
 }
 
 // Harvest Level 6 Tooltips
@@ -118,7 +118,7 @@ static levelSix as IItemStack[] = [
 ];
 
 for item in levelSix {
-    item.addShiftTooltip(format.gold("Harvest Level: 7"));
+    item.addShiftTooltip(format.gold("Harvest Level: 6"));
 }
 
 // Harvest Level 7 Tooltips
@@ -131,7 +131,7 @@ static levelSeven as IItemStack[] = [
 ];
 
 for item in levelSeven {
-    item.addShiftTooltip(format.gold("Harvest Level: 8"));
+    item.addShiftTooltip(format.gold("Harvest Level: 7"));
 }
 
 // Harvest Level 8 Tooltips
