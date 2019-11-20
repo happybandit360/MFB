@@ -2,7 +2,7 @@
 setIcon(<gamestagebooks:modular_powersuits>)
 
 //Set the title String
-setTitle("Underground Tools")
+setTitle("I'd Buy That For A Dollar")
 
 //Set the description String
 setDescription("Read the Modular Powersuits Handbook")

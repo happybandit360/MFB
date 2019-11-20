@@ -34,6 +34,14 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<minecraft:boat> : {
+		"minecraft_boat_other" : [
+			[
+	  			[<ore:boatPlank>, null, <ore:boatPlank>],
+	   			[<ore:boatPlank>, <ore:boatPlank>, <ore:boatPlank>]
+			]
+		]
+	}
 };
 
 

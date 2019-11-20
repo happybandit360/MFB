@@ -38,7 +38,6 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 <inventorypets:meta_pet:*> : [
 	format.gold("Crafted by combining any 4 Inventory Pets")
 ]
-
 };
 
 // Shift Tooltips

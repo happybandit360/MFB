@@ -46,3 +46,18 @@ static hammerAdd as IItemStack[] = [
 for item in hammerAdd {
 	<ore:craftHammer>.add(item);
 }
+
+static boatAdd as IItemStack[] = [
+//	<modid:itemname:meta>
+<traverse:fir_planks>,
+<quark:stained_planks:*>,
+<tropicraft:plank:1>,
+<extrautils2:ironwood_planks>,
+<tropicraft:plank>,
+<quark:vertical_stained_planks:*>,
+<extrautils2:ironwood_planks:1>
+];
+
+for item in boatAdd {
+	<ore:boatPlank>.add(item);
+}
