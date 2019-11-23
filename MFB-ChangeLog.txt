@@ -18,13 +18,23 @@ TBD
 
 -------------------------------------------------------------------------------
 Alpha Build
-0.0.8 --> 0.0.9 - Beta?
+0.0.8 --> 0.1.0 Beta
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
 
 -- Updated Mods --
 -------------------
+Betweenlands -> 3.5.3
+DankNull -> 1.7.88
+Apotheosis -> 1.12.3
+Common Capabilities -> 2.4.5
+Cyclops Core -> 1.6.0
+Integrated Dynamics -> 1.1.1
+Integrated Terminals -> 1.0.13
+p455w0rd's Library -> 2.3.161
+TorchMaster -> 1.8.1.81
+Xaero's Minimap -> 1.18.9
 
 -- Removed Mods --
 ------------------
