@@ -26,7 +26,7 @@ Alpha Build
 -- Updated Mods --
 -------------------
 Betweenlands -> 3.5.3
-DankNull -> 1.7.88
+DankNull -> 1.7.89
 Apotheosis -> 1.12.3
 Common Capabilities -> 2.4.5
 Cyclops Core -> 1.6.0
@@ -41,6 +41,8 @@ Xaero's Minimap -> 1.18.9
 
 -- Config Changes --
 --------------------
+charm.cfg
+    B:"Apply curse"=false
 
 -- Script Changes --
 --------------------
