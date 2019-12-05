@@ -83,6 +83,24 @@ for item in tinkersTips {
     item.addTooltip(format.gold("Parts can be made out of nearly any material"));
 }
 
+static marketTips as IItemStack[] = [
+	<actuallyadditions:item_rice_seed>,
+	<actuallyadditions:item_canola_seed>,
+	<actuallyadditions:item_flax_seed>,
+	<actuallyadditions:item_coffee_seed>,
+	<rustic:grape_stem>,
+	<rustic:bee>,
+	<rustic:tomato_seeds>,
+	<rustic:chili_pepper_seeds>,
+	<rustic:sapling>,
+	<rustic:sapling:1>,
+	<rustic:wildberry_bush>
+];
+
+for item in marketTips {
+	item.addTooltip(format.gold("Can be purchased in Farming For Blockheads Market"));
+}
+
 // Do NOT edit below this line //
 
 for item, tooltips in itemTooltipsAdd {

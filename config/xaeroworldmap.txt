@@ -2,7 +2,7 @@ ignoreUpdate:0
 updateNotification:true
 differentiateByServerAddress:true
 debug:false
-lighting:true
+lighting:false
 colours:0
 loadChunks:true
 updateChunks:true

@@ -1,3 +1,40 @@
-§bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a running Change Log of this project.
+§bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§6In-game Change Log will begin being updated following Beta release§r
+§cMFB 0.2.0 Beta Changes§r
+
+§n§6Game Enhancements§r
+* Removed Actually Additions and some Rustic plants from world generation. Added them to Farming for Blockheads market, gated behind appropriate currency, along with tooltips.
+* Removed Matter Overdrive gravitational anomalies from Overworld generation.
+* Removed Crystal Clusters from world generation
+* Unstaged Actually Additions Solidified Experience, Balls of Fur, and Tiny Coal/Charcoal
+* Removed Mystical World silkworms from generation
+* Added Charged Emerald recipe - 1.21 gigawatts!
+
+§n§6Bug Fixes§r
+* Fixed staging issue with Congealed Slime
+* Added oredict entry for bookshelves so modded shelves are usable for all crafting needs
+
+§n§6Added Mods§r
+* BetterNether
+* Farming for Blockheads
+* Wall-Jump
+
+§n§6Updated Mods§r
+* Betweenlands
+* Apotheosis
+* Arcane Archives
+* Bookshelf
+* CTM
+* FoamFix
+* LibrarianLib
+* Mekanism
+* Mekanism Generators
+* Mekanism Tools
+* Nature's Compass
+* Xaero's Minimap
+* Xaero's World Map
+
+§n§6Removed Mods§r
+* LibraryEx
+* NetherEx
+* PickleTweaks

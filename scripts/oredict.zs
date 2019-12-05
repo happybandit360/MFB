@@ -61,3 +61,17 @@ static boatAdd as IItemStack[] = [
 for item in boatAdd {
 	<ore:boatPlank>.add(item);
 }
+
+static bookshelfCrafting as IItemStack[] = [
+<quark:custom_bookshelf>,
+<quark:custom_bookshelf:1>,
+<quark:custom_bookshelf:2>,
+<quark:custom_bookshelf:3>,
+<quark:custom_bookshelf:4>,
+<minecraft:bookshelf>,
+<aether_legacy:skyroot_bookshelf>
+];
+
+for item in bookshelfCrafting {
+	<ore:bookshelf>.add(item);
+}

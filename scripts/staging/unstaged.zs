@@ -32,6 +32,12 @@ mods.ItemStages.removeItemStage(<rustic:book>);
 mods.ItemStages.removeItemStage(<arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}));
 
 // Misc Items to Unstage
+mods.ItemStages.removeItemStage(<actuallyadditions:item_hairy_ball>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_solidified_experience>);
+
+// Unstage Tiny Coal and Charcoal
+mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:10>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:11>);
 
 // Unstage Pitcher Plant
 mods.ItemStages.removeItemStage(<randomthings:pitcherplant>);
@@ -54,6 +60,8 @@ mods.ItemStages.removeItemStage(<tconstruct:ingots:1>);
 
 // Slime variations
 mods.ItemStages.removeItemStage(<tconstruct:edible:1>);
+mods.ItemStages.removeItemStage(<tconstruct:slime_congealed>);
+mods.ItemStages.removeItemStage(<tconstruct:slime_congealed:1>);
 // mods.ItemStages.removeItemStage(<tconstruct:edible:2>);
 // mods.ItemStages.removeItemStage(<tconstruct:edible:3>);
 // mods.ItemStages.removeItemStage(<tconstruct:edible:4>);

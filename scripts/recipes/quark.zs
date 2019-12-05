@@ -323,11 +323,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		"quark_stained_planks_15" : [
 			[<quark:vertical_stained_planks:15>]
 		]
-	},
-<quark:basalt:1> : {
-		"quark_basalt_1_conv" : [
-			[<netherex:smooth_basalt>]
-		]
 	}
 };
 

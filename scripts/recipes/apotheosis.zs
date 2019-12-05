@@ -1,5 +1,5 @@
 /*
-	NetherEx recipes script.
+	Apotheosis recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -26,9 +26,7 @@ static furnaceAddition as IIngredient[][IItemStack] = {
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<netherex:basalt_brick>,
-<netherex:basalt_pillar>,
-<netherex:smooth_basalt>
+<apotheosis:hellshelf>
 ];
 
 /*
@@ -36,10 +34,9 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<netherex:quartz_wall>
 ];
 
-recipes.removeShapeless(<netherex:basalt> * 4, [<netherex:smooth_basalt>]);
+
 
 /*
     Shaped Recipes
@@ -55,21 +52,12 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<netherex:basalt_brick> * 6 : {
-		"netherex_basalt_brick" : [
+<apotheosis:hellshelf> : {
+		"apotheosis_hellshelf" : [
 			[
-	  			[<netherex:smooth_basalt>, <netherex:smooth_basalt>],
-	   			[<netherex:smooth_basalt>, <netherex:smooth_basalt>],
-	  			[<netherex:smooth_basalt>, <netherex:smooth_basalt>]
-			]
-		]
-	},
-<netherex:basalt_pillar> * 6 : {
-		"netherex_basalt_pillar" : [
-			[
-	  			[<netherex:basalt_brick>, <netherex:basalt_brick>],
-	   			[<netherex:basalt_brick>, <netherex:basalt_brick>],
-	  			[<netherex:basalt_brick>, <netherex:basalt_brick>]
+	  			[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>],
+	   			[<minecraft:blaze_rod>, <ore:bookshelf>, <minecraft:potion>.withTag({Potion: "minecraft:regeneration"})],
+	  			[<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]
 			]
 		]
 	}
@@ -95,11 +83,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
-<netherex:smooth_basalt> : {
-		"netherex_smooth_basalt" : [
-			[<quark:basalt:1>]
-		]
-	}
 };
 
 

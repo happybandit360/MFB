@@ -1,18 +1,95 @@
 MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
-TBD
+Beta Build
+0.1.0 --> 0.2.0 Beta
 -------------------------------------------------------------------------------
 -- Added Mods --
-----------------	
+----------------
+BetterNether
+Farming for Blockheads
+Wall-Jump
+
 -- Updated Mods --
 -------------------
+Betweenlands -> 2.5.4
+Apotheosis -> 1.12.4
+Arcane Archives -> 2.0.12
+Bookshelf -> 2.3.590
+CTM -> 1.0.1.30
+FoamFix -> 0.10.9
+LibrarianLib -> 4.20-release
+Mekanism -> 9.8.3.930
+Mekanism Generators -> 9.8.3.930
+Mekanism Tools -> 9.8.3.930
+Nature's Compass -> 1.6.2
+Xaero's Minimap -> 1.19.1
+Xaero's World Map -> 1.5.2
+
 -- Removed Mods --
 ------------------
+LibraryEx
+NetherEx
+PickleTweaks
+
 -- Config Changes --
 --------------------
+FarmingForBlockheads/Market.json
+    Changed cost to Gold Ingot for vanilla items
+    Custom Entries:
+        "xlfoodmod:onion": "1*minecraft:gold_ingot",
+        "rustic:bee": "1*rustic:sapling_apple",
+        "rustic:sapling": "1*rustic:sapling_apple",
+        "rustic:sapling:1": "1*rustic:sapling_apple",
+        "rustic:wildberry_bush": "1*rustic:sapling_apple",
+        "rustic:chili_pepper_seeds": "1*rustic:sapling_apple",
+        "rustic:tomato_seeds": "1*rustic:sapling_apple",
+        "rustic:grape_stem": "1*rustic:sapling_apple",
+        "actuallyadditions:item_rice_seed": "1*actuallyadditions:item_misc:5",
+        "actuallyadditions:item_canola_seed": "1*actuallyadditions:item_misc:5",
+        "actuallyadditions:item_flax_seed": "1*actuallyadditions:item_misc:5",
+        "actuallyadditions:item_coffee_seed": "1*actuallyadditions:item_misc:5"
+MatterOverdrive/MatterOverdrive.cfg
+    Removed Overworld (dim 0) from gravitational anomaly Whitelist
+MPUtils/mfb-1.json
+    "mustRead": false,
+actuallyadditions.cfg
+    B:"Crystal Clusters in Lush Caves"=false
+    B:"Tiny Coal"=true
+    B:"Black Lotus Gen"=false
+    B:"Canola Gen"=false
+    B:"Coffee Gen"=false
+    B:"Crop Field: Existence"=false
+    B:"Flax Gen"=false
+    B:"Rice Gen"=false
+rustic.cfg
+    S:"Olive Tree Generation Chance"=0.00
+    I:"Max Olive Tree Generation Attempts"=0
+    S:"Ironwood Generation Chance"=0.00
+    I:"Max Ironwood Generation Attempts"=0
+    S:"Wildberry Generation Chance"=0.00
+    I:"Max Wildberry Generation Attempts"=0
+    S:"Beehive Generation Chance"=0.00
+    I:"Max Beehive Generation Attempts"=0
+    B:"Enable Seed Drops"=false
+    I:"Seed Drop Rate"=1
+mysticlworld.cfg
+    silkworms {
+        B:enabled=false
+        B:grassDrops=false
+        B:leafDrops=false
+walljump.cfg
+    B:allowReClinging=true
+
 -- Script Changes --
 --------------------
+Added stacksize.zs to change stack sizes of items that had been handled by PickleTweaks
+Added modded bookshelves to an oredict and changed recipes for Hellshelf and Bookshelf Chest to reflect
+Unstaged Green and Blue Congealed Slime, Balls of Fur, and Solidified Experience
+Added Tooltips for all items moved to Farming For Blockheads Market
+Removed recipes related to NetherEx
+Added Charged Emerald recipe....just because
+
 -- Asset Changes --
 -------------------
 
