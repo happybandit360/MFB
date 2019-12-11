@@ -1,5 +1,5 @@
 /*
-	Tinker's Construct/Tinker's Complement/Construct Armory/PlusTic recipes script.
+	Dark Utilities recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -10,15 +10,23 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+/*
+	Furnace Recipes
+*/
+static furnaceRemoval as IItemStack[] = [
+//	<modid:itemname:meta>	
+];
 
+static furnaceAddition as IIngredient[][IItemStack] = {
+//	<modid:itemname:meta> : [<mod:itemname:meta>]
+};
 
 /*
 	Recipe Removals by Item
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<tconstruct:slimesling>,
-<tconstruct:slime_boots>
+<darkutils:wither_block>
 ];
 
 /*
@@ -26,8 +34,6 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<plustic:invarnugget>,
-<tconstruct:stone_stick>
 ];
 
 
@@ -46,20 +52,11 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<tconstruct:slimesling> : {
-		"tconstruct_slimesling" : [
+<darkutils:wither_block> : {
+		"darkutils_wither_block" : [
 			[
-	  			[<ore:string>, <minecraft:slime>, <ore:string>],
-	   			[<minecraft:slime_ball>, null, <minecraft:slime_ball>],
-	  			[null, <minecraft:slime_ball>, null]
-			]
-		]
-	},
-<tconstruct:slime_boots> : {
-		"tconstruct_slime_boots" : [
-			[
-	  			[<minecraft:slime_ball>, null, <minecraft:slime_ball>],
-	  			[<minecraft:slime>, null, <minecraft:slime>]
+	  			[<ore:dustWither>, <ore:dustWither>],
+	   			[<ore:dustWither>, <ore:dustWither>]
 			]
 		]
 	}
@@ -88,11 +85,6 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 
-// Machine Recipe additions
-mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:31> * 2, <tconstruct:ore>, 1500);
-mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:30> * 2, <tconstruct:ore:1>, 1500);
-mods.mekanism.crusher.addRecipe(<tconstruct:ore>, <enderio:item_material:31> * 2);
-mods.mekanism.crusher.addRecipe(<tconstruct:ore:1>, <enderio:item_material:30> * 2);
 
 
 // Do NOT edit below this line //
@@ -156,4 +148,16 @@ for item in itemRecipeRemoval {
 for item in itemRecipeRemovalJEI {
 	recipes.remove(item);
 	mods.jei.JEI.hide(item);
+}
+
+// Remove Furnace Recipes
+for item in furnaceRemoval {
+	furnace.remove(item);
+}
+
+// Add Furnace Recipes
+for output, inputs in furnaceAddition {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

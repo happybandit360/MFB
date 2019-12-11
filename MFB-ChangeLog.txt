@@ -6,22 +6,28 @@ Beta Build
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
+[Backport] 1.13 Water Mechanics [Bubble Columns]
 BetterNether
 Farming for Blockheads
+Lapis Stays in the Enchanting Table
+RandomPatches
+ReAuth
 Wall-Jump
 
 -- Updated Mods --
 -------------------
 Betweenlands -> 2.5.4
 Apotheosis -> 1.12.4
-Arcane Archives -> 2.0.12
+Arcane Archives -> 2.0.13
 Bookshelf -> 2.3.590
 CTM -> 1.0.1.30
+CraftTweaker -> 4.1.20
 FoamFix -> 0.10.9
 LibrarianLib -> 4.20-release
-Mekanism -> 9.8.3.930
-Mekanism Generators -> 9.8.3.930
-Mekanism Tools -> 9.8.3.930
+Mekanism -> 9.8.3.390
+Mekanism Generators -> 9.8.3.390
+Mekanism Tools -> 9.8.3.390
+Mystical World -> 1.6.1
 Nature's Compass -> 1.6.2
 Xaero's Minimap -> 1.19.1
 Xaero's World Map -> 1.5.2
@@ -31,9 +37,13 @@ Xaero's World Map -> 1.5.2
 LibraryEx
 NetherEx
 PickleTweaks
+Tinker's Complement
 
 -- Config Changes --
 --------------------
+Chickens/chickens.json
+    "chickens:soulsandchicken": {
+        "spawn_type": "NONE",
 FarmingForBlockheads/Market.json
     Changed cost to Gold Ingot for vanilla items
     Custom Entries:
@@ -62,6 +72,9 @@ actuallyadditions.cfg
     B:"Crop Field: Existence"=false
     B:"Flax Gen"=false
     B:"Rice Gen"=false
+quark.cfg
+    foxhounds{
+        I:"Spawn Weight"=15   }
 rustic.cfg
     S:"Olive Tree Generation Chance"=0.00
     I:"Max Olive Tree Generation Attempts"=0
@@ -73,7 +86,7 @@ rustic.cfg
     I:"Max Beehive Generation Attempts"=0
     B:"Enable Seed Drops"=false
     I:"Seed Drop Rate"=1
-mysticlworld.cfg
+mysticalworld.cfg
     silkworms {
         B:enabled=false
         B:grassDrops=false
@@ -88,6 +101,8 @@ Added modded bookshelves to an oredict and changed recipes for Hellshelf and Boo
 Unstaged Green and Blue Congealed Slime, Balls of Fur, and Solidified Experience
 Added Tooltips for all items moved to Farming For Blockheads Market
 Removed recipes related to NetherEx
+Staged Chickens-related JEI categories
+Added Thermal Foundation mobs to Thermal stage
 Added Charged Emerald recipe....just because
 
 -- Asset Changes --
@@ -410,7 +425,7 @@ deepmoblearning.cfg
     Added Guardian Scales, Wither Bones, and Dragon Scales to respective pristine matter
 hatchery.cfg
     B:"Breeding gives Eggs"=false
-mysticlworld.cfg
+mysticalworld.cfg
     B:GiveBook=false
     I:HutDistance=800
 quark.cfg

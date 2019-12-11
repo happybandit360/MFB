@@ -15,3 +15,8 @@ import mods.zenstages.ZenStager;
 mods.recipestages.Recipes.setRecipeStageByMod("thermal", "thermalexpansion");
 mods.recipestages.Recipes.setRecipeStageByMod("thermal", "thermaldynamics");
 mods.recipestages.Recipes.setRecipeStageByMod("thermal", "thermalinnovation");
+
+// Entities
+mods.MobStages.addStage("thermal", "thermalfoundation:basalz");
+mods.MobStages.addStage("thermal", "thermalfoundation:blitz");
+mods.MobStages.addStage("thermal", "thermalfoundation:blizz");

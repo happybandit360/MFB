@@ -754,7 +754,7 @@
       "itemID": "minecraft:soul_sand",
       "metaID": 0
     },
-    "spawn_type": "HELL",
+    "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
   }

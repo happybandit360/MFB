@@ -17,6 +17,13 @@ mods.recipestages.Recipes.setRecipeStageByMod("chickens", "roost");
 mods.recipestages.Recipes.setRecipeStageByMod("chickens", "hatchery");
 mods.recipestages.Recipes.setRecipeStageByMod("chickens", "morechickens");
 
+// JEI Categories
+mods.ItemStages.stageRecipeCategory("chickens", "chickens.Laying");
+mods.ItemStages.stageRecipeCategory("chickens", "chickens.Breeding");
+mods.ItemStages.stageRecipeCategory("chickens", "chickens.Drops");
+mods.ItemStages.stageRecipeCategory("chickens", "chickens.Throws");
+mods.ItemStages.stageRecipeCategory("chickens", "chickens.Henhousing");
+
 //Eggs
 mods.ItemStages.addItemStage("chickens", <chickens:spawn_egg>);
 

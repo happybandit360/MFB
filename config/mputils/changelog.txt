@@ -8,11 +8,16 @@
 * Removed Crystal Clusters from world generation
 * Unstaged Actually Additions Solidified Experience, Balls of Fur, and Tiny Coal/Charcoal
 * Removed Mystical World silkworms from generation
+* Reduced spawn weight of Foxhounds
+* Staged Thermal Foundation mobs
 * Added Charged Emerald recipe - 1.21 gigawatts!
 
 §n§6Bug Fixes§r
 * Fixed staging issue with Congealed Slime
 * Added oredict entry for bookshelves so modded shelves are usable for all crafting needs
+* Removed Soul Sand Chickens from natural spawns
+* Staged Chickens-related JEI screens
+* Added recipes for Bibliocraft Printing Press, Typesetting Table, and Print Press Chase
 
 §n§6Added Mods§r
 * BetterNether
@@ -38,3 +43,4 @@
 * LibraryEx
 * NetherEx
 * PickleTweaks
+* Tinker's Complement

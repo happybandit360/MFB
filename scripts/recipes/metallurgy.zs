@@ -10,6 +10,9 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.integrateddynamics.Squeezer;
+import mods.integrateddynamics.MechanicalSqueezer;
+
 
 /*
 	Recipe Removals by Item
@@ -719,6 +722,66 @@ mods.metallurgyreforged.Crusher.removeRecipe(<metallurgy:osmium_dust>);
 mods.metallurgyreforged.Crusher.addRecipe(<metallurgy:osmium_ore>, <metallurgy:osmium_dust> * 2, 0.30);
 mods.metallurgyreforged.Crusher.addRecipe(<metallurgy:osmium_ingot>, <metallurgy:osmium_dust>, 0.30);
 
+//ID Squeezer support
+//Squeezer.addRecipe(IItemStack inputStack, @Optional IItemStack outputStack, @Optional ILiquidStack outputFluid);
+Squeezer.addRecipe(<metallurgy:adamantine_ore>, <metallurgy:adamantine_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:alduorite_ore>, <metallurgy:alduorite_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:astral_silver_ore>, <metallurgy:astral_silver_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:atlarus_ore>, <metallurgy:atlarus_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:carmot_ore>, <metallurgy:carmot_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:ceruclase_ore>, <metallurgy:ceruclase_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:deep_iron_ore>, <metallurgy:deep_iron_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:eximite_ore>, <metallurgy:eximite_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:ignatius_ore>, <metallurgy:ignatius_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:infuscolium_ore>, <metallurgy:infuscolium_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:kalendrite_ore>, <metallurgy:kalendrite_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:lemurite_ore>, <metallurgy:lemurite_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:lutetium_ore>, <metallurgy:lutetium_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:manganese_ore>, <metallurgy:manganese_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:meutoite_ore>, <metallurgy:meutoite_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:midasium_ore>, <metallurgy:midasium_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:mithril_ore>, <metallurgy:mithril_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:orichalcum_ore>, <metallurgy:orichalcum_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:osmium_ore>, <metallurgy:osmium_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:oureclase_ore>, <metallurgy:oureclase_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:platinum_ore>, <metallurgy:platinum_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:prometheum_ore>, <metallurgy:prometheum_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:rubracium_ore>, <metallurgy:rubracium_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:sanguinite_ore>, <metallurgy:sanguinite_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:shadow_iron_ore>, <metallurgy:shadow_iron_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:vulcanite_ore>, <metallurgy:vulcanite_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:vyroxeres_ore>, <metallurgy:vyroxeres_dust> * 2); 
+Squeezer.addRecipe(<metallurgy:zinc_ore>, <metallurgy:zinc_dust> * 2); 
+
+//MechanicalSqueezer.addRecipe(IItemStack inputStack, @Optional IItemStack outputStack, @Optional ILiquidStack outputFluid, @Optional(10) int duration);
+MechanicalSqueezer.addRecipe(<metallurgy:adamantine_ore>, <metallurgy:adamantine_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:alduorite_ore>, <metallurgy:alduorite_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:astral_silver_ore>, <metallurgy:astral_silver_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:atlarus_ore>, <metallurgy:atlarus_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:carmot_ore>, <metallurgy:carmot_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:ceruclase_ore>, <metallurgy:ceruclase_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:deep_iron_ore>, <metallurgy:deep_iron_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:eximite_ore>, <metallurgy:eximite_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:ignatius_ore>, <metallurgy:ignatius_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:infuscolium_ore>, <metallurgy:infuscolium_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:kalendrite_ore>, <metallurgy:kalendrite_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:lemurite_ore>, <metallurgy:lemurite_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:lutetium_ore>, <metallurgy:lutetium_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:manganese_ore>, <metallurgy:manganese_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:meutoite_ore>, <metallurgy:meutoite_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:midasium_ore>, <metallurgy:midasium_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:mithril_ore>, <metallurgy:mithril_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:orichalcum_ore>, <metallurgy:orichalcum_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:osmium_ore>, <metallurgy:osmium_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:oureclase_ore>, <metallurgy:oureclase_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:platinum_ore>, <metallurgy:platinum_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:prometheum_ore>, <metallurgy:prometheum_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:rubracium_ore>, <metallurgy:rubracium_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:sanguinite_ore>, <metallurgy:sanguinite_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:shadow_iron_ore>, <metallurgy:shadow_iron_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:vulcanite_ore>, <metallurgy:vulcanite_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:vyroxeres_ore>, <metallurgy:vyroxeres_dust> * 2); 
+MechanicalSqueezer.addRecipe(<metallurgy:zinc_ore>, <metallurgy:zinc_dust> * 2);
 
 // Do NOT edit below this line //
 

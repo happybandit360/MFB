@@ -51,7 +51,6 @@ static itemShiftTooltipsAdd as IFormattedText[][IItemStack] = {
 };
 
 static tinkersTips as IItemStack[] = [
-<tcomplement:chisel_head>.withTag({Material: "stone"}),
 <tconstruct:shard>.withTag({Material: "stone"}),
 <tconstruct:sharpening_kit>.withTag({Material: "stone"}),
 <tconstruct:pick_head>.withTag({Material: "stone"}),

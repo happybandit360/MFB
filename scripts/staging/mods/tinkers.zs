@@ -132,39 +132,9 @@ static metadataStaging as IItemStack[] = [
 <tconstruct:crossbow:*>,
 <tconstruct:bolt:*>,
 <tconstruct:shuriken:*>,
-<tcomplement:chisel:*>
 ];
 
 
 for item in metadataStaging {
     mods.ItemStages.addItemStage("tinkers", item.withTag({StatsOriginal: {}}));
-}
-
-static tconStaging as IItemStack[] = [
-// <modid:itemname:meta>
-<tcomplement:manyullyn_helmet:*>,
-<tcomplement:manyullyn_chestplate:*>,
-<tcomplement:manyullyn_leggings:*>,
-<tcomplement:manyullyn_boots:*>,
-<tcomplement:knightslime_helmet:*>,
-<tcomplement:knightslime_chestplate:*>,
-<tcomplement:knightslime_leggings:*>,
-<tcomplement:knightslime_boots:*>,
-<tcomplement:steel_helmet:*>,
-<tcomplement:steel_chestplate:*>,
-<tcomplement:steel_leggings:*>,
-<tcomplement:steel_boots:*>
-];
-
-
-for item in tconStaging {
-    mods.ItemStages.addItemStage("tinkers", item);
-}
-
-for item in tconStaging {
-    mods.ItemStages.addItemStage("tinkers", item.withTag({ench:[]}));
-}
-
-for item in tconStaging {
-    mods.ItemStages.addItemStage("tinkers", item.withTag({display: {}}));
 }

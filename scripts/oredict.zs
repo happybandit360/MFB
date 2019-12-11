@@ -75,3 +75,11 @@ static bookshelfCrafting as IItemStack[] = [
 for item in bookshelfCrafting {
 	<ore:bookshelf>.add(item);
 }
+static witherDust as IItemStack[] = [
+<quark:black_ash>,
+<darkutils:material>
+];
+
+for item in witherDust {
+	<ore:dustWither>.add(item);
+}
