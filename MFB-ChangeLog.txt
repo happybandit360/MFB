@@ -29,7 +29,8 @@ Mekanism Generators -> 9.8.3.390
 Mekanism Tools -> 9.8.3.390
 Mystical World -> 1.6.1
 Nature's Compass -> 1.6.2
-Xaero's Minimap -> 1.19.1
+Rustic -> 1.1.2
+Xaero's Minimap -> 1.19.2
 Xaero's World Map -> 1.5.2
 
 -- Removed Mods --
