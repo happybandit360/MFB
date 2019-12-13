@@ -60,6 +60,8 @@ FarmingForBlockheads/Market.json
         "actuallyadditions:item_canola_seed": "1*actuallyadditions:item_misc:5",
         "actuallyadditions:item_flax_seed": "1*actuallyadditions:item_misc:5",
         "actuallyadditions:item_coffee_seed": "1*actuallyadditions:item_misc:5"
+Charm.cfg
+    B:Spectre=false
 MatterOverdrive/MatterOverdrive.cfg
     Removed Overworld (dim 0) from gravitational anomaly Whitelist
 MPUtils/mfb-1.json
