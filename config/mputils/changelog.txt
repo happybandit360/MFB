@@ -12,8 +12,10 @@
 * Removed Mystical World silkworms from generation
 * Reduced spawn weight of Foxhounds
 * Staged Thermal Foundation mobs
-* Disabled Charm Spectres
+* Disabled Charm Spectres and Nether Gold Deposits
+* Unstaged Random Things Lava Charm
 * Added Charged Emerald recipe - 1.21 gigawatts!
+* Added custom textures by Mar3xgg for Electroblob's Wizardry, Matter Overdrive, and Metallurgy
 
 §n§6Bug Fixes§r
 * Fixed staging issue with Congealed Slime
@@ -25,6 +27,8 @@
 §n§6Added Mods§r
 * [Backport] 1.13 Water Mechanics [Bubble Columns]
 * BetterNether
+* Ido
+* EIOP
 * Farming for Blockheads
 * Lapis Stays in the Enchanting Table
 * RandomPatches

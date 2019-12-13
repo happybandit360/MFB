@@ -8,6 +8,8 @@ Beta Build
 ----------------
 [Backport] 1.13 Water Mechanics [Bubble Columns]
 BetterNether
+Ido
+EIOP
 Farming for Blockheads
 Lapis Stays in the Enchanting Table
 RandomPatches
@@ -62,6 +64,7 @@ FarmingForBlockheads/Market.json
         "actuallyadditions:item_coffee_seed": "1*actuallyadditions:item_misc:5"
 Charm.cfg
     B:Spectre=false
+    B:NetherGoldDeposits=false
 MatterOverdrive/MatterOverdrive.cfg
     Removed Overworld (dim 0) from gravitational anomaly Whitelist
 MPUtils/mfb-1.json
@@ -106,6 +109,7 @@ Added Tooltips for all items moved to Farming For Blockheads Market
 Removed recipes related to NetherEx
 Staged Chickens-related JEI categories
 Added Thermal Foundation mobs to Thermal stage
+Added Random Things Lava Charm to unstaged items
 Added Charged Emerald recipe....just because
 
 -- Asset Changes --

@@ -34,6 +34,8 @@ mods.ItemStages.removeItemStage(<arcanearchives:tome_arcana>.withTag({Book: "arc
 // Misc Items to Unstage
 mods.ItemStages.removeItemStage(<actuallyadditions:item_hairy_ball>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_solidified_experience>);
+mods.ItemStages.removeItemStage(<randomthings:lavacharm>);
+
 
 // Unstage Tiny Coal and Charcoal
 mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:10>);
