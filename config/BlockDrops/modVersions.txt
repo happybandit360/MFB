@@ -166,6 +166,7 @@
   "commoncapabilities": "2.4.5",
   "crafttweakerjei": "2.0.3",
   "enderiomachines": "5.1.52",
+  "signpost": "1.08.3",
   "mtlib": "3.0.6",
   "valkyrielib": "1.12.2-2.0.20.1",
   "openmodscore": "0.12.2",

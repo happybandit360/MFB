@@ -36,6 +36,10 @@ mods.ItemStages.removeItemStage(<actuallyadditions:item_hairy_ball>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_solidified_experience>);
 mods.ItemStages.removeItemStage(<randomthings:lavacharm>);
 
+// Unstage TE Energy Cell for early game power storage
+mods.ItemStages.removeItemStage(<thermalexpansion:cell>);
+mods.ItemStages.removeItemStage(<thermalexpansion:frame:128>);
+
 
 // Unstage Tiny Coal and Charcoal
 mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:10>);

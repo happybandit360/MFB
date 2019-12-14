@@ -17,6 +17,7 @@
 * Added Charged Emerald recipe - 1.21 gigawatts!
 * Added custom textures by Mar3xgg for Electroblob's Wizardry, Matter Overdrive, and Metallurgy
 * Added custom Ender ore that drops dust that can be smelted into Ender Pearls.
+* Unstaged Thermal Expansion basic energy cell for early game power storage
 
 §n§6Bug Fixes§r
 * Fixed staging issue with Congealed Slime
@@ -24,6 +25,7 @@
 * Removed Soul Sand Chickens from natural spawns
 * Staged Chickens-related JEI screens
 * Added recipes for Bibliocraft Printing Press, Typesetting Table, and Print Press Chase
+* Staged Holding enchat into Thermal stage
 
 §n§6Added Mods§r
 * [Backport] 1.13 Water Mechanics [Bubble Columns]
@@ -34,6 +36,7 @@
 * Lapis Stays in the Enchanting Table
 * RandomPatches
 * ReAuth
+* Signpost
 * Wall-Jump
 
 §n§6Updated Mods§r

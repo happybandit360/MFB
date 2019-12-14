@@ -18,7 +18,8 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 <thermalfoundation:material:136>,
 <thermalfoundation:storage:8>,
-<thermalfoundation:material:22>
+<thermalfoundation:material:22>,
+<thermalexpansion:frame:128>
 ];
 
 /*
@@ -108,6 +109,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	}
 };
 
+// Custom XU2 Resonator Recipe for Energy Cell Frame
+mods.extrautils2.Resonator.add(<thermalexpansion:frame:128>, <thermalfoundation:storage:3>, 1600);
 
 
 
