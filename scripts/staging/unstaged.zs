@@ -50,6 +50,7 @@ mods.ItemStages.removeItemStage(<mekanism:saltblock>);
 
 // Unstage Powders - used in multiple mods
 mods.ItemStages.removeItemStage(<appliedenergistics2:material:3>);
+mods.ItemStages.removeItemStage(<appliedenergistics2:material:46>);
 mods.ItemStages.removeItemStage(<enderio:item_material:30>);
 mods.ItemStages.removeItemStage(<enderio:item_material:31>);
 

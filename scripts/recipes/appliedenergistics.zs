@@ -10,6 +10,17 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+/*
+	Furnace Recipes
+*/
+static furnaceRemoval as IItemStack[] = [
+//	<modid:itemname:meta>	
+];
+
+static furnaceAddition as IIngredient[][IItemStack] = {
+//	<modid:itemname:meta> : [<mod:itemname:meta>]
+<minecraft:ender_pearl> : [<appliedenergistics2:material:46>]
+};
 
 /*
 	Recipe Removals by Item
@@ -18,7 +29,6 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 <appliedenergistics2:material:40>
 ];
-
 
 
 /*
@@ -117,4 +127,16 @@ for item, itemRecipes in namedShapelessRecipes {
 // Remove Item Recipe for replacement
 for item in itemRecipeRemoval {
 	recipes.remove(item);
+}
+
+// Remove Furnace Recipes
+for item in furnaceRemoval {
+	furnace.remove(item);
+}
+
+// Add Furnace Recipes
+for output, inputs in furnaceAddition {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

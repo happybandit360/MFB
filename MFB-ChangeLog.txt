@@ -18,6 +18,8 @@ Wall-Jump
 
 -- Updated Mods --
 -------------------
+*Downgraded Dank Null to 1.6.80 until fix for new version
+*Downgraded p455w0rd's Library to 2.2.156 until Dank Null fix
 Betweenlands -> 2.5.4
 Apotheosis -> 1.12.4
 Arcane Archives -> 2.0.13
@@ -37,6 +39,7 @@ Xaero's World Map -> 1.5.2
 
 -- Removed Mods --
 ------------------
+Ding
 LibraryEx
 NetherEx
 PickleTweaks
@@ -110,10 +113,12 @@ Removed recipes related to NetherEx
 Staged Chickens-related JEI categories
 Added Thermal Foundation mobs to Thermal stage
 Added Random Things Lava Charm to unstaged items
+Added custom Ender ore, which drops Ender dust, which can be smelted into Ender Pearls
 Added Charged Emerald recipe....just because
 
 -- Asset Changes --
 -------------------
+Custom textures by Mar3xgg for Electroblob's Wizardry, Matter Overdrive, and Metallurgy
 
 -------------------------------------------------------------------------------
 Alpha Build

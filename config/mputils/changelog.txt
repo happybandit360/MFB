@@ -16,6 +16,7 @@
 * Unstaged Random Things Lava Charm
 * Added Charged Emerald recipe - 1.21 gigawatts!
 * Added custom textures by Mar3xgg for Electroblob's Wizardry, Matter Overdrive, and Metallurgy
+* Added custom Ender ore that drops dust that can be smelted into Ender Pearls.
 
 §n§6Bug Fixes§r
 * Fixed staging issue with Congealed Slime
@@ -41,12 +42,15 @@
 * Arcane Archives
 * Bookshelf
 * CTM
+* CraftTweaker
 * FoamFix
 * LibrarianLib
 * Mekanism
 * Mekanism Generators
 * Mekanism Tools
+* Mystical World
 * Nature's Compass
+* Rustic
 * Xaero's Minimap
 * Xaero's World Map
 
