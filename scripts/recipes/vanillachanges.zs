@@ -69,14 +69,19 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
             [<minecraft:gravel>, <minecraft:gravel>]
         ]
     },
-<minecraft:coal:1> : {
+<minecraft:coal:1> * 9 : {
 		"minecraft_coal_1_whole" : [
 			[<ore:blockCharcoal>]
 		]
 	},
-<minecraft:coal:1> : {
-		"minecraft_coal_1_whole" : [
-			[<pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>, <pickletweaks:coal_piece:1>]
+<minecraft:coal>: {
+		"minecraft_coal" : [
+			[<actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>]
+		]
+	},
+<minecraft:coal:1>: {
+		"minecraft_coal_1" : [
+			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>]
 		]
 	},
 <minecraft:book>.withTag({infopanel: "mfb-1", display: {Name: "Welcome to MFB"}}) : {

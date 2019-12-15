@@ -1,6 +1,6 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 0.2.0 Beta Changes§r
+§cMFB 0.2.2 Beta Changes§r
 
 §n§6Game Enhancements§r
 * Added ReAuth to prevent having to reload pack if login disconnects
@@ -26,6 +26,7 @@
 * Staged Chickens-related JEI screens
 * Added recipes for Bibliocraft Printing Press, Typesetting Table, and Print Press Chase
 * Staged Holding enchat into Thermal stage
+* Fixed issue with converting Charcoal blocks back to Charcoal
 
 §n§6Added Mods§r
 * [Backport] 1.13 Water Mechanics [Bubble Columns]

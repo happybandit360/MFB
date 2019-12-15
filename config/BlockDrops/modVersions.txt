@@ -110,7 +110,6 @@
   "pitweaks": "1.12-1.1.1",
   "deepresonance": "1.8.0",
   "mrtjpcore": "2.1.4.43",
-  "pickletweaks": "2.1.3",
   "appleskin": "1.0.9",
   "integratedtunnelscompat": "1.0.0",
   "minecraftmultipartcbe": "2.6.2.83",

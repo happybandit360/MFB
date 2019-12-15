@@ -26,7 +26,9 @@ static furnaceAddition as IIngredient[][IItemStack] = {
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<actuallyadditions:item_misc:3>
+<actuallyadditions:item_misc:3>,
+<actuallyadditions:item_misc:10>,
+<actuallyadditions:item_misc:11>
 ];
 
 /*
@@ -88,6 +90,17 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+
+<actuallyadditions:item_misc:11> * 8 : {
+		"actuallyadditions_item_misc_11" : [
+			[<minecraft:coal:1>]
+		]
+	},
+<actuallyadditions:item_misc:10>  * 8: {
+		"actuallyadditions_item_misc_10" : [
+			[<minecraft:coal>]
+		]
+	}
 };
 
 // Cursher Recipes
