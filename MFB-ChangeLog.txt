@@ -2,6 +2,31 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Beta Build
+0.2.0 --> 0.3.0 Beta
+-------------------------------------------------------------------------------
+-- Added Mods --
+----------------
+
+-- Updated Mods --
+-------------------
+
+-- Removed Mods --
+------------------
+
+-- Config Changes --
+--------------------
+actuallyadditions.cfg
+    B:"Give Booklet on First Craft"=false
+
+-- Script Changes --
+--------------------
+Added advanced Botania manual to unstaged books
+
+-- Asset Changes --
+-------------------
+
+-------------------------------------------------------------------------------
+Beta Build
 0.1.0 --> 0.2.2 Beta RELEASED 12/15/2019
 -------------------------------------------------------------------------------
 -- Added Mods --

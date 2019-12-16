@@ -30,6 +30,7 @@ mods.ItemStages.removeItemStage(<matteroverdrive:data_pad>);
 mods.ItemStages.removeItemStage(<ebwizardry:wizard_handbook>);
 mods.ItemStages.removeItemStage(<rustic:book>);
 mods.ItemStages.removeItemStage(<arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}));
+mods.ItemStages.removeItemStage(<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}));
 
 // Misc Items to Unstage
 mods.ItemStages.removeItemStage(<actuallyadditions:item_hairy_ball>);

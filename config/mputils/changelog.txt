@@ -1,65 +1,17 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 0.2.2 Beta Changes§r
+§cMFB 0.3.0 Beta Changes§r
 
 §n§6Game Enhancements§r
-* Added ReAuth to prevent having to reload pack if login disconnects
-* Changed Nether generation to BetterNether, for more even distrobution of ores.
-* Removed Actually Additions and some Rustic plants from world generation. Added them to Farming for Blockheads market, gated behind appropriate currency, along with tooltips.
-* Removed Matter Overdrive gravitational anomalies from Overworld generation.
-* Removed Crystal Clusters from world generation
-* Unstaged Actually Additions Solidified Experience, Balls of Fur, and Tiny Coal/Charcoal
-* Removed Mystical World silkworms from generation
-* Reduced spawn weight of Foxhounds
-* Staged Thermal Foundation mobs
-* Disabled Charm Spectres and Nether Gold Deposits
-* Unstaged Random Things Lava Charm
-* Added Charged Emerald recipe - 1.21 gigawatts!
-* Added custom textures by Mar3xgg for Electroblob's Wizardry, Matter Overdrive, and Metallurgy
-* Added custom Ender ore that drops dust that can be smelted into Ender Pearls.
-* Unstaged Thermal Expansion basic energy cell for early game power storage
+* Removed giving Actually Additions manual when crafting an item from the mod
 
 §n§6Bug Fixes§r
-* Fixed staging issue with Congealed Slime
-* Added oredict entry for bookshelves so modded shelves are usable for all crafting needs
-* Removed Soul Sand Chickens from natural spawns
-* Staged Chickens-related JEI screens
-* Added recipes for Bibliocraft Printing Press, Typesetting Table, and Print Press Chase
-* Staged Holding enchat into Thermal stage
-* Fixed issue with converting Charcoal blocks back to Charcoal
+* Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
 
 §n§6Added Mods§r
-* [Backport] 1.13 Water Mechanics [Bubble Columns]
-* BetterNether
-* Ido
-* EIOP
-* Farming for Blockheads
-* Lapis Stays in the Enchanting Table
-* RandomPatches
-* ReAuth
-* Signpost
-* Wall-Jump
+
 
 §n§6Updated Mods§r
-* Betweenlands
-* Apotheosis
-* Arcane Archives
-* Bookshelf
-* CTM
-* CraftTweaker
-* FoamFix
-* LibrarianLib
-* Mekanism
-* Mekanism Generators
-* Mekanism Tools
-* Mystical World
-* Nature's Compass
-* Rustic
-* Xaero's Minimap
-* Xaero's World Map
+
 
 §n§6Removed Mods§r
-* LibraryEx
-* NetherEx
-* PickleTweaks
-* Tinker's Complement
