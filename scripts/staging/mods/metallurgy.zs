@@ -24,7 +24,7 @@ mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:atlarus_ore>, 
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:carmot_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:ceruclase_ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:deep_iron_ore>, <minecraft:stone>);
-mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:eximite_ore>, <minecraft:stone>);
+mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:eximite_ore>, <minecraft:end_stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:ignatius_ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:sulfur_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:phosphorite_ore>, <minecraft:stone>);
@@ -43,7 +43,7 @@ mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:infuscolium_or
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:kalendrite_ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:lemurite_ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:lutetium_ore>, <minecraft:stone>);
-mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:meutoite_ore>, <minecraft:stone>);
+mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:meutoite_ore>, <minecraft:end_stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:midasium_ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:mithril_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:orichalcum_ore>, <minecraft:stone>);

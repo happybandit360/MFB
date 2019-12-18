@@ -7,6 +7,7 @@
 
 §n§6Bug Fixes§r
 * Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
+* Fixed staging of Metallurgy End ores
 
 §n§6Added Mods§r
 

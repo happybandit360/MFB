@@ -21,9 +21,11 @@ actuallyadditions.cfg
 -- Script Changes --
 --------------------
 Added advanced Botania manual to unstaged books
+Fixed staging of Metallurgy End ores
 
 -- Asset Changes --
 -------------------
+Moved ore textures from oresources to resources folder
 
 -------------------------------------------------------------------------------
 Beta Build
