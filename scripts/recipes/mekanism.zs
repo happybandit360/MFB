@@ -34,7 +34,8 @@ static itemRecipeRemoval as IItemStack[] = [
 <mekanismtools:steelleggings>,
 <mekanismtools:steelboots>,
 <mekanism:nugget:1>,
-<mekanism:ingot:1>
+<mekanism:ingot:1>,
+<mekanism:basicblock:8>
 ];
 
 /*
@@ -76,6 +77,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<mekanism:basicblock:8> : {
+		"mekanism_basicblock_8" : [
+			[
+	  			[<ore:ingotSteel>, <thermalexpansion:frame:64>, <ore:ingotSteel>],
+	   			[null, <mekanism:ingot:1>, null],
+	  			[<ore:ingotSteel>, <thermalexpansion:frame>, <ore:ingotSteel>]
+			]
+		]
+	},
 <mekanismtools:bronzehelmet> : {
 	"mekanismtools_bronzehelmet" : [
 		[

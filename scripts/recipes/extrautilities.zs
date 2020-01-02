@@ -16,6 +16,7 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
+<extrautils2:machine>
 ];
 
 /*
@@ -23,12 +24,19 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<extrautils2:minichest>
+<extrautils2:teleporter:1>
 ];
 
 
 recipes.removeShapeless(<extrautils2:ingredients> * 2, [<ore:oreRedstone>, <ore:dustPetrotheum>]);
 recipes.removeByRecipeName("extrautils2:shortcut_chest");
+recipes.removeByRecipeName("extrautils2:angel_ring_0");
+recipes.removeByRecipeName("extrautils2:angel_ring_1");
+recipes.removeByRecipeName("extrautils2:angel_ring_2");
+recipes.removeByRecipeName("extrautils2:angel_ring_3");
+recipes.removeByRecipeName("extrautils2:angel_ring_4");
+recipes.removeByRecipeName("extrautils2:angel_ring_5");
+
 
 /*
     Shaped Recipes
@@ -44,6 +52,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<extrautils2:machine> : {
+		"<extrautils2_machine>" : [
+			[
+	  			[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
+	   			[<ore:dustRedstone>, <thermalexpansion:frame>, <ore:dustRedstone>],
+	  			[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]
+			]
+		]
+	}
 };
 
 

@@ -52,9 +52,7 @@ var stageNames as string[] = [
     "inventory_pets",
     "ender_utilities",
     "random_things",
-    "arcane_archives",
     "flux_networks",
-    "viescraft",
     "rustic",
     
 

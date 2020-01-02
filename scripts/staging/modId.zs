@@ -100,10 +100,6 @@ static stagedMods as string[][string] = {
         "deepmoblearning"
     ],
 
-    stages.viescraft.stage : [
-        "vc"
-    ],
-
     stages.deepResonance.stage : [
         "deepresonance"
     ],
@@ -156,10 +152,6 @@ static stagedMods as string[][string] = {
 
     stages.enderUtilities.stage : [
         "enderutilities"
-    ],
-
-    stages.arcaneArchives.stage : [
-        "arcanearchives"
     ],
 
     stages.aether.stage : [

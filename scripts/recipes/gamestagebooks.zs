@@ -267,19 +267,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:deep_mob_learni
 	[<ore:book>, null, null, null, <ore:ingotCrystaltine>, null, null, null, <ore:book>]
 ]);
 
-// Viescraft
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:viescraft>, [
-	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:barsIron>, <ore:ingotCrystaltine>, <ore:barsIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:blockMagma>, <ore:blockMagma>, <ore:blockMagma>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], 
-	[<ore:ingotCrystaltine>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:blockMagma>, <contenttweaker:double_star>, <ore:blockMagma>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:ingotCrystaltine>], 
-	[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:blockMagma>, <ore:blockMagma>, <ore:blockMagma>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], 
-	[<ore:book>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotCrystaltine>, <ore:ingotGold>, <ore:ingotIron>, <ore:ingotIron>, <ore:book>]
-]);
-
 // Deep Resonance
 mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:deep_resonance>, [
 	[<ore:book>, <ore:gravel>, <ore:gravel>, <ore:itemCharcoal>, <ore:ingotCrystaltine>, <ore:itemCharcoal>, <ore:gravel>, <ore:gravel>, <ore:book>], 
@@ -447,19 +434,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:random_things>,
 	[<ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>], 
 	[<ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:materialFlesh>], 
 	[<ore:book>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:dyeWhite>, <ore:ingotCrystaltine>, <ore:dyeWhite>, <ore:materialFlesh>, <ore:materialFlesh>, <ore:book>]
-]);
-
-// Arcane Archives
-mods.extendedcrafting.TableCrafting.addShaped(0, <gamestagebooks:arcane_archives>, [
-	[<ore:book>, <ore:ingotGold>, <ore:ingotGold>, <ore:barsIron>, <ore:ingotCrystaltine>, <ore:barsIron>, <ore:ingotGold>, <ore:ingotGold>, <ore:book>], 
-	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], 
-	[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], 
-	[<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:logWood>, <ore:logWood>, <ore:logWood>], 
-	[<ore:ingotCrystaltine>, <ore:logWood>, <ore:logWood>, <ore:gemQuartz>, <contenttweaker:double_star>, <ore:gemQuartz>, <ore:logWood>, <ore:logWood>, <ore:ingotCrystaltine>], 
-	[<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:logWood>, <ore:logWood>, <ore:logWood>], 
-	[<ore:logWood>, <ore:logWood>, <ore:logWood>, null, null, null, <ore:logWood>, <ore:logWood>, <ore:logWood>], 
-	[<ore:logWood>, <ore:logWood>, <ore:logWood>, null, null, null, <ore:logWood>, <ore:logWood>, <ore:logWood>], 
-	[<ore:book>, <ore:logWood>, <ore:logWood>, null, <ore:ingotCrystaltine>, null, <ore:logWood>, <ore:logWood>, <ore:book>]
 ]);
 
 // Aether

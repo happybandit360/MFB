@@ -6,6 +6,14 @@ Beta Build
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
+Aroma1997Core
+AromaBackup
+BedPatch
+FTBBackups
+FTBLib
+FTBUtilities
+LibraryEx
+NetherEx
 
 -- Updated Mods --
 -------------------
@@ -15,13 +23,77 @@ Beta Build
 
 -- Config Changes --
 --------------------
+Aroma1997Core/aromabackup.cfg
+    I:delay=60
+    I:fullBackupsToKeep=10
+cofh/core/common.cfg
+    B:EnableGenericDeathMessage=false
+cofh/world/01_thermalfoundation_ores.json
+    "aluminum": {
+			"enabled": "true",
+    "platinum": {
+			"enabled": "true",
+cofh/world/config.cfg
+    B:EnableFlatBedrock=true
 actuallyadditions.cfg
     B:"Give Booklet on First Craft"=false
+betternether.cfg
+    S:GlobalDensity=0.5
+    S:GravelDesertDensity=0.75
+    S:NetherGrasslandsDensity=0.75
+    S:NetherJungleDensity=0.75
+    S:NetherMushroomForestDensity=0.5
+    S:WartForestDensity=0.75
+extrautils2.cfg
+    B:BagOfHolding=false
+    B:ChunkLoader=false
+    B:Contract=false
+    B:DecorativeBedrock=false
+    B:"Deep Dark"=false
+    B:Indexer=false
+    B:IndexerRemote=false
+    B:ItemBuildersWand=false
+    B:ItemCreativeBuildersWand=false
+    B:ItemCreativeDestructionWand=false
+    B:ItemDestructionWand=false
+    B:LargishChest=false
+    B:MiniChest=false
+    B:PowerOverload=false
+    B:RedOrchid=false
+    B:SuperMobSpawner=false
+    B:WateringCan=false
+    B:ironwood=false
+    B:potion_Purge=false
+    B:potion_doom=false
+    B:potion_gravity=false
+    B:potion_greek_fire=false
+    B:potion_love=false
+    B:potion_relapse=false
+    B:sickle_diamond=false
+    B:sickle_gold=false
+    B:sickle_iron=false
+    B:sickle_stone=false
+    B:sickle_wood=false
+    B:spike_creative=false
+    B:squidSpawnRestrictions=false
+quark.cfg
+    B:"Change hotbar keybind"=false
+tropicraft.cfg
+    I:bambooGenChanceOverworld=100
+    I:maxBambooPerPatchOverworld=90
+    I:minBambooPerPatchOverworld=40
+    I:palmPopulationFactorInOverworld=8
+    I:tallFlowerGenChanceOverworld=6
 
 -- Script Changes --
 --------------------
 Added advanced Botania manual to unstaged books
 Fixed staging of Metallurgy End ores
+Unstaged Tinker's Blue slime block and fixed recipes for Congealed slime conversion
+Removed Arcane Archives
+Unstaged Viescraft
+Unstanged Device and Machine frames Thermal Expansion and changed tech mod recipes to use these items
+Added glowing effect to Double Nether Star
 
 -- Asset Changes --
 -------------------

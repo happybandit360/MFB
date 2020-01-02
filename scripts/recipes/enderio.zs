@@ -17,7 +17,8 @@ import crafttweaker.item.IIngredient;
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 <enderio:item_material:9>,
-<enderio:item_material:10>
+<enderio:item_material:10>,
+<enderio:item_material>
 ];
 
 recipes.removeByRecipeName("enderio:compatibility_glass_pane");
@@ -37,6 +38,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<enderio:item_material> : {
+		"enderio_item_material" : [
+			[
+	  			[<ore:barsIron>, <enderio:item_material:20>, <ore:barsIron>],
+	   			[<enderio:item_material:20>, <thermalexpansion:frame:64>, <enderio:item_material:20>],
+	  			[<ore:barsIron>, <enderio:item_material:20>, <ore:barsIron>]
+			]
+		]
+	}
 };
 
 

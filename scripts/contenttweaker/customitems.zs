@@ -12,6 +12,7 @@ import mods.contenttweaker.VanillaFactory;
 
 var doubleStar as Item = VanillaFactory.createItem("double_star");
 doubleStar.textureLocation = ResourceLocation.create("contenttweaker:item/double_star");
+doubleStar.glowing = true;
 doubleStar.register();
 
 var fluxedElectrumCompound as Item = VanillaFactory.createItem("fluxed_electrum_compound");

@@ -52,10 +52,8 @@ static boatAdd as IItemStack[] = [
 <traverse:fir_planks>,
 <quark:stained_planks:*>,
 <tropicraft:plank:1>,
-<extrautils2:ironwood_planks>,
 <tropicraft:plank>,
-<quark:vertical_stained_planks:*>,
-<extrautils2:ironwood_planks:1>
+<quark:vertical_stained_planks:*>
 ];
 
 for item in boatAdd {

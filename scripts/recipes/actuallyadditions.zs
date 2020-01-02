@@ -28,7 +28,8 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 <actuallyadditions:item_misc:3>,
 <actuallyadditions:item_misc:10>,
-<actuallyadditions:item_misc:11>
+<actuallyadditions:item_misc:11>,
+<actuallyadditions:block_misc:9>
 ];
 
 /*
@@ -61,6 +62,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<actuallyadditions:block_misc:9> : {
+		"actuallyadditions_block_misc_9" : [
+			[
+	  			[<ore:ingotIron>, <ore:gemQuartzBlack>, <ore:ingotIron>],
+	   			[<ore:gemQuartzBlack>, <thermalexpansion:frame>, <ore:gemQuartzBlack>],
+	  			[<ore:ingotIron>, <ore:gemQuartzBlack>, <ore:ingotIron>]
+			]
+		]
+	},
 <actuallyadditions:item_misc:3> : {
 		"actuallyadditions_item_misc_3" : [
 			[

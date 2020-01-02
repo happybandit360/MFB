@@ -9,6 +9,10 @@
     {
       "title": "Welcome to MFB",
       "file": "page1"
+    },
+    {
+      "title": "MFB Tips",
+      "file": "page2"
     }
   ]
 }

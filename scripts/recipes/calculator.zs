@@ -17,7 +17,8 @@ import crafttweaker.item.IIngredient;
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 <calculator:calculatorscreen>,
-<calculator:largeamethyst>
+<calculator:largeamethyst>,
+<calculator:calculator>
 ];
 
 
@@ -51,6 +52,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
             [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
             [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>],
             [<calculator:smallamethyst>, <calculator:smallamethyst>, <calculator:smallamethyst>]
+        ]
+    ]
+},
+<calculator:calculator> : {
+    "calculator_calculator" : [
+        [
+            [<ore:ingotIron>, <calculator:calculatorscreen>, <ore:ingotIron>],
+            [<minecraft:stone_button>, <calculator:calculatorassembly>, <minecraft:stone_button>],
+            [<ore:ingotIron>, <thermalexpansion:frame:64>, <ore:ingotIron>]
         ]
     ]
 }

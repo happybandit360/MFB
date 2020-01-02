@@ -24,6 +24,7 @@ mods.orestages.OreStages.addReplacement("mystical_ag", <mysticalagriculture:end_
 mods.orestages.OreStages.addReplacement("mystical_ag", <mysticalagriculture:inferium_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("mystical_ag", <mysticalagriculture:nether_inferium_ore>, <minecraft:netherrack>);
 mods.orestages.OreStages.addReplacement("mystical_ag", <mysticalagriculture:end_inferium_ore>, <minecraft:end_stone>);
+mods.orestages.OreStages.addReplacement("mystical_ag", <mysticalagriculture:soulstone>, <minecraft:netherrack>);
 
 // Stage Misc Items
 mods.ItemStages.addItemStage("mystical_ag", <forge:bucketfilled>.withTag({FluidName: "soulium", Amount: 1000}));

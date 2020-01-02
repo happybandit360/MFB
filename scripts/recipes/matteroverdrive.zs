@@ -1,5 +1,5 @@
 /*
-	Tinker's Construct/Tinker's Complement/Construct Armory/PlusTic recipes script.
+	Matter Overdrive recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -10,16 +10,23 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+/*
+	Furnace Recipes
+*/
+static furnaceRemoval as IItemStack[] = [
+//	<modid:itemname:meta>	
+];
 
+static furnaceAddition as IIngredient[][IItemStack] = {
+//	<modid:itemname:meta> : [<mod:itemname:meta>]
+};
 
 /*
 	Recipe Removals by Item
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<tconstruct:slimesling>,
-<tconstruct:slime_boots>,
-<tconstruct:slime:1>
+<matteroverdrive:machine_casing>
 ];
 
 /*
@@ -27,15 +34,8 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<plustic:invarnugget>,
-<tconstruct:stone_stick>
 ];
 
-// Recipe removal by name
-recipes.removeByRecipeName("tconstruct:common/slime/green/slimeball_from_block");
-recipes.removeByRecipeName("tconstruct:common/slime/green/slimeball_from_congealed");
-recipes.removeByRecipeName("tconstruct:common/slime/blue/slimeball_from_block");
-recipes.removeByRecipeName("tconstruct:common/slime/blue/slimeball_from_congealed");
 
 
 /*
@@ -52,29 +52,12 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<tconstruct:slimesling> : {
-		"tconstruct_slimesling" : [
+<matteroverdrive:machine_casing> : {
+		"matteroverdrive_machine_casing" : [
 			[
-	  			[<ore:string>, <minecraft:slime>, <ore:string>],
-	   			[<minecraft:slime_ball>, null, <minecraft:slime_ball>],
-	  			[null, <minecraft:slime_ball>, null]
-			]
-		]
-	},
-<tconstruct:slime_boots> : {
-		"tconstruct_slime_boots" : [
-			[
-	  			[<minecraft:slime_ball>, null, <minecraft:slime_ball>],
-	  			[<minecraft:slime>, null, <minecraft:slime>]
-			]
-		]
-	},
-<tconstruct:slime:1> : {
-		"tconstruct_slime_1" : [
-			[
-	  			[<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>],
-	  			[<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>],
-	  			[<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>]
+	  			[null, <matteroverdrive:tritanium_plate>, null],
+	   			[<ore:ingotTritanium>, <thermalexpansion:frame>, <ore:ingotTritanium>],
+	  			[<ore:ingotGold>, <ore:dustRedston>, <ore:ingotGold>]
 			]
 		]
 	}
@@ -100,29 +83,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
-<minecraft:slime_ball> * 4: {
-		"minecraft_slime_ball_green_from_congealed" : [
-	  			[<tconstruct:slime_congealed>]
-		]
-	},
-<tconstruct:edible:1> * 4: {
-		"minecraft_slime_ball_blue_from_congealed" : [
-	  			[<tconstruct:slime_congealed:1>]
-		]
-	},
-<tconstruct:edible:1> * 9: {
-		"minecraft_slime_ball_blue_from_block" : [
-	  			[<tconstruct:slime:1>]
-		]
-	},
 };
 
 
-// Machine Recipe additions
-mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:31> * 2, <tconstruct:ore>, 1500);
-mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:30> * 2, <tconstruct:ore:1>, 1500);
-mods.mekanism.crusher.addRecipe(<tconstruct:ore>, <enderio:item_material:31> * 2);
-mods.mekanism.crusher.addRecipe(<tconstruct:ore:1>, <enderio:item_material:30> * 2);
 
 
 // Do NOT edit below this line //
@@ -186,4 +149,16 @@ for item in itemRecipeRemoval {
 for item in itemRecipeRemovalJEI {
 	recipes.remove(item);
 	mods.jei.JEI.hide(item);
+}
+
+// Remove Furnace Recipes
+for item in furnaceRemoval {
+	furnace.remove(item);
+}
+
+// Add Furnace Recipes
+for output, inputs in furnaceAddition {
+	for input in inputs {
+		furnace.addRecipe(output, input);
+	}
 }

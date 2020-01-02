@@ -1,0 +1,9 @@
+§6§lSome helpful tips for this pack.§r
+
+§71) You can craft a piece of dirt into a book to open this screen at any time. This can be done in any crafting grid.
+
+§72) §2Ore Excevation§7 is part of this pack. It defaults to the §b~§7 key.
+
+§73) §2JEI§7 is an extremely useful tool for viewing recipes and planning. §bLeft Clicking§7 on an item will show recipes, while §bRight-Clicking§7 will show uses.
+
+§74) While the idea for this pack is to work to unlock mods, there are still a large number of mods that are open for everyone to use.

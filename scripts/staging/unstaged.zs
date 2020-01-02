@@ -19,7 +19,6 @@ mods.ItemStages.removeItemStage(<conarm:book>);
 mods.ItemStages.removeItemStage(<armorplus:book>);
 mods.ItemStages.removeItemStage(<toolbox:guide_book>);
 mods.ItemStages.removeItemStage(<integrateddynamics:on_the_dynamics_of_integration>);
-mods.ItemStages.removeItemStage(<vc:item_guidebook_main>);
 mods.ItemStages.removeItemStage(<botania:lexicon>.withTag({}));
 mods.ItemStages.removeItemStage(<evilcraft:origins_of_darkness>);
 mods.ItemStages.removeItemStage(<openblocks:info_book>);
@@ -29,7 +28,6 @@ mods.ItemStages.removeItemStage(<actuallyadditions:item_booklet>);
 mods.ItemStages.removeItemStage(<matteroverdrive:data_pad>);
 mods.ItemStages.removeItemStage(<ebwizardry:wizard_handbook>);
 mods.ItemStages.removeItemStage(<rustic:book>);
-mods.ItemStages.removeItemStage(<arcanearchives:tome_arcana>.withTag({Book: "arcanearchives:xml/tome.xml"}));
 mods.ItemStages.removeItemStage(<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}));
 
 // Misc Items to Unstage
@@ -40,6 +38,8 @@ mods.ItemStages.removeItemStage(<randomthings:lavacharm>);
 // Unstage TE Energy Cell for early game power storage
 mods.ItemStages.removeItemStage(<thermalexpansion:cell>);
 mods.ItemStages.removeItemStage(<thermalexpansion:frame:128>);
+mods.ItemStages.removeItemStage(<thermalexpansion:frame:64>);
+mods.ItemStages.removeItemStage(<thermalexpansion:frame>);
 
 
 // Unstage Tiny Coal and Charcoal
@@ -70,6 +70,7 @@ mods.ItemStages.removeItemStage(<tconstruct:ingots:1>);
 mods.ItemStages.removeItemStage(<tconstruct:edible:1>);
 mods.ItemStages.removeItemStage(<tconstruct:slime_congealed>);
 mods.ItemStages.removeItemStage(<tconstruct:slime_congealed:1>);
+mods.ItemStages.removeItemStage(<tconstruct:slime:1>);
 // mods.ItemStages.removeItemStage(<tconstruct:edible:2>);
 // mods.ItemStages.removeItemStage(<tconstruct:edible:3>);
 // mods.ItemStages.removeItemStage(<tconstruct:edible:4>);

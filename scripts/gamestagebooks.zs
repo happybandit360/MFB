@@ -41,7 +41,6 @@ Book.addBook("natures_aura", "Nature's Aura", "Nature's Aura Handbook", "natures
 Book.addBook("roots", "Roots", "Roots Handbook", "roots:ritual_spreading_forest", 0xFF69B4);
 
 // Misc
-Book.addBook("arcane_archives", "Arcane Archives", "Arcane Archives Handbook", "arcanearchives:raw_quartz", 0x7EF9FF);
 Book.addBook("compact_machines", "Compact Machines", "Compact Machines Handbook", "compactmachines3:psd", 0x0E4D92);
 Book.addBook("ender_utilities", "Ender Utilities", "Ender Utilities Handbook", "enderutilities:enderpart@40", 0x4682B4);
 Book.addBook("flux_networks", "Flux Networks", "Flux Networks Handbook", "fluxnetworks:fluxcontroller", 0x5888AE);
@@ -49,7 +48,6 @@ Book.addBook("inventory_pets", "Inventory Pets", "Inventory Pets Handbook", "inv
 Book.addBook("mob_grinding_utils", "Mob Grinding Utilities", "Mob Grinding Utilities Handbook", "mob_grinding_utils:saw", 0x000080);
 Book.addBook("random_things", "Random Things", "Random Things Handbook", "randomthings:timeinabottle", 0x89CFF0);
 Book.addBook("rustic", "Rustic", "Rustic Handbook", "rustic:grapes", 0x7EF9FF);
-Book.addBook("viescraft", "Viescraft", "Viescraft Handbook", "vc:item_airship_ignition", 0x3FE0D0);
 
 // Non-Starting
 Book.addBook("advanced_generators", "Advanced Generators", "Advanced Generators Handbook", "advgenerators:turbine_controller", 0x3F704D);

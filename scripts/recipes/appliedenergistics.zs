@@ -27,7 +27,9 @@ static furnaceAddition as IIngredient[][IItemStack] = {
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<appliedenergistics2:material:40>
+<appliedenergistics2:material:40>,
+<appliedenergistics2:inscriber>,
+<appliedenergistics2:controller>
 ];
 
 
@@ -45,6 +47,24 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<appliedenergistics2:inscriber> : {
+		"appliedenergistics2_inscriber" : [
+			[
+	  			[<ore:ingotIron>,<minecraft:sticky_piston>, <ore:ingotIron>],
+	   			[<appliedenergistics2:material:7>,<thermalexpansion:frame:64>, <ore:ingotIron>],
+	  			[<ore:ingotIron>, <minecraft:sticky_piston>, <ore:ingotIron>]
+			]
+		]
+	},
+<appliedenergistics2:controller> : {
+		"appliedenergistics2_controller" : [
+			[
+	  			[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>],
+	   			[<appliedenergistics2:material:12>, <thermalexpansion:frame>, <appliedenergistics2:material:12>],
+	  			[<appliedenergistics2:material:24>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:material:24>]
+			]
+		]
+	}
 };
 
 

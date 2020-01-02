@@ -1,9 +1,11 @@
-Welcome to MFB. What is MFB? It stands for §eM§r§korgan §eF§r§kreeman's §eB§r§kutt§r.
+§7Welcome to MFB. What is MFB? It stands for §eM§7§korgan §eF§7§kreeman's §eB§7§kutt§7.
 
-The name, like the game, can be something different everytime you play it. The randomized aspect of the pack is embodied in a name that is whatever you want it to be.
+§7The name, like the game, can be something different everytime you play it. The randomized aspect of the pack is embodied in a name that is whatever you want it to be.
 
-This pack is designed to give you a unique experience each time you start a world. You have 4 bags in your inventory: §4Tools§r, §6Tech§r, §cMagic§r, §9Miscellaneous§r. Each bag contains a Gamestage Book to unlock a mod. These are your starting mods.
+§7This pack is designed to give you a unique experience each time you start a world. You have 4 bags in your inventory: §4Tools§7, §6Tech§7, §cMagic§7, §9Miscellaneous§7. Each bag contains a Gamestage Book to unlock a mod. These are your starting mods.
 
-As you play and progress, you can use §aExtended Crafting§r to craft more §5Gamestage Books§r to unlock more mods. The main crafting component for these books is the §3Double Nether Star§r. This special item requires you to battle two bosses and risk your life in the crafting process.
+§7As you play and progress, you can use §2Extended Crafting§7 to craft more §5Gamestage Books§7 to unlock more mods. The main crafting component for these books is the §3Double Nether Star§7. This special item requires you to battle two bosses and risk your life in the crafting process.
 
 §eAdvancements (Default: L key) can help guide you through the process.
+
+§7Other helpful tips can be viewed on the following page.

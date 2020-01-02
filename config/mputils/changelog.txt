@@ -4,15 +4,36 @@
 
 §n§6Game Enhancements§r
 * Removed giving Actually Additions manual when crafting an item from the mod
+* Disabled hotbar swapping
+* Adjusted Tropicraft overworld generation rates
+* Disabled generic death messages
+* Enabled Flat Bedrock generation
+* Unstaged Viescraft
+* Staged Soulstone from Mystical Agriculture
+* Disabled unnecessary items from Extra Utilties
+* Added Combination Crafting recipe for Angel Ring
+* Unstanged Device and Machine frames Thermal Expansion with Resonator recipes for crafting in Tech mods
+* Lowered density of all Better Nether biomes
+* Reinstated NetherEx with new config settings to allow modded ores to spawn throughout Nether
+* Added glowing effect to Double Nether Star
 
 §n§6Bug Fixes§r
 * Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
 * Fixed staging of Metallurgy End ores
+* Fixed recipe/staging issue for converting slime into blocks and congealed slime
+* Enabled Aluminum & Platinum ore
 
 §n§6Added Mods§r
-
+Aroma1997Core
+AromaBackup
+BedPatch
+FTBLib
+FTBUtilities
+LibraryEx
+NetherEx
 
 §n§6Updated Mods§r
 
 
 §n§6Removed Mods§r
+Arcane Archive
