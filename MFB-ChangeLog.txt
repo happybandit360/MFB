@@ -17,6 +17,22 @@ NetherEx
 
 -- Updated Mods --
 -------------------
+Actually Additions -> r151-2
+Armor Plus -> 11.26.0.65
+Better Nether -> 1.8.5
+Bonsai Trees -> 1.1.4-b170
+Botania -> 1.10-363
+Calculator -> 5.0.11-12
+Corail Tombstone -> 3.6.2
+Electroblob's Wizardry -> 4.2.7
+Flux Networks -> 4.0.14-31
+FoamFix -> 0.10.10
+Inspirations -> 0.2.9
+Nature's Compass -> 1.8.0
+RandomPatches -> 1.20.1.0
+Simple Storage Network -> 1.7.10
+Xaero's Minimap -> 1.19.5
+Xaero's World Map -> 1.5.3
 
 -- Removed Mods --
 ------------------
@@ -87,6 +103,7 @@ tropicraft.cfg
 
 -- Script Changes --
 --------------------
+
 Added advanced Botania manual to unstaged books
 Fixed staging of Metallurgy End ores
 Unstaged Tinker's Blue slime block and fixed recipes for Congealed slime conversion
@@ -94,10 +111,13 @@ Removed Arcane Archives
 Unstaged Viescraft
 Unstanged Device and Machine frames Thermal Expansion and changed tech mod recipes to use these items
 Added glowing effect to Double Nether Star
+Added Modular Formation Bags to allow players to swap out starting books a limited number of times
+Fixed Gobber recipes for flexibility in crafting grid
 
 -- Asset Changes --
 -------------------
 Moved ore textures from oresources to resources folder
+Modular Formation Bag texture
 
 -------------------------------------------------------------------------------
 Beta Build

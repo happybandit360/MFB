@@ -11,3 +11,4 @@ mods.initialinventory.InvHandler.addStartingItem(<lootbags:itemlootbag:52>, 3);
 mods.initialinventory.InvHandler.addStartingItem(<lootbags:itemlootbag:53>, 4);
 mods.initialinventory.InvHandler.addStartingItem(<enderbags:enderbag>, 6);
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:book>.withTag({infopanel: "mfb-1", display: {Name: "Welcome to MFB"}}), 0);
+mods.initialinventory.InvHandler.addStartingItem(<contenttweaker:modular_formation_bag> * 4, 7);

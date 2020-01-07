@@ -73,6 +73,7 @@ static bookshelfCrafting as IItemStack[] = [
 for item in bookshelfCrafting {
 	<ore:bookshelf>.add(item);
 }
+
 static witherDust as IItemStack[] = [
 <quark:black_ash>,
 <darkutils:material>
@@ -80,4 +81,66 @@ static witherDust as IItemStack[] = [
 
 for item in witherDust {
 	<ore:dustWither>.add(item);
+}
+
+static toolBooks as IItemStack[] = [
+<gamestagebooks:adventurers_toolbox>,
+<gamestagebooks:armor_plus>,
+<gamestagebooks:flexible_tools>,
+<gamestagebooks:gobber>,
+<gamestagebooks:metallurgy>,
+<gamestagebooks:modular_powersuits>,
+<gamestagebooks:redstone_arsenal>,
+<gamestagebooks:tetra>,
+<gamestagebooks:tinkers>
+];
+
+for item in toolBooks {
+	<ore:toolBook>.add(item);
+}
+
+static techBooks as IItemStack[] = [
+<gamestagebooks:actually_additions>,
+<gamestagebooks:applied_energistics>,
+<gamestagebooks:calculator>,
+<gamestagebooks:ender_io>,
+<gamestagebooks:integrated_dynamics>,
+<gamestagebooks:industrial_foregoing>,
+<gamestagebooks:mekanism>,
+<gamestagebooks:matter_overdrive>,
+<gamestagebooks:rftools>,
+<gamestagebooks:thermal>,
+<gamestagebooks:xnet>
+];
+
+for item in techBooks {
+	<ore:techBook>.add(item);
+}
+
+static magicBooks as IItemStack[] = [
+<gamestagebooks:astral_sorcery>,
+<gamestagebooks:blood_magic>,
+<gamestagebooks:botania>,
+<gamestagebooks:electroblob>,
+<gamestagebooks:evilcraft>,
+<gamestagebooks:natures_aura>,
+<gamestagebooks:roots>
+];
+
+for item in magicBooks {
+	<ore:magicBook>.add(item);
+}
+
+static miscBooks as IItemStack[] = [
+<gamestagebooks:compact_machines>,
+<gamestagebooks:ender_utilities>,
+<gamestagebooks:flux_networks>,
+<gamestagebooks:inventory_pets>,
+<gamestagebooks:mob_grinding_utils>,
+<gamestagebooks:random_things>,
+<gamestagebooks:rustic>
+];
+
+for item in miscBooks {
+	<ore:miscBook>.add(item);
 }

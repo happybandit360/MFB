@@ -65,6 +65,26 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+<lootbags:itemlootbag:50> : {
+		"lootbags_itemlootbag_50" : [
+			[<ore:toolBook>, <contenttweaker:modular_formation_bag>]
+		]
+	},
+<lootbags:itemlootbag:51> : {
+		"lootbags_itemlootbag_51" : [
+			[<ore:techBook>, <contenttweaker:modular_formation_bag>]
+		]
+	},
+<lootbags:itemlootbag:52> : {
+		"lootbags_itemlootbag_52" : [
+			[<ore:magicBook>, <contenttweaker:modular_formation_bag>]
+		]
+	},
+<lootbags:itemlootbag:53> : {
+		"lootbags_itemlootbag_53" : [
+			[<ore:miscBook>, <contenttweaker:modular_formation_bag>]
+		]
+	}
 };
 
 

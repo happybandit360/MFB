@@ -3,6 +3,7 @@
 §cMFB 0.3.0 Beta Changes§r
 
 §n§6Game Enhancements§r
+* Added Modular Formation Bags to allow players to swap out starting books a limited number of times
 * Removed giving Actually Additions manual when crafting an item from the mod
 * Disabled hotbar swapping
 * Adjusted Tropicraft overworld generation rates
@@ -16,6 +17,7 @@
 * Lowered density of all Better Nether biomes
 * Reinstated NetherEx with new config settings to allow modded ores to spawn throughout Nether
 * Added glowing effect to Double Nether Star
+* Fixed Gobber recipes for flexibility in crafting grid
 
 §n§6Bug Fixes§r
 * Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
@@ -24,16 +26,31 @@
 * Enabled Aluminum & Platinum ore
 
 §n§6Added Mods§r
-Aroma1997Core
-AromaBackup
-BedPatch
-FTBLib
-FTBUtilities
-LibraryEx
-NetherEx
+* Aroma1997Core
+* AromaBackup
+* BedPatch
+* FTBLib
+* FTBUtilities
+* LibraryEx
+* NetherEx
 
 §n§6Updated Mods§r
-
+* Actually Additions
+* Armor Plus
+* Better Nether
+* Bonsai Trees
+* Botania
+* Calculator
+* Corail Tombstone
+* Electroblob's Wizardry
+* Flux Networks
+* FoamFix
+* Inspirations
+* Nature's Compass
+* RandomPatches
+* Simple Storage Network
+* Xaero's Minimap
+* Xaero's World Map
 
 §n§6Removed Mods§r
-Arcane Archive
+* Arcane Archive

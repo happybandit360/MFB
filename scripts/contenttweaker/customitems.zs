@@ -18,3 +18,7 @@ doubleStar.register();
 var fluxedElectrumCompound as Item = VanillaFactory.createItem("fluxed_electrum_compound");
 fluxedElectrumCompound.textureLocation = ResourceLocation.create("contenttweaker:item/fluxed_electrum_compound");
 fluxedElectrumCompound.register();
+
+var mfbag as Item = VanillaFactory.createItem("modular_formation_bag");
+mfbag.textureLocation = ResourceLocation.create("contenttweaker:item/modular_formation_bag");
+mfbag.register();

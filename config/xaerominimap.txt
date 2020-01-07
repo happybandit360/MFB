@@ -69,7 +69,9 @@ showLightLevel:false
 renderLayerIndex:1
 showTime:1
 biomeColorsVanillaMode:false
-interface:dummy:0:0:true:false:false:false
+lookingAtAngle:20
+lookingAtAngleVertical:180
+interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false

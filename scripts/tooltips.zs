@@ -37,6 +37,16 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 ],
 <inventorypets:meta_pet:*> : [
 	format.gold("Crafted by combining any 4 Inventory Pets")
+],
+<gb:gobber_ore2> : [
+	format.gold("Place Gobber Ore in the Nether to create")
+],
+<gb:gobber_ore3> : [
+	format.gold("Place Nether Gobber Ore in the End to create")
+],
+<contenttweaker:modular_formation_bag> : [
+	format.gold("Combine with a Gamestage Book to get a new random book from that category."),
+	format.red("These bags cannot be created. When they're gone, they're gone.")
 ]
 };
 
