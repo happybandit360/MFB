@@ -106,6 +106,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		"thermalfoundation_material_96" : [
 			[<thermalfoundation:material>, <thermalfoundation:material:768>, <thermalfoundation:material:768>, <thermalfoundation:material:768>, <thermalfoundation:material:768>]
 		]
+	},
+<thermalfoundation:material:32> : {
+		"thermalfoundation_material_32" : [
+			[<ore:ingotIron>, <ore:craftHammer>.transformDamage(10)]
+		]
 	}
 };
 

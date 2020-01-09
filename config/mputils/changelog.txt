@@ -18,6 +18,9 @@
 * Reinstated NetherEx with new config settings to allow modded ores to spawn throughout Nether
 * Added glowing effect to Double Nether Star
 * Fixed Gobber recipes for flexibility in crafting grid
+* Added Palm sapling to market
+* Disabled mobs dropping Inferium Essence.
+* Disabled AE2 meteorites and added recipes for presses and sky stone
 
 §n§6Bug Fixes§r
 * Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
@@ -33,15 +36,19 @@
 * FTBUtilities
 * LibraryEx
 * NetherEx
+* Tips
 
 §n§6Updated Mods§r
 * Actually Additions
 * Armor Plus
 * Better Nether
+* Betweenlands
 * Bonsai Trees
 * Botania
 * Calculator
+* Controlling
 * Corail Tombstone
+* ElecCore
 * Electroblob's Wizardry
 * Flux Networks
 * FoamFix

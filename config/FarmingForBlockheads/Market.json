@@ -46,6 +46,7 @@
     "actuallyadditions:item_rice_seed": "1*actuallyadditions:item_misc:5",
     "actuallyadditions:item_canola_seed": "1*actuallyadditions:item_misc:5",
     "actuallyadditions:item_flax_seed": "1*actuallyadditions:item_misc:5",
-    "actuallyadditions:item_coffee_seed": "1*actuallyadditions:item_misc:5"
+    "actuallyadditions:item_coffee_seed": "1*actuallyadditions:item_misc:5",
+    "tropicraft:sapling": "5*minecraft:emerald"
   }
 }

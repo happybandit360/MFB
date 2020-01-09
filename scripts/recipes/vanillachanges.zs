@@ -69,24 +69,29 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
             [<minecraft:gravel>, <minecraft:gravel>]
         ]
     },
-<minecraft:coal:1> * 9 : {
-		"minecraft_coal_1_whole" : [
-			[<ore:blockCharcoal>]
-		]
-	},
-<minecraft:coal>: {
-		"minecraft_coal" : [
-			[<actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>]
-		]
-	},
-<minecraft:coal:1>: {
-		"minecraft_coal_1" : [
-			[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>]
-		]
-	},
-<minecraft:book>.withTag({infopanel: "mfb-1", display: {Name: "Welcome to MFB"}}) : {
-		"mfb_book" : [
-			[<minecraft:dirt>]
+	<minecraft:coal:1> * 9 : {
+			"minecraft_coal_1_whole" : [
+				[<ore:blockCharcoal>]
+			]
+		},
+	<minecraft:coal>: {
+			"minecraft_coal" : [
+				[<actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, 	<actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>, 	<actuallyadditions:item_misc:10>, <actuallyadditions:item_misc:10>]
+			]
+		},
+	<minecraft:coal:1>: {
+			"minecraft_coal_1" : [
+				[<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, 	<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>, 	<actuallyadditions:item_misc:11>, <actuallyadditions:item_misc:11>]
+			]
+		},
+	<minecraft:book>.withTag({infopanel: "mfb-1", display: {Name: "Welcome to MFB"}}) : {
+			"mfb_book" : [
+				[<minecraft:dirt>]
+			]
+		},
+	<minecraft:leather> * 2 : {
+		"minecraft_leather_frombag" : [
+			[<contenttweaker:modular_formation_bag>]
 		]
 	}
 };

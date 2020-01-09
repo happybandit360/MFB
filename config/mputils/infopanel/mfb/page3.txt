@@ -1,0 +1,19 @@
+§6§lTips for mods that are unlocked by default.§r
+
+§71) §2Bonsai Trees§7 are convenient, give a lot less items than just cutting down a tree.
+
+§72) The §2Akashic Tome§7 is a portable bookshelf that holds all of your informational books and guides.
+
+§73) Use a crook from §2Inspirations§7 on leaves to get a higher chance of getting saplings.
+
+§74) You can right-click in the §2JEI§7 search bar to clear it, speeding up your searches.
+
+§75) "/xu_powersharing" allows you to share your §2Extra Utilities§7 grid power with anyone on your server.
+
+§76) §2Enchanting Plus§7 will allow you to pick exactly what enchants you want on your equipment, but some enchants are only available under certain conditions. Place the table on a 3x3 of blocks used to build beacon bases and use it during the day.
+
+§77) If you are having issues getting Wither Skeleton Skulls, try putting §4Vorpal III§7 on your weapon.
+
+§78) §2Dark Utilities§7 charms can speed up certain tasks, like eating and sleeping, among other things.
+
+§79) Mob spawners can be moved with §2Carry On§7 or by using a pick with §4Silk Touch§7.

@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import mods.appliedenergistics2.Inscriber;
 
 /*
 	Furnace Recipes
@@ -31,6 +32,13 @@ static itemRecipeRemoval as IItemStack[] = [
 <appliedenergistics2:inscriber>,
 <appliedenergistics2:controller>
 ];
+
+// Inscriber Recipes
+// Inscriber.addRecipe(IItemStack output, IItemStack input, boolean inscribe, @Optional IItemStack topInput, @Optional IItemStack bottomInput);
+Inscriber.addRecipe(<appliedenergistics2:material:13>, <thermalfoundation:material:32>, false, <appliedenergistics2:material>,<appliedenergistics2:material>);
+Inscriber.addRecipe(<appliedenergistics2:material:14>, <thermalfoundation:material:32>, false, <minecraft:diamond>, <minecraft:diamond>);
+Inscriber.addRecipe(<appliedenergistics2:material:15>, <thermalfoundation:material:32>, false, <minecraft:gold_ingot>, <minecraft:gold_ingot>);
+Inscriber.addRecipe(<appliedenergistics2:material:19>, <thermalfoundation:material:32>, false, <ore:itemSilicon>, <ore:itemSilicon>);
 
 
 /*
@@ -64,7 +72,17 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[<appliedenergistics2:material:24>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:material:24>]
 			]
 		]
-	}
+	},
+<appliedenergistics2:sky_stone_block> * 8 : {
+		"appliedenergistics2_sky_stone_block" : [
+			[
+	  			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
+	  			[<ore:cobblestone>, <appliedenergistics2:material>, <ore:cobblestone>],
+	  			[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+			]
+		]
+	},
+
 };
 
 

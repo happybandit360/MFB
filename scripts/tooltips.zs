@@ -47,7 +47,14 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 <contenttweaker:modular_formation_bag> : [
 	format.gold("Combine with a Gamestage Book to get a new random book from that category."),
 	format.red("These bags cannot be created. When they're gone, they're gone.")
+],
+<thermalfoundation:material:32> : [
+	format.gold("Only certain hammers are strong enough to create this plate.")
+],
+<redstonearsenal:material:128> : [
+	format.gold("Only certain hammers are strong enough to create this plate.")
 ]
+
 };
 
 // Shift Tooltips

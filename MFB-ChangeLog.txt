@@ -14,16 +14,20 @@ FTBLib
 FTBUtilities
 LibraryEx
 NetherEx
+Tips
 
 -- Updated Mods --
 -------------------
 Actually Additions -> r151-2
 Armor Plus -> 11.26.0.65
 Better Nether -> 1.8.5
+Betweenlands -> 3.5.5
 Bonsai Trees -> 1.1.4-b170
 Botania -> 1.10-363
 Calculator -> 5.0.11-12
+Controlling -> 3.0.8
 Corail Tombstone -> 3.6.2
+ElecCore -> 1.9.453
 Electroblob's Wizardry -> 4.2.7
 Flux Networks -> 4.0.14-31
 FoamFix -> 0.10.10
@@ -31,14 +35,17 @@ Inspirations -> 0.2.9
 Nature's Compass -> 1.8.0
 RandomPatches -> 1.20.1.0
 Simple Storage Network -> 1.7.10
-Xaero's Minimap -> 1.19.5
-Xaero's World Map -> 1.5.3
+Xaero's Minimap -> 1.19.6
+Xaero's World Map -> 1.5.4
 
 -- Removed Mods --
 ------------------
 
 -- Config Changes --
 --------------------
+AppliedEnergistics2/AppliedEnergistics2.cfg
+    B:MeteoriteWorldGen=false
+    B:SpawnPressesInMeteorites=false
 Aroma1997Core/aromabackup.cfg
     I:delay=60
     I:fullBackupsToKeep=10
@@ -51,6 +58,9 @@ cofh/world/01_thermalfoundation_ores.json
 			"enabled": "true",
 cofh/world/config.cfg
     B:EnableFlatBedrock=true
+FarmingForBlockheads/Market.json
+    "custom entries": {
+        "tropicraft:sapling": "5*minecraft:emerald"
 actuallyadditions.cfg
     B:"Give Booklet on First Craft"=false
 betternether.cfg
@@ -98,8 +108,11 @@ tropicraft.cfg
     I:bambooGenChanceOverworld=100
     I:maxBambooPerPatchOverworld=90
     I:minBambooPerPatchOverworld=40
-    I:palmPopulationFactorInOverworld=8
+    I:palmPopulationFactorInOverworld=12
     I:tallFlowerGenChanceOverworld=6
+mysticalagriculture.cfg
+    I:hostile_drop_chance=0
+    I:passive_drop_chance=0
 
 -- Script Changes --
 --------------------
@@ -113,6 +126,8 @@ Unstanged Device and Machine frames Thermal Expansion and changed tech mod recip
 Added glowing effect to Double Nether Star
 Added Modular Formation Bags to allow players to swap out starting books a limited number of times
 Fixed Gobber recipes for flexibility in crafting grid
+Added recipes for AE2 presses and sky stone
+Added Iron Plate recipe
 
 -- Asset Changes --
 -------------------

@@ -2,8 +2,20 @@
 
 §71) You can craft a piece of dirt into a book to open this screen at any time. This can be done in any crafting grid.
 
-§72) §2Ore Excevation§7 is part of this pack. It defaults to the §b~§7 key.
+§72) Keys listed in tips are based on default US layout. Check your control settings for more information or to customize your controls. Checking controls is also a good way to see what options have default keybinds.
 
-§73) §2JEI§7 is an extremely useful tool for viewing recipes and planning. §bLeft Clicking§7 on an item will show recipes, while §bRight-Clicking§7 will show uses.
+§73) §2Ore Excevation§7 is part of this pack. It defaults to the §b~§7 key.
 
-§74) While the idea for this pack is to work to unlock mods, there are still a large number of mods that are open for everyone to use.
+§74) §2JEI§7 is an extremely useful tool for viewing recipes and planning. §bLeft Clicking§7 on an item will show recipes, while §bRight-Clicking§7 will show uses.
+
+§75) While the idea for this pack is to work to unlock mods, there are still a large number of mods that are open for everyone to use.
+
+§76) Looking at unlocked items through §2JEI§7 can help you plan out your crafting process.
+
+§77) Your grave will hold all of your items when you die, so don't worry about them despawning before you can get to them.
+
+§78) Be careful using §2Ore Excevation§7 around your base and any cables or machines.
+
+§79) Pressing the §bL§7 key will open your Advancements page and show you what mods you have unlocked and what is available, among the other Advancements.
+
+§710) While on the Game Menu screen, there are buttons on the right side of the screen that will show you the current Change Log or take you directly to the pack's issue tracker.
