@@ -16,7 +16,7 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<extrautils2:machine>
+// <extrautils2:machine>
 ];
 
 /*
@@ -52,15 +52,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<extrautils2:machine> : {
-		"<extrautils2_machine>" : [
-			[
-	  			[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
-	   			[<ore:dustRedstone>, <thermalexpansion:frame>, <ore:dustRedstone>],
-	  			[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]
-			]
-		]
-	}
+// <extrautils2:machine> : {
+// 		"<extrautils2_machine>" : [
+// 			[
+// 	  			[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>],
+// 	   			[<ore:dustRedstone>, <thermalexpansion:frame>, <ore:dustRedstone>],
+// 	  			[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]
+// 			]
+// 		]
+// 	}
 };
 
 

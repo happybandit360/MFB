@@ -1,6 +1,6 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 0.3.0 Beta Changes§r
+§cMFB 0.3.0/1 Beta Changes§r
 
 §n§6Game Enhancements§r
 * Added Modular Formation Bags to allow players to swap out starting books a limited number of times
@@ -48,8 +48,12 @@
 * Calculator
 * Controlling
 * Corail Tombstone
+* Custom Main Menu
 * ElecCore
 * Electroblob's Wizardry
+* Ender IO 
+* Ender IO Endergy
+* Ender Tweaker
 * Flux Networks
 * FoamFix
 * Inspirations
@@ -61,3 +65,4 @@
 
 §n§6Removed Mods§r
 * Arcane Archive
+* EIOP
