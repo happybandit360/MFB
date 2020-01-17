@@ -36,3 +36,5 @@ hs_err*.log
 /local
 /tmp
 /texturepacks
+WailaErrorOutput.txt
+.ReAuth.cfg

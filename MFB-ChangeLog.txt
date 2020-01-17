@@ -30,6 +30,8 @@ ebwizardry/ebwizardry.cfg
     B:replaceVanillaFireballs=false
 netherex/netherex.cfg
     I:setPlayerOnFireRarity=25
+bibliocraft.cfg
+    B:ScrewGun=true
 cropdusting.cfg
     B:enableFarts=true
 pitweaks.cfg

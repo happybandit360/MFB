@@ -25,6 +25,7 @@
 * By popular demand, reenabled fart sounds for Crop Dusting
 * Added uses for various Better Nether plants
 * Reduced vanilla furnace speed to a factor of 3
+* Reenabled Bibliocraft Screw Gun
 
 §n§6Bug Fixes§r
 * Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
@@ -39,6 +40,7 @@
 * AromaBackup
 * BedPatch
 * BetterOffHand
+* Cooking for Blockheads
 * FTBLib
 * FTBUtilities
 * LibraryEx
