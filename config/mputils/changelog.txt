@@ -21,22 +21,30 @@
 * Added Palm sapling to market
 * Disabled mobs dropping Inferium Essence.
 * Disabled AE2 meteorites and added recipes for presses and sky stone
+* Turned off custom fireball texture for non-Electroblob fireballs
+* By popular demand, reenabled fart sounds for Crop Dusting
+* Added uses for various Better Nether plants
+* Reduced vanilla furnace speed to a factor of 3
 
 §n§6Bug Fixes§r
 * Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
 * Fixed staging of Metallurgy End ores
 * Fixed recipe/staging issue for converting slime into blocks and congealed slime
 * Enabled Aluminum & Platinum ore
+* Fixed staging issue with Part and Pattern chests from Tinker's
+* Fixed issue with Botania staging
 
 §n§6Added Mods§r
 * Aroma1997Core
 * AromaBackup
 * BedPatch
+* BetterOffHand
 * FTBLib
 * FTBUtilities
 * LibraryEx
 * NetherEx
 * Tips
+* Wawla
 
 §n§6Updated Mods§r
 * Actually Additions
@@ -59,6 +67,7 @@
 * Inspirations
 * Nature's Compass
 * RandomPatches
+* RFTools
 * Simple Storage Network
 * Xaero's Minimap
 * Xaero's World Map

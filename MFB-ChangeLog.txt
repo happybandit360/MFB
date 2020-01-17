@@ -6,14 +6,19 @@ Beta Build
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
+BetterOffHand
+Wawla
 
 -- Updated Mods --
 -------------------
+BetterNether -> 0.1.8.6
 CustomMainMenu -> 2.0.9
 Ender IO -> 5.1.52
 Ender IO Endergy -> 5.1.52
 Ender Tweaker -> 1.2.0
 Nature's Compass -> 1.8.3
+RFTools -> 7.73
+Xaero's Minimap -> 1.19.7
 
 -- Removed Mods --
 ------------------
@@ -21,10 +26,21 @@ EIOP
 
 -- Config Changes --
 --------------------
+ebwizardry/ebwizardry.cfg
+    B:replaceVanillaFireballs=false
+netherex/netherex.cfg
+    I:setPlayerOnFireRarity=25
+cropdusting.cfg
+    B:enableFarts=true
+pitweaks.cfg
+    I:multiplier=3
 
 -- Script Changes --
 --------------------
 Corrected recipe issue with XU2 generators
+Fixed staging issue with Part and Pattern chests from Tinker's
+Added recipes for uses for Better Nether Plants
+Fixed issue with Botania staging
 
 -- Asset Changes --
 -------------------

@@ -93,10 +93,50 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		"minecraft_leather_frombag" : [
 			[<contenttweaker:modular_formation_bag>]
 		]
+	},
+	<minecraft:nether_wart> * 9 : {
+		"minecraft_nether_wart" : [
+			[<minecraft:nether_wart_block>]
+		]
+	},
+	<minecraft:dye:13> : {
+		"magenta_dye_agave" : [
+			[<betternether:agave>]
+		]
 	}
 };
 
+// Egg Plant to Dye
+mods.mekanism.crusher.addRecipe(<betternether:egg_plant>, <minecraft:dye:5>);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:dye:5>, <betternether:egg_plant>, 1500, <quark:root_dye:2>, 50);
+mods.extrautils2.Crusher.add(<minecraft:dye:5>, <betternether:egg_plant>, <quark:root_dye:2>, 0.50);
+mods.enderio.SagMill.addRecipe([<minecraft:dye:5>], [100], <betternether:egg_plant>);
+mods.metallurgyreforged.Crusher.addRecipe(<minecraft:dye:5>, <betternether:egg_plant>);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:5>, <betternether:egg_plant>, <quark:root_dye:2>, 50);
 
+// Nether Cactus to Dye
+mods.mekanism.crusher.addRecipe(<betternether:nether_cactus>, <minecraft:dye:14>);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:dye:14>, <betternether:nether_cactus>, 1500, <minecraft:dye:8>, 50);
+mods.extrautils2.Crusher.add(<minecraft:dye:14>, <betternether:nether_cactus>, <minecraft:dye:8>, 0.50);
+mods.enderio.SagMill.addRecipe([<minecraft:dye:14>], [100], <betternether:nether_cactus>);
+mods.metallurgyreforged.Crusher.addRecipe(<minecraft:dye:14>, <betternether:nether_cactus>);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:14>, <betternether:nether_cactus>, <minecraft:dye:8>, 50);
+
+// Barrel Cactus to Dye
+mods.mekanism.crusher.addRecipe(<betternether:barrel_cactus>, <minecraft:dye:6>);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:dye:6>, <betternether:barrel_cactus>, 1500, <minecraft:dye:12>, 50);
+mods.extrautils2.Crusher.add(<minecraft:dye:6>, <betternether:barrel_cactus>, <minecraft:dye:12>, 0.50);
+mods.enderio.SagMill.addRecipe([<minecraft:dye:6>], [100], <betternether:barrel_cactus>);
+mods.metallurgyreforged.Crusher.addRecipe(<minecraft:dye:6>, <betternether:barrel_cactus>);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:6>, <betternether:barrel_cactus>, <minecraft:dye:12>, 50);
+
+// Black Bush to Dye
+mods.mekanism.crusher.addRecipe(<betternether:black_bush>, <quark:root_dye:1>);
+mods.thermalexpansion.Pulverizer.addRecipe(<quark:root_dye:1>, <betternether:black_bush>, 1500, <quark:root_dye:1>, 50);
+mods.extrautils2.Crusher.add(<quark:root_dye:1>, <betternether:black_bush>, <quark:root_dye:1>, 0.50);
+mods.enderio.SagMill.addRecipe([<quark:root_dye:1>], [100], <betternether:black_bush>);
+mods.metallurgyreforged.Crusher.addRecipe(<quark:root_dye:1>, <betternether:black_bush>);
+mods.actuallyadditions.Crusher.addRecipe(<quark:root_dye:1>, <betternether:black_bush>, <quark:root_dye:1>, 50);
 
 
 // Do NOT edit below this line //

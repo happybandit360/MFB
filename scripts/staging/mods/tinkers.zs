@@ -138,3 +138,6 @@ static metadataStaging as IItemStack[] = [
 for item in metadataStaging {
     mods.ItemStages.addItemStage("tinkers", item.withTag({StatsOriginal: {}}));
 }
+
+mods.ItemStages.addItemStage("tinkers", <tconstruct:tooltables:5>.withTag({inventory:{}}));
+mods.ItemStages.addItemStage("tinkers", <tconstruct:tooltables:4>.withTag({inventory:{}}));
