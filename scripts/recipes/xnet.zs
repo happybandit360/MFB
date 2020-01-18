@@ -49,7 +49,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		"xnet_redstone_proxy" : [
 			[
 	  			[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
-	   			[<ore:dustRedstone>, <ore:machineCase>, <ore:dustRedstone>],
+	   			[<ore:dustRedstone>, <thermalexpansion:frame>, <ore:dustRedstone>],
 	  			[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]
 			]
 		]
@@ -58,7 +58,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		"xnet_controller" : [
 			[
 	  			[<minecraft:repeater>, <minecraft:comparator>, <minecraft:repeater>],
-	   			[<ore:dustRedstone>, <ore:machineCase>, <ore:dustRedstone>],
+	   			[<ore:dustRedstone>, <thermalexpansion:frame>, <ore:dustRedstone>],
 	  			[<ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>]
 			]
 		]
@@ -67,7 +67,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		"xnet_router" : [
 			[
 	  			[<minecraft:golden_rail>, <minecraft:comparator>, <minecraft:golden_rail>],
-	   			[<ore:dustRedstone>, <ore:machineCase>, <ore:dustRedstone>],
+	   			[<ore:dustRedstone>, <thermalexpansion:frame>, <ore:dustRedstone>],
 	  			[<ore:ingotIron>, <minecraft:ender_pearl>, <ore:ingotIron>]
 			]
 		]
@@ -76,7 +76,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		"xnet_wireless_router" : [
 			[
 	  			[<minecraft:ender_pearl>, <minecraft:comparator>, <minecraft:ender_pearl>],
-	   			[<ore:dustRedstone>, <ore:machineCase>, <ore:dustRedstone>],
+	   			[<ore:dustRedstone>, <thermalexpansion:frame>, <ore:dustRedstone>],
 	  			[<minecraft:ender_pearl>, <ore:dustRedstone>, <minecraft:ender_pearl>]
 			]
 		]

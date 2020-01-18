@@ -1,6 +1,6 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 0.3.0/1 Beta Changes§r
+§cMFB 0.3.0/1/2 Beta Changes§r
 
 §n§6Game Enhancements§r
 * Added Modular Formation Bags to allow players to swap out starting books a limited number of times
@@ -26,14 +26,18 @@
 * Added uses for various Better Nether plants
 * Reduced vanilla furnace speed to a factor of 3
 * Reenabled Bibliocraft Screw Gun
+* Changed Chest Builder recipe to OreDict chests
 
 §n§6Bug Fixes§r
 * Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
 * Fixed staging of Metallurgy End ores
 * Fixed recipe/staging issue for converting slime into blocks and congealed slime
-* Enabled Aluminum & Platinum ore
+* Enabled Aluminum, Platinum, and Iridium ore
 * Fixed staging issue with Part and Pattern chests from Tinker's
 * Fixed issue with Botania staging
+* Fixed issue with Matter Overdrive machine casing
+* Fixed issues with various metal block recipes
+* Added Inspirations-based recipe for Basic Energy Cell because crafting recipe wasn't working
 
 §n§6Added Mods§r
 * Aroma1997Core

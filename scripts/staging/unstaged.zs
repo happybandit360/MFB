@@ -34,12 +34,23 @@ mods.ItemStages.removeItemStage(<botania:lexicon>.withTag({"knowledge.minecraft"
 mods.ItemStages.removeItemStage(<actuallyadditions:item_hairy_ball>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_solidified_experience>);
 mods.ItemStages.removeItemStage(<randomthings:lavacharm>);
+mods.ItemStages.removeItemStage(<mysticalworld:cooked_apple>);
+mods.ItemStages.removeItemStage(<mysticalworld:raw_squid>);
+mods.ItemStages.removeItemStage(<mysticalworld:cooked_squid>);
 
 // Unstage TE Energy Cell for early game power storage
 mods.ItemStages.removeItemStage(<thermalexpansion:cell>);
+mods.ItemStages.removeItemStage(<thermalexpansion:cell>.withTag({SideCache: []}));
 mods.ItemStages.removeItemStage(<thermalexpansion:frame:128>);
 mods.ItemStages.removeItemStage(<thermalexpansion:frame:64>);
 mods.ItemStages.removeItemStage(<thermalexpansion:frame>);
+// mods.ItemStages.removeItemStage(<thermalexpansion:frame:129>);
+// mods.ItemStages.removeItemStage(<thermalexpansion:frame:130>);
+// mods.ItemStages.removeItemStage(<thermalexpansion:frame:131>);
+// mods.ItemStages.removeItemStage(<thermalexpansion:frame:132>);
+// mods.ItemStages.removeItemStage(<thermalexpansion:frame:146>);
+// mods.ItemStages.removeItemStage(<thermalexpansion:frame:147>);
+// mods.ItemStages.removeItemStage(<thermalexpansion:frame:148>);
 
 
 // Unstage Tiny Coal and Charcoal

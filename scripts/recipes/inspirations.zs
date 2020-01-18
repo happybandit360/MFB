@@ -14,6 +14,7 @@ import crafttweaker.liquid.ILiquidStack;
 // Cauldron Recipes
 //mods.inspirations.Cauldron.addFluidRecipe(IItemStack output, IIngredient input, ILiquidStack fluid, @Optional int levels, @Optional boolean boiling);
 mods.inspirations.Cauldron.addFluidRecipe(<redstonearsenal:material>, <thermalfoundation:material:97>, <liquid:redstone>, 1, true);
+mods.inspirations.Cauldron.addFluidRecipe(<thermalexpansion:cell>, <thermalexpansion:frame:128>, <liquid:redstone>, 4);
 
 // Cauldron Fluid Transformation Recipes
 //mods.inspirations.Cauldron.addFluidTransform(ILiquidStack output, IIngredient input, ILiquidStack fluid, @Optional int maxLevels, @Optional boolean boiling);

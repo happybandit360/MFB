@@ -12,6 +12,7 @@ Wawla
 -- Updated Mods --
 -------------------
 BetterNether -> 0.1.8.6
+Cooking For Blockheads -> 6.5.0
 CustomMainMenu -> 2.0.9
 Ender IO -> 5.1.52
 Ender IO Endergy -> 5.1.52
@@ -26,6 +27,9 @@ EIOP
 
 -- Config Changes --
 --------------------
+cofh/world/01_thermalfoundation_ores
+    "iridium": {
+			"enabled": "true",
 ebwizardry/ebwizardry.cfg
     B:replaceVanillaFireballs=false
 netherex/netherex.cfg
@@ -43,6 +47,9 @@ Corrected recipe issue with XU2 generators
 Fixed staging issue with Part and Pattern chests from Tinker's
 Added recipes for uses for Better Nether Plants
 Fixed issue with Botania staging
+Fixed issue with Matter Overdrive machine casing
+Fixed issues with various metal block recipes
+Added Inspirations-based recipe for Basic Energy Cell because crafting recipe wasn't working
 
 -- Asset Changes --
 -------------------

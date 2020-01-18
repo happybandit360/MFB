@@ -26,7 +26,7 @@ static furnaceAddition as IIngredient[][IItemStack] = {
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<matteroverdrive:machine_casing>
+// <matteroverdrive:machine_casing>
 ];
 
 /*
@@ -52,15 +52,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<matteroverdrive:machine_casing> : {
-		"matteroverdrive_machine_casing" : [
-			[
-	  			[null, <matteroverdrive:tritanium_plate>, null],
-	   			[<ore:ingotTritanium>, <thermalexpansion:frame>, <ore:ingotTritanium>],
-	  			[<ore:ingotGold>, <ore:dustRedston>, <ore:ingotGold>]
-			]
-		]
-	}
+// <matteroverdrive:machine_casing> : {
+// 		"matteroverdrive_machine_casing" : [
+// 			[
+// 	  			[null, <matteroverdrive:tritanium_plate>, null],
+// 	   			[<ore:ingotTritanium>, <thermalexpansion:frame>, <ore:ingotTritanium>],
+// 	  			[<ore:ingotGold>, <ore:dustRedston>, <ore:ingotGold>]
+// 			]
+// 		]
+// 	}
 };
 
 

@@ -28,7 +28,9 @@ static itemRecipeRemoval as IItemStack[] = [
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
 <plustic:invarnugget>,
-<tconstruct:stone_stick>
+<tconstruct:stone_stick>,
+<plustic:invaringot>,
+<plustic:invarblock>
 ];
 
 // Recipe removal by name
