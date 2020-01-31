@@ -18,7 +18,8 @@ static itemRecipeRemoval as IItemStack[] = [
 <minecraft:coal:1>
 ];
 
-
+recipes.removeByRecipeName("endercore:book_to_paper");
+recipes.removeByRecipeName("actuallyadditions:recipes55");
 
 /*
     Shaped Recipes
@@ -86,7 +87,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		},
 	<minecraft:book>.withTag({infopanel: "mfb-1", display: {Name: "Welcome to MFB"}}) : {
 			"mfb_book" : [
-				[<minecraft:dirt>]
+				[<minecraft:book>]
 			]
 		},
 	<minecraft:leather> * 2 : {

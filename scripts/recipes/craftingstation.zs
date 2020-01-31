@@ -36,7 +36,7 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
 ];
 
-
+recipes.removeByRecipeName("craftingstation:crafting_station");
 
 /*
     Shaped Recipes

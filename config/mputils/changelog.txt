@@ -1,83 +1,58 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 0.3.0/1/2 Beta Changes§r
+§cMFB 0.4.0 Beta Changes§r
 
 §n§6Game Enhancements§r
-* Added Modular Formation Bags to allow players to swap out starting books a limited number of times
-* Removed giving Actually Additions manual when crafting an item from the mod
-* Disabled hotbar swapping
-* Adjusted Tropicraft overworld generation rates
-* Disabled generic death messages
-* Enabled Flat Bedrock generation
-* Unstaged Viescraft
-* Staged Soulstone from Mystical Agriculture
-* Disabled unnecessary items from Extra Utilties
-* Added Combination Crafting recipe for Angel Ring
-* Unstanged Device and Machine frames Thermal Expansion with Resonator recipes for crafting in Tech mods
-* Lowered density of all Better Nether biomes
-* Reinstated NetherEx with new config settings to allow modded ores to spawn throughout Nether
-* Added glowing effect to Double Nether Star
-* Fixed Gobber recipes for flexibility in crafting grid
-* Added Palm sapling to market
-* Disabled mobs dropping Inferium Essence.
-* Disabled AE2 meteorites and added recipes for presses and sky stone
-* Turned off custom fireball texture for non-Electroblob fireballs
-* By popular demand, reenabled fart sounds for Crop Dusting
-* Added uses for various Better Nether plants
-* Reduced vanilla furnace speed to a factor of 3
-* Reenabled Bibliocraft Screw Gun
-* Changed Chest Builder recipe to OreDict chests
+* Replaced Tetra with Silent Gear
+* Unstaged AA Worms and Tiny Torches
+* Added Crystaltine Ingot recipe specifically for Ultimate Crafting Table.
+* Added Iron Hammer to crafting hammers OreDict
+* Removed unneeded alterative recipes for Coal and Crafting Station
+* Added Crushed Dark Ore recipe to modded crushers
+* Unstaged most enchanted books
+* Added ProjectRed silicon to oreDict and set as primary pack silicon
+* Increased Evilcraft Dark Ore generation slightly
+* Removed Astral Sorcery and Quark marble generation and adjusted Chisel marble generation to compensate
+* Removed Supremium drops from Wither and Ender Dragon
+
 
 §n§6Bug Fixes§r
-* Added advanced Botania manual to unstaged list to fix bug with Akashic Tome
-* Fixed staging of Metallurgy End ores
-* Fixed recipe/staging issue for converting slime into blocks and congealed slime
-* Enabled Aluminum, Platinum, and Iridium ore
-* Fixed staging issue with Part and Pattern chests from Tinker's
-* Fixed issue with Botania staging
-* Fixed issue with Matter Overdrive machine casing
-* Fixed issues with various metal block recipes
-* Added Inspirations-based recipe for Basic Energy Cell because crafting recipe wasn't working
+* Removed Crushed Dark Ore recipe from XU2 Crusher
+* Added multiple fakeplayer names and set to have all stages
+* Added container script to allow for crafting of modded recipes
+* Blacklisted Villagers from creating Vengeance Spirits
+* Added missing Mystical Agriculture recipes
+* Blacklisted certain enchants from Advanced Enchanting Table to prevent confusion/problems
+* Removed IF Wither Builder
+* Removed Flim Flam and Unstable enchantments
+* Blacklisted Wither and Ender Dragon from Apotheosis spawners
+* Removed light level from Gobber ore and Gluckly blocks so they don't glow while staged
+* Added Extended Crafting recipes for Digital Miner and Quarry Card
+
 
 §n§6Added Mods§r
-* Aroma1997Core
-* AromaBackup
-* BedPatch
-* BetterOffHand
-* Cooking for Blockheads
-* FTBLib
-* FTBUtilities
-* LibraryEx
-* NetherEx
-* Tips
-* Wawla
+* ExtraCells2
+* FastFurnace
+* FastWorkbench
+* Silent Gear
+* SilentLib
+* Wireless Crafting Terminal
+* AE2 Wireless Terminal Library
+
 
 §n§6Updated Mods§r
-* Actually Additions
-* Armor Plus
-* Better Nether
 * Betweenlands
-* Bonsai Trees
-* Botania
-* Calculator
-* Controlling
+* Astral Sorcery
 * Corail Tombstone
-* Custom Main Menu
-* ElecCore
-* Electroblob's Wizardry
-* Ender IO 
-* Ender IO Endergy
-* Ender Tweaker
-* Flux Networks
-* FoamFix
-* Inspirations
-* Nature's Compass
+* Electroblob
+* Mystical World
+* MysticalLib
 * RandomPatches
-* RFTools
-* Simple Storage Network
+* Roots
+* Unidict
+* Wall-Jump
 * Xaero's Minimap
-* Xaero's World Map
+
 
 §n§6Removed Mods§r
-* Arcane Archive
-* EIOP
+* Tetra

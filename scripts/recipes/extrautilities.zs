@@ -17,6 +17,7 @@ import crafttweaker.item.IIngredient;
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 // <extrautils2:machine>
+<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"})
 ];
 
 /*
@@ -61,6 +62,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 // 			]
 // 		]
 // 	}
+<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}) : {
+		"<extrautils2_slimey_gen" : [
+			[
+	  			[<ore:slimeball>, <ore:slimeball> ,<ore:slimeball>],
+	   			[<ore:slimeball>, <ore:blockSlime>, <ore:slimeball>],
+	  			[<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]
+			]
+		]
+	}
 };
 
 

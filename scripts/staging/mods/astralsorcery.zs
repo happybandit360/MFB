@@ -21,16 +21,16 @@ mods.orestages.OreStages.addReplacement("astral_sorcery", <astralsorcery:blockcu
 mods.orestages.OreStages.addReplacement("astral_sorcery", <astralsorcery:blockcustomore>, <minecraft:stone>);
 
 // Flowers
-mods.orestages.OreStages.addReplacement("astral_sorcery", <astralsorcery:blockcustomflower>, <minecraft:yellow_flower>);
+mods.orestages.OreStages.addNonDefaultingReplacement("astral_sorcery", <astralsorcery:blockcustomflower>, <minecraft:yellow_flower>);
 
 // Stage Misc Items
 mods.ItemStages.addItemStage("astral_sorcery", <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000})); 
 mods.ItemStages.addItemStage("astral_sorcery", <astralsorcery:itemwand>.withTag({astralsorcery: {}})); 
 mods.ItemStages.addItemStage("astral_sorcery", <astralsorcery:itemcape>.withTag({astralsorcery: {}, Quality: {}}));
-mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 100}]}));
-mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 101}]}));
-mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 92}]}));
-mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 93}]}));
+// mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 100}]}));
+// mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 101}]}));
+// mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 92}]}));
+// mods.ItemStages.addItemStage("astral_sorcery", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 93}]}));
 
 for itm in loadedMods["astralsorcery"].items {
     mods.ItemStages.addItemStage("astral_sorcery", itm.withTag({astralsorcery: {}}));

@@ -66,9 +66,17 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+<evilcraft:dark_gem_crushed> : {
+		"evilcraft_dark_gem_crushed" : [
+			[<ore:craftHammer>, <evilcraft:dark_gem>]
+		]
+	}
 };
 
-
+mods.mekanism.crusher.addRecipe(<evilcraft:dark_gem>, <evilcraft:dark_gem_crushed>);
+mods.thermalexpansion.Pulverizer.addRecipe(<evilcraft:dark_gem_crushed>, <evilcraft:dark_gem>, 1500);
+mods.enderio.SagMill.addRecipe([<evilcraft:dark_gem_crushed>], [100], <evilcraft:dark_gem>);
+mods.actuallyadditions.Crusher.addRecipe(<evilcraft:dark_gem_crushed>, <evilcraft:dark_gem>);
 
 
 // Do NOT edit below this line //
@@ -127,9 +135,3 @@ for item, itemRecipes in namedShapelessRecipes {
 for item in itemRecipeRemoval {
 	recipes.remove(item);
 }
-
-// Machine Recipes
-
-//mods.extrautils2.Crusher.add(IItemStack output, IItemStack input, @Optional IItemStack secondaryOutput, @Optional float secondaryChance);
-
-mods.extrautils2.Crusher.add(<evilcraft:dark_gem_crushed>, <evilcraft:dark_gem> * 2);

@@ -2,7 +2,101 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Beta Build
-0.3.0 --> 0.3.1 Beta
+0.3.2 --> 0.4.0 Beta
+-------------------------------------------------------------------------------
+-- Added Mods --
+----------------
+ExtraCells2
+FastFurnace
+FastWorkbench
+Silent Gear
+SilentLib
+Wireless Crafting Terminal
+AE2 Wireless Terminal Library
+
+-- Updated Mods --
+-------------------
+Betweenlands -> 3.5.6
+Astral Sorcery -> 1.10.21
+Corail Tombstone -> 3.6.5
+Electroblob -> 4.2.8
+Mystical World -> 1.7.1
+MysticalLib -> 1.6.0
+RandomPatches -> 1.21.0.0
+Roots -> 3.0.24
+Unidict -> 2.9.5
+Wall-Jump -> 1.3.2
+Xaero's Minimap -> 20.1.0
+
+-- Removed Mods --
+------------------
+Tetra
+
+-- Config Changes --
+--------------------
+Apotheosis/spawner.cfg
+    S:"Banned Mobs" <
+        minecraft:wither
+        minecraft:ender_dragon
+chickens/morechickens.json
+    "morechickens:siliconchicken": {
+        "Lay Item": "projectred-core:resource_item:301",
+        "Drop Item": "projectred-core:resource_item:301",
+FarmingForBlockheads/Market.json
+    "custom entries": {
+        "silentgear:flaxseeds": "1*silentgear:blueprint_paper"
+astralsorcery.cfg
+    I:generateMarbleAmount=0
+eplus.cfg
+    S:blacklistedEnchantments <
+        enderio:soulbound
+        armorplus:enhanced
+        charm:magnetic
+evilcraft.cfg
+    B:general.analytics=false
+    I:dark_ore.blocksPerVein=6
+    I:dark_ore.veinsPerChunk=9
+    S:vengeance_spirit.entityBlacklist <
+        minecraft:villager
+gameStagesFakePlayerData.json
+    - Added [Mekanism], rftools_builder, [XU2FakePlayer], [IF], [Minecraft], and Mob Masher
+industrialforegoing.cfg
+    wither_builder {
+        B:enabled=false
+Lootbags_BagConfig.cfg
+    Swapped tetra for silent_gear
+mysticalagriculture.cfg
+    I:dragon_supremium=0
+    I:wither_supremium=0
+openblocks.cfg
+    B:explosiveEnchantment=false
+    B:flimFlamEnchantment=false
+quark.cfg
+    B:"Enable Marble"=false
+
+-- Script Changes --
+--------------------
+Unstaged AA Worms and Tiny Torches
+Added Crystaltine Ingot recipe specifically for Ultimate Crafting Table
+Added Iron Hammer to crafting hammers OreDict
+Removed unneeded alterative recipes for Coal and Crafting Station
+Removed Crushed Dark Ore recipe from XU2 Crusher due to bug, added crafting table recipe and use in other crushers
+Made all necessary scripts and changes for removing Tetra
+Made all necessary scripts and changes for adding Silent Gear
+Added container script for crafting staged item
+Unstaged enchanted books
+Set ProjectRed silicon as primary silicon
+Removed light level from Gobber ore and Gluckly blocks so they don't glow while staged
+Reorganized some scripts
+Added Extended Crafting recipes for Digital Miner and Quarry Card
+
+-- Asset Changes --
+-------------------
+
+
+-------------------------------------------------------------------------------
+Beta Build
+0.3.0 --> 0.3.1 Beta RELEASED 01/19/2020
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------

@@ -21,6 +21,11 @@ static itemRecipeRemoval as IItemStack[] = [
 <enderio:item_material>
 ];
 
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
+<enderio:item_material:5>
+];
+
 recipes.removeByRecipeName("enderio:compatibility_glass_pane");
 
 
@@ -129,4 +134,10 @@ for item, itemRecipes in namedShapelessRecipes {
 // Remove Item Recipe for replacement
 for item in itemRecipeRemoval {
 	recipes.remove(item);
+}
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
 }

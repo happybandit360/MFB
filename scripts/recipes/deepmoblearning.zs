@@ -16,7 +16,12 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<deepmoblearning:data_model_dragon>
+<deepmoblearning:data_model_dragon>,
+<deepmoblearning:glitch_infused_helmet>,
+<deepmoblearning:glitch_infused_chestplate>,
+<deepmoblearning:glitch_infused_leggings>,
+<deepmoblearning:glitch_infused_boots>,
+<deepmoblearning:glitch_infused_sword>
 ];
 
 /*
@@ -42,6 +47,49 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<deepmoblearning:glitch_infused_helmet> : {
+		"deepmoblearning_glitch_infused_helmet" : [
+			[
+	  			[<deepmoblearning:infused_ingot_block>, <deepmoblearning:infused_ingot_block>, <deepmoblearning:infused_ingot_block>],
+	   			[<deepmoblearning:infused_ingot_block>, null, <deepmoblearning:infused_ingot_block>]
+			]
+		]
+	},
+<deepmoblearning:glitch_infused_chestplate> : {
+		"deepmoblearning_glitch_infused_chestplate" : [
+			[
+	  			[<deepmoblearning:infused_ingot_block>, null, <deepmoblearning:infused_ingot_block>],
+			    [<deepmoblearning:infused_ingot_block>, <deepmoblearning:infused_ingot_block>, <deepmoblearning:infused_ingot_block>],
+				[<deepmoblearning:infused_ingot_block>, <deepmoblearning:infused_ingot_block>, <deepmoblearning:infused_ingot_block>]
+			]
+		]
+	},
+<deepmoblearning:glitch_infused_leggings> : {
+		"deepmoblearning_glitch_infused_leggings" : [
+			[
+	  			[<deepmoblearning:infused_ingot_block>, <deepmoblearning:infused_ingot_block>, <deepmoblearning:infused_ingot_block>],
+				[<deepmoblearning:infused_ingot_block>, null, <deepmoblearning:infused_ingot_block>],
+				[<deepmoblearning:infused_ingot_block>, null, <deepmoblearning:infused_ingot_block>]
+			]
+		]
+	},
+<deepmoblearning:glitch_infused_boots> : {
+		"deepmoblearning_glitch_infused_boots" : [
+			[
+	  			[<deepmoblearning:infused_ingot_block>, null, <deepmoblearning:infused_ingot_block>],
+	   			[<deepmoblearning:infused_ingot_block>, null, <deepmoblearning:infused_ingot_block>]
+			]
+		]
+	},
+<deepmoblearning:glitch_infused_sword> : {
+		"deepmoblearning_glitch_infused_sword" : [
+			[
+	  			[null, null, <deepmoblearning:infused_ingot_block>],
+	   			[<ore:ingotIron>, <deepmoblearning:infused_ingot_block>, null],
+	   			[<ore:stickWood>, <ore:ingotIron>, null]
+			]
+		]
+	}
 };
 
 

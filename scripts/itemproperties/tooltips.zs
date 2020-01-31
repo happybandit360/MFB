@@ -53,6 +53,9 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 ],
 <redstonearsenal:material:128> : [
 	format.gold("Only certain hammers are strong enough to create this plate.")
+],
+<minecraft:milk_bucket> : [
+	format.red("Drinking from a stack of buckets, will results in the loss of a bucket")
 ]
 
 };
@@ -110,12 +113,29 @@ static marketTips as IItemStack[] = [
 	<rustic:chili_pepper_seeds>,
 	<rustic:sapling>,
 	<rustic:sapling:1>,
-	<rustic:wildberry_bush>
+	<rustic:wildberry_bush>,
+	<silentgear:flaxseeds>
 ];
 
 for item in marketTips {
 	item.addTooltip(format.gold("Can be purchased in Farming For Blockheads Market"));
 }
+
+static astralMarble as IItemStack[] = [
+	<astralsorcery:blockmarble>,
+	<astralsorcery:blockmarble:1>,
+	<astralsorcery:blockmarble:2>,
+	<astralsorcery:blockmarble:3>,
+	<astralsorcery:blockmarble:4>,
+	<astralsorcery:blockmarble:5>,
+	<astralsorcery:blockmarble:6>
+
+];
+
+for item in astralMarble {
+	item.addTooltip(format.gold("Made using a Chisel and Marble"));
+}
+
 
 // Do NOT edit below this line //
 

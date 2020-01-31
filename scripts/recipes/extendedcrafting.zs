@@ -137,7 +137,19 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 // mods.extendedcrafting.CombinationCrafting.addRecipe(<output>, rfCost, <input>, [<pedestalItem>, <pedestalItem>]);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:angelring>, 1000000, <minecraft:elytra>, [<extrautils2:compressedcobblestone:3>, <minecraft:ghast_tear>, <minecraft:dragon_breath>, <extrautils2:passivegenerator:5>, <extrautils2:passivegenerator:8>, <extrautils2:chickenring>, <openblocks:hang_glider>, <extrautils2:passivegenerator:4>, <tropicraft:air_compressor>, <extrautils2:chickenring:1>, <minecraft:feather>, <charm:bat_bucket>, <minecraft:potion>.withTag({Potion: "extrautils2:xu2.fizzy.lifting"}), <minecraft:potion>.withTag({Potion: "extrautils2:xu2.fizzy.lifting"}), <vc:item_airship_balloon>, <vc:item_airship_balloon>]);
 
-
+// Crystaltine Ingot
+// mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>);
+mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:material:24>, [
+	[null, <ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>, null], 
+	[null, <ore:gemDiamond>, <ore:nuggetNetherStar>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, <ore:nuggetNetherStar>, <ore:gemDiamond>, null], 
+	[null, <ore:gemDiamond>, <ore:nuggetNetherStar>, <ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>, <ore:nuggetNetherStar>, <ore:gemDiamond>, null], 
+	[null, <ore:gemDiamond>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>, <ore:gemDiamond>, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
 
 
 

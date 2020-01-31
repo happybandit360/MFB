@@ -25,8 +25,8 @@ static stagedMods as string[][string] = {
         "calculator"
     ],
 
-    stages.tetra.stage : [
-        "tetra"
+    stages.silentGear.stage : [
+        "silentgear"
     ],
 
     stages.metallurgy.stage : [
@@ -48,7 +48,10 @@ static stagedMods as string[][string] = {
 
     stages.appliedEnergistics.stage : [
         "appliedenergistics2",
-        "ae2stuff"
+        "ae2stuff",
+        "extracells",
+        "ae2wtlib",
+        "wct"
     ],
 
     stages.thermal.stage : [

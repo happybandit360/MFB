@@ -1,6 +1,6 @@
 §6§lSome helpful tips for this pack.§r
 
-§71) You can craft a piece of dirt into a book to open this screen at any time. This can be done in any crafting grid.
+§71) You can craft a vanilla book into a special book to open this screen at any time. This can be done in any crafting grid.
 
 §72) Keys listed in tips are based on default US layout. Check your control settings for more information or to customize your controls. Checking controls is also a good way to see what options have default keybinds.
 

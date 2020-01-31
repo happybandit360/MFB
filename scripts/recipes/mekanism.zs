@@ -35,7 +35,8 @@ static itemRecipeRemoval as IItemStack[] = [
 <mekanismtools:steelboots>,
 <mekanism:nugget:1>,
 <mekanism:ingot:1>,
-<mekanism:basicblock:8>
+<mekanism:basicblock:8>,
+<mekanism:machineblock:4>
 ];
 
 /*
@@ -325,6 +326,36 @@ mods.thermalexpansion.Pulverizer.addRecipe(<mekanism:dust:2>, <mekanism:ingot:1>
 // mods.metallurgyreforged.Crusher.addRecipe(IIngrendient input, IItemStack output, float experience);
 mods.metallurgyreforged.Crusher.addRecipe(<mekanism:oreblock>, <mekanism:dust:2> * 2, 0.30);
 mods.metallurgyreforged.Crusher.addRecipe(<mekanism:ingot:1>, <mekanism:dust:2>, 0.30);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:machineblock:4>, [
+	[<mekanism:energycube>, <mekanism:controlcircuit:3>, <mekanism:basicblock:8>, <mekanism:controlcircuit:3>, <mekanism:energycube>], 
+	[<mekanism:atomicalloy>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:atomicalloy>], 
+	[<mekanism:machineblock:15>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:robit>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:machineblock:15>], 
+	[<mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>, <mekanism:atomicalloy>, <mekanism:teleportationcore>], 
+	[<mekanism:basicblock:7>, <mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>, <mekanism:basicblock:7>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:machineblock:4>, [
+	[null, <mekanism:energycube>, <mekanism:controlcircuit:3>, <mekanism:basicblock:8>, <mekanism:controlcircuit:3>, <mekanism:energycube>, null], 
+	[null, <mekanism:atomicalloy>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:atomicalloy>, null], 
+	[null, <mekanism:machineblock:15>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:robit>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:machineblock:15>, null], 
+	[null, <mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>, <mekanism:atomicalloy>, <mekanism:teleportationcore>, null], 
+	[null, <mekanism:basicblock:7>, <mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>, <mekanism:basicblock:7>, null], 
+	[null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <mekanism:machineblock:4>, [
+	[null, null, <mekanism:energycube>, <mekanism:controlcircuit:3>, <mekanism:basicblock:8>, <mekanism:controlcircuit:3>, <mekanism:energycube>, null, null], 
+	[null, null, <mekanism:atomicalloy>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:atomicalloy>, null, null], 
+	[null, null, <mekanism:machineblock:15>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:robit>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:machineblock:15>, null, null], 
+	[null, null, <mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>, <mekanism:atomicalloy>, <mekanism:teleportationcore>, null, null], 
+	[null, null, <mekanism:basicblock:7>, <mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>, <mekanism:basicblock:7>, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
 
 // Do NOT edit below this line //
 

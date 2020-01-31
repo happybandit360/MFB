@@ -15,7 +15,7 @@ Book.addBook("gobber", "Gobber", "Gobber Handbook", "gb:glucky_block", 0xED2939)
 Book.addBook("metallurgy", "Metallury", "Metallurgy Handbook", "metallurgy:sanguinite_sword", 0xFF0800);
 Book.addBook("modular_powersuits", "Modular Powersuits", "Modular Powersuits Handbook", "powersuits:power_fist", 0xC21807);
 Book.addBook("redstone_arsenal", "Redstone Arsenal", "Redstone Arsenal Handbook", "redstonearsenal:material", 0x800000);
-Book.addBook("tetra", "Tetra", "Tetra Handbook", "tetra:workbench", 0xB22222);
+Book.addBook("silent_gear", "Silent Gear", "Silent Gear Handbook", "silentgear:part_analyzer", 0xB22222);
 Book.addBook("tinkers", "Tinkers Construct", "Tinker's Handbook", "tconstruct:smeltery_controller", 0xFF2400);
 
 // Tech

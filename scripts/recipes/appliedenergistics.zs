@@ -16,6 +16,7 @@ import mods.appliedenergistics2.Inscriber;
 */
 static furnaceRemoval as IItemStack[] = [
 //	<modid:itemname:meta>	
+<appliedenergistics2:material:5>
 ];
 
 static furnaceAddition as IIngredient[][IItemStack] = {
@@ -33,13 +34,21 @@ static itemRecipeRemoval as IItemStack[] = [
 <appliedenergistics2:controller>
 ];
 
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
+<appliedenergistics2:material:5>
+];
+
 // Inscriber Recipes
 // Inscriber.addRecipe(IItemStack output, IItemStack input, boolean inscribe, @Optional IItemStack topInput, @Optional IItemStack bottomInput);
 Inscriber.addRecipe(<appliedenergistics2:material:13>, <thermalfoundation:material:32>, false, <appliedenergistics2:material>,<appliedenergistics2:material>);
 Inscriber.addRecipe(<appliedenergistics2:material:14>, <thermalfoundation:material:32>, false, <minecraft:diamond>, <minecraft:diamond>);
 Inscriber.addRecipe(<appliedenergistics2:material:15>, <thermalfoundation:material:32>, false, <minecraft:gold_ingot>, <minecraft:gold_ingot>);
 Inscriber.addRecipe(<appliedenergistics2:material:19>, <thermalfoundation:material:32>, false, <ore:itemSilicon>, <ore:itemSilicon>);
+Inscriber.addRecipe(<appliedenergistics2:material:20>, <ore:itemSilicon>, true, <appliedenergistics2:material:19>);
 
+mods.mekanism.crusher.removeRecipe(<appliedenergistics2:material:5>);
+mods.enderio.SagMill.removeRecipe(<minecraft:sand>);
 
 /*
     Shaped Recipes
@@ -177,4 +186,10 @@ for output, inputs in furnaceAddition {
 	for input in inputs {
 		furnace.addRecipe(output, input);
 	}
+}
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
 }

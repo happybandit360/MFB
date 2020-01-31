@@ -324,8 +324,8 @@
     "Name": "siliconchicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "appliedenergistics2:material:5",
-    "Drop Item": "appliedenergistics2:material:5",
+    "Lay Item": "projectred-core:resource_item:301",
+    "Drop Item": "projectred-core:resource_item:301",
     "Spawn Type": "NONE",
     "Parent 1": "chickens:claychicken",
     "Parent 2": "chickens:sandchicken",
@@ -333,12 +333,12 @@
     "is_enabled": true,
     "lay_coefficient": 1.0,
     "lay_item": {
-      "itemID": "appliedenergistics2:material",
-      "metaID": 5
+      "itemID": "projectred-core:resource_item",
+      "metaID": 301
     },
     "drop_item": {
-      "itemID": "appliedenergistics2:material",
-      "metaID": 5
+      "itemID": "projectred-core:resource_item",
+      "metaID": 301
     },
     "spawn_type": "NONE",
     "parent_1": "chickens:claychicken",

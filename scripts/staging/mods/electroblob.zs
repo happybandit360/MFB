@@ -20,7 +20,7 @@ mods.recipestages.Recipes.setRecipeStageByMod("electroblob", "ebwizardry");
 mods.orestages.OreStages.addReplacement("electroblob", <ebwizardry:crystal_ore>, <minecraft:stone>);
 
 // Flower
-mods.orestages.OreStages.addReplacement("electroblob", <ebwizardry:crystal_flower>, <minecraft:yellow_flower>);
+mods.orestages.OreStages.addNonDefaultingReplacement("electroblob", <ebwizardry:crystal_flower>, <minecraft:yellow_flower>);
 
 // Entities
 mods.MobStages.addStage("electroblob", "ebwizardry:blaze_minion");

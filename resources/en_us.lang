@@ -1,0 +1,6 @@
+tile.torchmaster.mega_torch.lit.tooltip=Prevents natural spawning of hostile mobs in a big radius around the lamp.
+enhancement.enchantments.unusing=Unusing
+enhancement.enchantments.life_stealing=Life Stealing
+enhancement.openblocks.last_stand.desc=Lose XP instead of dying when your health is critical.
+enhancement.enderio.witherweapon.desc=Gives Wither on hit.
+enhancement.enderio.repellent.desc=Enemies are pushed away when they hit you.

@@ -1,11 +1,11 @@
 //Set the icon item
-setIcon(<gamestagebooks:tetra>)
+setIcon(<gamestagebooks:silent_gear>)
 
 //Set the title String
-setTitle("Underground Tools")
+setTitle("Shhhhhhhh")
 
 //Set the description String
-setDescription("Read the Tetra Handbook")
+setDescription("Read the Silent Gear Handbook")
 
 //Completed advancement color change
 setCompletedIconColor(160, 0, 0)
@@ -25,6 +25,6 @@ hideLines()
 criteria = addCriteria("readBook", "triumph:right_click_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:tetra>)
+criteria.setItem(<gamestagebooks:silent_gear>)
 
 //By not setting anything about requirements here, all criteria are automatically required

@@ -115,17 +115,17 @@ mods.ItemStages.addItemStage("ender_io", <forge:bucketfilled>.withTag({FluidName
 mods.ItemStages.addItemStage("ender_io", <forge:bucketfilled>.withTag({FluidName: "rocket_fuel", Amount: 1000}));
 mods.ItemStages.addItemStage("ender_io", <forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}));
 mods.ItemStages.addItemStage("ender_io", <forge:bucketfilled>.withTag({FluidName: "liquid_sunshine", Amount: 1000}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 31}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 37}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 37}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 37}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 37}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 30}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 36}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 36}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 36}]}));
-mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 36}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 31}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 37}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 37}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 37}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 37}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 38}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 30}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 36}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 36}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 36}]}));
+// mods.ItemStages.addItemStage("ender_io", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4 as short, id: 36}]}));
 mods.ItemStages.addItemStage("ender_io", <enderio:item_basic_capacitor:3>.withTag({display: {}}));
 mods.ItemStages.addItemStage("ender_io", <enderio:item_basic_capacitor:4>.withTag({display: {}}));
 
@@ -173,11 +173,3 @@ for item in metadataStaging {
 for item in metadataStaging {
     mods.ItemStages.addItemStage("ender_io", item.withTag({display: {}}));
 }
-
-
-// for itm in loadedMods["ender_io"].items {
-//     mods.ItemStages.addItemStage("enderio", itm.withTag({"enderio:maxenergy": }));
-    
-// }
-
-// <enderio:block_vat>.withTag({"enderio:energy": 820, "enderio:maxenergy": 100000, "enderio:data": {"faceModes-": 1 as byte, "lastCompletedRecipe-": 1 as byte, "currentTask-": 1 as byte, outputQueue: {size: 0}, outputTank: {Empty: "", Capacity: 8000}, inputTank: {Empty: "", Capacity: 8000}, inventory: {"2": {id: "enderio:item_basic_capacitor", Count: 1 as byte, Damage: 0 as short}, size: 3, "1+": 1 as byte, "0+": 1 as byte}, redstoneControlMode: 0}})

@@ -44,18 +44,12 @@ mods.ItemStages.removeItemStage(<thermalexpansion:cell>.withTag({SideCache: []})
 mods.ItemStages.removeItemStage(<thermalexpansion:frame:128>);
 mods.ItemStages.removeItemStage(<thermalexpansion:frame:64>);
 mods.ItemStages.removeItemStage(<thermalexpansion:frame>);
-// mods.ItemStages.removeItemStage(<thermalexpansion:frame:129>);
-// mods.ItemStages.removeItemStage(<thermalexpansion:frame:130>);
-// mods.ItemStages.removeItemStage(<thermalexpansion:frame:131>);
-// mods.ItemStages.removeItemStage(<thermalexpansion:frame:132>);
-// mods.ItemStages.removeItemStage(<thermalexpansion:frame:146>);
-// mods.ItemStages.removeItemStage(<thermalexpansion:frame:147>);
-// mods.ItemStages.removeItemStage(<thermalexpansion:frame:148>);
 
-
-// Unstage Tiny Coal and Charcoal
+// Unstage AA QOL items
 mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:10>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:11>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_worm>);
+mods.ItemStages.removeItemStage(<actuallyadditions:block_tiny_torch>);
 
 // Unstage Pitcher Plant
 mods.ItemStages.removeItemStage(<randomthings:pitcherplant>);

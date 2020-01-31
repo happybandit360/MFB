@@ -1,5 +1,5 @@
 /*
-	RFTools recipes script.
+	Mystical Agriculture recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -26,7 +26,6 @@ static furnaceAddition as IIngredient[][IItemStack] = {
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<rftools:machine_frame>
 ];
 
 /*
@@ -52,12 +51,28 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<rftools:machine_frame> : {
-		"rftools_machine_frame" : [
+<projectred-core:resource_item:301> * 8 : {
+		"mystical_ad_silicon" : [
 			[
-	  			[<ore:ingotIron>, <thermalexpansion:frame:64>, <ore:ingotIron>],
-	   			[<ore:nuggetGold>, null, <ore:nuggetGold>],
-	  			[<ore:ingotIron>, <thermalexpansion:frame>, <ore:ingotIron>]
+	  			[<mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>]
+			]
+		]
+	},
+<mekanism:ingot:1> * 4 : {
+		"mystical_ad_osmium" : [
+			[
+	  			[<mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>],
+	  			[<mysticalagriculture:osmium_essence>, null, <mysticalagriculture:osmium_essence>],
+	  			[<mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>]
+			]
+		]
+	},
+<metallurgy:mithril_ingot> * 4 : {
+		"mystical_ad_mithril" : [
+			[
+	  			[<mysticalagriculture:mithril_essence>, <mysticalagriculture:mithril_essence>, <mysticalagriculture:mithril_essence>],
+	  			[<mysticalagriculture:mithril_essence>, null, <mysticalagriculture:mithril_essence>],
+	  			[<mysticalagriculture:mithril_essence>, <mysticalagriculture:mithril_essence>, <mysticalagriculture:mithril_essence>]
 			]
 		]
 	}
@@ -85,35 +100,8 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 	}	*/
 };
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <rftools:shape_card:2>, [
-	[<rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>], 
-	[<ore:ingotIron>, <minecraft:redstone>, <minecraft:diamond_pickaxe>, <minecraft:redstone>, <ore:ingotIron>], 
-	[<rftools:dimensional_shard>, <minecraft:diamond_shovel>, <rftools:shape_card>, <minecraft:diamond_shovel>, <rftools:dimensional_shard>], 
-	[<ore:ingotIron>, <minecraft:redstone>, <minecraft:diamond_pickaxe>, <minecraft:redstone>, <ore:ingotIron>], 
-	[<rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>]
-]);
 
-mods.extendedcrafting.TableCrafting.addShaped(3, <rftools:shape_card:2>, [
-	[null, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, null], 
-	[null, <ore:ingotIron>, <minecraft:redstone>, <minecraft:diamond_pickaxe>, <minecraft:redstone>, <ore:ingotIron>, null], 
-	[null, <rftools:dimensional_shard>, <minecraft:diamond_shovel>, <rftools:shape_card>, <minecraft:diamond_shovel>, <rftools:dimensional_shard>, null], 
-	[null, <ore:ingotIron>, <minecraft:redstone>, <minecraft:diamond_pickaxe>, <minecraft:redstone>, <ore:ingotIron>, null], 
-	[null, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, null], 
-	[null, null, null, null, null, null, null],
-	[null, null, null, null, null, null, null]
-]);
 
-mods.extendedcrafting.TableCrafting.addShaped(4, <rftools:shape_card:2>, [
-	[null, null, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, null, null], 
-	[null, null, <ore:ingotIron>, <minecraft:redstone>, <minecraft:diamond_pickaxe>, <minecraft:redstone>, <ore:ingotIron>, null, null], 
-	[null, null, <rftools:dimensional_shard>, <minecraft:diamond_shovel>, <rftools:shape_card>, <minecraft:diamond_shovel>, <rftools:dimensional_shard>, null, null], 
-	[null, null, <ore:ingotIron>, <minecraft:redstone>, <minecraft:diamond_pickaxe>, <minecraft:redstone>, <ore:ingotIron>, null, null], 
-	[null, null, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, <ore:ingotIron>, <rftools:dimensional_shard>, null, null], 
-	[null, null, null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null, null, null],
-	[null, null, null, null, null, null, null, null, null], 
-	[null, null, null, null, null, null, null, null, null]
-]);
 
 // Do NOT edit below this line //
 
