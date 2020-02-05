@@ -10,6 +10,8 @@ import crafttweaker.block.IBlockDefinition;
 
 var glucky = <gb:glucky_block>.asBlock().definition;
 var gobber = <gb:gobber_ore>.asBlock().definition;
+var lava = <armorplus:ore_lava_crystal>.asBlock().definition;
 
 glucky.lightLevel = 0;
 gobber.lightLevel = 0;
+lava.lightLevel = 0;

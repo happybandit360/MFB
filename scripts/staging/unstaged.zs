@@ -50,6 +50,10 @@ mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:10>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:11>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_worm>);
 mods.ItemStages.removeItemStage(<actuallyadditions:block_tiny_torch>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:9>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_food:16>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_food:17>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_rice_seed>);
 
 // Unstage Pitcher Plant
 mods.ItemStages.removeItemStage(<randomthings:pitcherplant>);
@@ -63,13 +67,15 @@ mods.ItemStages.removeItemStage(<appliedenergistics2:material:3>);
 mods.ItemStages.removeItemStage(<appliedenergistics2:material:46>);
 mods.ItemStages.removeItemStage(<enderio:item_material:30>);
 mods.ItemStages.removeItemStage(<enderio:item_material:31>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_dust:4>);
+mods.ItemStages.removeItemStage(<appliedenergistics2:material:4>);
+mods.ItemStages.removeItemStage(<appliedenergistics2:material:3>);
 
 // Unstage Ardite and Cobalt - used in multiple mods
 mods.ItemStages.removeItemStage(<tconstruct:ore>);
 mods.ItemStages.removeItemStage(<tconstruct:ore:1>);
 mods.ItemStages.removeItemStage(<tconstruct:ingots>);
 mods.ItemStages.removeItemStage(<tconstruct:ingots:1>);
-
 
 // Slime variations
 mods.ItemStages.removeItemStage(<tconstruct:edible:1>);
@@ -80,7 +86,7 @@ mods.ItemStages.removeItemStage(<tconstruct:slime:1>);
 // mods.ItemStages.removeItemStage(<tconstruct:edible:3>);
 // mods.ItemStages.removeItemStage(<tconstruct:edible:4>);
 // mods.ItemStages.removeItemStage(<metallurgy:tar>);
-// mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:12>);
+mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:12>);
 // mods.ItemStages.removeItemStage(<industrialforegoing:pink_slime>);
 // mods.ItemStages.removeItemStage(<quark:slime_bucket>);
 // mods.ItemStages.removeItemStage(<calculator:rottenpear>);

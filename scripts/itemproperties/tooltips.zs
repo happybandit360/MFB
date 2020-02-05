@@ -56,6 +56,12 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 ],
 <minecraft:milk_bucket> : [
 	format.red("Drinking from a stack of buckets, will results in the loss of a bucket")
+],
+<minecraft:enchanting_table> : [
+	format.gold("A minimum of one bookshelf is required to function.")
+],
+<csb_ench_table:ender_enchanting_table> : [
+	format.gold("A minimum of one bookshelf is required to function.")
 ]
 
 };
@@ -103,7 +109,6 @@ for item in tinkersTips {
 }
 
 static marketTips as IItemStack[] = [
-	<actuallyadditions:item_rice_seed>,
 	<actuallyadditions:item_canola_seed>,
 	<actuallyadditions:item_flax_seed>,
 	<actuallyadditions:item_coffee_seed>,

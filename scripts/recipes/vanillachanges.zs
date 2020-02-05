@@ -104,16 +104,13 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		"magenta_dye_agave" : [
 			[<betternether:agave>]
 		]
+	},
+	<minecraft:glowstone_dust> * 4 : {
+		"minecraft_glowstone_dust" : [
+			[<minecraft:glowstone>]
+		]
 	}
 };
-
-// Egg Plant to Dye
-mods.mekanism.crusher.addRecipe(<betternether:egg_plant>, <minecraft:dye:5>);
-mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:dye:5>, <betternether:egg_plant>, 1500, <quark:root_dye:2>, 50);
-mods.extrautils2.Crusher.add(<minecraft:dye:5>, <betternether:egg_plant>, <quark:root_dye:2>, 0.50);
-mods.enderio.SagMill.addRecipe([<minecraft:dye:5>], [100], <betternether:egg_plant>);
-mods.metallurgyreforged.Crusher.addRecipe(<minecraft:dye:5>, <betternether:egg_plant>);
-mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:5>, <betternether:egg_plant>, <quark:root_dye:2>, 50);
 
 // Nether Cactus to Dye
 mods.mekanism.crusher.addRecipe(<betternether:nether_cactus>, <minecraft:dye:14>);

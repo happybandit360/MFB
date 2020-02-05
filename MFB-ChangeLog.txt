@@ -6,18 +6,21 @@ Beta Build
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
+AE2 Wireless Terminal Library
 ExtraCells2
-FastFurnace
 FastWorkbench
+Gas Conduit
+JourneyMap
 Silent Gear
 SilentLib
 Wireless Crafting Terminal
-AE2 Wireless Terminal Library
+YNot
 
 -- Updated Mods --
 -------------------
+ArmorPlus -> 11.26.3.67
+Astral Sorcery -> 1.10.22
 Betweenlands -> 3.5.6
-Astral Sorcery -> 1.10.21
 Corail Tombstone -> 3.6.5
 Electroblob -> 4.2.8
 Mystical World -> 1.7.1
@@ -26,11 +29,13 @@ RandomPatches -> 1.21.0.0
 Roots -> 3.0.24
 Unidict -> 2.9.5
 Wall-Jump -> 1.3.2
-Xaero's Minimap -> 20.1.0
+
 
 -- Removed Mods --
 ------------------
 Tetra
+Xaero's Minimap
+Xaero's World Map
 
 -- Config Changes --
 --------------------
@@ -38,6 +43,9 @@ Apotheosis/spawner.cfg
     S:"Banned Mobs" <
         minecraft:wither
         minecraft:ender_dragon
+cofh/world/01_thermalfoundation_ores
+    "iridium": {
+			"enabled": "false",
 chickens/morechickens.json
     "morechickens:siliconchicken": {
         "Lay Item": "projectred-core:resource_item:301",
@@ -45,8 +53,26 @@ chickens/morechickens.json
 FarmingForBlockheads/Market.json
     "custom entries": {
         "silentgear:flaxseeds": "1*silentgear:blueprint_paper"
+    Removed Actually Additions rice
+actuallyadditions.cfg
+    B:"Rice Gen"=true
+    I:"Rice: Amount"=8
 astralsorcery.cfg
     I:generateMarbleAmount=0
+betternether.cfg
+    B:block_egg_plant=false
+carryon.cfg
+    S:forbiddenTiles <
+        signpost:*
+culinaryconstruct.cfg
+    S:"Additional Bread Items" <
+        <actuallyadditions:item_food:17>
+        <gb:glob_bread>
+        <xlfoodmod:potato_bread>
+        <xlfoodmod:corn_bread>
+        <xlfoodmod:rice_bread>
+        <xlfoodmod:tortilla>
+        <tropicraft:nori_toasted>
 eplus.cfg
     S:blacklistedEnchantments <
         enderio:soulbound
@@ -69,14 +95,21 @@ mysticalagriculture.cfg
     I:dragon_supremium=0
     I:wither_supremium=0
 openblocks.cfg
+    breaker {
+        I:actionLimit=2
     B:explosiveEnchantment=false
     B:flimFlamEnchantment=false
+pitweaks.cfg
+    I:multiplier=4 - Valid values are important
 quark.cfg
     B:"Enable Marble"=false
+walljump.cfg
+    S:blacklistedBlocks <
+        tropicraft:bamboo_shoot
 
 -- Script Changes --
 --------------------
-Unstaged AA Worms and Tiny Torches
+Unstaged AA Worms, Tiny Torches, and Rice and Rice Accessories
 Added Crystaltine Ingot recipe specifically for Ultimate Crafting Table
 Added Iron Hammer to crafting hammers OreDict
 Removed unneeded alterative recipes for Coal and Crafting Station
@@ -86,12 +119,14 @@ Made all necessary scripts and changes for adding Silent Gear
 Added container script for crafting staged item
 Unstaged enchanted books
 Set ProjectRed silicon as primary silicon
-Removed light level from Gobber ore and Gluckly blocks so they don't glow while staged
+Removed light level from Armor Plus ore, Gobber ore and Gluckly blocks so they don't glow while staged
 Reorganized some scripts
 Added Extended Crafting recipes for Digital Miner and Quarry Card
 
 -- Asset Changes --
 -------------------
+Fixed broken lang issues for enchantments
+Updated texture for Modular Formation Bag
 
 
 -------------------------------------------------------------------------------

@@ -4,7 +4,7 @@
 
 §n§6Game Enhancements§r
 * Replaced Tetra with Silent Gear
-* Unstaged AA Worms and Tiny Torches
+* Unstaged AA Worms, Tiny Torches and Rice and Rice Accessories
 * Added Crystaltine Ingot recipe specifically for Ultimate Crafting Table.
 * Added Iron Hammer to crafting hammers OreDict
 * Removed unneeded alterative recipes for Coal and Crafting Station
@@ -14,6 +14,10 @@
 * Increased Evilcraft Dark Ore generation slightly
 * Removed Astral Sorcery and Quark marble generation and adjusted Chisel marble generation to compensate
 * Removed Supremium drops from Wither and Ender Dragon
+* Updated texture for Modular Formation Bag
+* Added recipe to craft Glowstone into dust
+* Disabled egg plants in the Nether
+* Added multiple breads to Culinary Construct
 
 
 §n§6Bug Fixes§r
@@ -26,23 +30,27 @@
 * Removed IF Wither Builder
 * Removed Flim Flam and Unstable enchantments
 * Blacklisted Wither and Ender Dragon from Apotheosis spawners
-* Removed light level from Gobber ore and Gluckly blocks so they don't glow while staged
+* Removed light level from Armor Plus ore, Gobber ore, and Gluckly blocks so they don't glow while staged
 * Added Extended Crafting recipes for Digital Miner and Quarry Card
+* Changed PiTweaks fast furnace value to a valid value
 
 
 §n§6Added Mods§r
+* AE2 Wireless Terminal Library
 * ExtraCells2
-* FastFurnace
 * FastWorkbench
+* Gas Conduit
+* JourneyMap
 * Silent Gear
 * SilentLib
 * Wireless Crafting Terminal
-* AE2 Wireless Terminal Library
+* YNot
 
 
 §n§6Updated Mods§r
-* Betweenlands
+* ArmorPlus
 * Astral Sorcery
+* Betweenlands
 * Corail Tombstone
 * Electroblob
 * Mystical World
@@ -51,8 +59,9 @@
 * Roots
 * Unidict
 * Wall-Jump
-* Xaero's Minimap
 
 
 §n§6Removed Mods§r
 * Tetra
+* Xaero's Minimap
+* Xaero's World Map

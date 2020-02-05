@@ -26,7 +26,7 @@ mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:marsh
 mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:cohosh:*", "minecraft:red_flower:6");
 mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:blood_orchid:*", "minecraft:red_flower:4");
 mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:cloudsbluff:*", "minecraft:red_flower:8");
-mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:core_root:*", "minecraft:yellow_flower");
+mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:core_root:*", "minecraft:brown_mushroom");
 mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:deathstalk_mushroom:*", "minecraft:red_mushroom");
 
 // Stage Misc Items
