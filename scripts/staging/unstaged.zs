@@ -90,3 +90,7 @@ mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:12>);
 // mods.ItemStages.removeItemStage(<industrialforegoing:pink_slime>);
 // mods.ItemStages.removeItemStage(<quark:slime_bucket>);
 // mods.ItemStages.removeItemStage(<calculator:rottenpear>);
+
+// Osmium
+mods.ItemStages.removeItemStage(<metallurgy:osmium_ingot>);
+mods.ItemStages.removeItemStage(<mekanism:ingot:1>);

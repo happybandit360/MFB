@@ -29,7 +29,9 @@ static itemRecipeRemoval as IItemStack[] = [
 <actuallyadditions:item_misc:3>,
 <actuallyadditions:item_misc:10>,
 <actuallyadditions:item_misc:11>,
-<actuallyadditions:block_misc:9>
+<actuallyadditions:block_misc:9>,
+<actuallyadditions:item_misc:12>,
+<actuallyadditions:item_misc:9>
 ];
 
 /*
@@ -45,6 +47,8 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 <actuallyadditions:item_dust:6>,
 <actuallyadditions:block_misc:5>
 ];
+
+recipes.removeByRecipeName("actuallyadditions:recipes23");
 
 
 
@@ -71,13 +75,23 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
+<actuallyadditions:item_misc:12> : {
+		"actuallyadditions_item_misc_12" : [
+			[
+	  			[null, <actuallyadditions:item_misc:9>, null],
+	   			[<actuallyadditions:item_misc:9>, <minecraft:water_bucket>, <actuallyadditions:item_misc:9>],
+	  			[null, <actuallyadditions:item_misc:9>, null]
+			]
+		]
+	},
 <actuallyadditions:item_misc:3> : {
 		"actuallyadditions_item_misc_3" : [
 			[
 	  			[<ore:stickWood>, <ore:leather>, <ore:stickWood>]
 			]
 		]
-	}
+	},
+
 };
 
 
@@ -91,6 +105,23 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
+<minecraft:paper> : {
+		"minecraft_paper_aa" : [
+			[
+	  			[<actuallyadditions:item_food:16>, null, null],
+	   			[null, <actuallyadditions:item_food:16>, null],
+	  			[null, null, <actuallyadditions:item_food:16>]
+			]
+		]
+	},
+<actuallyadditions:item_misc:9> : {
+		"actuallyadditions_item_misc_9" : [
+			[
+	  			[<actuallyadditions:item_food:16>, <actuallyadditions:item_food:16>, null],
+	   			[<actuallyadditions:item_food:16>, null, null]
+			]
+		]
+	}
 };
 
 

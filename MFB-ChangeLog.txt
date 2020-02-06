@@ -43,6 +43,7 @@ Apotheosis/spawner.cfg
     S:"Banned Mobs" <
         minecraft:wither
         minecraft:ender_dragon
+        deepmoblearning:glitch
 cofh/world/01_thermalfoundation_ores
     "iridium": {
 			"enabled": "false",
@@ -50,10 +51,13 @@ chickens/morechickens.json
     "morechickens:siliconchicken": {
         "Lay Item": "projectred-core:resource_item:301",
         "Drop Item": "projectred-core:resource_item:301",
+    Fixed other drops, removed old, invalid chickens
 FarmingForBlockheads/Market.json
     "custom entries": {
         "silentgear:flaxseeds": "1*silentgear:blueprint_paper"
     Removed Actually Additions rice
+mekanism/BoxBlacklist.txt
+    compactstorage:compactchest
 actuallyadditions.cfg
     B:"Rice Gen"=true
     I:"Rice: Amount"=8

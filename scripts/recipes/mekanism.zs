@@ -82,7 +82,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		"mekanism_basicblock_8" : [
 			[
 	  			[<ore:ingotSteel>, <thermalexpansion:frame:64>, <ore:ingotSteel>],
-	   			[null, <mekanism:ingot:1>, null],
+	   			[null, <ore:ingotOsmium>, null],
 	  			[<ore:ingotSteel>, <thermalexpansion:frame>, <ore:ingotSteel>]
 			]
 		]
@@ -331,7 +331,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:machineblock:4>, [
 	[<mekanism:energycube>, <mekanism:controlcircuit:3>, <mekanism:basicblock:8>, <mekanism:controlcircuit:3>, <mekanism:energycube>], 
 	[<mekanism:atomicalloy>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:atomicalloy>], 
 	[<mekanism:machineblock:15>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:robit>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:machineblock:15>], 
-	[<mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>, <mekanism:atomicalloy>, <mekanism:teleportationcore>], 
+	[<mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>.withTag({tier: 3}), <mekanism:atomicalloy>, <mekanism:teleportationcore>], 
 	[<mekanism:basicblock:7>, <mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>, <mekanism:basicblock:7>]
 ]);
 
@@ -339,7 +339,7 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <mekanism:machineblock:4>, [
 	[null, <mekanism:energycube>, <mekanism:controlcircuit:3>, <mekanism:basicblock:8>, <mekanism:controlcircuit:3>, <mekanism:energycube>, null], 
 	[null, <mekanism:atomicalloy>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:atomicalloy>, null], 
 	[null, <mekanism:machineblock:15>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:robit>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:machineblock:15>, null], 
-	[null, <mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>, <mekanism:atomicalloy>, <mekanism:teleportationcore>, null], 
+	[null, <mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>.withTag({tier: 3}), <mekanism:atomicalloy>, <mekanism:teleportationcore>, null], 
 	[null, <mekanism:basicblock:7>, <mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>, <mekanism:basicblock:7>, null], 
 	[null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null]
@@ -349,7 +349,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <mekanism:machineblock:4>, [
 	[null, null, <mekanism:energycube>, <mekanism:controlcircuit:3>, <mekanism:basicblock:8>, <mekanism:controlcircuit:3>, <mekanism:energycube>, null, null], 
 	[null, null, <mekanism:atomicalloy>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:basicblock2:9>, <mekanism:atomicalloy>, null, null], 
 	[null, null, <mekanism:machineblock:15>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:robit>, <mekanism:transmitter>.withTag({tier: 3}), <mekanism:machineblock:15>, null, null], 
-	[null, null, <mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>, <mekanism:atomicalloy>, <mekanism:teleportationcore>, null, null], 
+	[null, null, <mekanism:teleportationcore>, <mekanism:atomicalloy>, <mekanism:transmitter:3>.withTag({tier: 3}), <mekanism:atomicalloy>, <mekanism:teleportationcore>, null, null], 
 	[null, null, <mekanism:basicblock:7>, <mekanism:teleportationcore>, <mekanism:basicblock:8>, <mekanism:teleportationcore>, <mekanism:basicblock:7>, null, null], 
 	[null, null, null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null, null, null], 

@@ -29,10 +29,12 @@
 * Blacklisted certain enchants from Advanced Enchanting Table to prevent confusion/problems
 * Removed IF Wither Builder
 * Removed Flim Flam and Unstable enchantments
-* Blacklisted Wither and Ender Dragon from Apotheosis spawners
+* Blacklisted Wither, Ender Dragon, and System Glitch from Apotheosis spawners
 * Removed light level from Armor Plus ore, Gobber ore, and Gluckly blocks so they don't glow while staged
 * Added Extended Crafting recipes for Digital Miner and Quarry Card
 * Changed PiTweaks fast furnace value to a valid value
+* Blacklisted Compact Chests from Mekanism cardboard box
+* Cleaned up More Chickens Json, fixing drops and removing invalid chickens
 
 
 §n§6Added Mods§r

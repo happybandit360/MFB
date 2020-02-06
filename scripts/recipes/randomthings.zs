@@ -27,6 +27,8 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
+<randomthings:diviningrod:17>,
+<randomthings:diviningrod:15>
 ];
 
 
