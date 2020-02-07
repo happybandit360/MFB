@@ -1,5 +1,5 @@
 /*
-	Actually Additions recipes script.
+	Botania recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
@@ -14,7 +14,7 @@ import crafttweaker.item.IIngredient;
 	Furnace Recipes
 */
 static furnaceRemoval as IItemStack[] = [
-//	<modid:itemname:meta>	
+//	<modid:itemname:meta>
 ];
 
 static furnaceAddition as IIngredient[][IItemStack] = {
@@ -26,13 +26,7 @@ static furnaceAddition as IIngredient[][IItemStack] = {
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<actuallyadditions:item_misc:3>,
-<actuallyadditions:item_misc:10>,
-<actuallyadditions:item_misc:11>,
-<actuallyadditions:block_misc:9>,
-<actuallyadditions:item_misc:12>,
-<actuallyadditions:item_misc:9>,
-<actuallyadditions:item_wings_of_the_bats>
+<botania:flighttiara>
 ];
 
 /*
@@ -40,16 +34,7 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
-<actuallyadditions:item_dust>,
-<actuallyadditions:item_dust:1>,
-<actuallyadditions:item_dust:2>,
-<actuallyadditions:item_dust:4>,
-<actuallyadditions:item_dust:5>,
-<actuallyadditions:item_dust:6>,
-<actuallyadditions:block_misc:5>
 ];
-
-recipes.removeByRecipeName("actuallyadditions:recipes23");
 
 
 
@@ -67,41 +52,16 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<actuallyadditions:item_wings_of_the_bats> : {
-		"actuallyadditions_item_wings_of_the_bats" : [
+<botania:flighttiara> : {
+		"botania_flighttiara" : [
 			[
-	  			[<actuallyadditions:item_misc:15>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_misc:15>],
-	   			[<minecraft:elytra>.reuse(), <actuallyadditions:item_misc:19>, <darkutils:pearl_block>],
-	  			[<actuallyadditions:item_misc:15>, <actuallyadditions:block_crystal_empowered:2>, <actuallyadditions:item_misc:15>]
-			]
-		]
-	},
-<actuallyadditions:block_misc:9> : {
-		"actuallyadditions_block_misc_9" : [
-			[
-	  			[<ore:ingotIron>, <ore:gemQuartzBlack>, <ore:ingotIron>],
-	   			[<ore:gemQuartzBlack>, <thermalexpansion:frame>, <ore:gemQuartzBlack>],
-	  			[<ore:ingotIron>, <ore:gemQuartzBlack>, <ore:ingotIron>]
-			]
-		]
-	},
-<actuallyadditions:item_misc:12> : {
-		"actuallyadditions_item_misc_12" : [
-			[
-	  			[null, <actuallyadditions:item_misc:9>, null],
-	   			[<actuallyadditions:item_misc:9>, <minecraft:water_bucket>, <actuallyadditions:item_misc:9>],
-	  			[null, <actuallyadditions:item_misc:9>, null]
-			]
-		]
-	},
-<actuallyadditions:item_misc:3> : {
-		"actuallyadditions_item_misc_3" : [
-			[
-	  			[<ore:stickWood>, <ore:leather>, <ore:stickWood>]
-			]
-		]
-	},
+	  			[<botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>],
+                [<botania:manaresource:14>, <botania:manaresource:5>, <botania:manaresource:14>],
+                [<ore:feather>, <botania:manaresource:15>, <ore:feather>]
 
+			]
+		]
+	}
 };
 
 
@@ -115,23 +75,6 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	}	*/
-<minecraft:paper> : {
-		"minecraft_paper_aa" : [
-			[
-	  			[<actuallyadditions:item_food:16>, null, null],
-	   			[null, <actuallyadditions:item_food:16>, null],
-	  			[null, null, <actuallyadditions:item_food:16>]
-			]
-		]
-	},
-<actuallyadditions:item_misc:9> : {
-		"actuallyadditions_item_misc_9" : [
-			[
-	  			[<actuallyadditions:item_food:16>, <actuallyadditions:item_food:16>, null],
-	   			[<actuallyadditions:item_food:16>, null, null]
-			]
-		]
-	}
 };
 
 
@@ -141,25 +84,9 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
-
-<actuallyadditions:item_misc:11> * 8 : {
-		"actuallyadditions_item_misc_11" : [
-			[<minecraft:coal:1>]
-		]
-	},
-<actuallyadditions:item_misc:10>  * 8: {
-		"actuallyadditions_item_misc_10" : [
-			[<minecraft:coal>]
-		]
-	}
 };
 
-// Cursher Recipes
-//mods.actuallyadditions.Crusher.addRecipe(IItemStack output, IItemStack input, @Optional IItemStack outputSecondary, @Optional int outputSecondaryChance);
-mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:770> * 4, <minecraft:obsidian>);
 
-//mods.actuallyadditions.Crusher.removeRecipe(IItemStack output);
-mods.actuallyadditions.Crusher.removeRecipe(<actuallyadditions:item_dust:6>);
 
 
 // Do NOT edit below this line //

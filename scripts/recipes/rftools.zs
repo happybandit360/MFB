@@ -37,6 +37,9 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 ];
 
 
+recipes.removeByRecipeName("rftools:shape_card_quarry");
+
+
 
 /*
     Shaped Recipes

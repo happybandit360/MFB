@@ -18,7 +18,8 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 <inventorypets:nugget_coal>,
 <inventorypets:nugget_diamond>,
-<inventorypets:nugget_emerald>
+<inventorypets:nugget_emerald>,
+<inventorypets:loot_pet>
 ];
 
 
@@ -113,6 +114,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[<minecraft:nether_star>],
 	   			[<minecraft:nether_star>],
 	  			[<minecraft:end_rod>]
+			]
+		]
+	},
+<inventorypets:loot_pet> : {
+		"inventorypets_loot_pet" : [
+			[
+	  			[<ore:ingotGold>, <minecraft:nether_star>, <ore:ingotGold>],
+	   			[<ore:ingotGold>, <ore:gemEmerald>, <ore:ingotGold>],
+	  			[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
 			]
 		]
 	},

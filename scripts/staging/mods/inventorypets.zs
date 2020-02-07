@@ -14,6 +14,7 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("inventory_pets", "inventorypets");
+mods.recipestages.Recipes.setRecipeStage("inventory_pets", "inventorypets_loot_pet");
 
 static metadataStaging as IItemStack[] = [
 // <modid:itemname:meta>

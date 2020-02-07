@@ -16,6 +16,7 @@ import mods.orestages.OreStages;
 
 // mods.recipestages.Recipes.setRecipeStageByMod("botania", "botania");
 mods.recipestages.Recipes.setPackageStage("botania", ["botania"]);
+mods.recipestages.Recipes.setRecipeStage("botania", "botania_flighttiara");
 
 // Flowers
 

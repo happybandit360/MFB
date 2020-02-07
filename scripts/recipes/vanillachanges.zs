@@ -109,6 +109,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		"minecraft_glowstone_dust" : [
 			[<minecraft:glowstone>]
 		]
+	},
+	<minecraft:quartz> * 4 : {
+		"minecraft_quartz" : [
+			[<minecraft:quartz_block>]
+		]
 	}
 };
 

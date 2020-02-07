@@ -2,6 +2,51 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Beta Build
+0.4.0 --> 0.4.3 Beta
+-------------------------------------------------------------------------------
+-- Added Mods --
+----------------
+Fancy Block Particles
+Proportional Destruction Particles
+Save My Stronghold
+YUNG's Better Cave
+
+-- Updated Mods --
+-------------------
+Wawla -> 2.6.274
+
+-- Removed Mods --
+------------------
+
+-- Config Changes --
+--------------------
+enderio/recipes/user_recipes.xml
+    <entity name="deepmoblearning:glitch"  soulvial="false"/>
+actuallyadditions.cfg
+    S:"Spawner Changer Blacklist" <
+        deepmoblearning:glitch
+evilcraft.cfg
+    S:vengeance_spirit.entityBlacklist <
+        deepmoblearning:glitch
+industrialforegoing.cfg
+    S:blacklistedEntities <
+        deepmoblearning:glitch
+RFTools/RFTools.cfg
+    Disabled Ender Dragon from Spawner
+
+-- Script Changes --
+--------------------
+Added quartz QoL recipe
+Removed Wood and Stone tools from all loot tables
+Fixed Thermal staging issue
+Changed Wings of the Bat and Flugel Tiara recipes to be comperable to other creative flight recipes
+Changed Loot Pet recipe to combat early game exploit
+
+-- Asset Changes --
+-------------------
+
+-------------------------------------------------------------------------------
+Beta Build
 0.3.2 --> 0.4.0 Beta
 -------------------------------------------------------------------------------
 -- Added Mods --

@@ -14,6 +14,7 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("actually_additions", "actuallyadditions");
+mods.recipestages.Recipes.setRecipeStage("actually_additions", "actuallyadditions_item_wings_of_the_bats");
 
 // Ores
 mods.orestages.OreStages.addReplacement("actually_additions", <actuallyadditions:block_misc:3>, <minecraft:stone>);

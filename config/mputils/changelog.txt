@@ -1,6 +1,6 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 0.4.0 Beta Changes§r
+§cMFB 0.4.3 Beta Changes§r
 
 §n§6Game Enhancements§r
 * Replaced Tetra with Silent Gear
@@ -18,6 +18,8 @@
 * Added recipe to craft Glowstone into dust
 * Disabled egg plants in the Nether
 * Added multiple breads to Culinary Construct
+* Added Quartz QoL recipe
+* Removed Wood and Stone tools from all loot tables
 
 
 §n§6Bug Fixes§r
@@ -35,18 +37,26 @@
 * Changed PiTweaks fast furnace value to a valid value
 * Blacklisted Compact Chests from Mekanism cardboard box
 * Cleaned up More Chickens Json, fixing drops and removing invalid chickens
+* Blacklisted System Glitch from all spawners
+* Fixed Thermal staging issue
+* Changed Wings of the Bat and Flugel Tiara recipes to be comperable to other creative flight recipes
+* Changed Loot Pet recipe to combat early game exploit
 
 
 §n§6Added Mods§r
 * AE2 Wireless Terminal Library
 * ExtraCells2
+* Fancy Block Particles
 * FastWorkbench
 * Gas Conduit
 * JourneyMap
+* Proportional Destruction Particles
+* Save My Stronghold
 * Silent Gear
 * SilentLib
 * Wireless Crafting Terminal
 * YNot
+* YUNG's Better Caves
 
 
 §n§6Updated Mods§r
@@ -61,6 +71,7 @@
 * Roots
 * Unidict
 * Wall-Jump
+* Wawla
 
 
 §n§6Removed Mods§r
