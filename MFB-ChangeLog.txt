@@ -41,6 +41,7 @@ Removed Wood and Stone tools from all loot tables
 Fixed Thermal staging issue
 Changed Wings of the Bat and Flugel Tiara recipes to be comperable to other creative flight recipes
 Changed Loot Pet recipe to combat early game exploit
+Fixed Quarry Card recipe
 
 -- Asset Changes --
 -------------------

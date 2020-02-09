@@ -127,8 +127,8 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 <actuallyadditions:item_misc:9> : {
 		"actuallyadditions_item_misc_9" : [
 			[
-	  			[<actuallyadditions:item_food:16>, <actuallyadditions:item_food:16>, null],
-	   			[<actuallyadditions:item_food:16>, null, null]
+	  			[<actuallyadditions:item_food:16>, <actuallyadditions:item_food:16>],
+	   			[<actuallyadditions:item_food:16>, null]
 			]
 		]
 	}
