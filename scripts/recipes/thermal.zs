@@ -20,7 +20,10 @@ static itemRecipeRemoval as IItemStack[] = [
 <thermalfoundation:storage:8>,
 <thermalfoundation:material:22>,
 <thermalexpansion:frame:128>,
-<thermalexpansion:cell>
+<thermalexpansion:cell>,
+
+<thermaldynamics:servo>,
+<thermaldynamics:duct_0>
 ];
 
 /*
@@ -36,8 +39,8 @@ recipes.removeByRecipeName("thermalfoundation:otherdust");
 recipes.removeByRecipeName("thermalfoundation:item_dust_1");
 recipes.removeByRecipeName("thermalfoundation:material_97");
 recipes.removeByRecipeName("thermalfoundation:item_dust_2");
-
-
+recipes.removeByRecipeName("thermaldynamics:duct_32_1");
+recipes.removeByRecipeName("thermaldynamics:duct_16_1");
 
 /*
     Shaped Recipes
@@ -70,7 +73,39 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[null, <ore:stickWood>, null]
 			]
 		]
-	}
+	},
+<thermaldynamics:servo> : {
+		"thermaldynamics_servo" : [
+			[
+	  			[<ore:nuggetIron>, <ore:blockGlass>, <ore:nuggetIron>],
+	   			[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]
+			]
+		]
+	},
+<thermaldynamics:duct_0> * 6 : {
+		"thermaldynamics_duct_0" : [
+			[
+	  			[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
+	   			[<ore:ingotLead>, <ore:blockGlass>, <ore:ingotLead>],
+				[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
+			]
+		]
+	},
+<thermaldynamics:duct_32:1> * 6 : {
+		"thermaldynamics_duct_32_1" : [
+			[
+	  			[<ore:ingotTin>, <ore:ingotLead>, <ore:ingotTin>]
+			]
+		]
+	},
+<thermaldynamics:duct_16:1> * 6 : {
+		"thermaldynamics_duct_16_1" : [
+			[
+	  			[<ore:ingotCopper>, <ore:ingotLead>, <ore:ingotCopper>]
+			]
+		]
+	},
+
 };
 
 

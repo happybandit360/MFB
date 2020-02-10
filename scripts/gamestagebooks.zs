@@ -8,9 +8,7 @@
 import mods.gamestagebooks.Book;
 
 // TOOLS
-Book.addBook("adventurers_toolbox", "Adventurer's Toolbox", "Adventurer's Toolbox Handbook", "toolbox:mace", 0x960018);
 Book.addBook("armor_plus", "Armor Plus", "Armor Plus Handbook", "armorplus:ender_dragon_chestplate", 0x7C0A02);
-Book.addBook("flexible_tools", "Flexible Tools", "Flexible Tools Handbook", "flexibletools:swordi", 0xB80F0A);
 Book.addBook("gobber", "Gobber", "Gobber Handbook", "gb:glucky_block", 0xED2939);
 Book.addBook("metallurgy", "Metallury", "Metallurgy Handbook", "metallurgy:sanguinite_sword", 0xFF0800);
 Book.addBook("modular_powersuits", "Modular Powersuits", "Modular Powersuits Handbook", "powersuits:power_fist", 0xC21807);

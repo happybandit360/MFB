@@ -175,8 +175,6 @@ static levelFour as IItemStack[] = [
 <bloodmagic:bound_pickaxe:*>,
 <bloodmagic:sentient_pickaxe:*>,
 <enderio:item_dark_steel_pickaxe:*>,
-<flexibletools:picki:*>,
-<flexibletools:multi:*>,
 <mysticalagriculture:superium_pickaxe:*>,
 <netherex:withered_amedian_pickaxe:*>,
 <netherex:blazed_amedian_pickaxe:*>,

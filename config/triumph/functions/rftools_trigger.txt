@@ -1,0 +1,3 @@
+give @p rftools:rftools_manual
+give @p rftools:rftools_shape_manual
+give @p rftoolscontrol:rftoolscontrol_manual

@@ -33,15 +33,6 @@ static stagedMods as string[][string] = {
         "metallurgy"
     ],
 
-    stages.flexibleTools.stage : [
-        "flexibletools"
-    ],
-
-    stages.adventurersToolbox.stage : [
-        "toolbox",
-        "toolboxaddons"
-    ],
-
     stages.gobber.stage : [
         "gb"
     ],

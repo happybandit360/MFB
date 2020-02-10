@@ -1,0 +1,1 @@
+give @p industrialforegoing:book_manual

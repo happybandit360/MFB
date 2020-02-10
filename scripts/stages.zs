@@ -19,8 +19,6 @@ var stageNames as string[] = [
     "redstone_arsenal",
     "silent_gear",
     "metallurgy",
-    "flexible_tools",
-    "adventurers_toolbox",
     "gobber",
     "modular_powersuits",
 

@@ -1,8 +1,43 @@
 MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
+???? Build
+0.4.3 --> TBD
+-------------------------------------------------------------------------------
+-- Added Mods --
+----------------
+
+-- Updated Mods --
+-------------------
+
+-- Removed Mods --
+------------------
+Adventurer's Toolbox
+Flexible Tools
+Toolbox Addons
+
+-- Config Changes --
+--------------------
+armorplus/config.cfg
+    tgotg {
+        B:enable=false
+inventorypets/inventorypets.cfg
+    B:"Disable Illuminati Give Random Items"=true
+triumph/fuctions
+    Added functions to give players items, such as guide books, when unlocking appropriate stages
+
+-- Script Changes --
+--------------------
+Removed and amended all scripts associated with Adventurer's Toolbox and Flexible Tools
+General script clean up
+Removed manuals from Unstaged.zs
+
+-- Asset Changes --
+-------------------
+
+-------------------------------------------------------------------------------
 Beta Build
-0.4.0 --> 0.4.3 Beta
+0.4.0 --> 0.4.3 Beta RELEASED 2/6/2020
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------

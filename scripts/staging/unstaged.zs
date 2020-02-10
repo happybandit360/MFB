@@ -7,29 +7,6 @@
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
 */
 
-//Unstage all mod manuals
-mods.ItemStages.removeItemStage(<industrialforegoing:book_manual>);
-mods.ItemStages.removeItemStage(<rftools:rftools_manual>);
-mods.ItemStages.removeItemStage(<rftools:rftools_shape_manual>);
-mods.ItemStages.removeItemStage(<rftoolscontrol:rftoolscontrol_manual>);
-mods.ItemStages.removeItemStage(<xnet:xnet_manual>);
-mods.ItemStages.removeItemStage(<deepresonance:dr_manual>);
-mods.ItemStages.removeItemStage(<tconstruct:book>);
-mods.ItemStages.removeItemStage(<conarm:book>);
-mods.ItemStages.removeItemStage(<armorplus:book>);
-mods.ItemStages.removeItemStage(<toolbox:guide_book>);
-mods.ItemStages.removeItemStage(<integrateddynamics:on_the_dynamics_of_integration>);
-mods.ItemStages.removeItemStage(<botania:lexicon>.withTag({}));
-mods.ItemStages.removeItemStage(<evilcraft:origins_of_darkness>);
-mods.ItemStages.removeItemStage(<openblocks:info_book>);
-mods.ItemStages.removeItemStage(<astralsorcery:itemjournal>);
-mods.ItemStages.removeItemStage(<aether_legacy:lore_book>);
-mods.ItemStages.removeItemStage(<actuallyadditions:item_booklet>);
-mods.ItemStages.removeItemStage(<matteroverdrive:data_pad>);
-mods.ItemStages.removeItemStage(<ebwizardry:wizard_handbook>);
-mods.ItemStages.removeItemStage(<rustic:book>);
-mods.ItemStages.removeItemStage(<botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}));
-
 // Misc Items to Unstage
 mods.ItemStages.removeItemStage(<actuallyadditions:item_hairy_ball>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_solidified_experience>);
@@ -38,12 +15,16 @@ mods.ItemStages.removeItemStage(<mysticalworld:cooked_apple>);
 mods.ItemStages.removeItemStage(<mysticalworld:raw_squid>);
 mods.ItemStages.removeItemStage(<mysticalworld:cooked_squid>);
 
-// Unstage TE Energy Cell for early game power storage
+// Unstage TE Items for early game use
 mods.ItemStages.removeItemStage(<thermalexpansion:cell>);
 mods.ItemStages.removeItemStage(<thermalexpansion:cell>.withTag({SideCache: []}));
 mods.ItemStages.removeItemStage(<thermalexpansion:frame:128>);
 mods.ItemStages.removeItemStage(<thermalexpansion:frame:64>);
 mods.ItemStages.removeItemStage(<thermalexpansion:frame>);
+mods.ItemStages.removeItemStage(<thermaldynamics:servo>);
+mods.ItemStages.removeItemStage(<thermaldynamics:duct_0>);
+mods.ItemStages.removeItemStage(<thermaldynamics:duct_32:1>);
+mods.ItemStages.removeItemStage(<thermaldynamics:duct_16:1>);
 
 // Unstage AA QOL items
 mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:10>);
@@ -82,15 +63,11 @@ mods.ItemStages.removeItemStage(<tconstruct:edible:1>);
 mods.ItemStages.removeItemStage(<tconstruct:slime_congealed>);
 mods.ItemStages.removeItemStage(<tconstruct:slime_congealed:1>);
 mods.ItemStages.removeItemStage(<tconstruct:slime:1>);
-// mods.ItemStages.removeItemStage(<tconstruct:edible:2>);
-// mods.ItemStages.removeItemStage(<tconstruct:edible:3>);
-// mods.ItemStages.removeItemStage(<tconstruct:edible:4>);
-// mods.ItemStages.removeItemStage(<metallurgy:tar>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:12>);
-// mods.ItemStages.removeItemStage(<industrialforegoing:pink_slime>);
-// mods.ItemStages.removeItemStage(<quark:slime_bucket>);
-// mods.ItemStages.removeItemStage(<calculator:rottenpear>);
 
 // Osmium
 mods.ItemStages.removeItemStage(<metallurgy:osmium_ingot>);
 mods.ItemStages.removeItemStage(<mekanism:ingot:1>);
+
+// Slate for building
+mods.ItemStages.removeItemStage(<rustic:slate>);

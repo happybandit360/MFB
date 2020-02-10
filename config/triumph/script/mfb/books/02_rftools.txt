@@ -27,4 +27,7 @@ criteria = addCriteria("readBook", "triumph:right_click_item")
 //Sets the item for the criteria. This is the item that needs to be crafted.
 criteria.setItem(<gamestagebooks:rftools>)
 
+//function
+setRewardFunction("triumph:rftools_trigger")
+
 //By not setting anything about requirements here, all criteria are automatically required

@@ -16,7 +16,7 @@ setUncompletedTitleColor(185, 143, 44)
 addParent("mfb:books/root")
 
 //Set the position
-setPos(12,-78)
+setPos(-18,-78)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
@@ -26,5 +26,8 @@ criteria = addCriteria("readBook", "triumph:right_click_item")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
 criteria.setItem(<gamestagebooks:tinkers>)
+
+//function
+setRewardFunction("triumph:tinkers_trigger")
 
 //By not setting anything about requirements here, all criteria are automatically required

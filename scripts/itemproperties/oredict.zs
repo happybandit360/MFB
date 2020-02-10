@@ -86,9 +86,7 @@ for item in witherDust {
 }
 
 static toolBooks as IItemStack[] = [
-<gamestagebooks:adventurers_toolbox>,
 <gamestagebooks:armor_plus>,
-<gamestagebooks:flexible_tools>,
 <gamestagebooks:gobber>,
 <gamestagebooks:metallurgy>,
 <gamestagebooks:modular_powersuits>,

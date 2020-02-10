@@ -1,0 +1,1 @@
+give @p ebwizardry:wizard_handbook
