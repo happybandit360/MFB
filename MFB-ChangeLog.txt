@@ -25,11 +25,14 @@ inventorypets/inventorypets.cfg
     B:"Disable Illuminati Give Random Items"=true
 triumph/fuctions
     Added functions to give players items, such as guide books, when unlocking appropriate stages
+vanillafix.cfg
+    S:scheduledTaskproblemAction=LOG
 
 -- Script Changes --
 --------------------
 Removed and amended all scripts associated with Adventurer's Toolbox and Flexible Tools
 General script clean up
+Unstanged Rustic slate
 Removed manuals from Unstaged.zs
 
 -- Asset Changes --

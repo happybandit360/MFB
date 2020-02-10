@@ -73,7 +73,10 @@ static itemShiftTooltipsAdd as IFormattedText[][IItemStack] = {
 	] */
 <minecraft:book>.withTag({infopanel: "mfb-1", display: {Name: "Welcome to MFB"}}) : [
 	format.gold("Can be remade with a piece of dirt.")
-]
+	],
+<apotheosis:hellshelf> : [
+	format.red("Shift+click to place in Advanced Enchantment Table")
+	]
 };
 
 static tinkersTips as IItemStack[] = [
