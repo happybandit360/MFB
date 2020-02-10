@@ -31,6 +31,7 @@ vanillafix.cfg
 -- Script Changes --
 --------------------
 Removed and amended all scripts associated with Adventurer's Toolbox and Flexible Tools
+Added tooltip to Hellshelf for Advanced Enchantment Table
 General script clean up
 Unstanged Rustic slate
 Removed manuals from Unstaged.zs
