@@ -36,7 +36,7 @@ static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
 ];
 
-
+recipes.removeByRecipeName("xlfoodmod:cappuccino");
 
 /*
     Shaped Recipes
@@ -82,6 +82,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 			[<mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>, <mod:itemname:meta>]
 		]
 	}	*/
+<xlfoodmod:cappuccino> : {
+		"xlfoodmod_cappuccino" : [
+			[<xlfoodmod:coffee>, <minecraft:milk_bucket>]
+		]
+	}
 };
 
 

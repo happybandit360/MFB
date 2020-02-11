@@ -47,7 +47,8 @@ static itemRecipeRemoval as IItemStack[] = [
 <quark:vertical_stained_planks:12>,
 <quark:vertical_stained_planks:13>,
 <quark:vertical_stained_planks:14>,
-<quark:vertical_stained_planks:15>
+<quark:vertical_stained_planks:15>,
+<quark:basalt:1>
 ];
 
 /*
@@ -55,6 +56,7 @@ static itemRecipeRemoval as IItemStack[] = [
 */
 static itemRecipeRemovalJEI as IItemStack[] = [
 //	<modid:itemname:meta>,
+<quark:quartz_wall>
 ];
 
 recipes.removeByRecipeName("quark:stained_planks_16");
@@ -146,15 +148,14 @@ static namedMirroredRecipes as IIngredient[][][][string][IItemStack] = {
 			]
 		]
 	},
-<quark:vertical_planks:5> * 3 : {
-		"quark_vertical_planks_5" : [
+<quark:basalt:1> * 4 : {
+		"quark_basalt_1" : [
 			[
-	  			[null, <minecraft:planks:5>],
-	   			[<minecraft:planks:5>, null],
-	  			[null, <minecraft:planks:5>]
+	  			[<quark:basalt>, <quark:basalt>],
+	   			[<quark:basalt>, <quark:basalt>]
 			]
 		]
-	},
+	}
 };
 
 

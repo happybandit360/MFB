@@ -15,6 +15,36 @@ import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("modular_powersuits", "powersuits");
 
+static recipeStage as string[] = [
+"powersuits_powerarmorcomponent",
+"powersuits_powerarmorcomponent_1",
+"powersuits_powerarmorcomponent_2",
+"powersuits_powerarmorcomponent_3",
+"powersuits_powerarmorcomponent_4",
+"powersuits_powerarmorcomponent_5",
+"powersuits_powerarmorcomponent_6",
+"powersuits_powerarmorcomponent_7",
+"powersuits_powerarmorcomponent_8",
+"powersuits_powerarmorcomponent_9",
+"powersuits_powerarmorcomponent_10",
+"powersuits_powerarmorcomponent_11",
+"powersuits_powerarmorcomponent_12",
+"powersuits_powerarmorcomponent_13",
+"powersuits_powerarmorcomponent_14",
+"powersuits_powerarmorcomponent_15",
+"powersuits_powerarmorcomponent_16",
+"powersuits_powerarmorcomponent_17",
+"powersuits_powerarmorcomponent_18",
+"powersuits_powerarmorcomponent_19",
+"powersuits_powerarmorcomponent_20",
+"powersuits_powerarmorcomponent_21",
+"powersuits_tinkertable"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("modular_powersuits", item);
+}
+
 // Stage Misc Items
 mods.ItemStages.addItemStage("modular_powersuits", <forge:bucketfilled>.withTag({FluidName: "liquid_nitrogen", Amount: 1000}));
 

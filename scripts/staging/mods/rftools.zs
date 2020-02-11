@@ -17,6 +17,14 @@ mods.recipestages.Recipes.setRecipeStageByMod("rftools", "rftools");
 mods.recipestages.Recipes.setRecipeStageByMod("rftools", "rftoolscontrol");
 mods.recipestages.Recipes.setRecipeStageByMod("rftools", "rftoolspower");
 
+static recipeStage as string[] = [
+"rftools_machine_frame"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("rftools", item);
+}
+
 // Ores
 mods.orestages.OreStages.addReplacement("rftools", <rftools:dimensional_shard_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("rftools", <rftools:dimensional_shard_ore:1>, <minecraft:netherrack>);

@@ -26,7 +26,12 @@ static furnaceAddition as IIngredient[][IItemStack] = {
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<advgenerators:iron_frame>
+<advgenerators:iron_frame>,
+<advgenerators:power_capacitor_redstone>,
+<advgenerators:capacitor_kit_advanced>,
+<advgenerators:power_capacitor_advanced>,
+<advgenerators:capacitor_kit_dense>,
+<advgenerators:power_capacitor_dense>
 ];
 
 /*
@@ -60,7 +65,57 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[<ore:ingotIron>, null, <ore:ingotIron>]
 			]
 		]
-	}
+	},
+<advgenerators:power_capacitor_redstone> : {
+		"advgenerators_power_capacitor_redstone" : [
+			[
+	  			[<advgenerators:iron_frame>, <advgenerators:iron_wiring>, <advgenerators:iron_frame>],
+	   			[<thermalexpansion:cell>, <thermalexpansion:cell>, <thermalexpansion:cell>],
+	  			[<advgenerators:iron_frame>, <advgenerators:iron_wiring>, <advgenerators:iron_frame>]
+			]
+		]
+	},
+<advgenerators:capacitor_kit_advanced> : {
+		"advgenerators_capacitor_kit_advanced" : [
+			[
+	  			[<advgenerators:iron_wiring>, <ore:tierOne>, <advgenerators:iron_wiring>],
+	   			[<advgenerators:iron_wiring>, <advgenerators:upgrade_kit>, <advgenerators:iron_wiring>]
+			]
+		]
+	},
+<advgenerators:power_capacitor_advanced> : {
+		"advgenerators_power_capacitor_advanced" : [
+			[
+	  			[<advgenerators:iron_wiring>, <ore:tierOne>, <advgenerators:iron_wiring>],
+	   			[<advgenerators:iron_wiring>, <advgenerators:power_capacitor_redstone>, <advgenerators:iron_wiring>]
+			]
+		]
+	},
+<advgenerators:capacitor_kit_dense> : {
+		"advgenerators_capacitor_kit_dense" : [
+			[
+	  			[<advgenerators:iron_wiring>, <ore:tierTwo>, <advgenerators:iron_wiring>],
+	   			[<advgenerators:iron_wiring>, <advgenerators:upgrade_kit>, <advgenerators:iron_wiring>]
+			]
+		]
+	},
+<advgenerators:power_capacitor_dense> : {
+		"advgenerators_power_capacitor_dense" : [
+			[
+	  			[<advgenerators:iron_wiring>, <ore:tierTwo>, <advgenerators:iron_wiring>],
+	   			[<advgenerators:iron_wiring>, <advgenerators:power_capacitor_advanced>, <advgenerators:iron_wiring>]
+			]
+		]
+	},
+<advgenerators:advanced_pressure_valve> : {
+		"advgenerators_advanced_pressure_valve" : [
+			[
+	  			[null, <ore:tierTwo>, null],
+				[<ore:tierTwo>, <advgenerators:pressure_valve>, <ore:tierTwo>],
+				[null, <ore:tierTwo>, null]
+			]
+		]
+	},
 };
 
 

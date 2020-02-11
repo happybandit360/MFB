@@ -52,14 +52,14 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	}	*/
 <projectred-core:resource_item:301> * 8 : {
-		"mystical_ad_silicon" : [
+		"mystical_ag_silicon" : [
 			[
 	  			[<mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>, <mysticalagriculture:silicon_essence>]
 			]
 		]
 	},
 <mekanism:ingot:1> * 4 : {
-		"mystical_ad_osmium" : [
+		"mystical_ag_osmium" : [
 			[
 	  			[<mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>, <mysticalagriculture:osmium_essence>],
 	  			[<mysticalagriculture:osmium_essence>, null, <mysticalagriculture:osmium_essence>],
@@ -68,7 +68,7 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 		]
 	},
 <metallurgy:mithril_ingot> * 4 : {
-		"mystical_ad_mithril" : [
+		"mystical_ag_mithril" : [
 			[
 	  			[<mysticalagriculture:mithril_essence>, <mysticalagriculture:mithril_essence>, <mysticalagriculture:mithril_essence>],
 	  			[<mysticalagriculture:mithril_essence>, null, <mysticalagriculture:mithril_essence>],

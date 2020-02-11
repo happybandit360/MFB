@@ -20,6 +20,10 @@ mods.recipestages.Recipes.setRecipeStageByMod("applied_energistics", "wct");
 mods.recipestages.Recipes.setRecipeStageByMod("applied_energistics", "ae2wtlib");
 mods.recipestages.Recipes.setRecipeStageByMod("applied_energistics", "extracells");
 
+mods.recipestages.Recipes.setRecipeStage("applied_energistics", "appliedenergistics2_inscriber");
+mods.recipestages.Recipes.setRecipeStage("applied_energistics", "appliedenergistics2_controller");
+mods.recipestages.Recipes.setRecipeStage("applied_energistics", "appliedenergistics2_sky_stone_block");
+
 // Ores
 mods.orestages.OreStages.addReplacement("applied_energistics", <appliedenergistics2:quartz_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacementById("applied_energistics", "appliedenergistics2:charged_quartz_ore:*", "minecraft:stone");

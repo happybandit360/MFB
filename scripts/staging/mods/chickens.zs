@@ -17,6 +17,19 @@ mods.recipestages.Recipes.setRecipeStageByMod("chickens", "roost");
 mods.recipestages.Recipes.setRecipeStageByMod("chickens", "hatchery");
 mods.recipestages.Recipes.setRecipeStageByMod("chickens", "morechickens");
 
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_white");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_black");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_blue");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_green");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_red");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_yellow");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_soulsand");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_sand");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_quartz");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_flint");
+mods.recipestages.Recipes.setRecipeStage("chickens", "roost_chicken_log");
+
+
 // JEI Categories
 mods.ItemStages.stageRecipeCategory("chickens", "chickens.Laying");
 mods.ItemStages.stageRecipeCategory("chickens", "chickens.Breeding");

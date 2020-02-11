@@ -17,6 +17,39 @@ import mods.orestages.OreStages;
 
 mods.recipestages.Recipes.setRecipeStageByMod("gobber", "gb");
 
+static recipeStage as string[] = [
+"gb_globot_rod",
+"gb_govel",
+"gb_glopper",
+"gb_globot2_rod",
+"gb_govel2",
+"gb_glopper2",
+"gb_globot3_rod",
+"gb_govel3",
+"gb_glopper3",
+"gb_globot_helmet",
+"gb_globot2_helmet",
+"gb_globot3_helmet",
+"gb_globot3_boots",
+"gb_gring27",
+"gb_gring28",
+"gb_ghears",
+"gb_ghears2",
+"gb_ghears3",
+"gb_globot_boots",
+"gb_globot2_boots",
+"gb_globot_raw",
+"gb_globot2_raw",
+"gb_globot3_raw",
+"gb_goo",
+"gb_goop"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("gobber", item);
+}
+
+
 // Ores
 mods.orestages.OreStages.addReplacement("gobber", <gb:gobber_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("gobber", <gb:glucky_block>, <minecraft:stone>);

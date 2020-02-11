@@ -14,6 +14,9 @@ import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("aether", "aether_legacy");
 
+mods.recipestages.Recipes.setRecipeStage("aether", "aether_legacy_iron_ring");
+mods.recipestages.Recipes.setRecipeStage("aether", "aether_legacy_golden_ring");
+
 // Dimension
 mods.DimensionStages.addDimensionStage("aether", 4);
 

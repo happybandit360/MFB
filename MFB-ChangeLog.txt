@@ -35,6 +35,9 @@ Added tooltip to Hellshelf for Advanced Enchantment Table
 General script clean up
 Unstanged Rustic slate
 Removed manuals from Unstaged.zs
+Added missing Cappuccino recipe
+Updated recipes to avoid conflcits for slime and basalt and quartz items
+Added changed recipes to stages as needed
 
 -- Asset Changes --
 -------------------

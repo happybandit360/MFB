@@ -16,6 +16,24 @@ import mods.zenstages.ZenStager;
 mods.recipestages.Recipes.setRecipeStageByMod("roots", "roots");
 mods.recipestages.Recipes.setRecipeStageByMod("roots", "mysticalworld");
 
+static recipeStage as string[] = [
+"roots_wildwood_pressure_plate",
+"mysticalworld_copper_shovel",
+"mysticalworld_copper_hoe",
+"mysticalworld_copper_axe",
+"mysticalworld_copper_pickaxe",
+"mysticalworld_copper_sword",
+"mysticalworld_silver_shovel",
+"mysticalworld_silver_hoe",
+"mysticalworld_silver_axe",
+"mysticalworld_silver_pickaxe",
+"mysticalworld_silver_sword"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("roots", item);
+}
+
 // Entities
 mods.MobStages.addStage("roots", "mysticalworld:entity_beetle");
 mods.MobStages.addStage("roots", "mysticalworld:entity_deer");

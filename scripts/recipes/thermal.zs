@@ -20,10 +20,7 @@ static itemRecipeRemoval as IItemStack[] = [
 <thermalfoundation:storage:8>,
 <thermalfoundation:material:22>,
 <thermalexpansion:frame:128>,
-<thermalexpansion:cell>,
-
-<thermaldynamics:servo>,
-<thermaldynamics:duct_0>
+<thermalexpansion:cell>
 ];
 
 /*
@@ -71,23 +68,6 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[null, <ore:stickWood>, null],
 	   			[<ore:stickWood>, null, <ore:stickWood>],
 	  			[null, <ore:stickWood>, null]
-			]
-		]
-	},
-<thermaldynamics:servo> : {
-		"thermaldynamics_servo" : [
-			[
-	  			[<ore:nuggetIron>, <ore:blockGlass>, <ore:nuggetIron>],
-	   			[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]
-			]
-		]
-	},
-<thermaldynamics:duct_0> * 6 : {
-		"thermaldynamics_duct_0" : [
-			[
-	  			[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],
-	   			[<ore:ingotLead>, <ore:blockGlass>, <ore:ingotLead>],
-				[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 			]
 		]
 	},
@@ -154,6 +134,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 mods.extrautils2.Resonator.add(<thermalexpansion:frame:128>, <thermalfoundation:storage:3>, 1600);
 mods.extrautils2.Resonator.add(<thermalexpansion:frame:64>, <thermalfoundation:storage:1>, 3200);
 mods.extrautils2.Resonator.add(<thermalexpansion:frame>, <thermalexpansion:frame:64>, 3200);
+mods.extrautils2.Resonator.add(<thermaldynamics:servo>, <thermalfoundation:material:24>, 1600);
 
 
 

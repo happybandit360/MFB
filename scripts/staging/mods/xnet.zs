@@ -13,3 +13,14 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("xnet", "xnet");
+
+static recipeStage as string[] = [
+"xnet_redstone_proxy",
+"xnet_controller",
+"xnet_router",
+"xnet_wireless_router"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("xnet", item);
+}

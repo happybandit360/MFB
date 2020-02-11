@@ -16,6 +16,26 @@ import mods.zenstages.ZenStager;
 mods.recipestages.Recipes.setRecipeStageByMod("inventory_pets", "inventorypets");
 mods.recipestages.Recipes.setRecipeStage("inventory_pets", "inventorypets_loot_pet");
 
+static recipeStage as string[] = [
+"inventorypets_holiday_cookie",
+"inventorypets_mug_egg_nog",
+"inventorypets_candy_cane",
+"inventorypets_rock_candy",
+"inventorypets_solstice_helmet",
+"inventorypets_solstice_chestplate",
+"inventorypets_solstice_leggings",
+"inventorypets_solstice_boots",
+"inventorypets_solstice_sword",
+"inventorypets_loot_pet",
+"inventorypets_nugget_coal",
+"inventorypets_nugget_diamond",
+"inventorypets_nugget_emerald"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("inventory_pets", item);
+}
+
 static metadataStaging as IItemStack[] = [
 // <modid:itemname:meta>
 <inventorypets:cow_pet:*>,

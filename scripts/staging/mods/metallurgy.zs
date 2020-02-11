@@ -16,6 +16,77 @@ import mods.orestages.OreStages;
 
 mods.recipestages.Recipes.setRecipeStageByMod("metallurgy", "metallurgy");
 
+static recipeStage as string[] = [
+"metallury_steel_helmet",
+"metallury_steel_boots",
+"metallury_steel_chestplace",
+"metallury_steel_leggings",
+"metallury_bronze_helmet",
+"metallury_bronze_boots",
+"metallury_bronze_chestplace",
+"metallury_bronze_leggings",
+"metallury_copper_helmet",
+"metallury_copper_boots",
+"metallury_copper_chestplate",
+"metallury_copper_leggings",
+"metallury_electrum_helmet",
+"metallury_electrum_boots",
+"metallury_electrum_chestplace",
+"metallury_electrum_leggings",
+"metallury_osmium_helmet",
+"metallury_osmium_boots",
+"metallury_osmium_chestplate",
+"metallury_osmium_leggings",
+"metallury_platinum_helmet",
+"metallury_platinum_boots",
+"metallury_platinum_chestplace",
+"metallury_platinum_leggings",
+"metallury_silver_helmet",
+"metallury_silver_boots",
+"metallury_silver_chestplate",
+"metallury_silver_leggings",
+"metallurgy_mithril_block",
+"metallurgy_osmium_ingot",
+"metallurgy_bronze_shovel",
+"metallurgy_bronze_hoe",
+"metallurgy_bronze_axe",
+"metallurgy_bronze_pickaxe",
+"metallurgy_bronze_sword",
+"metallurgy_copper_shovel",
+"metallurgy_copper_hoe",
+"metallurgy_copper_axe",
+"metallurgy_copper_pickaxe",
+"metallurgy_copper_sword",
+"metallurgy_electrum_shovel",
+"metallurgy_electrum_hoe",
+"metallurgy_electrum_axe",
+"metallurgy_electrum_pickaxe",
+"metallurgy_electrum_sword",
+"metallurgy_platinum_shovel",
+"metallurgy_platinum_hoe",
+"metallurgy_platinum_axe",
+"metallurgy_platinum_pickaxe",
+"metallurgy_platinum_sword",
+"metallurgy_silver_shovel",
+"metallurgy_silver_hoe",
+"metallurgy_silver_axe",
+"metallurgy_silver_pickaxe",
+"metallurgy_silver_sword",
+"metallurgy_steel_shovel",
+"metallurgy_steel_hoe",
+"metallurgy_steel_axe",
+"metallurgy_steel_pickaxe",
+"metallurgy_steel_sword",
+"metallurgy_mithril_ingot",
+"metallurgy_osmium_nugget",
+"metallurgy_osmium_nugget_swap",
+"metallurgy_osmium_dust"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("metallurgy", item);
+}
+
 // Ores
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:adamantine_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("metallurgy", <metallurgy:alduorite_ore>, <minecraft:netherrack>);

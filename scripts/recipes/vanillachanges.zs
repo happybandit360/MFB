@@ -15,7 +15,8 @@ import crafttweaker.item.IIngredient;
 */
 static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
-<minecraft:coal:1>
+<minecraft:coal:1>,
+<minecraft:slime>
 ];
 
 recipes.removeByRecipeName("endercore:book_to_paper");
@@ -40,6 +41,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 			[
 	  			[<ore:boatPlank>, null, <ore:boatPlank>],
 	   			[<ore:boatPlank>, <ore:boatPlank>, <ore:boatPlank>]
+			]
+		]
+	},
+<minecraft:slime> : {
+		"minecraft_slime_block" : [
+			[
+	   			[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>],
+	   			[<ore:slimeball>, <minecraft:slime_ball>, <ore:slimeball>],
+	   			[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>]
 			]
 		]
 	}

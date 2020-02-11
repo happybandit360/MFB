@@ -14,3 +14,17 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("advanced_generators", "advgenerators");
+
+static recipeStage as string[] = [
+"advgenerators_iron_frame",
+"advgenerators_power_capacitor_redstone",
+"advgenerators_capacitor_kit_advanced",
+"advgenerators_power_capacitor_advanced",
+"advgenerators_capacitor_kit_dense",
+"advgenerators_power_capacitor_dense",
+"advgenerators_advanced_pressure_valve"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("advanced_generators", item);
+}

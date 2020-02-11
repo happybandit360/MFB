@@ -13,7 +13,9 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("calculator", "calculator");
-
+mods.recipestages.Recipes.setRecipeStage("calculator", "calculator_calculatorscreen");
+mods.recipestages.Recipes.setRecipeStage("calculator", "calculator_largeamethyst");
+mods.recipestages.Recipes.setRecipeStage("calculator", "calculator_calculator");
 
 static metadataStaging as IItemStack[] = [
 // <modid:itemname:meta>

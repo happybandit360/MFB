@@ -395,3 +395,35 @@ static stoneTypes as IItemStack[] = [
 for item in stoneTypes {
 	<ore:allStone>.add(item);
 }
+
+static tierOneList as IItemStack[] = [
+<matteroverdrive:battery>,
+<mekanism:energycube>.withTag({tier: 2}),
+<enderio:block_cap_bank:2>,
+<thermalexpansion:capacitor:2>,
+<appliedenergistics2:energy_cell>,
+<integrateddynamics:energy_battery>,
+<actuallyadditions:item_battery_quadruple>,
+<calculator:powercube>,
+<rftools:powercell>
+];
+
+for item in tierOneList {
+	<ore:tierOne>.add(item);
+}
+
+static tierTwoList as IItemStack[] = [
+<matteroverdrive:hc_battery>,
+<mekanism:energycube>.withTag({tier: 3}),
+<enderio:block_cap_bank:3>,
+<thermalexpansion:capacitor:3>,
+<integrateddynamics:energy_battery>.withTag({capacity: 4000000}),
+<appliedenergistics2:dense_energy_cell>,
+<actuallyadditions:item_battery_quintuple>,
+<calculator:advancedpowercube>,
+<rftools:powercell_advanced>
+];
+
+for item in tierTwoList {
+	<ore:tierTwo>.add(item);
+}

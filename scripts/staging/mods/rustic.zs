@@ -15,6 +15,30 @@ import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("rustic", "rustic");
 
+static recipeStage as string[] = [
+"rustic_painted_wood_white",
+"rustic_painted_wood_orange",
+"rustic_painted_wood_magenta",
+"rustic_painted_wood_light_blue",
+"rustic_painted_wood_yellow",
+"rustic_painted_wood_lime",
+"rustic_painted_wood_pink",
+"rustic_painted_wood_gray",
+"rustic_painted_wood_silver",
+"rustic_painted_wood_cyan",
+"rustic_painted_wood_purple",
+"rustic_painted_wood_blue",
+"rustic_painted_wood_brown",
+"rustic_painted_wood_green",
+"rustic_painted_wood_red",
+"rustic_painted_wood_black",
+"rustic_tallow_conv"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("rustic", item);
+}
+
 // Ores
 mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:chamomile:*", "minecraft:red_flower:3");
 mods.orestages.OreStages.addNonDefaultingReplacementById("rustic", "rustic:ginseng:*", "minecraft:red_flower");

@@ -14,6 +14,7 @@ import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
 mods.recipestages.Recipes.setRecipeStageByMod("ender_io", "enderio");
+mods.recipestages.Recipes.setRecipeStage("ender_io", "enderio_item_material");
 
 // Stage Misc Items
 mods.ItemStages.addItemStage("ender_io", <minecraft:potion>.withTag({Potion: "enderio:floating"}));

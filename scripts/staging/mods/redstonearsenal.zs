@@ -16,6 +16,15 @@ import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("redstone_arsenal", "redstonearsenal");
 
+static recipeStage as string[] = [
+"redstonearsenal_material_128_1",
+"contenttweaker_fluxed_electrum_compound"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("redstone_arsenal", item);
+}
+
 
 // Metadata staging fix
 // mods.ItemStages.addItemStage("redstone_arsenal", <gb:gigger:*>);

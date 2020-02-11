@@ -17,6 +17,36 @@ mods.recipestages.Recipes.setRecipeStageByMod("mekanism", "mekanism");
 mods.recipestages.Recipes.setRecipeStageByMod("mekanism", "mekanismgenerators");
 mods.recipestages.Recipes.setRecipeStageByMod("mekanism", "mekanismtools");
 
+static recipeStage as string[] = [
+"mekanism_basicblock_8",
+"mekanismtools_bronzehelmet",
+"mekanismtools_bronzeboots",
+"mekanismtools_bronzechestplate",
+"mekanismtools_bronzeleggings",
+"mekanismtools_steelhelmet",
+"mekanismtools_steelboots",
+"mekanismtools_steelchestplate",
+"mekanismtools_steelleggings",
+"mekanism_ingot_1",
+"mekanismtools_bronzeshovel",
+"mekanismtools_bronzehoe",
+"mekanismtools_bronzeaxe",
+"mekanismtools_bronzepickaxe",
+"mekanismtools_bronzesword",
+"mekanismtools_steelshovel",
+"mekanismtools_steelhoe",
+"mekanismtools_steelaxe",
+"mekanismtools_steelpickaxe",
+"mekanismtools_steelsword",
+"mekanism_nugget_1",
+"<mekanism_osmium_nugget_swap>",
+"mekanism_dust_2"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("mekanism", item);
+}
+
 // Ores
 mods.orestages.OreStages.addReplacement("mekanism", <mekanism:oreblock>, <minecraft:stone>);
 

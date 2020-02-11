@@ -15,6 +15,7 @@ import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
 mods.recipestages.Recipes.setRecipeStageByMod("evilcraft", "evilcraft");
+mods.recipestages.Recipes.setRecipeStage("evilcraft", "evilcraft_exalted_crafter");
 
 // Ores
 mods.orestages.OreStages.addNonDefaultingReplacementById("evilcraft", "evilcraft:dark_ore:*", "minecraft:stone");

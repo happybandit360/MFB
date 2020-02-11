@@ -14,6 +14,14 @@ import mods.zenstages.ZenStager;
 
 mods.recipestages.Recipes.setRecipeStageByMod("deep_mob_learning", "deepmoblearning");
 
+mods.recipestages.Recipes.setRecipeStage("deep_mob_learning", "deepmoblearning_data_model_dragon");
+mods.recipestages.Recipes.setRecipeStage("deep_mob_learning", "deepmoblearning_glitch_infused_sword");
+mods.recipestages.Recipes.setRecipeStage("deep_mob_learning", "deepmoblearning_glitch_infused_helmet");
+mods.recipestages.Recipes.setRecipeStage("deep_mob_learning", "deepmoblearning_glitch_infused_chestplate");
+mods.recipestages.Recipes.setRecipeStage("deep_mob_learning", "deepmoblearning_glitch_infused_leggings");
+mods.recipestages.Recipes.setRecipeStage("deep_mob_learning", "deepmoblearning_glitch_infused_boots");
+
+
 static metadataStaging as IItemStack[] = [
 // <modid:itemname:meta>
 <deepmoblearning:glitch_infused_helmet:*>,

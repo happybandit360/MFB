@@ -19,6 +19,15 @@ mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "tcomplement");
 mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "plustic");
 mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "conarm");
 
+static recipeStage as string[] = [
+"tconstruct_slimesling",
+"tconstruct_slime_boots"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("tinkers", item);
+}
+
 // Stage Mobs
 mods.MobStages.addStage("tinkers", "tconstruct:blueslime");
 

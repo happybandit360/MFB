@@ -10,6 +10,8 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.enderio.SagMill;
+
 
 /*
 	Recipe Removals by Item
@@ -78,6 +80,15 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		]
 	}	*/
 };
+
+// mods.enderio.SagMill.removeRecipe(IItemStack input);
+mods.enderio.SagMill.removeRecipe(<minecraft:clay>);
+mods.enderio.SagMill.removeRecipe(<minecraft:redstone_ore>);
+
+
+// mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
+mods.enderio.SagMill.addRecipe([<minecraft:clay_ball>*2, <minecraft:clay_ball>, <projectred-core:resource_item:301>], [1.0, 0.1, 0.8], <minecraft:clay>, "MULTIPLY_OUTPUT", 3600);
+mods.enderio.SagMill.addRecipe([<minecraft:redstone>*8, <minecraft:redstone>, <projectred-core:resource_item:301>, <minecraft:cobblestone>], [1.0, 0.2, 0.8, 0.15], <minecraft:redstone_ore>, "MULTIPLY_OUTPUT", 3600);
 
 
 

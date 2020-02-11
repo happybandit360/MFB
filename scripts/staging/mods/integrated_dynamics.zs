@@ -17,6 +17,9 @@ mods.recipestages.Recipes.setRecipeStageByMod("integrated_dynamics", "integrated
 mods.recipestages.Recipes.setRecipeStageByMod("integrated_dynamics", "integratedterminals");
 mods.recipestages.Recipes.setRecipeStageByMod("integrated_dynamics", "integratedcrafting");
 
+mods.recipestages.Recipes.setRecipeStage("integrated_dynamics", "integrateddynamics_squeezer");
+mods.recipestages.Recipes.setRecipeStage("integrated_dynamics", "integrateddynamics_drying_basin");
+
 // Stage Misc Items
 mods.ItemStages.addItemStage("integrated_dynamics", <forge:bucketfilled>.withTag({FluidName: "menrilresin", Amount: 1000}));
 mods.ItemStages.addItemStage("integrated_dynamics", <forge:bucketfilled>.withTag({FluidName: "liquidchorus", Amount: 1000}));

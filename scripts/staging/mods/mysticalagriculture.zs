@@ -17,6 +17,16 @@ import mods.orestages.OreStages;
 mods.recipestages.Recipes.setRecipeStageByMod("mystical_ag", "mysticalagriculture");
 mods.recipestages.Recipes.setRecipeStageByMod("mystical_ag", "mysticalagradditions");
 
+static recipeStage as string[] = [
+"mystical_ag_silicon",
+"mystical_ag_osmium",
+"mystical_ag_mithril"
+];
+
+for item in recipeStage {
+    mods.recipestages.Recipes.setRecipeStage("mystical_ag", item);
+}
+
 // Ores
 mods.orestages.OreStages.addReplacement("mystical_ag", <mysticalagriculture:prosperity_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("mystical_ag", <mysticalagriculture:nether_prosperity_ore>, <minecraft:netherrack>);
