@@ -38,6 +38,8 @@ Removed manuals from Unstaged.zs
 Added missing Cappuccino recipe
 Updated recipes to avoid conflcits for slime and basalt and quartz items
 Added changed recipes to stages as needed
+Added End Dimensional Shard Ore to RFTools staging
+Removed default Device Frame recipe
 
 -- Asset Changes --
 -------------------

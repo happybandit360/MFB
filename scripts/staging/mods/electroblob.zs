@@ -14,7 +14,7 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
-mods.recipestages.Recipes.setRecipeStageByMod("electroblob", "ebwizardry");
+// mods.recipestages.Recipes.setRecipeStageByMod("electroblob", "ebwizardry");
 
 // Ores
 mods.orestages.OreStages.addReplacement("electroblob", <ebwizardry:crystal_ore>, <minecraft:stone>);

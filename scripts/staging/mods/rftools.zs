@@ -28,3 +28,4 @@ for item in recipeStage {
 // Ores
 mods.orestages.OreStages.addReplacement("rftools", <rftools:dimensional_shard_ore>, <minecraft:stone>);
 mods.orestages.OreStages.addReplacement("rftools", <rftools:dimensional_shard_ore:1>, <minecraft:netherrack>);
+mods.orestages.OreStages.addReplacement("rftools", <rftools:dimensional_shard_ore:1>, <minecraft:end_stone>);

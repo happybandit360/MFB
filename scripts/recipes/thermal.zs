@@ -20,7 +20,8 @@ static itemRecipeRemoval as IItemStack[] = [
 <thermalfoundation:storage:8>,
 <thermalfoundation:material:22>,
 <thermalexpansion:frame:128>,
-<thermalexpansion:cell>
+<thermalexpansion:cell>,
+<thermalexpansion:frame:64>
 ];
 
 /*
