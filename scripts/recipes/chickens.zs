@@ -17,6 +17,23 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 ];
 
+/*
+	Recipe and JEI Removals by Item
+*/
+static itemRecipeRemovalJEI as IItemStack[] = [
+//	<modid:itemname:meta>,
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:garnetchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:cyanitechicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:uraniumchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:amberchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:topazchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:malachitechicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:graphitechicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:yelloriumchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:blutoniumchicken", Gain: 1, Strength: 1}),
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:titaniumchicken", Gain: 1, Strength: 1})
+];
+
 
 
 /*
@@ -224,4 +241,10 @@ for item, itemRecipes in namedShapelessRecipes {
 // Remove Item Recipe for replacement
 for item in itemRecipeRemoval {
 	recipes.remove(item);
+}
+
+// Remove Item Recipes from game and JEI display
+for item in itemRecipeRemovalJEI {
+	recipes.remove(item);
+	mods.jei.JEI.hide(item);
 }

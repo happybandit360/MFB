@@ -68,6 +68,10 @@ mods.ItemStages.removeItemStage(<actuallyadditions:item_misc:12>);
 // Osmium
 mods.ItemStages.removeItemStage(<metallurgy:osmium_ingot>);
 mods.ItemStages.removeItemStage(<mekanism:ingot:1>);
+mods.ItemStages.removeItemStage(<mekanism:dust:2>);
+mods.ItemStages.removeItemStage(<metallurgy:osmium_dust>);
 
 // Slate for building
 mods.ItemStages.removeItemStage(<rustic:slate>);
+
+mods.ItemStages.removeItemStage(<extracells:walrus>);

@@ -19,7 +19,8 @@ static itemRecipeRemoval as IItemStack[] = [
 <inventorypets:nugget_coal>,
 <inventorypets:nugget_diamond>,
 <inventorypets:nugget_emerald>,
-<inventorypets:loot_pet>
+<inventorypets:loot_pet>,
+<inventorypets:cloud_pet>
 ];
 
 
@@ -123,6 +124,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[<ore:ingotGold>, <minecraft:nether_star>, <ore:ingotGold>],
 	   			[<ore:ingotGold>, <ore:gemEmerald>, <ore:ingotGold>],
 	  			[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
+			]
+		]
+	},
+<inventorypets:cloud_pet> : {
+		"inventorypets_cloud_pet" : [
+			[
+	  			[<chisel:cloud>, <minecraft:elytra>, <chisel:cloud>],
+	   			[<quark:enderdragon_scale>, <minecraft:nether_star>, <quark:enderdragon_scale>],
+	  			[<chisel:cloud>, <minecraft:diamond_block>, <chisel:cloud>]
 			]
 		]
 	},

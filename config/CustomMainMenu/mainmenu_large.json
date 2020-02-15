@@ -5,7 +5,7 @@
         {
             "image" : "mfb:screen/main-logo.png",
             "posX" : -130,
-            "posY" : 65,
+            "posY" : 15,
             "width" : 270,
             "height" : 111,
             "alignment" : "top_center"
@@ -17,12 +17,12 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -150,
-            "posY" : 232,
-            "width" : 147,
-            "height" : 30,
+            "posX" : -100,
+            "posY" : 152,
+            "width" : 98,
+            "height" : 20,
             "hoverTextColor" : 11695085,
-            "texture" : "mfb:screen/button2.png",
+            "texture" : "mfb:screen/button.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -34,11 +34,11 @@
         {
             "text" : "menu.multiplayer",
             "posX" : 2,
-            "posY" : 232,
-            "width" : 147,
-            "height" : 30,
+            "posY" : 152,
+            "width" : 98,
+            "height" : 20,
             "hoverTextColor" : 11695085,
-            "texture" : "mfb:screen/button2.png",
+            "texture" : "mfb:screen/button.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -50,11 +50,11 @@
         {
             "text" : "fml.menu.mods",
             "posX" : 2,
-            "posY" : 266,
-            "width" : 147,
-            "height" : 30,
+            "posY" : 176,
+            "width" : 98,
+            "height" : 20,
             "hoverTextColor" : 11695085,
-            "texture" : "mfb:screen/button2.png",
+            "texture" : "mfb:screen/button.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -65,12 +65,12 @@
         "options":
         {
             "text" : "menu.options",
-            "posX" : -150,
-            "posY" : 266,
-            "width" : 147,
-            "height" : 30,
+            "posX" : -100,
+            "posY" : 176,
+            "width" : 98,
+            "height" : 20,
             "hoverTextColor" : 11695085,
-            "texture" : "mfb:screen/button2.png",
+            "texture" : "mfb:screen/button.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -82,11 +82,11 @@
         {
             "text" : "menu.quit",
             "posX" : 2,
-            "posY" : 300,
-            "width" : 147,
-            "height" : 30,
+            "posY" : 200,
+            "width" : 98,
+            "height" : 20,
             "hoverTextColor" : 11695085,
-            "texture" : "mfb:screen/button2.png",
+            "texture" : "mfb:screen/button.png",
             "action" : 
             {
                 "type" : "quit"
@@ -96,12 +96,12 @@
         "Issues":
         {
             "text" : "Issues",
-            "posX" : -150,
-            "posY" : 300,
-            "width" : 147,
-            "height" : 30,
+            "posX" : -100,
+            "posY" : 200,
+            "width" : 98,
+            "height" : 20,
             "hoverTextColor" : 11695085,
-            "texture" : "mfb:screen/button2.png",
+            "texture" : "mfb:screen/button.png",
 			"action" : 
             {
                 "type" : "openLink",
@@ -112,8 +112,8 @@
         "language":
         {
             "text" : "",
-            "posX" : 450,
-            "posY" : 340,
+            "posX" : 295,
+            "posY" : 215,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -126,8 +126,8 @@
         "refresh":
         {
             "text" : "",
-            "posX" : 425,
-            "posY" : 340,
+            "posX" : 270,
+            "posY" : 215,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
@@ -169,8 +169,8 @@
     {
         "splash-text":
         {
-            "posX" : 120,
-            "posY" : 150,
+            "posX" : 130,
+            "posY" : 110,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:mfb:text/splash.txt"

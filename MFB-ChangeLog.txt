@@ -21,10 +21,19 @@ Toolbox Addons
 armorplus/config.cfg
     tgotg {
         B:enable=false
+CustomMainMenu/
+    mainmenu.json
+    mainmenu_auto.json
+    mainmenu_large.json
+    mainmenu_small.json
 inventorypets/inventorypets.cfg
     B:"Disable Illuminati Give Random Items"=true
 triumph/fuctions
     Added functions to give players items, such as guide books, when unlocking appropriate stages
+actuallyadditions.cfg
+    I:"What is 11"=0
+bibliocraft.cfg
+    B:DeskBell=false
 vanillafix.cfg
     S:scheduledTaskproblemAction=LOG
 
@@ -35,14 +44,19 @@ Added tooltip to Hellshelf for Advanced Enchantment Table
 General script clean up
 Unstanged Rustic slate
 Removed manuals from Unstaged.zs
-Added missing Cappuccino recipe
+Added missing Cappuccino recipe (#36)
 Updated recipes to avoid conflcits for slime and basalt and quartz items
 Added changed recipes to stages as needed
 Added End Dimensional Shard Ore to RFTools staging
 Removed default Device Frame recipe
+Removed RecipeStages script from Electroblob staging script (#37)
+Unstaged Osmium dusts
+Fixed Time in a Bottle staging
+Changed Cloud Pet crafting recipe
 
 -- Asset Changes --
 -------------------
+Main menu logo, buttons, panorama, and splash text
 
 -------------------------------------------------------------------------------
 Beta Build

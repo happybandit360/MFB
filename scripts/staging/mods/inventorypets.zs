@@ -29,7 +29,8 @@ static recipeStage as string[] = [
 "inventorypets_loot_pet",
 "inventorypets_nugget_coal",
 "inventorypets_nugget_diamond",
-"inventorypets_nugget_emerald"
+"inventorypets_nugget_emerald",
+"inventorypets_cloud_pet"
 ];
 
 for item in recipeStage {
