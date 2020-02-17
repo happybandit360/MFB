@@ -2,19 +2,33 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Release Build
-0.4.3 --> 1.0.0rc
+0.4.3 --> 1.0.0.1rc
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
 
 -- Updated Mods --
 -------------------
+Construct Armory -> 1.2.5.3
+Corail Tombstone -> 3.6.7
+Culinary Construct -> 1.3.3.2
+Cyclops Core -> 1.6.1
+Integrated Dynamics -> 1.1.2
+JourneyMap -> 5.5.9
+ModTweaker -> 4.0.18
+Nature's Aura -> 18.1
+Roots -> 3.0.25
+Tesla Core Lib -> 1.0.16
+Tinker's Construct -> 2.13.0.179
+
 
 -- Removed Mods --
 ------------------
 Adventurer's Toolbox
 Flexible Tools
 Toolbox Addons
+Unidict
+Vanilla Fix
 
 -- Config Changes --
 --------------------

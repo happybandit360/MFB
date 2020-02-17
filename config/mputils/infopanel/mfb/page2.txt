@@ -19,3 +19,5 @@
 §79) Pressing the §bL§7 key will open your Advancements page and show you what mods you have unlocked and what is available, among the other Advancements.
 
 §710) While on the Game Menu screen, there are buttons on the right side of the screen that will show you the current Change Log or take you directly to the pack's issue tracker.
+
+§711) You likely will find items or see things that hint of unknown things. Hopefully this will encourage you to expand your mod list and dive deeper into the pack.
