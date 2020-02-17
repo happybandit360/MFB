@@ -1,0 +1,52 @@
+{
+    "type": "sky_orchard:electrum",
+    "version": 2,
+    "ref": {
+      "a": {
+        "name": "sky_orchards:leaves_electrum",
+        "meta": 8
+      },
+      "b": {
+        "name": "sky_orchards:log_electrum",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        "     ",
+        "     ",
+        "aaaa ",
+        " aaaa",
+        "     "
+      ],
+      [
+        "  a  ",
+        "  aa ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        " aaa ",
+        " aba ",
+        "aabaa",
+        "aabaa",
+        "  b  "
+      ],
+      [
+        "  a  ",
+        " aa  ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        "     ",
+        "     ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ]
+    ]
+  }
+  

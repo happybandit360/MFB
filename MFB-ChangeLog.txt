@@ -1,8 +1,8 @@
 MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
-???? Build
-0.4.3 --> TBD
+Release Build
+0.4.3 --> 1.0.0rc
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
@@ -21,6 +21,8 @@ Toolbox Addons
 armorplus/config.cfg
     tgotg {
         B:enable=false
+bonsaitrees/shapes.d 
+    Added JSON files to render plant growth
 CustomMainMenu/
     mainmenu.json
     mainmenu_auto.json
@@ -34,6 +36,8 @@ actuallyadditions.cfg
     I:"What is 11"=0
 bibliocraft.cfg
     B:DeskBell=false
+inspirations.cfg
+    B:mulch=false
 vanillafix.cfg
     S:scheduledTaskproblemAction=LOG
 
@@ -53,6 +57,7 @@ Removed RecipeStages script from Electroblob staging script (#37)
 Unstaged Osmium dusts
 Fixed Time in a Bottle staging
 Changed Cloud Pet crafting recipe
+Added tool tip to Construct Armory materials to help clean up JEI
 
 -- Asset Changes --
 -------------------

@@ -1,0 +1,52 @@
+{
+    "type": "sky_orchard:platinum",
+    "version": 2,
+    "ref": {
+      "a": {
+        "name": "sky_orchards:leaves_platinum",
+        "meta": 8
+      },
+      "b": {
+        "name": "sky_orchards:log_platinum",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        "     ",
+        "     ",
+        " aaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        "  a  ",
+        "  a  ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        " aaa ",
+        " aba ",
+        "aabaa",
+        "aabaa",
+        "  b  "
+      ],
+      [
+        "  a  ",
+        "  a  ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        "     ",
+        "     ",
+        "aaaa ",
+        " aaa ",
+        "     "
+      ]
+    ]
+  }
+  

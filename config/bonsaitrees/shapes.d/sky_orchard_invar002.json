@@ -1,0 +1,62 @@
+{
+    "type": "sky_orchard:invar",
+    "version": 2,
+    "ref": {
+      "a": {
+        "name": "sky_orchards:leaves_invar",
+        "meta": 8
+      },
+      "b": {
+        "name": "sky_orchards:log_invar",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        "     ",
+        "     ",
+        "aaaaa",
+        " aaa ",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "  a  ",
+        " aaa ",
+        "aaaaa",
+        "aaaaa",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        " aaa ",
+        " aba ",
+        "aabaa",
+        "aabaa",
+        "  b  ",
+        "  b  ",
+        "  b  "
+      ],
+      [
+        "  a  ",
+        "  a  ",
+        "aaaaa",
+        "aaaaa",
+        "     ",
+        "     ",
+        "     "
+      ],
+      [
+        "     ",
+        "     ",
+        "aaaaa",
+        " aaa ",
+        "     ",
+        "     ",
+        "     "
+      ]
+    ]
+  }
+  

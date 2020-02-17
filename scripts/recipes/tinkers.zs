@@ -19,7 +19,8 @@ static itemRecipeRemoval as IItemStack[] = [
 //	<modid:itemname:meta>
 <tconstruct:slimesling>,
 <tconstruct:slime_boots>,
-<tconstruct:slime:1>
+<tconstruct:slime:1>,
+<tconstruct:stone_torch>
 ];
 
 /*
@@ -77,6 +78,22 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	  			[<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>],
 	  			[<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>],
 	  			[<tconstruct:edible:1>, <tconstruct:edible:1>, <tconstruct:edible:1>]
+			]
+		]
+	},
+<tconstruct:stone_torch> : {
+		"tconstruct_stone_torch_1" : [
+			[
+	  			[<ore:coal>],
+	  			[<ore:rodStone>]
+			]
+		]
+	},
+<tconstruct:stone_torch> : {
+		"tconstruct_stone_torch_2" : [
+			[
+	  			[<ore:charcoal>],
+	  			[<ore:rodStone>]
 			]
 		]
 	}

@@ -20,3 +20,7 @@ mods.ltt.LootTable.removeGlobalItem("minecraft:stone_shovel");
 mods.ltt.LootTable.removeGlobalItem("minecraft:stone_pickaxe");
 mods.ltt.LootTable.removeGlobalItem("minecraft:stone_axe");
 mods.ltt.LootTable.removeGlobalItem("minecraft:stone_hoe");
+mods.ltt.LootTable.removeGlobalItem("armorplus:dusk");
+mods.ltt.LootTable.removeGlobalItem("armorplus:noon");
+mods.ltt.LootTable.removeGlobalItem("armorplus:midnight");
+mods.ltt.LootTable.removeGlobalItem("armorplus:dawn");

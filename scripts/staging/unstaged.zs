@@ -75,3 +75,4 @@ mods.ItemStages.removeItemStage(<metallurgy:osmium_dust>);
 mods.ItemStages.removeItemStage(<rustic:slate>);
 
 mods.ItemStages.removeItemStage(<extracells:walrus>);
+mods.ItemStages.removeItemStage(<tconstruct:stone_torch>);

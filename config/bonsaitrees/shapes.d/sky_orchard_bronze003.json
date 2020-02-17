@@ -1,0 +1,52 @@
+{
+    "type": "sky_orchard:bronze",
+    "version": 2,
+    "ref": {
+      "a": {
+        "name": "sky_orchards:leaves_bronze",
+        "meta": 8
+      },
+      "b": {
+        "name": "sky_orchards:log_bronze",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        "     ",
+        "     ",
+        "aaaaa",
+        "aaaa ",
+        "     "
+      ],
+      [
+        "  a  ",
+        "  a  ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        " aaa ",
+        " aba ",
+        "aabaa",
+        "aabaa",
+        "  b  "
+      ],
+      [
+        "  a  ",
+        "  aa ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        "     ",
+        "     ",
+        " aaa ",
+        " aaaa",
+        "     "
+      ]
+    ]
+  }
+  

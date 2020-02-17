@@ -1,0 +1,52 @@
+{
+    "type": "sky_orchard:steel",
+    "version": 2,
+    "ref": {
+      "a": {
+        "name": "sky_orchards:leaves_steel",
+        "meta": 8
+      },
+      "b": {
+        "name": "sky_orchards:log_steel",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        "     ",
+        "     ",
+        " aaa ",
+        " aaa ",
+        "     "
+      ],
+      [
+        "  a  ",
+        "  a  ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        " aaa ",
+        " aba ",
+        "aabaa",
+        "aabaa",
+        "  b  "
+      ],
+      [
+        "  a  ",
+        "  a  ",
+        "aaaaa",
+        "aaaaa",
+        "     "
+      ],
+      [
+        "     ",
+        "     ",
+        "aaaaa",
+        " aaaa",
+        "     "
+      ]
+    ]
+  }
+  

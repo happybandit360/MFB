@@ -121,12 +121,6 @@ recipes.addShaped(<sky_orchards:sapling_platinum>, [
 	[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]
 ]);
 
-recipes.addShaped(<sky_orchards:sapling_iridium>, [
-	[<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>], 
-	[<ore:ingotIridium>, <ore:treeSapling>, <ore:ingotIridium>], 
-	[<ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotIridium>]
-]);
-
 recipes.addShaped(<sky_orchards:sapling_steel>, [
 	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], 
 	[<ore:ingotSteel>, <ore:treeSapling>, <ore:ingotSteel>], 
@@ -255,12 +249,6 @@ recipes.addShaped( <sky_orchards:amber_platinum>, [
 	[<sky_orchards:acorn_platinum>, <sky_orchards:resin_platinum>, <sky_orchards:acorn_platinum>]
 ]);
 
-recipes.addShaped( <sky_orchards:amber_iridium>, [
-	[<sky_orchards:acorn_iridium>, <sky_orchards:resin_iridium>, <sky_orchards:acorn_iridium>], 
-	[<sky_orchards:resin_iridium>, <sky_orchards:acorn_iridium>, <sky_orchards:resin_iridium>], 
-	[<sky_orchards:acorn_iridium>, <sky_orchards:resin_iridium>, <sky_orchards:acorn_iridium>]
-]);
-
 recipes.addShaped( <sky_orchards:amber_bronze>, [
 	[<sky_orchards:acorn_bronze>, <sky_orchards:resin_bronze>, <sky_orchards:acorn_bronze>], 
 	[<sky_orchards:resin_bronze>, <sky_orchards:acorn_bronze>, <sky_orchards:resin_bronze>], 
@@ -337,7 +325,6 @@ furnace.addRecipe(<tconstruct:ingots:1>, <sky_orchards:amber_ardite>, 0.7);
 furnace.addRecipe(<mekanism:ingot:1>, <sky_orchards:amber_osmium>, 0.7);
 furnace.addRecipe(<thermalfoundation:material:132>, <sky_orchards:amber_aluminum>, 0.7);
 furnace.addRecipe(<thermalfoundation:material:134>, <sky_orchards:amber_platinum>, 0.7);
-furnace.addRecipe(<thermalfoundation:material:135>, <sky_orchards:amber_iridium>, 0.7);
 furnace.addRecipe(<thermalfoundation:material:163>, <sky_orchards:amber_bronze>, 0.7);
 furnace.addRecipe(<thermalfoundation:material:164>, <sky_orchards:amber_constantan>, 0.7);
 furnace.addRecipe(<thermalfoundation:material:161>, <sky_orchards:amber_electrum>, 0.7);
@@ -358,7 +345,6 @@ mods.mekanism.crusher.addRecipe(<sky_orchards:amber_ardite>, <enderio:item_mater
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_osmium>, <mekanism:dust:2> * 2);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundation:material:68> * 2);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_platinum>, <thermalfoundation:material:70> * 2);
-mods.mekanism.crusher.addRecipe(<sky_orchards:amber_iridium>, <thermalfoundation:material:71> * 2);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_bronze>, <thermalfoundation:material:99> * 2);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_constantan>, <thermalfoundation:material:100> * 2);
 mods.mekanism.crusher.addRecipe(<sky_orchards:amber_electrum>, <thermalfoundation:material:97> * 2);
@@ -379,7 +365,6 @@ mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:30> * 2, <sky_
 mods.thermalexpansion.Pulverizer.addRecipe(<mekanism:dust:2> * 2, <sky_orchards:amber_osmium>, 1500);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:68> * 2, <sky_orchards:amber_aluminum>, 1500);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:70> * 2, <sky_orchards:amber_platinum>, 1500);
-mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:71> * 2, <sky_orchards:amber_iridium>, 1500);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:99> * 2, <sky_orchards:amber_bronze>, 1500);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:100> * 2, <sky_orchards:amber_constantan>, 1500);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:97> * 2, <sky_orchards:amber_electrum>, 1500);
@@ -400,7 +385,6 @@ mods.extrautils2.Crusher.add(<enderio:item_material:30> * 2, <sky_orchards:amber
 mods.extrautils2.Crusher.add(<mekanism:dust:2> * 2, <sky_orchards:amber_osmium>);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:68> * 2, <sky_orchards:amber_aluminum>);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:70> * 2, <sky_orchards:amber_platinum>);
-mods.extrautils2.Crusher.add(<thermalfoundation:material:71> * 2, <sky_orchards:amber_iridium>);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:99> * 2, <sky_orchards:amber_bronze>);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:100> * 2, <sky_orchards:amber_constantan>);
 mods.extrautils2.Crusher.add(<thermalfoundation:material:97> * 2, <sky_orchards:amber_electrum>);
@@ -421,7 +405,6 @@ mods.enderio.SagMill.addRecipe([<enderio:item_material:30> * 2], [100], <sky_orc
 mods.enderio.SagMill.addRecipe([<mekanism:dust:2> * 2], [100], <sky_orchards:amber_osmium>);
 mods.enderio.SagMill.addRecipe([<thermalfoundation:material:68> * 2], [100], <sky_orchards:amber_aluminum>);
 mods.enderio.SagMill.addRecipe([<thermalfoundation:material:70> * 2], [100], <sky_orchards:amber_platinum>);
-mods.enderio.SagMill.addRecipe([<thermalfoundation:material:71> * 2], [100], <sky_orchards:amber_iridium>);
 mods.enderio.SagMill.addRecipe([<thermalfoundation:material:99> * 2], [100], <sky_orchards:amber_bronze>);
 mods.enderio.SagMill.addRecipe([<thermalfoundation:material:100> * 2], [100], <sky_orchards:amber_constantan>);
 mods.enderio.SagMill.addRecipe([<thermalfoundation:material:97> * 2], [100], <sky_orchards:amber_electrum>);
@@ -443,7 +426,6 @@ mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_ardite>, <enderio:
 mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_osmium>, <mekanism:dust:2> * 2);
 mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_aluminum>, <thermalfoundation:material:68> * 2);
 mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_platinum>, <thermalfoundation:material:70> * 2);
-mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_iridium>, <thermalfoundation:material:71> * 2);
 mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_bronze>, <thermalfoundation:material:99> * 2);
 mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_constantan>, <thermalfoundation:material:100> * 2);
 mods.metallurgyreforged.Crusher.addRecipe(<sky_orchards:amber_electrum>, <thermalfoundation:material:97> * 2);
@@ -465,7 +447,6 @@ mods.tconstruct.Melting.addRecipe(<liquid:ardite> * 288 , <sky_orchards:amber_ar
 mods.tconstruct.Melting.addRecipe(<liquid:osmium> * 288 , <sky_orchards:amber_osmium>);
 mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 288 , <sky_orchards:amber_aluminum>);
 mods.tconstruct.Melting.addRecipe(<liquid:platinum> * 288 , <sky_orchards:amber_platinum>);
-mods.tconstruct.Melting.addRecipe(<liquid:iridium> * 288 , <sky_orchards:amber_iridium>);
 mods.tconstruct.Melting.addRecipe(<liquid:bronze> * 288 , <sky_orchards:amber_bronze>);
 mods.tconstruct.Melting.addRecipe(<liquid:constantan> * 288 , <sky_orchards:amber_constantan>);
 mods.tconstruct.Melting.addRecipe(<liquid:electrum> * 288 , <sky_orchards:amber_electrum>);
@@ -486,7 +467,6 @@ mods.actuallyadditions.Crusher.addRecipe(<enderio:item_material:30> * 2, <sky_or
 mods.actuallyadditions.Crusher.addRecipe(<mekanism:dust:2> * 2, <sky_orchards:amber_osmium>);
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:68> * 2, <sky_orchards:amber_aluminum>);
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:70> * 2, <sky_orchards:amber_platinum>);
-mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:71> * 2, <sky_orchards:amber_iridium>);
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:99> * 2, <sky_orchards:amber_bronze>);
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:100> * 2, <sky_orchards:amber_constantan>);
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:97> * 2, <sky_orchards:amber_electrum>);

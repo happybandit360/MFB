@@ -3,10 +3,6 @@
   "mustRead": false,
   "pages": [
     {
-      "title": "Welcome to My First Beta",
-      "file": "betapage"
-    },
-    {
       "title": "Welcome to MFB",
       "file": "page1"
     },

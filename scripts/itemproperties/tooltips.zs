@@ -26,14 +26,20 @@ static itemTooltipsAdd as IFormattedText[][IItemStack] = {
 <openblocks:tank> : [
 	format.gold("Holds 16 buckets of fluid.")
 ],
+<inspirations:bookshelf>.withTag({texture: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}}) : [
+	format.gold("Also made with a variety of other woods.")
+],
 <tconstruct:tooltables:1>.withTag({textureBlock: {id: "minecraft:planks", Count: 1 as byte, Damage: 0 as short}}) : [
-	format.gold("Also made with a variety of woods.")
+	format.gold("Also made with a variety of other woods.")
 ],
 <tconstruct:tooltables:2>.withTag({textureBlock: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}}) : [
-	format.gold("Also made with a variety of woods.")
+	format.gold("Also made with a variety of other woods.")
 ],
 <tconstruct:toolforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}) : [
-	format.gold("Also made with a variety of metal blocks.")
+	format.gold("Also made with a variety of other metal blocks.")
+],
+<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}) : [
+	format.gold("Also made with a variety of other metal blocks.")
 ],
 <inventorypets:meta_pet:*> : [
 	format.gold("Crafted by combining any 4 Inventory Pets")
@@ -104,7 +110,15 @@ static tinkersTips as IItemStack[] = [
 <tconstruct:large_plate>.withTag({Material: "stone"}),
 <tconstruct:knife_blade>.withTag({Material: "stone"}),
 <tconstruct:bow_limb>.withTag({Material: "stone"}),
-<tconstruct:arrow_head>.withTag({Material: "stone"})
+<tconstruct:arrow_head>.withTag({Material: "stone"}),
+<conarm:helmet_core>.withTag({Material: "stone"}),
+<conarm:armor_trim>.withTag({Material: "stone"}),
+<conarm:armor_plate>.withTag({Material: "stone"}),
+<conarm:chest_core>.withTag({Material: "stone"}),
+<conarm:leggings_core>.withTag({Material: "stone"}),
+<conarm:boots_core>.withTag({Material: "stone"}),
+<conarm:polishing_kit>.withTag({Material: "stone"}),
+<plustic:pipe_piece>.withTag({Material: "stone"})
 ];
 
 for item in tinkersTips {
@@ -142,6 +156,19 @@ static astralMarble as IItemStack[] = [
 
 for item in astralMarble {
 	item.addTooltip(format.gold("Made using a Chisel and Marble"));
+}
+
+static fancyLeaves as IItemStack[] = [
+	<inspirations:enlightened_bush>,
+	<inspirations:enlightened_bush:1>,
+	<inspirations:enlightened_bush:2>,
+	<inspirations:enlightened_bush:3>,
+	<inspirations:enlightened_bush:4>,
+	<inspirations:enlightened_bush:5>
+];
+
+for item in fancyLeaves {
+	item.addTooltip(format.gold("Available for all types of leaves"));
 }
 
 
