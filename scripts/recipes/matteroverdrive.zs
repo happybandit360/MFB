@@ -86,6 +86,97 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 };
 
 
+mods.extendedcrafting.TableCrafting.addShaped(2, <matteroverdrive:android_pill>, [
+	[<matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:1>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:1>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:1>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <matteroverdrive:android_pill>, [
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null], 
+	[null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <matteroverdrive:android_pill>, [
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, <matteroverdrive:decorative.tritanium_plate_colored:1>, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(2, <matteroverdrive:android_pill:1>, [
+	[<matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:4>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:4>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:4>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <matteroverdrive:android_pill:1>, [
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null], 
+	[null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <matteroverdrive:android_pill:1>, [
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, <matteroverdrive:decorative.tritanium_plate_colored:4>, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(2, <matteroverdrive:android_pill:2>, [
+	[<matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:11>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:11>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:11>], 
+	[<matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(3, <matteroverdrive:android_pill:1>, [
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null], 
+	[null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null], 
+	[null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <matteroverdrive:android_pill:1>, [
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:hc_battery>, <matteroverdrive:h_compensator>, <matteroverdrive:hc_battery>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:hc_battery>, <matteroverdrive:isolinear_circuit:3>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null, null], 
+	[null, null, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, <matteroverdrive:decorative.tritanium_plate_colored:11>, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+
 
 
 // Do NOT edit below this line //
