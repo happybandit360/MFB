@@ -135,7 +135,7 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 mods.extrautils2.Resonator.add(<thermalexpansion:frame:128>, <thermalfoundation:storage:3>, 1600);
 mods.extrautils2.Resonator.add(<thermalexpansion:frame:64>, <thermalfoundation:storage:1>, 3200);
 mods.extrautils2.Resonator.add(<thermalexpansion:frame>, <thermalexpansion:frame:64>, 3200);
-mods.extrautils2.Resonator.add(<thermaldynamics:servo>, <thermalfoundation:material:24>, 1600);
+mods.extrautils2.Resonator.add(<thermaldynamics:servo>, <thermalfoundation:material:512>, 1600);
 
 
 

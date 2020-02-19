@@ -2,7 +2,7 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Release Build
-0.4.3 --> 1.0.0.1rc
+0.4.3 --> 1.0.0
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
@@ -52,8 +52,8 @@ bibliocraft.cfg
     B:DeskBell=false
 inspirations.cfg
     B:mulch=false
-vanillafix.cfg
-    S:scheduledTaskproblemAction=LOG
+tombstone.cfg
+    B:pvpMode=false
 
 -- Script Changes --
 --------------------
@@ -68,14 +68,17 @@ Added changed recipes to stages as needed
 Added End Dimensional Shard Ore to RFTools staging
 Removed default Device Frame recipe
 Removed RecipeStages script from Electroblob staging script (#37)
+Unstaged basic fluxduct, fluiduct, itemduct, and servo from Thermal Expansion
 Unstaged Osmium dusts
 Fixed Time in a Bottle staging
 Changed Cloud Pet crafting recipe
 Added tool tip to Construct Armory materials to help clean up JEI
+Added recipe for all Matter Overdrive pills
 
 -- Asset Changes --
 -------------------
 Main menu logo, buttons, panorama, and splash text
+Added additional missing enchant names and descriptions
 
 -------------------------------------------------------------------------------
 Beta Build

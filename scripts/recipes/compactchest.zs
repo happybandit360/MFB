@@ -1,5 +1,5 @@
 /*
-	Template recipes script.
+	Compact Chest recipes script.
 	This script is for adding and removing recipes by mod.
 	Note: These scripts are created and for the usage in MFB by Happybandit. 
     You can use these scripts for reference and for learning but not for copying and pasting and claiming as your own.
