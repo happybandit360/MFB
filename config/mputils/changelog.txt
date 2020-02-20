@@ -26,25 +26,26 @@
 
 
 §n§6Added Mods§r
-
+* Armory Expansion
 
 §n§6Updated Mods§r
-*Construct Armory
-*Corail Tombstone
-*Culinary Construct
-*Cyclops Core
-*Integrated Dynamics
-*JourneyMap
-*ModTweaker
-*Nature's Aura
-*Roots
-*Tesla Core Lib
-*Tinker's Construct 
+* Construct Armory
+* Corail Tombstone
+* Cosmetic Armor Reworked
+* Culinary Construct
+* Cyclops Core
+* Integrated Dynamics
+* JourneyMap
+* ModTweaker
+* Nature's Aura
+* Roots
+* Tesla Core Lib
+* Tinker's Construct 
 
 
 §n§6Removed Mods§r
-*Adventurer's Toolbox
-*Flexible Tools
-*Toolbox Addons
-*Unidict
-*Vanilla Fix
+* Adventurer's Toolbox
+* Flexible Tools
+* Toolbox Addons
+* Unidict
+* Vanilla Fix

@@ -6,11 +6,13 @@ Release Build
 -------------------------------------------------------------------------------
 -- Added Mods --
 ----------------
+Armory Expansion
 
 -- Updated Mods --
 -------------------
 Construct Armory -> 1.2.5.3
 Corail Tombstone -> 3.6.7
+Cosmetic Armor Reworked -> v4b
 Culinary Construct -> 1.3.3.2
 Cyclops Core -> 1.6.1
 Integrated Dynamics -> 1.1.2
