@@ -516,7 +516,16 @@ static metadataStaging as IItemStack[] = [
 <metallurgy:vyroxeres_hoe:*>,
 <metallurgy:vyroxeres_pickaxe:*>,
 <metallurgy:vyroxeres_shovel:*>,
-<metallurgy:vyroxeres_sword:*>
+<metallurgy:vyroxeres_sword:*>,
+<metallurgy:etherium_helmet:*>,
+<metallurgy:etherium_chestplate:*>,
+<metallurgy:etherium_leggings:*>,
+<metallurgy:etherium_boots:*>,
+<metallurgy:etherium_axe:*>,
+<metallurgy:etherium_hoe:*>,
+<metallurgy:etherium_pickaxe:*>,
+<metallurgy:etherium_shovel:*>,
+<metallurgy:etherium_sword:*>
 ];
 
 

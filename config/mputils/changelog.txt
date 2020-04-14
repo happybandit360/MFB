@@ -1,51 +1,40 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 1.0.0 Release Changes§r
+§cMFB 1.0.1 Release Changes§r
 
 §n§6Game Enhancements§r
-* Added custom main menu with settings for all GUIs
-* Set mod books to be given when unlocking the mod instead of as part of the initial Akashic Almanac
-* Added render patterns for Sky Orchard trees and Sugarcane
-* Disabled unused Inspirations mulch
-* Unstaged basic fluxduct, fluiduct, itemduct, and servo from Thermal Expansion
-* Unstaged basic Rustic slate
-* Added recipe for all Matter Overdrive pills
-* Disabled Corail Tombstone PVP mode
-* Added additional missing enchant names and descriptions
+* Added ProjectRed gems to Market for 1 gold ingot
+* Changed how Stage-based Advancments trigger to be more accurate
+* Added Elytra Recipe
+* Move XNet to Miscellaneous Mods
+* Changed AE2 Wireless Terminal Infinity Mechanic
+* Added more Spice of Life health boost levels
 
 
 §n§6Bug Fixes§r
-* Added missing Cappuccino recipe
-* Fixed recipes with conflicts for slime, basalt, and quartz
-* Added End Dimensional Shard Ore to staging
-* Removed RecipeStages for Electroblob due to conflict
-* Removed default Thermal device frame recipe
-* Unstaged Osmium dusts
-* Fixed Time in a Bottle staging
-* Changed Cloud Pet Recipe
+* Removed Soulbound from Apotheosis enchantment config
+* Adjusted spawn rates of Spinouts, Corrupted Sands biomes, and added Foxhounds to all appropriate biomes
+* Added Silent Gear sinew recipes
+* Unstaged even more osmium
 
 
 §n§6Added Mods§r
-* Armory Expansion
+* Weirding Gadget
+
 
 §n§6Updated Mods§r
-* Construct Armory
+* Betweenlands
+* Building Gadgets
 * Corail Tombstone
-* Cosmetic Armor Reworked
-* Culinary Construct
-* Cyclops Core
-* Integrated Dynamics
+* Electroblob Wizardry
+* FTBLib
 * JourneyMap
-* ModTweaker
-* Nature's Aura
-* Roots
+* Metallurgy 4
+* Natures Compass
+* Ore Excavation
+* Quark
 * Tesla Core Lib
-* Tinker's Construct 
 
 
 §n§6Removed Mods§r
-* Adventurer's Toolbox
-* Flexible Tools
-* Toolbox Addons
-* Unidict
-* Vanilla Fix
+* BetterOffHand

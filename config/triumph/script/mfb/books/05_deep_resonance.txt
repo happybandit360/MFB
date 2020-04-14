@@ -22,10 +22,10 @@ setPos(-78,42)
 hideLines()
 
 //Adds criteria with the trigger type. This function returns the criteria as an object
-criteria = addCriteria("readBook", "triumph:right_click_item")
+criteria = addCriteria("readBook", "triumph:gamestage")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:deep_resonance>)
+criteria.setStage("deep_resonance")
 
 //function
 setRewardFunction("triumph:deep_resonance_trigger")

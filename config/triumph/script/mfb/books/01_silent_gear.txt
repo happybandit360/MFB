@@ -22,10 +22,10 @@ setPos(-48,-78)
 hideLines()
 
 //Adds criteria with the trigger type. This function returns the criteria as an object
-criteria = addCriteria("readBook", "triumph:right_click_item")
+criteria = addCriteria("readBook", "triumph:gamestage")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:silent_gear>)
+criteria.setStage("silent_gear")
 
 //function
 setRewardFunction("triumph:silent_gear_trigger")

@@ -27,7 +27,6 @@ Book.addBook("mekanism", "Mekanism", "Mekanism Handbook", "mekanism:machineblock
 Book.addBook("matter_overdrive", "Matter Overdrive", "Matter Overdrive Handbook", "matteroverdrive:android_pill", 0xCB5C0D);
 Book.addBook("rftools", "RFTools", "RFTools Handbook", "rftools:screen_controller", 0xEF7215);
 Book.addBook("thermal", "Thermal Expansions", "Thermal Handbook", "thermalexpansion:frame@148", 0xF9812A);
-Book.addBook("xnet", "XNet", "Xnet Handbook", "xnet:controller", 0xCC7722);
 
 // Magic
 Book.addBook("astral_sorcery", "Astral Sorcery", "Astral Sorcery Handbook", "astralsorcery:itemwand", 0xF64A8A);
@@ -46,6 +45,7 @@ Book.addBook("inventory_pets", "Inventory Pets", "Inventory Pets Handbook", "inv
 Book.addBook("mob_grinding_utils", "Mob Grinding Utilities", "Mob Grinding Utilities Handbook", "mob_grinding_utils:saw", 0x000080);
 Book.addBook("random_things", "Random Things", "Random Things Handbook", "randomthings:timeinabottle", 0x89CFF0);
 Book.addBook("rustic", "Rustic", "Rustic Handbook", "rustic:grapes", 0x7EF9FF);
+Book.addBook("xnet", "XNet", "Xnet Handbook", "xnet:controller", 0x2832C2);
 
 // Non-Starting
 Book.addBook("advanced_generators", "Advanced Generators", "Advanced Generators Handbook", "advgenerators:turbine_controller", 0x3F704D);

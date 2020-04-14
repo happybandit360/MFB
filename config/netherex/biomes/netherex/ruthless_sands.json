@@ -1,6 +1,6 @@
 {
 	"biome": "netherex:ruthless_sands",
-	"generationWeight": 8,
+	"generationWeight": 3,
 	"useDefaultDecorations": true,
 	"isSubBiome": false,
 	"isEnabled": true,
@@ -27,21 +27,27 @@
 	"entities": [
 		{
 			"entity": "minecraft:wither_skeleton",
-			"spawnWeight": 65,
+			"spawnWeight": 25,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 4
 		}, 
 		{
 			"entity": "minecraft:zombie_pigman",
-			"spawnWeight": 45,
+			"spawnWeight": 30,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 4
 		}, 
 		{
 			"entity": "netherex:spinout",
-			"spawnWeight": 100,
+			"spawnWeight": 30,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "quark:foxhound",
+			"spawnWeight": 30,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
 		}
 	],
 	"traits": [
@@ -111,7 +117,7 @@
 		}, 
 		{
 			"trait": "netherex:thornstalk",
-			"generationAttempts": 16,
+			"generationAttempts": 8,
 			"randomizeGenerationAttempts": false,
 			"generationProbability": 1.0,
 			"minimumGenerationHeight": 32,

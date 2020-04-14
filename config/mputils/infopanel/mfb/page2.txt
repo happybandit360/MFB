@@ -8,16 +8,18 @@
 
 §74) §2JEI§7 is an extremely useful tool for viewing recipes and planning. §bLeft Clicking§7 on an item will show recipes, while §bRight-Clicking§7 will show uses.
 
-§75) While the idea for this pack is to work to unlock mods, there are still a large number of mods that are open for everyone to use.
+§75) The §2Wall-Jump§7 mod can help make travel much easier, once you figure out the proper method.
 
-§76) Looking at unlocked items through §2JEI§7 can help you plan out your crafting process.
+§76) While the idea for this pack is to work to unlock mods, there are still a large number of mods that are open for everyone to use.
 
-§77) Your grave will hold all of your items when you die, so don't worry about them despawning before you can get to them.
+§77) Looking at unlocked items through §2JEI§7 can help you plan out your crafting process.
 
-§78) Be careful using §2Ore Excevation§7 around your base and any cables or machines.
+§78) Your grave will hold all of your items when you die, so don't worry about them despawning before you can get to them.
 
-§79) Pressing the §bL§7 key will open your Advancements page and show you what mods you have unlocked and what is available, among the other Advancements.
+§79) Be careful using §2Ore Excevation§7 around your base and any cables or machines.
 
-§710) While on the Game Menu screen, there are buttons on the right side of the screen that will show you the current Change Log or take you directly to the pack's issue tracker.
+§710) Pressing the §bL§7 key will open your Advancements page and show you what mods you have unlocked and what is available, among the other Advancements.
 
-§711) You likely will find items or see things that hint of unknown things. Hopefully this will encourage you to expand your mod list and dive deeper into the pack.
+§711) While on the Game Menu screen, there are buttons on the right side of the screen that will show you the current Change Log or take you directly to the pack's issue tracker.
+
+§712) You likely will find items or see things that hint of unknown things. Hopefully this will encourage you to expand your mod list and dive deeper into the pack.

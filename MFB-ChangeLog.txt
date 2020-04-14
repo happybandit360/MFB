@@ -2,6 +2,70 @@ MFB Running Development Change Log
 
 -------------------------------------------------------------------------------
 Release Build
+1.0.0 --> 1.0.1
+-------------------------------------------------------------------------------
+-- Added Mods --
+----------------
+Weirding Gadget
+
+-- Updated Mods --
+-------------------
+Betweenlands -> 3.5.7
+Building Gadgets -> 2.8.1
+Corail Tombstone -> 3.6.9
+Electroblob Wizardry -> 4.2.9
+FTBLib -> 5.4.7.0
+JourneyMap -> 5.7.0
+Metallurgy 4 -> 0.3.3
+Natures Compass -> 1.8.5
+Ore Excavation -> 1.4.150
+Quark -> r1.6-178
+Tesla Core Lib -> 1.0.17
+
+-- Removed Mods --
+------------------
+BetterOffHand - Conflicts with other mods
+
+-- Config Changes --
+--------------------
+Apotheosis/enchantments.cfg
+    Removed all Soulbound enchants due to mod conflict
+FarmingForBlockheads/Market.json
+    Added ProjectRed gems for 1 gold ingot
+NetherEx/biomes
+    Added Foxhounds to all appropriate biomes
+    Reduced Corrupted Sands biomes Weight
+    Reduced weight and max spawn of Spinouts
+Triumph/script/mfb/books
+    Changed all advancement triggers to triumph:gamestage, with appropriate setStage value
+AE2WirelessTerminals.cfg
+    B:EnableControllerChunkLoading=true
+    B:UseOldInfinityMechanic=true
+Lootbags_BagConfig.cfg
+    Moved Xnet to Misc and added Rustic (oops)
+metallurgy_reforged/general.cfg
+    B:"Enable Ore Particles"=false
+    B:"Should High Tier Ore emit light"=false
+quark.cfg
+    B:"Enable Loose Matching"=false
+    foxhouds {
+        I:"Spawn Weight"=25
+solcarrot.cfg
+    Added levels for all foods
+
+-- Script Changes --
+--------------------
+Moved XNet from Tech to Misc
+Added Silent Gear sinew recipes
+Unstaged every piece of Osmium possible
+Added Elytra recipe
+
+
+-- Asset Changes --
+-------------------
+
+-------------------------------------------------------------------------------
+Release Build
 0.4.3 --> 1.0.0
 -------------------------------------------------------------------------------
 -- Added Mods --

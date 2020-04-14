@@ -30,6 +30,7 @@ mods.ItemStages.addItemStage("actually_additions", <forge:bucketfilled>.withTag(
 mods.ItemStages.addItemStage("actually_additions", <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: 1000}));
 mods.ItemStages.addItemStage("actually_additions", <actuallyadditions:block_inputter>);
 mods.ItemStages.addItemStage("actually_additions", <actuallyadditions:block_inputter_advanced>);
+mods.ItemStages.addItemStage("actually_additions", <actuallyadditions:block_giant_chest>.withTag({Data: {}}));
 
 
 static metadataStaging as IItemStack[] = [

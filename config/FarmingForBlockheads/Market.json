@@ -47,6 +47,9 @@
     "actuallyadditions:item_flax_seed": "1*actuallyadditions:item_misc:5",
     "actuallyadditions:item_coffee_seed": "1*actuallyadditions:item_misc:5",
     "tropicraft:sapling": "5*minecraft:emerald",
-    "silentgear:flaxseeds": "1*silentgear:blueprint_paper"
+    "silentgear:flaxseeds": "1*silentgear:blueprint_paper",
+    "projectred-core:resource_item:200": "1*minecraft:gold_ingot",
+    "projectred-core:resource_item:201": "1*minecraft:gold_ingot",
+    "projectred-core:resource_item:202": "1*minecraft:gold_ingot"
   }
 }

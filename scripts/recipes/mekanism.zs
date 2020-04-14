@@ -289,6 +289,11 @@ static namedShapelessRecipes as IIngredient[][][string][IItemStack] = {
 		"mekanism_dust_2" : [
 			[<metallurgy:osmium_dust>]
 		]
+	},
+<mekanism:ingot:1> * 9 : {
+		"mekanism_ingot_from_block" : [
+			[<metallurgy:osmium_block>]
+		]
 	}
 };
 

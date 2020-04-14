@@ -50,6 +50,12 @@
 			"maximumGroupCount": 4
 		}, 
 		{
+			"entity": "quark:foxhound",
+			"spawnWeight": 40,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
 			"entity": "betternether:firefly",
 			"spawnWeight": 100,
 			"minimumGroupCount": 5,

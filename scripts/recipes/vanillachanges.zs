@@ -52,6 +52,15 @@ static namedShapedRecipes as IIngredient[][][][string][IItemStack] = {
 	   			[<ore:slimeball>, <ore:slimeball>, <ore:slimeball>]
 			]
 		]
+	},
+<minecraft:elytra> : {
+		"minecraft_elytra" : [
+			[
+	   			[<minecraft:end_crystal>, <minecraft:dragon_breath>, <minecraft:end_crystal>],
+	   			[<darkutils:shulker_pearl>, <openblocks:hang_glider>, <darkutils:shulker_pearl>],
+	   			[<minecraft:end_crystal>, <minecraft:dragon_breath>, <minecraft:end_crystal>]
+			]
+		]
 	}
 };
 

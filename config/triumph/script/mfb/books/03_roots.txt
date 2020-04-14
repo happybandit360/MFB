@@ -22,10 +22,10 @@ setPos(-18,-18)
 hideLines()
 
 //Adds criteria with the trigger type. This function returns the criteria as an object
-criteria = addCriteria("readBook", "triumph:right_click_item")
+criteria = addCriteria("readBook", "triumph:gamestage")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:roots>)
+criteria.setStage("roots")
 
 //function
 setRewardFunction("triumph:roots_trigger")

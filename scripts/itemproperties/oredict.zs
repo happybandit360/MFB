@@ -109,8 +109,7 @@ static techBooks as IItemStack[] = [
 <gamestagebooks:mekanism>,
 <gamestagebooks:matter_overdrive>,
 <gamestagebooks:rftools>,
-<gamestagebooks:thermal>,
-<gamestagebooks:xnet>
+<gamestagebooks:thermal>
 ];
 
 for item in techBooks {
@@ -138,7 +137,8 @@ static miscBooks as IItemStack[] = [
 <gamestagebooks:inventory_pets>,
 <gamestagebooks:mob_grinding_utils>,
 <gamestagebooks:random_things>,
-<gamestagebooks:rustic>
+<gamestagebooks:rustic>,
+<gamestagebooks:xnet>
 ];
 
 for item in miscBooks {
@@ -426,4 +426,36 @@ static tierTwoList as IItemStack[] = [
 
 for item in tierTwoList {
 	<ore:tierTwo>.add(item);
+}
+
+static listShears as IItemStack[] = [
+<thermalfoundation:tool.shears_copper:*>,
+<thermalfoundation:tool.shears_tin:*>,
+<thermalfoundation:tool.shears_silver:*>,
+<thermalfoundation:tool.shears_lead:*>,
+<thermalfoundation:tool.shears_aluminum:*>,
+<thermalfoundation:tool.shears_nickel:*>,
+<thermalfoundation:tool.shears_platinum:*>,
+<thermalfoundation:tool.shears_steel:*>,
+<thermalfoundation:tool.shears_electrum:*>,
+<thermalfoundation:tool.shears_invar:*>,
+<thermalfoundation:tool.shears_bronze:*>,
+<thermalfoundation:tool.shears_constantan:*>,
+<thermalfoundation:tool.shears_diamond:*>,
+<thermalfoundation:tool.shears_gold:*>
+];
+
+for item in listShears {
+	<ore:toolShears>.add(item);
+}
+
+static rawMeats as IItemStack[] = [
+<minecraft:porkchop>,
+<minecraft:beef>,
+<minecraft:mutton>
+
+];
+
+for item in rawMeats {
+	<ore:rawMeat>.add(item);
 }

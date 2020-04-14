@@ -16,16 +16,16 @@ setUncompletedTitleColor(185, 143, 44)
 addParent("mfb:books/root")
 
 //Set the position
-setPos(-78,-48)
+setPos(-63,-48)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
 
 //Adds criteria with the trigger type. This function returns the criteria as an object
-criteria = addCriteria("readBook", "triumph:right_click_item")
+criteria = addCriteria("readBook", "triumph:gamestage")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:matter_overdrive>)
+criteria.setStage("matter_overdrive")
 
 //function
 setRewardFunction("triumph:matter_overdrive_trigger")

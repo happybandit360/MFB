@@ -70,6 +70,10 @@ mods.ItemStages.removeItemStage(<metallurgy:osmium_ingot>);
 mods.ItemStages.removeItemStage(<mekanism:ingot:1>);
 mods.ItemStages.removeItemStage(<mekanism:dust:2>);
 mods.ItemStages.removeItemStage(<metallurgy:osmium_dust>);
+mods.ItemStages.removeItemStage(<mekanism:basicblock>);
+mods.ItemStages.removeItemStage(<metallurgy:osmium_block>);
+mods.ItemStages.removeItemStage(<metallurgy:osmium_nugget>);
+mods.ItemStages.removeItemStage(<mekanism:nugget:1>);
 
 // Slate for building
 mods.ItemStages.removeItemStage(<rustic:slate>);

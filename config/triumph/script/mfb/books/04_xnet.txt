@@ -8,24 +8,24 @@ setTitle("To the Power of X")
 setDescription("Read the X-Net Handbook")
 
 //Completed advancement color change
-setCompletedIconColor(255, 102, 0)
-setCompletedTitleColor(255, 102, 0)
+setCompletedIconColor(0, 0, 255)
+setCompletedTitleColor(0, 0, 255)
 setUncompletedTitleColor(185, 143, 44)
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("mfb:books/root")
 
 //Set the position
-setPos(42,-48)
+setPos(-3, 12)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
 
 //Adds criteria with the trigger type. This function returns the criteria as an object
-criteria = addCriteria("readBook", "triumph:right_click_item")
+criteria = addCriteria("readBook", "triumph:gamestage")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:xnet>)
+criteria.setStage("xnet")
 
 //function
 setRewardFunction("triumph:xnet_trigger")

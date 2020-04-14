@@ -22,9 +22,9 @@ setPos(-168,-78)
 hideLines()
 
 //Adds criteria with the trigger type. This function returns the criteria as an object
-criteria = addCriteria("readBook", "triumph:right_click_item")
+criteria = addCriteria("readBook", "triumph:gamestage")
 
 //Sets the item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<gamestagebooks:gobber>)
+criteria.setStage("gobber")
 
 //By not setting anything about requirements here, all criteria are automatically required

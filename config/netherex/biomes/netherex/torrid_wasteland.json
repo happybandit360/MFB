@@ -42,6 +42,12 @@
 			"spawnWeight": 100,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "quark:foxhound",
+			"spawnWeight": 40,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
 		}
 	],
 	"traits": [

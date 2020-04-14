@@ -14,8 +14,7 @@ import mods.zenstages.Stage;
 import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
-mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "tconstruct");
-mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "tcomplement");
+// mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "tconstruct");
 mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "plustic");
 mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "conarm");
 
