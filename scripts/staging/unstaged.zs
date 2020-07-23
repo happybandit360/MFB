@@ -11,7 +11,6 @@
 mods.ItemStages.removeItemStage(<actuallyadditions:item_hairy_ball>);
 mods.ItemStages.removeItemStage(<actuallyadditions:item_solidified_experience>);
 mods.ItemStages.removeItemStage(<randomthings:lavacharm>);
-mods.ItemStages.removeItemStage(<mysticalworld:cooked_apple>);
 mods.ItemStages.removeItemStage(<mysticalworld:raw_squid>);
 mods.ItemStages.removeItemStage(<mysticalworld:cooked_squid>);
 

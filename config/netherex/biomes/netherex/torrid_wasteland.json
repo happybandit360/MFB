@@ -48,6 +48,12 @@
 			"spawnWeight": 40,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "minecraft:ghast",
+			"spawnWeight": 20,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
 		}
 	],
 	"traits": [

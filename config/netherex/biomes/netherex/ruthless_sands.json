@@ -39,7 +39,7 @@
 		}, 
 		{
 			"entity": "netherex:spinout",
-			"spawnWeight": 30,
+			"spawnWeight": 10,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 2
 		}, 

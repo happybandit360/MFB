@@ -1,40 +1,60 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 1.0.1 Release Changes§r
+§cMFB 1.0.2 Release Changes§r
 
 §n§6Game Enhancements§r
-* Added ProjectRed gems to Market for 1 gold ingot
-* Changed how Stage-based Advancments trigger to be more accurate
-* Added Elytra Recipe
-* Move XNet to Miscellaneous Mods
-* Changed AE2 Wireless Terminal Infinity Mechanic
-* Added more Spice of Life health boost levels
+* Reduced frequency of Quark monster boxes
+* More adjustments to Nether mob spawns
 
 
 §n§6Bug Fixes§r
-* Removed Soulbound from Apotheosis enchantment config
-* Adjusted spawn rates of Spinouts, Corrupted Sands biomes, and added Foxhounds to all appropriate biomes
-* Added Silent Gear sinew recipes
-* Unstaged even more osmium
+* Added Blood Magic Alchemy Array to Carry On blacklist (#46)
 
 
 §n§6Added Mods§r
-* Weirding Gadget
+* Bigger Packets Please
 
 
 §n§6Updated Mods§r
 * Betweenlands
+* DankNull
+* AE2 Wireless Terminal Library
+* Apotheosis
+* Armory Expansion
+* Astral Sorcery
 * Building Gadgets
+* Chisel
+* CoFH Core
+* CoFH World
+* Common Cpabilities
+* CTM
 * Corail Tombstone
-* Electroblob Wizardry
-* FTBLib
+* CraftTweaker
+* Cyclops Core
+* Electroblob's Wizardry
+* Integrated Crafting
+* Integrated Dynamics
+* Integreated Tunnels
+* Inventory Pets
 * JourneyMap
-* Metallurgy 4
-* Natures Compass
-* Ore Excavation
+* Mystical World
+* MysticalLib
+* p455w0rd's Library
+* Potion Core
 * Quark
-* Tesla Core Lib
+* Random Things
+* RandomPatches
+* Redstone Arsenal
+* Redstone Flux
+* Roots
+* Thermal Dynamics
+* Thermal Expansion
+* Thermal Foundation
+* Thermal Innovation
+* ViesCraft
+* Wawla
+* Wireless Crafting Terminal
 
 
 §n§6Removed Mods§r
-* BetterOffHand
+* 
