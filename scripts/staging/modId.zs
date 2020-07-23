@@ -13,7 +13,6 @@ static stagedMods as string[][string] = {
   
     stages.tinkers.stage : [
         "tconstruct",
-        "plustic",
         "conarm"
     ],
 

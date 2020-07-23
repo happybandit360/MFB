@@ -1,60 +1,65 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
-§cMFB 1.0.2 Release Changes§r
+§cMFB 1.0.3 Release Changes§r
 
 §n§6Game Enhancements§r
-* Reduced frequency of Quark monster boxes
-* More adjustments to Nether mob spawns
-
+* Updated mods and replaced or removed mods that have been taken down
 
 §n§6Bug Fixes§r
-* Added Blood Magic Alchemy Array to Carry On blacklist (#46)
+* Disabled Quiver Pet (Inventory Pets) due to incompatibilities with COFH
 
 
 §n§6Added Mods§r
-* Bigger Packets Please
+* GunpowderLib
+* Tombstone: Revived
 
 
 §n§6Updated Mods§r
-* Betweenlands
-* DankNull
-* AE2 Wireless Terminal Library
-* Apotheosis
-* Armory Expansion
+* AppleCore
+* AppleSkin
+* ArmorPlus
 * Astral Sorcery
+* Betweenlands
+* BNBGamingCore
 * Building Gadgets
-* Chisel
-* CoFH Core
-* CoFH World
-* Common Cpabilities
-* CTM
-* Corail Tombstone
+* Carry On
+* Chargers
+* Charm
+* Common Capabilities
+* Construct Armory
+* Cosmetic Armor Reworked
+* Crafting Station
 * CraftTweaker
+* Culinary Contruct
 * Cyclops Core
-* Electroblob's Wizardry
+* Deep Mob Learning
+* Ender IO
+* Ender IO Endergy
+* EnderCore
+* Ender Utilities
+* Flux Networks
+* FTBLib
+* FTBUtilities
+* Gas Conduits
 * Integrated Crafting
 * Integrated Dynamics
-* Integreated Tunnels
-* Inventory Pets
-* JourneyMap
-* Mystical World
-* MysticalLib
-* p455w0rd's Library
-* Potion Core
-* Quark
-* Random Things
+* Integrated Terminals
+* Integrated Tunnels
+* IntegrationForegoing
+* Inventroy Pets
+* JEI
+* LibrarianLib
+* Patchouli
 * RandomPatches
 * Redstone Arsenal
-* Redstone Flux
 * Roots
-* Thermal Dynamics
-* Thermal Expansion
-* Thermal Foundation
-* Thermal Innovation
-* ViesCraft
-* Wawla
-* Wireless Crafting Terminal
+* Rustic
+* Simple Storage Network
+* Spice of Life: Carrot Edition
+* Tinker's Construct
+* YUNG's Better Caves
 
 
 §n§6Removed Mods§r
-* 
+* PlusTic
+* Corail's Tombstone

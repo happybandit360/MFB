@@ -15,7 +15,6 @@ import mods.zenstages.ZenStager;
 import mods.orestages.OreStages;
 
 // mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "tconstruct");
-mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "plustic");
 mods.recipestages.Recipes.setRecipeStageByMod("tinkers", "conarm");
 
 static recipeStage as string[] = [
@@ -31,8 +30,6 @@ for item in recipeStage {
 mods.MobStages.addStage("tinkers", "tconstruct:blueslime");
 
 // Stage Misc Items
-mods.ItemStages.addItemStage("tinkers", <minecraft:spawn_egg>.withTag({EntityTag: {id: "plustic:supremeleader"}}));
-mods.ItemStages.addItemStage("tinkers", <minecraft:spawn_egg>.withTag({EntityTag: {id: "plustic:blindbandit"}}));
 mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "electrical_steel", Amount: 1000}));
 mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "energetic_alloy", Amount: 1000}));
 mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName: "vibrant_alloy", Amount: 1000}));
@@ -113,8 +110,6 @@ mods.ItemStages.addItemStage("tinkers", <forge:bucketfilled>.withTag({FluidName:
 
 static metadataStaging as IItemStack[] = [
 // <modid:itemname:meta>
-<plustic:katana:*>,
-<plustic:laser_gun:*>,
 <conarm:helmet:*>,
 <conarm:chestplate:*>,
 <conarm:leggings:*>,

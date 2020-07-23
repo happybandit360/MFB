@@ -117,8 +117,7 @@ static tinkersTips as IItemStack[] = [
 <conarm:chest_core>.withTag({Material: "stone"}),
 <conarm:leggings_core>.withTag({Material: "stone"}),
 <conarm:boots_core>.withTag({Material: "stone"}),
-<conarm:polishing_kit>.withTag({Material: "stone"}),
-<plustic:pipe_piece>.withTag({Material: "stone"})
+<conarm:polishing_kit>.withTag({Material: "stone"})
 ];
 
 for item in tinkersTips {
