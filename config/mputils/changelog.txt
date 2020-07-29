@@ -1,5 +1,11 @@
 §bGo to https://github.com/happybandit360/MFB/blob/master/MFB-ChangeLog.txt for a detailed running Change Log of this project.
 
+§cMFB 1.0.3.1 Release Changes§r
+
+§n§6Updated Mods§r
+* Betweenlands
+* Tombstone: Revived
+
 §cMFB 1.0.3 Release Changes§r
 
 §n§6Game Enhancements§r
